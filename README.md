@@ -6,6 +6,7 @@ Support Languages:
 -   Hindi (hi)
 -   Indonesian (id)
 -   Korean (ko)
+-   Brasilian Portuguese (pt-BR)
 -   Thai (th)
 -   Turkish (tr)
 -   Vietnamese (vn)
