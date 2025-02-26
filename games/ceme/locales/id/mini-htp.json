@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "Cara Bermain",
         "content": [
-            "Ceme 7,8,9 adalah permainan dimana anda menebak player mana yang memiliki total poin kartu lebih tinggi daripada banker."
+            "Ceme 7,8,9 adalah permainan dimana anda <b>menebak</b> player mana yang memiliki <b>total poin kartu lebih tinggi daripada banker</b>."
         ]
     },
     "slide-2": {
         "title": "Cara Bermain",
         "content": [
-            "Anda dapat bertaruh pada Player 1, 2, dan 3. Anda juga dapat bertaruh pada side bet dari player, yaitu pada angka 7,8,9 atau kombinasi angka 7,8,9 untuk mendapatkan pembayaran, yang jauh lebih tinggi!"
+            "Anda dapat bertaruh pada <b>Pemain 1, 2, dan 3</b>. Anda juga dapat bertaruh pada side bet dari player, yaitu pada angka <b>7,8,9</b> atau kombinasi angka <b>7,8,9</b> untuk mendapatkan pembayaran yang jauh lebih tinggi!"
         ]
     },
     "slide-3": {
         "title": "Hokky Numbers",
         "content": [
-            "Pada periode tertentu akan terdapat Hokky Numbers dengan pembayaran 2 kali lipat bayaran normal! Hokky Numbers hanya dapat muncul pada side bet salah satu Player."
+            "Pada periode tertentu akan terdapat Hokky Numbers dengan pembayaran <b>2 kali lipat</b> bayaran normal! Hokky Numbers hanya dapat muncul pada side bet salah satu Player."
         ]
     }
 }

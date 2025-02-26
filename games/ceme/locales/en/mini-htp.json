@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "How to Play",
         "content": [
-            "Ceme 7,8,9 is a game where you predict which player has a higher total card value than the banker."
+            "Ceme 7,8,9 is a game where you <b>guess</b> which player has a <b>higher total card value than the banker</b>."
         ]
     },
     "slide-2": {
         "title": "How to Play",
         "content": [
-            "You can bet on Player 1, 2, or 3. You can also place a side bet on the players for numbers 7, 8, 9, or a combination of 7, 8, 9 to get a much higher payout!"
+            "You can bet on <b>Player 1, 2, or 3</b>. You can also place side bets on a player’s <b>7, 8, 9</b> or combinations of <b>7,8,9</b> for significantly higher payouts!"
         ]
     },
     "slide-3": {
         "title": "Hokky Numbers",
         "content": [
-            "At certain times, Hokky Numbers will appear with double the normal payout! Hokky Numbers only appear on side bets for one of the Players."
+            "During specific rounds, Hokky Numbers appear, offering <b>double</b> the normal payout! Hokky Numbers only apply to side bets on one of the Players."
         ]
     }
 }
