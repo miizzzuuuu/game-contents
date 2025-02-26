@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "Cara Bermain",
         "content": [
-            "Domino Live adalah permainan di mana Anda menebak hasil dari tangan yang akan menang: Player, Banker, atau seri (Tie) yang akan memiliki nilai total lebih dekat ke angka 9"
+            "Domino Live adalah permainan di mana <b>Anda menebak hasil dari tangan yang akan menang</b>: Player, Banker, atau seri (Tie) yang akan memiliki nilai total lebih dekat ke <b>angka 9</b>."
         ]
     },
     "slide-2": {
         "title": "Nilai Kartu",
         "content": [
-            "Setiap kartu memiliki jumlah titik yang berbeda, setiap titik menunjukkan nilai kartu, cara termudah untuk mengingat semua kartu adalah mengelompokkannya menjadi 7 Jika total nilai kartu melebihi 9, hanya digit terakhir yang dihitung (misalnya, 15 menjadi 5)."
+            "Setiap kartu memiliki jumlah titik yang berbeda. Nilai kartu ditentukan oleh jumlah titik, dan cara termudah mengingatnya adalah dengan mengelompokkan kartu ke dalam 7 kategori. Jika total nilai melebihi 9, hanya digit terakhir yang dihitung (misalnya, 15 menjadi 5)."
         ]
     },
     "slide-3": {
-        "title": "Perhitungan",
+        "title": "Hasil",
         "content": [
-            "Pemenangnya adalah tangan yang total poinnya mendekati 9. Jika total poin sama antara Player dan Banker, hasilnya adalah seri."
+            "Pemenangnya adalah tangan dengan total poin <b>mendekati 9</b>. Jika Player dan Banker memiliki poin sama, hasilnya seri (Tie)."
         ]
     }
 }

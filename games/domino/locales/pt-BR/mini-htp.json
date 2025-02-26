@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Como Jogar",
+        "content": [
+            "Domino Live é um jogo onde <b>você adivinha o resultado da mão que vai ganhar</b>: Jogador, Banqueiro ou Empate, que terá um valor total mais próximo de <b>o número 9</b>."
+        ]
+    },
+    "slide-2": {
+        "title": "Valores das Cartas",
+        "content": [
+            "Cada carta tem um número diferente de pontos. O valor da carta é determinado pelo número de pontos, e a maneira mais fácil de lembrar é agrupar as cartas em 7 categorias. Se o valor total exceder 9, apenas o último dígito é contado (por exemplo, 15 se torna 5)."
+        ]
+    },
+    "slide-3": {
+        "title": "Resultados",
+        "content": [
+            "O vencedor é a mão com a pontuação total <b>mais próxima de 9</b>. Se o Jogador e o Banqueiro tiverem a mesma pontuação, o resultado é um Empate."
+        ]
+    }
+}

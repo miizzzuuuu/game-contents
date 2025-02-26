@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "Cách Chơi",
         "content": [
-            "Domino Live là trò chơi mà bạn đặt cược bên nào sẽ thắng: Người chơi (Player), Nhà cái (Banker), hoặc Hòa (Tie), với mục tiêu là có tổng điểm gần với 9 nhất."
+            "Domino Live là một trò chơi mà <b>bạn đoán kết quả của tay bài sẽ thắng</b>: Người chơi, Nhà cái, hoặc Hòa, sẽ có tổng giá trị gần với <b>số 9</b>."
         ]
     },
     "slide-2": {
         "title": "Giá Trị Lá Bài",
         "content": [
-            "Mỗi lá bài có số chấm khác nhau, mỗi chấm đại diện cho giá trị của lá bài. Cách dễ nhất để nhớ các lá bài là nhóm chúng thành 7. Nếu tổng giá trị của các lá bài vượt quá 9, chỉ tính chữ số cuối cùng (ví dụ: 15 sẽ thành 5)."
+            "Mỗi lá bài có số chấm khác nhau. Giá trị của lá bài được xác định bởi số chấm, và cách dễ nhất để nhớ là nhóm các lá bài thành 7 hạng mục. Nếu tổng giá trị vượt quá 9, chỉ chữ số cuối cùng được tính (ví dụ, 15 trở thành 5)."
         ]
     },
     "slide-3": {
-        "title": "Cách Tính Điểm",
+        "title": "Kết Quả",
         "content": [
-            "Bên thắng là bên có tổng điểm gần 9 nhất. Nếu tổng điểm giữa Người chơi và Nhà cái bằng nhau, kết quả là Hòa."
+            "Người thắng là tay bài có tổng điểm <b>gần 9 nhất</b>. Nếu Người chơi và Nhà cái có điểm bằng nhau, kết quả là Hòa."
         ]
     }
 }

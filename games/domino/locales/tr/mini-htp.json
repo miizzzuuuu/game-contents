@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "Domino Live, <b>kazanacak elin sonucunu tahmin ettiğiniz</b> bir oyundur: Oyuncu, Banker veya Beraberlik, <b>9 sayısına</b> daha yakın bir toplam değere sahip olacak."
+        ]
+    },
+    "slide-2": {
+        "title": "Kart Değerleri",
+        "content": [
+            "Her kartın farklı sayıda noktası vardır. Kartın değeri, noktaların sayısına göre belirlenir ve bunu hatırlamanın en kolay yolu kartları 7 kategoriye ayırmaktır. Toplam değer 9'u aşarsa, sadece son basamak sayılır (örneğin, 15, 5 olur)."
+        ]
+    },
+    "slide-3": {
+        "title": "Sonuçlar",
+        "content": [
+            "Kazanan, <b>9'a en yakın</b> toplam puana sahip eldir. Eğer Oyuncu ve Banker aynı puana sahipse, sonuç Beraberliktir."
+        ]
+    }
+}
