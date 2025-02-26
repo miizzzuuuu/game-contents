@@ -1,20 +1,20 @@
 {
     "slide-1": {
-        "title": "12D Thunder",
+        "title": "How to Play",
         "content": [
-            "12D Thunder comes with a new bonus system. Join the exciting game and win bonuses up to 500x your bet! Let the lightning bring you big wins!"
+            "12D is a game where you predict the number where the ball stops on the 12D board. There are 12 numbers with red and black colors, including 1 jackpot."
         ]
     },
     "slide-2": {
         "title": "How to Play",
         "content": [
-            "12D Thunder is a game where you predict the number where the ball will stop on the 12D board. There is 1 jackpot and 12 numbers in red and black."
+            "You can bet on numbers, number ranges, colors, or odd/even. After placing your bets, the ball will be rolled on the 12D board."
         ]
     },
     "slide-3": {
-        "title": "Thunder Bonus",
+        "title": "How to Play",
         "content": [
-            "Thunder will strike 1 to 5 spots on the 12D board randomly. If the ball lands on the thunder spot, you have a chance to win Thunder Bonus from 20x to 500x your bet."
+            "The ball will stop at one position, and bets matching the result will win."
         ]
     }
 }
