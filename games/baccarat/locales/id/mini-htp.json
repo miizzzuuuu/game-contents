@@ -8,13 +8,13 @@
     "slide-2": {
         "title": "Cara Bermain",
         "content": [
-            "Kartu memiliki nilai berdasarkan angka mereka, dengan <b>kartu wajah (J, Q, K) bernilai 0</b> dan <b>kartu AS bernilai 1</b>. Jika total nilai kartu melebihi 9, hanya digit terakhir yang dihitung (misalnya, 15 menjadi 5)."
+            "Kartu memiliki nilai berdasarkan angka mereka, dengan kartu wajah <b>(J, Q, K) bernilai 0</b> dan <b>kartu AS bernilai 1</b>. Jika total nilai kartu melebihi 9, hanya digit terakhir yang dihitung (misalnya, 15 menjadi 5)."
         ]
     },
     "slide-3": {
-        "title": "Kemenangan",
+        "title": "Perhitungan",
         "content": [
-            "Pemenangnya adalah tangan yang total poinnya <b>mendekati 9</b>. Jika total poin sama antara Player dan Banker, hasilnya adalah seri."
+            "Pemenangnya adalah tangan yang total poinnya mendekati 9. Jika total poin sama antara Player dan Banker, hasilnya adalah seri."
         ]
     }
 }
