@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "Dice 6 Fever, yeni <b>HOT & COLD bonusları</b> ile geliyor! 18x JACKPOT kazanma şansınızı artırın! Sadece 1-6 sayıları, Büyük/Küçük veya Tek/Çift üzerine bahis yapın."
+        ]
+    },
+    "slide-2": {
+        "title": "Hot & Cold",
+        "content": [
+            "Sistem, bahisleri Hot ve Cold kategorilerine rastgele atar. <b>10 bahis türü: 1-6 sayılar, Tek/Çift, Büyük/Küçük.</b> Tek bir turda tüm kategoriler bir arada veya tüm bahisler aynı kategoride olabilir."
+        ]
+    },
+    "slide-3": {
+        "title": "Jackpot",
+        "content": [
+            "Jackpot kategorisindeki bahisler normalden çok daha yüksek ödeme sunar. <b>Jackpot, yalnızca 1-6 sayı bahisleri için geçerlidir</b> ve yalnızca bir sayı seçilir."
+        ]
+    }
+}
