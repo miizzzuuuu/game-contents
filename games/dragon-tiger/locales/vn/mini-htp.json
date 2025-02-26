@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "Cách Chơi",
         "content": [
-            "Trò chơi này ném một quả bóng nhỏ vào bánh xe quay có 37 khe được đánh số từ 0 đến 36."
+            "Dragon Tiger được chơi với hai lá bài chính (Dragon và Tiger) để xác định bên nào có giá trị cao hơn."
         ]
     },
     "slide-2": {
-        "title": "Đặt Cược",
+        "title": "Cá Cược",
         "content": [
-            "Bạn có thể đặt cược vào con số, khoảng số, màu sắc hoặc số chẵn/lẻ. Sau khi bạn đặt cược, bánh xe sẽ quay và một quả bóng sẽ được ném vào."
+            "Bạn có thể đặt cược vào Dragon, Tiger hoặc Tie, và bạn cũng có thể đặt cược vào một số cược phụ (Nhỏ/Lớn, Đen/Đỏ, Lẻ/Chẵn)."
         ]
     },
     "slide-3": {
-        "title": "Kết Quả Trò Chơi",
+        "title": "Kết Quả",
         "content": [
-            "Quả bóng sẽ dừng lại ở một trong các khe và các cược phù hợp với kết quả sẽ thắng."
+            "Người chiến thắng là bên có tổng điểm gần nhất với 13. Nếu tổng điểm của Dragon và Tiger bằng nhau, kết quả là hòa."
         ]
     }
 }

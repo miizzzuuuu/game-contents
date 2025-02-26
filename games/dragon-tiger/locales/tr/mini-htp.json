@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "Dragon Tiger, iki ana kartla (Dragon ve Tiger) oynanır ve hangi tarafın daha yüksek değere sahip olduğunu belirler."
+        ]
+    },
+    "slide-2": {
+        "title": "Bahis",
+        "content": [
+            "Dragon, Tiger veya Tie üzerine bahis yapabilirsiniz ve ayrıca birkaç yan bahis (Küçük/Büyük, Siyah/Kırmızı, Tek/Çift) üzerine de bahis yapabilirsiniz."
+        ]
+    },
+    "slide-3": {
+        "title": "Sonuçlar",
+        "content": [
+            "Kazanan, toplam puanı 13'e en yakın olan taraftır. Eğer Dragon ve Tiger'ın toplam puanları aynıysa, sonuç beraberedir."
+        ]
+    }
+}

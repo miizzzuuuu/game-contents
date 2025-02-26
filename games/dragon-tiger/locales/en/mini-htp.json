@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "How to Play",
         "content": [
-            "This is a game where a small ball is thrown into a spinning wheel that has 37 slots numbered from 0 to 36."
+            "Dragon Tiger is played with two main cards (Dragon and Tiger) to determine which side has the highest value."
         ]
     },
     "slide-2": {
         "title": "Betting",
         "content": [
-            "You can bet on numbers, number ranges, colors, or whether the outcome is odd or even. Once your bet is placed, the wheel is spun and a ball is thrown in."
+            "You can bet on Dragon, Tiger, or Tie, and you can also bet on several side bets (Small/Big, Black/Red, Odd/Even)."
         ]
     },
     "slide-3": {
-        "title": "Game Outcome",
+        "title": "Results",
         "content": [
-            "The ball will stop in one of the slots, and any bets that match the result will win."
+            "The winner is the one whose total points are closest to 13. If the total points are the same between Dragon and Tiger, the result is a tie."
         ]
     }
 }

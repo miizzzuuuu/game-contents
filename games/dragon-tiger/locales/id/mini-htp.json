@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "Cara Bermain",
         "content": [
-            "Permainan dimana 1 bola kecil dilemparkan kedalam Roda berputar yang memiliki 37 slot dengan angka dari 0 hingga 36 Angka."
+            "Dragon Tiger dimainkan dengan 2 kartu utama (Dragon dan Tiger)yang <b>akan diadu sisi mana yang memiliki nilai tertinggi</b>."
         ]
     },
     "slide-2": {
         "title": "Taruhan",
         "content": [
-            "Anda dapat bertaruh pada angka, rentang angka, warna atau apakah ganjil / genap. Setelah Anda memasang taruhan, Roda akan diputar dan 1 bola dilemparkan."
+            "Anda dapat bertaruh pada Dragon atau Tiger atau Tie, dan Anda bisa bertaruh juga pada beberapa taruhan sampingan  (Kecil/Besar, Hitam/Merah, Ganjil/Genap)."
         ]
     },
     "slide-3": {
-        "title": "Hasil Permainan",
+        "title": "Hasil",
         "content": [
-            "Bola akan berhenti disalah satu slot, dan taruhan yang sesuai dengan hasil tersebut akan menang."
+            "Pemenangnya adalah total poinnya <b>mendekati 13</b>. Jika total poin sama antara Dragon dan Tiger, hasilnya adalah seri."
         ]
     }
 }

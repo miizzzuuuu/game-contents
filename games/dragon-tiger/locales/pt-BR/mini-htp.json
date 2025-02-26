@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Como Jogar",
+        "content": [
+            "Dragon Tiger é jogado com duas cartas principais (Dragon e Tiger) para determinar qual lado tem o valor mais alto."
+        ]
+    },
+    "slide-2": {
+        "title": "Apostas",
+        "content": [
+            "Você pode apostar em Dragon, Tiger ou Tie, e também pode apostar em várias apostas laterais (Pequeno/Grande, Preto/Vermelho, Ímpar/Par)."
+        ]
+    },
+    "slide-3": {
+        "title": "Resultados",
+        "content": [
+            "O vencedor é aquele cujos pontos totais estão mais próximos de 13. Se os pontos totais de Dragon e Tiger forem iguais, o resultado é um empate."
+        ]
+    }
+}
