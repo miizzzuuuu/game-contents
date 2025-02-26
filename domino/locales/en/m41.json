@@ -1,0 +1,21 @@
+{
+    "player":"PLAYER",
+    "banker":"BANKER",
+    "tie":"TIE",
+    "anyqiu":"Q",
+    "q bet":"Q Bet",
+    "q":"Q",
+    "noqiu":"NOT Q",
+    "special card":"Special Card",
+    "puresmall":"PURE SMALL",
+    "purebig":"PURE BIG",
+    "balak":"TWIN",
+    "puresix":"SIX GOD",
+    "jackpot":"JACKPOT",
+    "pure small":"PURE SMALL",
+    "q0 - q9":"Q0 - Q9",
+    "not q":"NOT Q",
+    "pure big":"PURE BIG",
+    "twin": "TWIN",
+    "six god": "SIX GOD"
+}

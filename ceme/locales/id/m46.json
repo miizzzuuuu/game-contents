@@ -1,0 +1,19 @@
+{
+    "banker": "banker",
+    "player1": "pemain 1",
+    "player2": "pemain 2",
+    "player3": "pemain 3",
+
+    "player bet": "taruhan pemain",
+    "win with points 1 to 8": "menang dengan poin 1 hingga 8",
+    "win with points 9": "menang dengan poin 9",
+    "7,8,9 bet": "taruhan 7,8,9",
+    "win with points 7": "menang dengan poin 7",
+    "win with points 8": "menang dengan poin 8",
+    "7,8,9 bet 2x bonus": "taruhan 7,8,9 bonus 2x",
+    "specific bet": "taruhan spesifik",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "specific bet 2x bonus": "taruhan spesifik bonus 2x"
+}

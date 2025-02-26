@@ -1,0 +1,124 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "Suwit 是一种起源于中国的古老手势游戏，全球更广为人知的是剪刀石头布。在这个独特的游戏中，我们结合了中国的 Suwit 和印度尼西亚的 Suwit，创造了这个非常特别的游戏。",
+        "game-objective": "游戏目标",
+        "content-2": "Suwit 的游戏目标是预测与骰子结果对比的获胜投注。在此游戏中，您可以选择 6 个手势选项：剪刀、石头、布、大拇指、食指和小指。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "该游戏使用24个编号为1到24的球，分为红色和黑色，放置在一个笼子中，每回合游戏时会旋转笼子。",
+            "当庄家开启投注时间时，游戏开始。",
+            "现在您需要在我们提供的投注面板上下注。",
+            "当时间结束时，投注面板上的所有投注将自动被接受。",
+            "投注时间结束后，庄家会旋转球笼来决定游戏结果。",
+            "只有单一数字投注有资格参与幸运号码奖金和累积奖金系统。除单一数字投注外的所有投注将按照支付表正常支付。",
+            "每回合游戏的结果为1到24之间的一个数字。如果球位置不清晰，将进入“无效游戏”状态，庄家会再次旋转笼子直至结果明确。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "投注",
+        "description": "该游戏使用2个骰子<b>(红色和黑色)</b>，每个骰子有6个面代表不同的手势符号。<b>黑色骰子</b>用于带有<b>剪刀、石头和布</b>图案的 Suwit，<b>红色骰子</b>用于带有<b>大拇指、食指和小指</b>图案的 Suwit。",
+        "2-combination-bet": "双骰组合",
+        "row-and-column-bet": "行和列",
+        "vs-black-dice": "对抗黑色骰子",
+        "vs-red-dice": "对抗红色骰子",
+        "split-bet": "分拆投注",
+        "corner-bet": "角投注"
+    },
+    "suwit-information": {
+        "title": "奖金系统",
+        "information": "Suwit 信息",
+        "winner": "Suwit 胜者"
+    },
+    "bet-description-and-example": {
+        "title": "投注说明和示例",
+        "description": "描述",
+        "examples": "示例结果",
+        "anything": "任何",
+        "bet": "投注",
+        "result": "骰子结果",
+        "main-bet": {
+            "title": "主要投注",
+            "vs-black": {
+                "title": "对抗黑色骰子",
+                "description": "投注对抗黑色骰子",
+                "bet": "对抗黑色骰子"
+            },
+            "gunting": {
+                "title": "剪刀",
+                "description": "如果结果是纸，则支付",
+                "bet": "剪刀"
+            },
+            "batu": {
+                "title": "石头",
+                "description": "如果结果是剪刀，则支付",
+                "bet": "石头"
+            },
+            "kertas": {
+                "title": "纸",
+                "description": "如果结果是石头，则支付",
+                "bet": "纸"
+            },
+            "vs-red": {
+                "title": "对抗红色骰子",
+                "description": "投注对抗红色骰子",
+                "bet": "对抗红色骰子"
+            },
+            "jempol": {
+                "title": "大拇指",
+                "description": "如果结果是食指，则支付",
+                "bet": "大拇指"
+            },
+            "telunjuk": {
+                "title": "食指",
+                "description": "如果结果是小指，则支付",
+                "bet": "食指"
+            },
+            "kelingking": {
+                "title": "小指",
+                "description": "如果结果是大拇指，则支付",
+                "bet": "小指"
+            },
+            "kombinasi": {
+                "title": "组合",
+                "description": "投注于两个骰子的组合",
+                "bet": "组合"
+            },
+            "satu": {
+                "title": "一",
+                "description": "如果所选组合胜出骰子结果，则支付",
+                "bet": "剪刀,大拇指"
+            },
+            "dua": {
+                "title": "二",
+                "description": "如果所选的两个组合之一胜出骰子结果，则支付",
+                "bet": "剪刀,大拇指,石头,小指"
+            },
+            "empat": {
+                "title": "四",
+                "description": "如果所选的四个组合之一胜出骰子结果，则支付",
+                "bet": "剪刀 大拇指, 石头 小指, 石头 食指, 纸 大拇指"
+            },
+            "baris": {
+                "title": "行",
+                "description": "如果获胜组合位于您选择的行，则支付",
+                "bet": "列 1"
+            },
+            "kolom": {
+                "title": "列",
+                "description": "如果获胜组合位于您选择的列，则支付",
+                "bet": "行 1"
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付",
+        "bonus-payout": "奖金支付",
+        "lucky-number-multiplier": "幸运数字倍数",
+        "jackpot-number-multiplier": "累积奖金倍数",
+        "number-times": "{{value}}倍"
+    }
+}

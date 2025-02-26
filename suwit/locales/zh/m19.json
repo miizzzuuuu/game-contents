@@ -1,0 +1,30 @@
+{
+    "baris1": "行.1",
+    "baris2": "行.2",
+    "baris3": "行.3",
+
+    "kolom1": "列.1",
+    "kolom2": "列.2",
+    "kolom3": "列.3",
+
+    "result": "结果",
+
+    "versus black": "对战黑色",
+    "scissors": "剪刀",
+    "stone": "石头",
+    "paper": "纸",
+    "versus red": "对战红色",
+    "thumb": "拇指",
+    "index": "食指",
+    "pinky": "小指",
+    "combination": "组合",
+    "single": "单一",
+    "split": "分开",
+    "corner": "角落",
+    "row": "行",
+    "column": "列",
+
+    "win-history": "获胜记录",
+    "result-history": "结果记录",
+    "single-dice": "单骰子"
+}

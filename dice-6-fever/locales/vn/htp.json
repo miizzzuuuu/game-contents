@@ -1,0 +1,139 @@
+{
+    "introduction": {
+        "title": "GIỚI THIỆU",
+        "content": "Tận hưởng nhiều phần thưởng trong trò chơi mới nhất của chúng tôi Dice 6 Fever, một phiên bản cải tiến từ trò chơi Dice 6 xuất sắc của chúng tôi. Trò chơi Dice 6 Fever đơn giản và vui nhộn từ IDNLIVE có giao diện hiện đại và cảm giác mới lạ khi chơi với hệ thống Nóng & Lạnh cùng với hệ thống Jackpot, sẽ khiến bạn hứng thú hơn khi chinh phục trò chơi này."
+    },
+    "rules": {
+        "title": "LUẬT CHƠI",
+        "steps": [
+            "Trò chơi này sử dụng một viên xúc xắc quay.",
+            "Trò chơi bắt đầu khi người chia bài mở thời gian để đặt cược.",
+            "Bây giờ bạn phải đặt cược trên bảng đặt cược mà chúng tôi cung cấp.",
+            "Tất cả cược trên bảng đặt cược sẽ tự động được chấp nhận khi hết thời gian.",
+            "Sau khi hết thời gian đặt cược, người chia bài sẽ lắc xúc xắc để xác định kết quả cho vòng đó.",
+            "Chỉ có cược số 1 và cược 50-50 sẽ tuân theo hệ thống Nóng & Lạnh. Cược 2 (chia đôi) và cược 4 (góc) luôn trả theo tỷ lệ trả thường.",
+            "Chỉ có một cược số duy nhất có thể được chọn làm số Jackpot.",
+            "Kết quả chỉ bao gồm các số từ 1 đến 6, và nếu xúc xắc không ở vị trí rõ ràng thì sẽ có trạng thái 'không có trò chơi' và người chia bài sẽ lắc lại xúc xắc cho đến khi có kết quả rõ ràng."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "ĐẶT CƯỢC",
+        "single-bet": "Cược một số",
+        "split-bet": "Cược hai số",
+        "corner-bet": "Cược bốn số",
+        "50-50-bet": "Cược 50-50",
+        "single-bet-emblem": "cược số đơn",
+        "split-bet-emblem": "cược chia",
+        "corner-bet-emblem": "cược góc",
+        "big-small-emblem": "lớn/nhỏ",
+        "odd-even-emblem": "lẻ/chẵn"
+    },
+    "bonus-system": {
+        "title": "HỆ THỐNG JACKPOT VÀ NÓNG & LẠNH",
+        "introduction": {
+            "heading": "GIỚI THIỆU",
+            "content": "Trong mỗi vòng chơi, hệ thống sẽ ngẫu nhiên xác định cược nào sẽ rơi vào các loại Jackpot, Nóng & Lạnh và Thông thường như hình ảnh ví dụ trên. Có 10 cược trong trò chơi này bao gồm các số từ 1 đến 6 cũng như các cược lớn nhỏ lẻ chẵn. Hãy nhớ rằng trong một vòng chơi tất cả các loại có thể xuất hiện cùng lúc, giống như ví dụ hình ảnh ở trên, nhưng cũng có thể xảy ra rằng tất cả các cược có thể vào cùng một loại đồng thời. Dưới đây là giải thích chi tiết.",
+            "example": ""
+        },
+        "normal": {
+            "heading": "THÔNG THƯỜNG",
+            "content": "Đối với tất cả các cược rơi vào loại Thông thường, tỷ lệ trả vẫn như cũ theo tỷ lệ trả áp dụng. Các cược thuộc loại Thông thường là số 1, 3, 6 và Lẻ.",
+            "example": "Ví dụ: Nếu bạn đặt 1K vào số 1 thuộc loại Thông thường, nếu thắng, cược của bạn sẽ được nhân lên 4.5 lần và vốn sẽ được hoàn lại."
+        },
+        "hot": {
+            "heading": "NÓNG",
+            "content": "Đối với tất cả các cược thuộc loại Nóng, tỷ lệ trả sẽ tự động tăng từ tỷ lệ thông thường. Các cược thuộc loại Nóng là số 4 và cược Lớn, Nhỏ, Chẵn.",
+            "example": "Ví dụ: Nếu bạn đặt 1K vào số 4 thuộc loại Nóng, nếu thắng, cược của bạn sẽ được nhân lên 8 lần."
+        },
+        "cold": {
+            "heading": "LẠNH",
+            "content": "Đối với tất cả các cược thuộc loại Lạnh, tỷ lệ trả sẽ tự động giảm từ tỷ lệ thông thường. Cược thuộc loại Lạnh là số 5.",
+            "example": "Ví dụ: Nếu bạn đặt 1K vào số 5 thuộc loại Lạnh, nếu thắng, cược của bạn sẽ được nhân lên 3 lần."
+        },
+        "jackpot": {
+            "heading": "JACKPOT",
+            "content": "Đối với tất cả các cược thuộc loại Jackpot, tỷ lệ trả sẽ tăng mạnh từ tỷ lệ thông thường. Đặc biệt chỉ có các số từ 1 đến 6 được chọn làm Jackpot, và chỉ có một số duy nhất được chọn làm Jackpot trong mỗi vòng chơi. Cược thuộc loại Jackpot là số 2.",
+            "example": "Ví dụ: Nếu bạn đặt 1K vào số 2 thuộc loại Jackpot, nếu thắng, cược của bạn sẽ được nhân lên 18 lần."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "MÔ TẢ CƯỢC & VÍ DỤ",
+        "winning-conditions": "ĐIỀU KIỆN THẮNG",
+        "bet": "Cược",
+        "result": "KẾT QUẢ",
+        "status": "TRẠNG THÁI",
+        "main-bet": {
+            "heading": "CƯỢC CHÍNH",
+            "single": {
+                "title": "1 số (đơn lẻ)",
+                "description": "Cược vào một số",
+                "winning-conditions": "Kết quả trùng với Cược của bạn",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "THẮNG" },
+                    { "bet": "1", "result": "6", "status": "THUA" }
+                ]
+            },
+            "split": {
+                "title": "Chia đôi",
+                "description": "Cược vào hai số liền kề theo chiều dọc/ngang",
+                "winning-conditions": "Kết quả là 1 trong 2 số liền kề mà bạn đã cược",
+                "examples": [
+                    { "bet": "4,5", "result": "5", "status": "THẮNG" },
+                    { "bet": "4,5", "result": "1", "status": "THUA" }
+                ]
+            },
+            "corner": {
+                "title": "Góc",
+                "description": "Cược vào bốn số gặp nhau ở một góc",
+                "winning-conditions": "Kết quả là 1 trong 4 số liền kề mà bạn đã cược",
+                "examples": [
+                    { "bet": "2,3,5,6", "result": "5", "status": "THẮNG" },
+                    { "bet": "2,3,5,6", "result": "4", "status": "THUA" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "CƯỢC 50-50",
+            "small": {
+                "title": "Nhỏ",
+                "description": "",
+                "winning-conditions": "Kết quả từ 1 đến 3",
+                "examples": [
+                    { "bet": "Nhỏ", "result": "1", "status": "THẮNG" },
+                    { "bet": "Nhỏ", "result": "5", "status": "THUA" }
+                ]
+            },
+            "big": {
+                "title": "Lớn",
+                "description": "",
+                "winning-conditions": "Kết quả từ 4 đến 6",
+                "examples": [
+                    { "bet": "Lớn", "result": "4", "status": "THẮNG" },
+                    { "bet": "Lớn", "result": "2", "status": "THUA" }
+                ]
+            },
+            "odd": {
+                "title": "Lẻ",
+                "description": "",
+                "winning-conditions": "Kết quả là số lẻ",
+                "examples": [
+                    { "bet": "Lẻ", "result": "3", "status": "THẮNG" },
+                    { "bet": "Lẻ", "result": "6", "status": "THUA" }
+                ]
+            },
+            "even": {
+                "title": "Chẵn",
+                "description": "",
+                "winning-conditions": "Kết quả là số chẵn",
+                "examples": [
+                    { "bet": "Chẵn", "result": "2", "status": "THẮNG" },
+                    { "bet": "Chẵn", "result": "5", "status": "THUA" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "Tỷ lệ trả",
+        "bet-payout": "tỷ lệ trả cược"
+    }
+}

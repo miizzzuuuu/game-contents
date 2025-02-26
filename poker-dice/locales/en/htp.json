@@ -1,0 +1,139 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Poker Dice is an authentic and unique game from IDNLIVE that combines the excitement of Poker from the West with Dice from the East. This game uses 5 dice to form a winning combination."
+    },
+    "goal": {
+        "title": "GAME OBJECTIVE",
+        "content": "The goal in Poker Dice is to guess the best combination formed from five dice. Similar to poker rankings, it ranges from 5 of a kind to one pair, and only one combination is formed per round."
+    },
+    "rules": {
+        "title": "Rules",
+        "dice": "Dice",
+        "side": "Side",
+        "steps": [
+            "The game is guided by the Dealer.",
+            "This game uses five dice, each with 6 sides in red and black.",
+            "The game begins when the <i>Dealer</i> opens the betting time, and all bets are automatically accepted when time runs out.",
+            "The dealer rolls five dice to determine the game outcome.",
+            "If the dice <b>do not land perfectly</b>, it is a <b>“No Game”</b> and the dealer will re-roll the dice.",
+            "Numbers 1-3 are considered <b>Small</b>, and numbers 4-6 are considered <b>Big</b>."
+        ]
+    },
+    "dice": {
+        "title": "POKER DICE",
+        "description": "Poker Dice uses five dice with 6 sides. Each side is either red or black. Below are the colors of each side of the five dice in the game.",
+        "note": "Note: ",
+        "notes": [
+            "<b>Dice 1, 2, and 3</b> have the same color pattern on the sides.",
+            "<b>Dice 4 and 5</b> have the same color pattern on the sides."
+        ]
+    },
+    "rank": {
+        "title": "Dice Combination",
+        "description": "There are 11 dice combination rankings that can result, from the highest, 5 of a kind, to the lowest, one pair. If there are two combinations in 1 period, the highest ranking will be the result.",
+        "table-description": "The table of ranking results is shown below.",
+        "rank": "rank",
+        "result": "result",
+        "table": [
+            "5 of a kind",
+            "Straight Flush",
+            "Inc. Straight Flush",
+            "4 of a kind",
+            "Straight",
+            "Full House",
+            "Flush",
+            "Inc. Straight",
+            "3 of a kind",
+            "2 Pair",
+            "Pair"
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "Bet Description and Example",
+        "winning-conditions": "Winning Conditions",
+        "bet": "BET",
+        "examples": "Examples",
+        "description": "Description",
+        "result": "RESULT",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Main Bet",
+            "pair": {
+                "title": "Pair",
+                "description": "Paid if the dice form One Pair"
+            },
+            "2-pair": {
+                "title": "2 Pair",
+                "description": "Paid if the dice form 2 Pair"
+            },
+            "3-of-a-kind": {
+                "title": "3 of a kind",
+                "description": "Paid if the dice form 3 of a kind"
+            },
+            "inc-straight": {
+                "title": "Inc. Straight",
+                "description": "Paid if the dice form Inc. Straight"
+            },
+            "flush": {
+                "title": "Flush",
+                "description": "Paid if the dice form Flush"
+            },
+            "full-house": {
+                "title": "Full House",
+                "description": "Paid if the dice form Full House"
+            },
+            "straight": {
+                "title": "Straight",
+                "description": "Paid if the dice form Straight"
+            },
+            "4-of-a-kind": {
+                "title": "4 of a kind",
+                "description": "Paid if the dice form 4 of a kind"
+            },
+            "inc-straight-flush": {
+                "title": "Inc. Straight Flush",
+                "description": "Paid if the dice form Inc. Straight Flush"
+            },
+            "straight-flush": {
+                "title": "Straight Flush",
+                "description": "Paid if the dice form Straight Flush"
+            },
+            "5-of-a-kind": {
+                "title": "5 of a kind",
+                "description": "Paid if the dice form 5 of a kind"
+            }
+        },
+        "side-bet": {
+            "heading": "Side Bet",
+            "small": {
+                "title": "Small",
+                "description": "Paid if there are more dice with numbers 1 to 3"
+            },
+            "big": {
+                "title": "Big",
+                "description": "Paid if there are more dice with numbers 4 to 6"
+            },
+            "odd": {
+                "title": "Odd",
+                "description": "Paid if there are more dice with Odd numbers"
+            },
+            "even": {
+                "title": "Even",
+                "description": "Paid if there are more dice with Even numbers"
+            },
+            "red": {
+                "title": "Red",
+                "description": "Paid if there are more dice with Red color"
+            },
+            "black": {
+                "title": "Black",
+                "description": "Paid if there are more dice with Black color"
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout"
+    }
+}

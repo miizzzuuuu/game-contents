@@ -1,0 +1,30 @@
+{
+    "baris1": "D.1",
+    "baris2": "D.2",
+    "baris3": "D.3",
+
+    "kolom1": "C.1",
+    "kolom2": "C.2",
+    "kolom3": "C.3",
+
+    "result": "kết quả",
+
+    "versus black": "đối đầu với đen",
+    "scissors": "kéo",
+    "stone": "đá",
+    "paper": "giấy",
+    "versus red": "đối đầu với đỏ",
+    "thumb": "ngón cái",
+    "index": "ngón trỏ",
+    "pinky": "ngón út",
+    "combination": "kết hợp",
+    "single": "đơn",
+    "split": "chia đôi",
+    "corner": "góc",
+    "row": "hàng",
+    "column": "cột",
+
+    "win-history": "lịch sử thắng",
+    "result-history": "lịch sử kết quả",
+    "single-dice": "xúc xắc đơn"
+}

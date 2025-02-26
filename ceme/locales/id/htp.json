@@ -1,0 +1,189 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "CEME 7,8,9 merupakan inovasi permainan autentik terbaru dari IDNLIVE EUROPE yang mirip dengan Baccarat, namun menggunakan kartu domino. Permainan cepat ini menawarkan keseruan baru dengan yang melibatkan <b>3 Pemain</b> dan <b>1 Bankir</b>, dimana anda dapat bertaruh pada ketiga Pemain sekaligus melawan Bankir dalam satu ronde.",
+        "content-2": "Hadir dengan konsep menarik, taruhan 7,8,9 memberi peluang pembayaran berkali-kali lipat. Segera mainkan dan nikmati sensasi kemenangan di CEME 7,8,9!"
+    },
+    "goal": {
+        "title": "Tujuan Permainan",
+        "content": "Tujuan dalam permainan CEME 7,8,9 adalah menebak Pemain mana yang memiliki total poin yang mengalahkan poin Bankir. Jika berhasil menebak pemain yang menang atau poin tertentu seperti 7,8,9, maka kemenangan anda pun akan meningkat secara drastis."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Permainan akan dipandu oleh <i>Dealer</i>.",
+            "Permainan ini menggunakan 16 set kartu domino dalam satu buah <i>Shoe</i> (total 28 kartu per set).",
+            "Permainan ini dimainkan dengan 1 Bankir, dan 3 Pemain (Pemain 1, Pemain 2, Pemain 3).",
+            "Permainan dimulai saat <i>Dealer</i> membuka waktu bertaruh, dan semua taruhan otomatis diterima ketika waktu habis.",
+            "Dealer membagikan dua kartu untuk setiap pihak sesuai urutan di meja permainan.",
+            "Pihak dengan poin tertinggi atau mendekati poin 9 akan menjadi pemenang.",
+            "Jika hasilnya <b>seri</b>, maka semua taruhan dianggap kalah.",
+            "Taruhan sampingan hanya dapat dimenangkan dengan poin (7,8,9)",
+            "Pada periode tertentu, <b>Hokky Bonus</b> dapat muncul pada taruhan sampingan. Pemain yang beruntung akan memenangkan <b>2x</b> lipat dari pembayaran normal."
+        ]
+    },
+    "domino-card": {
+        "title": "KARTU DOMINO",
+        "description": "Terdapat 28 kartu dalam 1 dek kartu domino. Setiap kartu memiliki sisi atas dan bawah yang dibagi dengan garis di tengah dan setiap kartu memiliki jumlah titik yang berbeda, setiap titik menunjukkan nilai kartu, cara termudah untuk mengingat semua kartu adalah mengelompokkannya menjadi 7 seri jenis kartu seperti yang dijelaskan di bawah ini :",
+        "seri-0": {
+            "heading": "Seri 0",
+            "description": "Terdapat total tujuh kartu dalam seri ini. Setiap kartu dalam seri nol ini akan memiliki nilai 0 titik di sisi atas kartu dan akan memiliki nilai mulai dari 0 titik sampai 6 titik di sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        },
+        "seri-1": {
+            "heading": "Seri 1",
+            "description": "Terdapat total enam kartu dalam seri ini. Setiap kartu dalam seri satu ini akan memiliki nilai 1 titik di sisi atas kartu dan akan memiliki nilai mulai dari 1 titik sampai 6 titik di sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        },
+        "seri-2": {
+            "heading": "Seri 2",
+            "description": "Terdapat total lima kartu dalam seri ini. Setiap kartu dalam seri dua ini akan memiliki nilai 2 titik di sisi atas kartu dan akan memiliki nilai mulai dari 2 titik sampai 6 titik di sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        },
+        "seri-3": {
+            "heading": "Seri 3",
+            "description": "Terdapat total empat kartu dalam seri ini. Setiap kartu dalam seri tiga ini akan memiliki nilai 3 titik di sisi atas kartu dan akan memiliki nilai mulai dari 3 titik sampai 6 titik di sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        },
+        "seri-4": {
+            "heading": "Seri 4",
+            "description": "Terdapat total tiga kartu dalam seri ini. Setiap kartu dalam seri empat ini akan memiliki nilai 4 titik di sisi atas kartu dan akan memiliki nilai mulai dari 4 titik sampai 6 titik di sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        },
+        "seri-5": {
+            "heading": "Seri 5",
+            "description": "Terdapat total dua kartu dalam seri ini. Setiap kartu dalam seri lima ini akan memiliki nilai 5 titik di sisi atas kartu dan akan memiliki nilai mulai dari 5 titik sampai 6 titik di sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        },
+        "seri-6": {
+            "heading": "Seri 6",
+            "description": "Hanya ada satu kartu dalam seri ini, kartu di seri ini memiliki nilai 6 titik untuk sisi atas maupun sisi bawah kartunya. Berikut contoh kartu dalam seri ini : "
+        }
+    },
+    "counting-card": {
+        "title": "Cara menghitung kartu",
+        "example": "Contoh : ",
+        "player": "Pemain",
+        "banker": "Bankir",
+        "description": "Cara menghitung poin kartu domino adalah dengan menjumlahkan semua titik pada kedua kartu. Poin tertinggi adalah 9. Jika total penjumlahan menghasilkan <b>dua digit angka, maka digit kedua yang digunakan sebagai total poin</b>.",
+        "case-example": "Contoh kasus : ",
+        "case-explain": "Pada contoh diatas, pihak dengan total poin tertinggi adalah <b>Pemain 2</b> yaitu <b>9</b>. Diikuti dengan <b>Pemain 1</b> dan <b>Pemain 3</b> dengan total poin <b>7</b>. Dan yang terakhir <b>Bankir</b> dengan total poin <b>2</b>."
+    },
+    "hoky-bonus": {
+        "title": "HOKKY BONUS",
+        "content": "Pada periode tertentu, akan muncul Hokky Bonus dengan pembayaran <b>2x lipat dari pembayaran normal !</b>",
+        "content-2": "Sistem akan memilih 1 hingga 4 Hokky Bonus pada taruhan sampingan (<b>7,8,9</b>) di salah satu pihak Pemain, dan taruhan yang terpilih akan dilipatgandakan."
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "winning-conditions": "Kondisi Menang",
+        "bet": "TARUHAN",
+        "result": "HASIL",
+        "status": "STATUS",
+        "description": "Deskripsi",
+        "result-example": "Contoh Hasil",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "p123": {
+                "title": "Pemain 1 2 3",
+                "description": "Dibayar jika nilai Pemain <b>lebih besar dari</b> nilai Bankir",
+                "examples": [{ "banker": "2", "player1": "2", "player2": "3", "player3": "4" }]
+            }
+        },
+        "side-bet": {
+            "heading": "Taruhan Sampingan",
+            "789": {
+                "title": "7,8,9",
+                "description": "Dibayar jika nilai Pemain bernilai antara <b>7</b>, <b>8</b> atau <b>9</b> dan harus <b>lebih besar dari</b> nilai Bankir",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "8", "player3": "9" }]
+            },
+            "specific-7": {
+                "title": "Spesifik 7",
+                "description": "Dibayar jika nilai Pemain spesifik bernilai <b>7</b> dan harus <b>lebih besar dari</b> nilai Bankir",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "7", "player3": "7" }]
+            },
+            "specific-8": {
+                "title": "Spesifik 8",
+                "description": "Dibayar jika nilai Pemain spesifik bernilai <b>8</b> dan harus <b>lebih besar dari</b> nilai Bankir",
+                "examples": [{ "banker": "2", "player1": "8", "player2": "8", "player3": "8" }]
+            },
+            "specific-9": {
+                "title": "Spesifik 9",
+                "description": "Dibayar jika nilai Pemain spesifik bernilai <b>9</b> dan harus <b>lebih besar dari</b> nilai Bankir",
+                "examples": [{ "banker": "2", "player1": "9", "player2": "9", "player3": "9" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan",
+        "bet": "taruhan",
+        "payout": "pembayaran",
+        "normal-payout": "pembayaran normal",
+        "2x-payout": "pembayaran 2x bonus",
+        "condition": "kondisi",
+        "main-bet": {
+            "title": "TARUHAN UTAMA",
+            "p123": {
+                "title": "Pemain 1 2 3",
+                "table": [
+                    {
+                        "winning-conditions": "Menang dengan 1-8 point",
+                        "payout": "0.95:1"
+                    },
+                    {
+                        "winning-conditions": "Menang dengan 9 point",
+                        "payout": "2:1"
+                    }
+                ]
+            }
+        },
+        "side-bet": {
+            "title": "TARUHAN SAMPINGAN",
+            "789": {
+                "title": "7, 8, 9",
+                "table": [
+                    {
+                        "winning-conditions": "Menang dengan <b>7</b> point",
+                        "normal-payout": "1:1",
+                        "2x-payout": "3:1"
+                    },
+                    {
+                        "winning-conditions": "Menang dengan <b>8</b> point",
+                        "normal-payout": "2.5:1",
+                        "2x-payout": "6:1"
+                    },
+                    {
+                        "winning-conditions": "Menang dengan <b>9</b> point",
+                        "normal-payout": "5:1",
+                        "2x-payout": "11:1"
+                    }
+                ]
+            },
+            "specific-7": {
+                "title": "Spesifik 7",
+                "table": [
+                    {
+                        "winning-conditions": "Menang dengan <b>7</b> point",
+                        "normal-payout": "13:1",
+                        "2x-payout": "27:1"
+                    }
+                ]
+            },
+            "specific-8": {
+                "title": "Spesifik 8",
+                "table": [
+                    {
+                        "winning-conditions": "Menang dengan <b>8</b> point",
+                        "normal-payout": "10.5:1",
+                        "2x-payout": "22:1"
+                    }
+                ]
+            },
+            "specific-9": {
+                "title": "Spesifik 9",
+                "table": [
+                    {
+                        "winning-conditions": "Menang dengan <b>9</b> point",
+                        "normal-payout": "9.5:1",
+                        "2x-payout": "20:1"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "head": "kepala",
+    "tail": "ekor",
+    "left": "kiri",
+    "right": "kanan",
+    "left/right": "kiri/kanan",
+    "head/tail": "kepala/ekor",
+    "head win": "kepala menang",
+    "tail win": "ekor menang",
+    "coin 1": "koin 1",
+    "coin 2": "koin 2",
+    "coin 3": "koin 3",
+
+    "head, head, tail": "kepala, kepala, ekor",
+    "tail, tail, head": "ekor, ekor, kepala",
+    "coin bet": "taruhan koin",
+    "combination bet (in order)": "taruhan kombinasi (berurutan)",
+    "head, head, head": "kepala, kepala, kepala",
+    "head, tail, tail": "kepala, ekor, ekor",
+    "head, tail, head": "kepala, ekor, kepala",
+    "tail, head, head": "ekor, kepala, kepala",
+    "tail, head, tail": "ekor, kepala, ekor",
+    "tail, tail, tail": "ekor, ekor, ekor"
+}

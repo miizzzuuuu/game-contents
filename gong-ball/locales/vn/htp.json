@@ -1,0 +1,67 @@
+{
+    "introduction": {
+        "title": "GIỚI THIỆU",
+        "content": "Trò chơi này giống với samgong (3 hình), trong đó kết quả trò chơi phụ thuộc vào tổng giá trị của 3 lá bài mà bạn nhận được. Mỗi lá bài sẽ có giá trị riêng."
+    },
+    "rules": {
+        "title": "LUẬT CHƠI",
+        "steps": [
+            "Các lá bài từ Át đến 10 có giá trị từ 1 đến 10, trong khi các lá J, Q và K có giá trị 10. Giá trị cao nhất trong trò chơi này là 3 hình.",
+            "Trong trò chơi này, chúng ta sử dụng một bàn quay với các con số và hình giống như bài chính thức nhưng với tổng cộng 36 ô, mỗi ô được biểu thị bằng 3 chấm đối với A - 10 và 2 chấm đối với J, Q và K. Quả bóng có tổng bằng 3 sẽ được thả vào bàn quay lần lượt từng quả. Kết quả sẽ được tính từ vị trí quả bóng dừng lại, và con số cuối cùng từ tổng sẽ là kết quả cuối cùng.",
+            "Điểm độc đáo của trò chơi này là chúng tôi cung cấp cược Người Chơi và Nhà Cái, cho phép bạn chọn lá bài của Người Chơi (kết quả dựa trên Gongball) hoặc Nhà Cái (kết quả dựa trên lá bài) để giành chiến thắng."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "ĐẶT CƯỢC",
+        "reference": "THAM KHẢO",
+        "name": "Tên",
+        "example": "Ví dụ",
+        "main-number": {
+            "title": "Số Chính",
+            "description": "Số Chính: Dự đoán con số cuối cùng từ tổng (0, As(1), 2, 3, 4, 5, 6, 7, 8, 9)"
+        },
+        "small": {
+            "title": "Nhỏ",
+            "description": "Nhỏ: Con số cuối cùng từ tổng của 3 quả bóng có giá trị từ 0-4"
+        },
+        "big": {
+            "title": "Lớn",
+            "description": "Lớn: Con số cuối cùng từ tổng của 3 quả bóng có giá trị từ 5-9"
+        },
+        "odd": {
+            "title": "Lẻ",
+            "description": "Lẻ: Con số cuối cùng từ tổng của 3 quả bóng là số lẻ (1, 3, 5, 7, 9)"
+        },
+        "even": {
+            "title": "Chẵn",
+            "description": "Chẵn: Con số cuối cùng từ tổng của 3 quả bóng là số chẵn (0, 2, 4, 6, 8)"
+        },
+        "k": {
+            "title": "K",
+            "description": "K (King): Có một quả bóng dừng tại K (King)"
+        },
+        "2k": {
+            "title": "KK",
+            "description": "KK: Có hai quả bóng dừng tại K (King)"
+        },
+        "3pic": {
+            "title": "3 Hình",
+            "description": "3 Hình: 3 quả bóng dừng lại tại tổ hợp hình ảnh J, Q và K. Ví dụ: QQJ, JJK",
+            "notes": "Lưu ý: Kết quả của tất cả các cược trên được xác định bởi giá trị của Gongball, không phải từ lá bài. Nếu kết quả là 3 hình, tất cả các cược sẽ được coi là Hòa, ngoại trừ cược 3 Hình."
+        },
+        "player": {
+            "title": "Cược Người Chơi",
+            "description": "Cược Người Chơi: Đặt cược vào lá bài của Người Chơi (Gongball) có giá trị cao hơn hoặc thắng Nhà Cái (lá bài)"
+        },
+        "banker": {
+            "title": "Cược Nhà Cái",
+            "description": "Cược Nhà Cái: Đặt cược vào lá bài được Nhà Cái đưa ra (lá bài) có giá trị cao hơn hoặc thắng Người Chơi (Gongball)",
+            "notes": "Lưu ý: Nếu giá trị giữa Người Chơi và Nhà Cái bằng nhau, sẽ xét số lượng hình ảnh (J, Q, K) nhiều hơn giữa hai bên. Nếu số lượng hình ảnh cũng bằng nhau, cược Người Chơi và Nhà Cái sẽ coi là HÒA.",
+            "example": "Ví dụ : <br/> Kết quả Gongball (Người Chơi): K, K, 9 (9) <br/> Kết quả lá bài (Nhà Cái): K, 5, 3 (8) <br/> Các cược thắng là Số Chính (9), Lớn, Lẻ, K, KK và cược Người Chơi cũng thắng vì lá bài của Người Chơi là 9 trong khi Nhà Cái chỉ có 8."
+        }
+    },
+    "payout": {
+        "title": "TIỀN THƯỞNG",
+        "bet-payout": "tiền thưởng đặt cược"
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "introduction": {
+        "title": "소개",
+        "content": "룰렛은 작은 공과 룰렛 휠을 사용하는 프랑스어에서 '작은 바퀴'를 의미하는 고전적인 게임입니다. 이 간단한 게임에서 승리하려면 공이 어느 숫자에 착륙할지 맞추기만 하면 됩니다."
+    },
+    "rules": {
+        "title": "규칙",
+        "steps": [
+            "게임은 딜러가 베팅 시간을 열면 시작됩니다.",
+            "이제 제공된 베팅 패널에 베팅을 해야 합니다.",
+            "베팅 패널에 있는 모든 베팅은 시간이 끝나면 자동으로 접수됩니다.",
+            "베팅 시간이 끝난 후, 딜러가 룰렛 휠을 돌려 게임의 결과를 결정합니다.",
+            "한 라운드의 결과는 숫자 0에서 36까지의 숫자 중 하나만 포함되며, 공이 명확하게 위치하지 않은 경우 \"게임 없음\" 상태가 발생하고 딜러가 결과가 명확해질 때까지 룰렛 휠을 다시 돌립니다."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "베팅하기",
+        "single-bet": "스트레이트/싱글 베팅.",
+        "split-bet": "스플릿 베팅.",
+        "street-bet": "스트리트 베팅.",
+        "corner-bet": "코너/스퀘어 베팅.",
+        "six-line-bet": "식스 라인/더블 스트리트 베팅.",
+        "trio-bet": "트리오/바스켓 베팅.",
+        "column-bet": "컬럼 베팅.",
+        "dozen-bet": "다즌 베팅.",
+        "50-50-bet": "50-50 베팅."
+    },
+    "bet-description-and-example": {
+        "title": "베팅 설명 및 예시",
+        "winning-conditions": "승리 조건",
+        "bet": "베팅",
+        "result": "결과",
+        "status": "상태",
+        "main-bet": {
+            "heading": "메인 베팅",
+            "single": {
+                "title": "스트레이트/싱글",
+                "description": "",
+                "winning-conditions": "결과는 당신이 베팅한 숫자 중 하나입니다.",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "승리" },
+                    { "bet": "1", "result": "2", "status": "패배" }
+                ]
+            },
+            "split": {
+                "title": "스플릿",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 두 인접 숫자 중 하나입니다.",
+                "examples": [
+                    { "bet": "1,2", "result": "1", "status": "승리" },
+                    { "bet": "1,2", "result": "3", "status": "패배" }
+                ]
+            },
+            "street": {
+                "title": "스트리트",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 3개의 인접 숫자 중 하나입니다.",
+                "examples": [
+                    { "bet": "10,11,12", "result": "11", "status": "승리" },
+                    { "bet": "10,11,12", "result": "15", "status": "패배" }
+                ]
+            },
+            "corner": {
+                "title": "코너/스퀘어",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 4개의 인접 숫자 중 하나입니다.",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "승리" },
+                    { "bet": "1,2,4,5", "result": "13", "status": "패배" }
+                ]
+            },
+            "six-line": {
+                "title": "식스 라인/더블 스트리트",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 6개의 인접 숫자 중 하나입니다.",
+                "examples": [
+                    { "bet": "13,14,15,16,17,18", "result": "16", "status": "승리" },
+                    { "bet": "13,14,15,16,17,18", "result": "19", "status": "패배" }
+                ]
+            },
+            "trio": {
+                "title": "트리오/바스켓",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 3개의 인접 숫자 중 하나입니다.",
+                "examples": [
+                    { "bet": "0,2,3", "result": "0", "status": "승리" },
+                    { "bet": "0,2,3", "result": "4", "status": "패배" }
+                ]
+            },
+            "column-bet": {
+                "title": "컬럼 베팅",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 \"컬럼\" 안에 있습니다.",
+                "examples": [
+                    { "bet": "첫 번째 2:1", "result": "7", "status": "승리" },
+                    { "bet": "첫 번째 2:1", "result": "9", "status": "패배" }
+                ]
+            },
+            "dozen-bet": {
+                "title": "다즌 베팅",
+                "description": "",
+                "winning-conditions": "결과는 베팅한 \"다즌\" 안에 있습니다.",
+                "examples": [
+                    { "bet": "첫 번째 12", "result": "7", "status": "승리" },
+                    { "bet": "첫 번째 12", "result": "19", "status": "패배" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 베팅",
+            "1-18": {
+                "title": "1-18",
+                "description": "",
+                "winning-conditions": "결과는 1에서 18 사이에 있습니다.",
+                "examples": [
+                    { "bet": "1-18", "result": "2", "status": "승리" },
+                    { "bet": "1-18", "result": "19", "status": "패배" }
+                ]
+            },
+            "19-36": {
+                "title": "19-36",
+                "description": "",
+                "winning-conditions": "결과는 19에서 36 사이에 있습니다.",
+                "examples": [
+                    { "bet": "19-36", "result": "19", "status": "승리" },
+                    { "bet": "19-36", "result": "2", "status": "패배" }
+                ]
+            },
+            "odd": {
+                "title": "홀수",
+                "description": "",
+                "winning-conditions": "결과는 홀수입니다.",
+                "examples": [
+                    { "bet": "홀수", "result": "13", "status": "승리" },
+                    { "bet": "홀수", "result": "12", "status": "패배" }
+                ]
+            },
+            "even": {
+                "title": "짝수",
+                "description": "",
+                "winning-conditions": "결과는 짝수입니다.",
+                "examples": [
+                    { "bet": "짝수", "result": "12", "status": "승리" },
+                    { "bet": "짝수", "result": "13", "status": "패배" }
+                ]
+            },
+            "red": {
+                "title": "빨강",
+                "description": "",
+                "winning-conditions": "결과는 빨강입니다.",
+                "examples": [
+                    { "bet": "빨강", "result": "12", "status": "승리" },
+                    { "bet": "빨강", "result": "13", "status": "패배" }
+                ]
+            },
+            "black": {
+                "title": "검정",
+                "description": "",
+                "winning-conditions": "결과는 검정입니다.",
+                "examples": [
+                    { "bet": "검정", "result": "13", "status": "승리" },
+                    { "bet": "검정", "result": "12", "status": "패배" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "지불",
+        "bet-payout": "베팅 지불금"
+    },
+    "racetrack-bet": {
+        "title": "레이스트랙 베팅",
+        "description": "레이스트랙 베팅은 플레이어가 여러 숫자에 동시에 빠르게 베팅할 수 있도록 하는 기능입니다. 레이스트랙의 베팅 패널은 룰렛 휠과 동일하거나 유사합니다. 다음으로 이 기능에서 할 수 있는 다양한 베팅 유형을 설명하겠습니다.",
+        "instructions": "이 레이스트랙 베팅에 접근하려면 이미지에 맞는 버튼을 사용하세요.",
+        "sections": {
+            "tiers": {
+                "name": "TIERS DU CYLINDRE 또는 TIERS",
+                "description": "TIERS 베팅을 하면 이 베팅은 12개의 베팅 번호를 포함하게 됩니다. 플레이어는 선택한 베팅 금액의 6배에 해당하는 칩이 필요합니다. 다음은 TIERS 베팅에 포함된 번호들입니다:",
+                "bets": [
+                    "5와 8번 (스플릿 베팅)에 1 칩",
+                    "10과 11번 (스플릿 베팅)에 1 칩",
+                    "13과 16번 (스플릿 베팅)에 1 칩",
+                    "23과 24번 (스플릿 베팅)에 1 칩",
+                    "27과 30번 (스플릿 베팅)에 1 칩",
+                    "33과 36번 (스플릿 베팅)에 1 칩"
+                ]
+            },
+            "orph": {
+                "name": "ORPHELINS A CHEVAL 또는 ORPH.",
+                "description": "ORPH 베팅을 하면 8개의 베팅 번호를 포함하게 됩니다. 플레이어는 선택한 베팅 금액의 5배에 해당하는 칩이 필요합니다. 다음은 ORPH 베팅에 포함된 번호들입니다:",
+                "bets": [
+                    "1번 (스트레이트 업 베팅)에 1 칩",
+                    "6과 9번 (스플릿 베팅)에 1 칩",
+                    "14와 17번 (스플릿 베팅)에 1 칩",
+                    "17과 20번 (스플릿 베팅)에 1 칩",
+                    "31과 34번 (스플릿 베팅)에 1 칩"
+                ]
+            },
+            "voisins": {
+                "name": "VOISINS DU ZERO 또는 VOISINS",
+                "description": "VOISINS 베팅을 하면 17개의 베팅 번호를 포함하게 됩니다. 플레이어는 선택한 베팅 금액의 9배에 해당하는 칩이 필요합니다. 다음은 VOISINS 베팅에 포함된 번호들입니다:",
+                "bets": [
+                    "0, 2, 3번 (스트리트 베팅)에 2 칩",
+                    "4와 7번 (스플릿 베팅)에 1 칩",
+                    "12와 15번 (스플릿 베팅)에 1 칩",
+                    "18과 21번 (스플릿 베팅)에 1 칩",
+                    "19와 22번 (스플릿 베팅)에 1 칩",
+                    "25, 26, 28, 29번 (코너 베팅)에 2 칩",
+                    "32와 35번 (스플릿 베팅)에 1 칩"
+                ]
+            },
+            "zero": {
+                "name": "JEU ZERO 또는 ZERO",
+                "description": "ZERO 베팅을 하면 6개의 베팅 번호를 포함하게 됩니다. 플레이어는 선택한 베팅 금액의 4배에 해당하는 칩이 필요합니다. 다음은 ZERO 베팅에 포함된 번호들입니다:",
+                "bets": [
+                    "0과 3번 (스플릿 베팅)에 1 칩",
+                    "12와 15번 (스플릿 베팅)에 1 칩",
+                    "26번 (스트레이트 업 베팅)에 1 칩",
+                    "32와 35번 (스플릿 베팅)에 1 칩"
+                ]
+            }
+        },
+        "side-bet": {
+            "name": "사이드 베팅",
+            "description": "이 베팅은 룰렛 휠에서 선택한 주요 번호의 왼쪽 또는 오른쪽 번호를 포함합니다. 사이드 베팅은 레이스트랙 모드에서만 가능합니다. 동시에 얼마나 많은 번호에 베팅할지 결정하려면 레이스트랙 패널의 왼쪽에 있는 + - 버튼을 사용할 수 있습니다. 사이드 베팅에서는 1부터 9칩까지 선택할 수 있습니다.",
+            "example": "예를 들어 1 칩만 선택하면 룰렛 휠에서 선택한 번호의 왼쪽 또는 오른쪽 번호가 자동으로 1 칩으로 채워집니다."
+        }
+    }
+}

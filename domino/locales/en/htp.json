@@ -1,0 +1,182 @@
+{
+    "introduction": {
+        "title": "INTRODUCTION",
+        "content": "Domino Live is one of the oldest and most popular traditional games, derived from Pai Gow with elements of Baccarat and Dragon Tiger. This game involves both Player and Banker sides. <br/>Special card combinations offer <b>payout</b> opportunities <b>of up to 666x!</b> Betting on special cards adds a thrilling and dynamic dimension to the game."
+    },
+    "goal": {
+        "title": "GAME OBJECTIVE",
+        "content": "The objective in Domino Live is to guess which side, Player or Banker, will have the highest total points (closest to 9) or if it will be a Tie. Players can also bet on Special Card combinations to win larger payouts."
+    },
+    "rules": {
+        "title": "GAME MECHANICS & RULES",
+        "steps": [
+            "The game will be hosted by a <i>Dealer</i>.",
+            "The game uses 7 decks of domino cards in one <i>Shoe</i> (total of 28 cards per deck).",
+            "The game is played between the Player and Banker sides.",
+            "The game begins when the <i>Dealer</i> opens the betting period, and all bets are automatically accepted when time expires.",
+            "The Dealer deals two cards to both the Player and Banker.",
+            "The side with the highest points or closest to 9 wins.",
+            "If the result is a <b>Tie</b>, the Player and Banker bets are returned. Tie bets win if the result is a Tie.",
+            "The order of Special Cards from highest to lowest is: Six Gods > Twin Series > Pure Big > Pure Small."
+        ]
+    },
+    "domino-card": {
+        "title": "DOMINO CARDS",
+        "description": "There are 28 cards in a set of Domino cards. Each card has a different number of dots on the top and bottom. The card types are grouped into series, with 7 series in total:",
+        "seri-0": {
+            "heading": "Series 0",
+            "description": "Total of 7 cards in this series. Each card has a value of 0 on the top side and a value between 0-6 on the bottom."
+        },
+        "seri-1": {
+            "heading": "Series 1",
+            "description": "Total of 6 cards in this series. Each card has a value of 1 on the top side and a value between 1-6 on the bottom."
+        },
+        "seri-2": {
+            "heading": "Series 2",
+            "description": "Total of 5 cards in this series. Each card has a value of 2 on the top side and a value between 2-6 on the bottom."
+        },
+        "seri-3": {
+            "heading": "Series 3",
+            "description": "Total of 4 cards in this series. Each card has a value of 3 on the top side and a value between 3-6 on the bottom."
+        },
+        "seri-4": {
+            "heading": "Series 4",
+            "description": "Total of 3 cards in this series. Each card has a value of 4 on the top side and a value between 4-6 on the bottom."
+        },
+        "seri-5": {
+            "heading": "Series 5",
+            "description": "Total of 2 cards in this series. Each card has a value of 5 on the top side and a value between 5-6 on the bottom."
+        },
+        "seri-6": {
+            "heading": "Series 6",
+            "description": "Total of 1 card in this series. The card has a value of 6 on both the top and bottom sides."
+        }
+    },
+    "counting-card": {
+        "title": "How to Count Cards",
+        "example": "Example: ",
+        "description": "To calculate domino points, sum up all the dots on both cards. The highest point is 9 (Q). If the total adds up to a two-digit number, use the second digit as the total points.",
+        "case-example": "Case Example: ",
+        "6+6+4+4 2": "In the example above, the Player <b>wins</b> with a total of <b>8 points</b>, while the Banker <b>loses</b> with a total of <b>2 points</b>.",
+        "q-no-q": {
+            "heading": "Q and No Q",
+            "description": "Rules for Q, No Q, and Q0-9 bets are determined by the points of the four cards consisting of 2 Player cards and 2 Banker cards. Here’s an explanation of these bets:"
+        },
+        "bet-q": {
+            "heading": "Q Bet",
+            "description": "Q bet wins if <b>two</b> out of the four cards <b>combine to make 9 points (Q)</b>.",
+            "description-2": "The first card (<b>7 points</b>) and the second card (<b>2 points</b>) add up to <b>9 points</b>, making the Q bet a win."
+        },
+        "bet-no-q": {
+            "heading": "No Q Bet",
+            "description": "No Q bet wins <b>if there is no</b> combination of four cards that <b>adds up to 9 points (Q)</b>.",
+            "description-2": "No pairs of cards add up to <b>9 points</b>, making the No Q bet a win."
+        },
+        "bet-q0-q9": {
+            "heading": "Q0 - Q9 Bet",
+            "description": "The Q0 - Q9 bet wins if <b>two cards</b> combine to make <b>9 points (Q)</b>, and you correctly guess the specific total points of the <b>other two cards</b>.",
+            "description-2": "The first card (<b>7 points</b>) and the second card (<b>2 points</b>) add up to <b>9 points</b>. The second card (<b>4 points</b>) and fourth card (<b>6 points</b>) total <b>0 points</b>, so the Q0 bet wins."
+        }
+    },
+    "special-card-and-jackpot": {
+        "title": "SPECIAL CARDS & JACKPOT",
+        "description": "Special Cards enhance the excitement and offer greater chances to win. Special Cards form by combining the two Player cards and two Banker cards. There are four Special Cards (Six Gods, Twin Series, Pure Big, Pure Small). If more than one Special Card forms in a round, the highest-ranked card wins.",
+        "case-example": "Case Example: ",
+        "1-seq": {
+            "heading": "Six Gods (Ranked First)",
+            "description": "The Six Gods card forms when all four cards have <b>6 dots</b>.",
+            "description-2": "All four cards have <b>6 dots</b>, so the Six Gods bet wins."
+        },
+        "2-seq": {
+            "heading": "Twin Series (Ranked Second)",
+            "description": "The Twin Series card forms when all four cards have <b>matching pairs of dots</b>.",
+            "description-2": "All four cards have <b>matching pairs of dots</b>, so the Twin Series bet wins.",
+            "note": "*Cards 33 33 33 33 are considered Six Gods, not Twin Series."
+        },
+        "3-seq": {
+            "heading": "Pure Big (Ranked Third)",
+            "description": "The Pure Big card forms when the total dots on all four cards are <b>39 to 47</b>.",
+            "description-2": "The four cards have a total of <b>39 dots</b>, so the Pure Big bet wins.",
+            "description-3": "The four cards have a total of <b>47 dots</b>, so the Pure Big bet wins."
+        },
+        "4-seq": {
+            "heading": "Pure Small (Ranked Fourth)",
+            "description": "The Pure Small card forms when the total dots on all four cards are <b>1 to 9</b>.",
+            "description-2": "The four cards have a total of <b>1 dot</b>, so the Pure Small bet wins.",
+            "description-3": "The four cards have a total of <b>9 dots</b>, so the Pure Small bet wins."
+        },
+        "jackpot": {
+            "heading": "Jackpot",
+            "description": "The Jackpot bet covers <b>all</b> Special Cards listed above. If you bet on the Jackpot and the resulting combination includes any Special Card, you win the Jackpot."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Bet Descriptions and Examples",
+        "winning-conditions": "Winning Conditions",
+        "bet": "BET",
+        "result": "RESULT",
+        "status": "STATUS",
+        "description": "Description",
+        "example": "Example",
+        "player": "PLAYER",
+        "banker": "BANKER",
+        "card": "CARD",
+        "main-bet": {
+            "heading": "Main Bet",
+            "player": {
+                "title": "PLAYER",
+                "description": "Pays if the <b>Player’s</b> total points are <b>higher than the Banker’s</b>."
+            },
+            "banker": {
+                "title": "BANKER",
+                "description": "Pays if the <b>Banker’s</b> total points are <b>higher than the Player’s</b>."
+            },
+            "tie": {
+                "title": "TIE",
+                "description": "Pays if both the Player and Banker have <b>equal points</b>."
+            }
+        },
+        "side-bet": {
+            "heading": "Side Bet",
+            "q": {
+                "title": "Q",
+                "description": "Pays if <b>two cards</b> form a Q (<b>9 points</b>)."
+            },
+            "no-q": {
+                "title": "No Q",
+                "description": "Pays if <b>no two cards</b> form a Q (<b>9 points</b>)."
+            },
+            "q0-q9": {
+                "title": "Q0 - Q9",
+                "description": "Pays if <b>two cards</b> form a Q (<b>9 points</b>) and the other two cards match the specified <b>points (0-9)</b>."
+            }
+        },
+        "special-bet": {
+            "heading": "Special Bet",
+            "six-gods": {
+                "title": "SIX GODS",
+                "description": "Pays if all four cards have <b>6 dots</b>."
+            },
+            "twin-series": {
+                "title": "TWIN SERIES",
+                "description": "Pays if all four cards have <b>matching pairs of dots</b>."
+            },
+            "pure-big": {
+                "title": "PURE BIG",
+                "description": "Pays if the <b>total dots</b> on all four cards are <b>39-47</b>."
+            },
+            "pure-small": {
+                "title": "PURE SMALL",
+                "description": "Pays if the <b>total dots</b> on all four cards are <b>1-9</b>."
+            },
+            "jackpot": {
+                "title": "JACKPOT",
+                "description": "Pays if any Special Card appears among all four cards."
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout"
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "introduction": {
+        "title": "简介",
+        "content": "尽情享受IDNLIVE呈现的最新独特游戏。12D游戏是一款您熟悉的传统游戏，这款非常简单且有趣的游戏带有一种更加现代化的新风貌。"
+    },
+    "goal": {
+        "title": "游戏目标",
+        "content": "12D游戏的目标是正确预测结果的球号，您可以选择多种投注组合来进行游戏。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "本游戏使用一个球和12D面板",
+            "游戏开始时，荷官会打开下注时间",
+            "现在您需要在我们提供的下注面板上下注",
+            "当时间结束后，所有的下注都会被自动接受",
+            "下注时间结束后，荷官会将球滚动到面板上，确定本轮的结果",
+            "所有50-50类型的投注如果结果是Jackpot，将会退还",
+            "所有数字、列和行的投注如果结果是Jackpot，将会失效",
+            "结果将包括数字1至12和Jackpot，若球未明确落定，将会触发“游戏未开始”的状态，荷官将在结果明确之前重新滚动球"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "如何下注",
+        "single-number-bet": "单一数字投注",
+        "two-numbers-bets": "2个数字投注 (分注)",
+        "four-numbers-bets": "4个数字投注 (角注)",
+        "line-row-bets": "列与行投注",
+        "jackpots-and-50_50-bets": "Jackpot与50-50投注"
+    },
+    "bet-description-and-example": {
+        "title": "下注描述与例子",
+        "winning-conditions": "胜利条件",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主要投注",
+            "single": {
+                "title": "单一数字",
+                "description": "投注单一数字",
+                "winning-conditions": "如果结果与您的投注数字匹配，则获胜",
+                "examples": [
+                    { "bet": "7", "result": "7", "status": "WIN" },
+                    { "bet": "7", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "split": {
+                "title": "分注",
+                "description": "投注两个相邻的数字",
+                "winning-conditions": "如果结果为您投注的两个相邻数字之一，则获胜",
+                "examples": [
+                    { "bet": "1,4", "result": "4", "status": "WIN" },
+                    { "bet": "1,4", "result": "9", "status": "LOSE" }
+                ]
+            },
+            "corner": {
+                "title": "角注",
+                "description": "投注四个相邻的数字",
+                "winning-conditions": "如果结果为您投注的四个相邻数字之一，则获胜",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "WIN" },
+                    { "bet": "1,2,4,5", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "line": {
+                "title": "列",
+                "description": "投注某列的数字",
+                "winning-conditions": "如果结果为您投注的列中的数字，则获胜",
+                "examples": [
+                    { "bet": "列 2", "result": "6", "status": "WIN" },
+                    { "bet": "列 2", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "row": {
+                "title": "行",
+                "description": "投注某行的数字",
+                "winning-conditions": "如果结果为您投注的行中的数字，则获胜",
+                "examples": [
+                    { "bet": "行 3", "result": "9", "status": "WIN" },
+                    { "bet": "行 3", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "jackpot": {
+                "title": "Jackpot",
+                "description": "投注Jackpot",
+                "winning-conditions": "如果结果为Jackpot，您将获胜",
+                "examples": [
+                    { "bet": "Jackpot", "result": "Jackpot", "status": "WIN" },
+                    { "bet": "Jackpot", "result": "1", "status": "LOSE" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50投注",
+            "small": {
+                "title": "小",
+                "description": "",
+                "winning-conditions": "如果结果为1到6之间的数字，则获胜",
+                "examples": [
+                    { "bet": "小", "result": "1", "status": "WIN" },
+                    { "bet": "小", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "big": {
+                "title": "大",
+                "description": "",
+                "winning-conditions": "如果结果为7到12之间的数字，则获胜",
+                "examples": [
+                    { "bet": "大", "result": "7", "status": "WIN" },
+                    { "bet": "大", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "odd": {
+                "title": "奇数",
+                "description": "",
+                "winning-conditions": "如果结果为奇数，则获胜",
+                "examples": [
+                    { "bet": "奇数", "result": "1", "status": "WIN" },
+                    { "bet": "奇数", "result": "2", "status": "LOSE" }
+                ]
+            },
+            "even": {
+                "title": "偶数",
+                "description": "",
+                "winning-conditions": "如果结果为偶数，则获胜",
+                "examples": [
+                    { "bet": "偶数", "result": "4", "status": "WIN" },
+                    { "bet": "偶数", "result": "3", "status": "LOSE" }
+                ]
+            },
+            "red": {
+                "title": "红色",
+                "description": "",
+                "winning-conditions": "如果结果为红色，则获胜",
+                "examples": [
+                    { "bet": "红色", "result": "3", "status": "WIN" },
+                    { "bet": "红色", "result": "4", "status": "LOSE" }
+                ]
+            },
+            "black": {
+                "title": "黑色",
+                "description": "",
+                "winning-conditions": "如果结果为黑色，则获胜",
+                "examples": [
+                    { "bet": "黑色", "result": "4", "status": "WIN" },
+                    { "bet": "黑色", "result": "3", "status": "LOSE" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付",
+        "bonus-payout": "奖金支付",
+        "thunder-bonus": "雷电奖金",
+        "number-times": "x{{value}}"
+    }
+}

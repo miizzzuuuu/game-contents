@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Baccarat is a game where <b>you bet on which hand will win</b>: Player, Banker, or a Tie, with the goal of having a total value closest to <b>9</b>."
+        ]
+    },
+    "slide-2": {
+        "title": "How to Play",
+        "content": [
+            "Cards have values based on their numbers, with <b>face cards (J, Q, K) worth 0</b> and <b>Ace worth 1</b>. If the total card value exceeds 9, only the last digit is counted (for example, 15 becomes 5)."
+        ]
+    },
+    "slide-3": {
+        "title": "Winning",
+        "content": [
+            "The winner is the hand with a total score <b>closest to 9</b>. If the total points are the same for Player and Banker, the result is a Tie."
+        ]
+    }
+}

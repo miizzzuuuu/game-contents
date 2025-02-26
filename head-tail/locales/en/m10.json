@@ -1,0 +1,24 @@
+{
+    "head": "head",
+    "tail": "tail",
+    "left": "left",
+    "right": "right",
+    "left/right": "left/right",
+    "head/tail": "head/tail",
+    "head win": "head win",
+    "tail win": "tail win",
+    "coin 1": "coin 1",
+    "coin 2": "coin 2",
+    "coin 3": "coin 3",
+
+    "head, head, tail": "head, head, tail",
+    "tail, tail, head": "tail, tail, head",
+    "coin bet": "coin bet",
+    "combination bet (in order)": "combination bet (in order)",
+    "head, head, head": "head, head, head",
+    "head, tail, tail": "head, tail, tail",
+    "head, tail, head": "head, tail, head",
+    "tail, head, head": "tail, head, head",
+    "tail, head, tail": "tail, head, tail",
+    "tail, tail, tail": "tail, tail, tail"
+}

@@ -1,0 +1,256 @@
+{
+    "introduction": {
+        "title": "소개",
+        "content": "IDNLIVE에서 제공하는 최신의 독특한 게임을 즐겨보세요. 12D 게임은 여러분에게 친숙한 전통적인 게임으로, 매우 간단하고 재미있는 이 게임은 새로운 현대적인 모습으로 다시 태어났습니다."
+    },
+    "goal": {
+        "title": "게임 목표",
+        "content": "The Head and Tail game은 head 또는 tail coin을 맞추는 게임입니다. The head는 빨간색과 Dragon 로고로 표시되고, Tail은 파란색과 Tiger 로고로 표시됩니다. 이 게임에는 3개의 Coins가 있습니다. 게임 방법은 세 개의 Coins 중 어떤 Coins이 나올지 예측하는 것입니다."
+    },
+    "rules": {
+        "title": "규칙",
+        "steps": [
+            "발행된 번호 외에서 구매하면 패배하며, 돈은 전혀 환불되지 않습니다.",
+            "기존 번호 외에서 구매할 수 있는 번호(해킹이나 번호 보호를 우회하여 구매한 경우)가 있으면, 패배로 선언되며 돈은 보류되지 않습니다."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "베팅 방법",
+        "single-number-bet": "단일 번호 베팅",
+        "two-numbers-bets": "2개 번호 베팅 (스플릿)",
+        "four-numbers-bets": "4개 번호 베팅 (코너)",
+        "line-row-bets": "열 및 행 베팅",
+        "jackpots-and-50_50-bets": "잭팟 및 50-50 베팅",
+        "no-key": " ",
+        "50-50": "50-50 배팅은 50% 확률로 동전의 결과를 맞추는 것입니다:",
+        "coin": "Coin 1, Coin 2, Coin 3: HEAD 또는 TAIL.",
+        "tail": "TAIL : 더 많은 TAIL 출력을 예측하는 것으로, 예시: (TAIL, TAIL, TAIL), (TAIL, TAIL, HEAD), (TAIL, HEAD, TAIL), (HEAD, TAIL, TAIL).",
+        "head": "HEAD : 더 많은 HEAD 출력을 예측하는 것으로, 예시: (HEAD, HEAD, HEAD), (HEAD, HEAD, TAIL), (HEAD, TAIL, HEAD), (TAIL, HEAD, HEAD).",
+        "right": "RIGHT : (TAIL, TAIL, TAIL), (TAIL, TAIL, HEAD), (TAIL, HEAD, TAIL), (TAIL, HEAD, TAIL).",
+        "left": "LEFT : (HEAD, HEAD, HEAD), (HEAD, HEAD, TAIL), (HEAD, TAIL, HEAD), (HEAD, TAIL, TAIL)."
+    },
+    "bet-description-and-example": {
+        "title": "베팅 설명 및 예시",
+        "winning-conditions": "승리 조건",
+        "bet": "베팅",
+        "result": "결과",
+        "status": "상태",
+        "main-bet": {
+            "heading": "주요 베팅",
+            "single": {
+                "title": "단일 번호",
+                "description": "하나의 번호에 베팅",
+                "winning-conditions": "결과가 당신의 베팅과 일치하면 승리",
+                "examples": [
+                    {
+                        "bet": "7",
+                        "result": "7",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "7",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "split": {
+                "title": "스플릿",
+                "description": "두 개의 인접한 번호에 베팅",
+                "winning-conditions": "결과가 당신이 베팅한 두 개의 인접한 번호 중 하나일 때 승리",
+                "examples": [
+                    {
+                        "bet": "1,4",
+                        "result": "4",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "1,4",
+                        "result": "9",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "corner": {
+                "title": "코너",
+                "description": "하나의 코너에 만나는 네 개의 번호에 베팅",
+                "winning-conditions": "결과가 당신이 베팅한 네 개의 인접한 번호 중 하나일 때 승리",
+                "examples": [
+                    {
+                        "bet": "1,2,4,5",
+                        "result": "5",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "1,2,4,5",
+                        "result": "7",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "line": {
+                "title": "열",
+                "description": "번호 열에 베팅",
+                "winning-conditions": "결과가 당신이 베팅한 열의 번호일 때 승리",
+                "examples": [
+                    {
+                        "bet": "열 2",
+                        "result": "6",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "열 2",
+                        "result": "7",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "row": {
+                "title": "행",
+                "description": "번호 행에 베팅",
+                "winning-conditions": "결과가 당신이 베팅한 행의 번호일 때 승리",
+                "examples": [
+                    {
+                        "bet": "행 3",
+                        "result": "9",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "행 3",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "jackpot": {
+                "title": "잭팟",
+                "description": "잭팟에 베팅",
+                "winning-conditions": "결과가 잭팟일 때 승리",
+                "examples": [
+                    {
+                        "bet": "잭팟",
+                        "result": "잭팟",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "잭팟",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 베팅",
+            "small": {
+                "title": "작은",
+                "description": "",
+                "winning-conditions": "결과가 1에서 6까지일 때 승리",
+                "examples": [
+                    {
+                        "bet": "작은",
+                        "result": "1",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "작은",
+                        "result": "7",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "big": {
+                "title": "큰",
+                "description": "",
+                "winning-conditions": "결과가 7에서 12까지일 때 승리",
+                "examples": [
+                    {
+                        "bet": "큰",
+                        "result": "7",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "큰",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "odd": {
+                "title": "홀수",
+                "description": "",
+                "winning-conditions": "결과가 홀수일 때 승리",
+                "examples": [
+                    {
+                        "bet": "홀수",
+                        "result": "1",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "홀수",
+                        "result": "2",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "even": {
+                "title": "짝수",
+                "description": "",
+                "winning-conditions": "결과가 짝수일 때 승리",
+                "examples": [
+                    {
+                        "bet": "짝수",
+                        "result": "4",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "짝수",
+                        "result": "3",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "red": {
+                "title": "빨강",
+                "description": "",
+                "winning-conditions": "결과가 빨간색일 때 승리",
+                "examples": [
+                    {
+                        "bet": "빨강",
+                        "result": "3",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "빨강",
+                        "result": "4",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "black": {
+                "title": "검정",
+                "description": "",
+                "winning-conditions": "결과가 검은색일 때 승리",
+                "examples": [
+                    {
+                        "bet": "검정",
+                        "result": "4",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "검정",
+                        "result": "3",
+                        "status": "LOSE"
+                    }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "지급",
+        "bet-payout": "베팅 지급",
+        "bonus-payout": "보너스 지급",
+        "thunder-bonus": "천둥 보너스",
+        "number-times": "x{{value}}"
+    }
+}

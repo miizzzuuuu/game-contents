@@ -1,0 +1,52 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Monopoly là một trò chơi độc đáo được phát triển bởi IDNLIVE. Trò chơi này tương tự như trò Monopoly nổi tiếng, nhưng trong phiên bản này, chúng tôi thay thế bằng 16 quốc gia làm cược và bổ sung 4 khu vực đặc biệt."
+    },
+    "rules": {
+        "title": "Quy tắc",
+        "steps": [
+            "Trò chơi bắt đầu khi người chia bài mở thời gian đặt cược.",
+            "Bạn phải đặt cược trên bảng đặt cược mà chúng tôi cung cấp.",
+            "Khu vực đặc biệt không được tính vào bất kỳ cược nào trên bảng đặt cược.",
+            "Sau khi thời gian đặt cược kết thúc, người chia bài sẽ tung xúc xắc 20 mặt có số từ 1-20 để xác định số bước di chuyển.",
+            "Khi có kết quả, hệ thống sẽ xác định kết quả của vòng chơi dựa trên số đó.",
+            "Nếu xúc xắc không dừng hoàn toàn và số không rõ ràng, trạng thái 'không có trò chơi' sẽ xảy ra và người chia bài sẽ tung xúc xắc lại cho đến khi có kết quả rõ ràng.",
+            "Có 20 ô được chia thành 5 khu vực, mỗi khu vực có màu sắc riêng.",
+            "Khu vực đặc biệt không được tính vào bất kỳ cược nào."
+        ],
+        "notes": "<span style='color: #FFC700;'>Lưu ý:</span>",
+        "note": "Đối với cược 50:50 (cược 8 quốc gia), nếu kết quả là một trong các khu vực đặc biệt, chip sẽ được hoàn lại."
+    },
+    "special-description": {
+        "special": "Đặc biệt",
+        "description": "Mô tả",
+        "x1/2": "Tất cả các cược sẽ trả một nửa số tiền cược.",
+        "x1": "Tất cả các cược sẽ trả bằng số tiền cược.",
+        "x2": "Tất cả các cược sẽ trả gấp đôi số tiền cược.",
+        "zonk": "Tất cả các cược sẽ thua trừ cược 50:50."
+    },
+    "placing-a-bet": {
+        "title": "Đặt cược",
+        "single-bet": {
+            "title": "Đơn lẻ",
+            "emblem": "(Cược 1 quốc gia)"
+        },
+        "zone-bet": {
+            "title": "KHU VỰC",
+            "emblem": "(Cược 4 quốc gia)"
+        },
+        "side-bet": {
+            "title": "50:50",
+            "emblem": "(Cược 8 quốc gia)"
+        }
+    },
+    "payout": {
+        "title": "Thanh toán",
+        "bet-payout": "Thanh toán cược",
+        "bonus-payout": "Thanh toán thưởng",
+        "lucky-number-multiplier": "Hệ số số may mắn",
+        "jackpot-number-multiplier": "Hệ số số Jackpot",
+        "number-times": "{{value}} lần"
+    }
+}

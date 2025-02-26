@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Head & Tail",
+        "content": [
+            "Head & Tail is a game where you predict the result of 3 coin combinations dropped by the dealer. Each coin has 2 sides, Head (red dragon logo) and Tail (blue tiger logo)."
+        ]
+    },
+    "slide-2": {
+        "title": "How to Play",
+        "content": [
+            "You can bet on the result of each coin, coin combinations, combined coin combinations, or bet on the side that appears the most."
+        ]
+    },
+    "slide-3": {
+        "title": "How to Win",
+        "content": [
+            "3 coins will drop and form a combination. Bets that match the result will win."
+        ]
+    }
+}

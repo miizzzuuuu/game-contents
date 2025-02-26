@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Cara Bermain",
+        "content": [
+            "Red white dimainkan dengan menjatuhkan 3 bola ke papan yang terdiri dari kotak merah, putih, dan jackpot."
+        ]
+    },
+    "slide-2": {
+        "title": "Memasang Taruhan",
+        "content": [
+            "Anda dapat bertaruh pada <b>Dua Merah</b>, <b>Dua Putih</b>, <b>Tiga Merah</b>, <b>Tiga Putih</b>, <b>Jackpot</b>, dan <b>Dua Jackpot</b> sekaligus untuk mendapatkan <b>peluang kemenangan lebih besar</b>."
+        ]
+    },
+    "slide-3": {
+        "title": "Hasil Permainan",
+        "content": [
+            "3 bola akan mendarat pada papan Red White membentuk sebuah kombinasi. Taruhan yang sesuai dengan hasil tersebut akan menang."
+        ]
+    }
+}

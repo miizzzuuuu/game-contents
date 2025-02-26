@@ -1,0 +1,24 @@
+{
+    "head": "头",
+    "tail": "尾",
+    "left": "左",
+    "right": "右",
+    "left/right": "左/右",
+    "head/tail": "头/尾",
+    "head win": "头赢",
+    "tail win": "尾赢",
+    "coin 1": "硬币 1",
+    "coin 2": "硬币 2",
+    "coin 3": "硬币 3",
+
+    "head, head, tail": "正面, 正面, 反面",
+    "tail, tail, head": "反面, 反面, 正面",
+    "coin bet": "硬币投注",
+    "combination bet (in order)": "组合投注 (按顺序)",
+    "head, head, head": "正面, 正面, 正面",
+    "head, tail, tail": "正面, 反面, 反面",
+    "head, tail, head": "正面, 反面, 正面",
+    "tail, head, head": "反面, 正面, 正面",
+    "tail, head, tail": "反面, 正面, 反面",
+    "tail, tail, tail": "反面, 反面, 反面"
+}

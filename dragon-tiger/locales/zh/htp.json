@@ -1,0 +1,81 @@
+{
+    "introduction": {
+        "title": "简介",
+        "content": "龙虎是最简单的赌博游戏之一。基本上它是百家乐的两张牌版本。更详细地说，两张牌将被发出，一张给龙，一张给虎。玩家可以下注哪一方的牌面值较高。"
+    },
+    "goal": {
+        "title": "游戏目标",
+        "content": "龙虎游戏的目标是预测哪一方的牌值最高或最接近数字13（玩家、庄家或平局）。"
+    },
+    "rules": {
+        "title": "一般规则",
+        "steps": [
+            "游戏将由<i>荷官</i>引导。",
+            "该游戏使用8副牌放在一个<i>鞋</i>中。",
+            "每当使用新的<i>鞋</i>时，<i>荷官</i>将抽一张牌来决定需要<i>烧</i>掉或丢弃的牌数。最多可丢弃13张牌。",
+            "下注时间结束后，<i>荷官</i>会分别给龙和虎发一张牌。",
+            "持有最高牌值的手获胜。",
+            "如果结果是<b>平局</b>，龙和虎的投注将返还一半。只有当龙和虎的牌值相同，平局投注才获胜。",
+            "如果结果为7，所有边注将输。"
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "投注描述与示例",
+        "winning-conditions": "获胜条件",
+        "description": "描述",
+        "examples": "示例",
+        "anything": "任意",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主要投注",
+            "dragon": {
+                "title": "龙",
+                "description": "如果龙的牌值高于虎，则支付"
+            },
+            "tiger": {
+                "title": "虎",
+                "description": "如果虎的牌值高于龙，则支付"
+            },
+            "tie": {
+                "title": "平局",
+                "description": "如果龙和虎的牌值相同，则支付"
+            }
+        },
+        "side-bet": {
+            "heading": "边注",
+            "heading-dragon": "龙的边注",
+            "heading-tiger": "虎的边注",
+            "note": "*如果结果是7，边注将输",
+            "small": {
+                "title": "小",
+                "description": "结果在1到6之间"
+            },
+            "big": {
+                "title": "大",
+                "description": "结果在8到13之间"
+            },
+            "odd": {
+                "title": "奇数",
+                "description": "结果为奇数"
+            },
+            "even": {
+                "title": "偶数",
+                "description": "结果为偶数"
+            },
+            "red": {
+                "title": "红色",
+                "description": "结果为红色"
+            },
+            "black": {
+                "title": "黑色",
+                "description": "结果为黑色"
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付"
+    }
+}

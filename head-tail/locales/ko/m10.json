@@ -1,0 +1,24 @@
+{
+    "head": "머리",
+    "tail": "꼬리",
+    "left": "왼쪽",
+    "right": "오른쪽",
+    "left/right": "왼쪽/오른쪽",
+    "head/tail": "머리/꼬리",
+    "head win": "머리 승",
+    "tail win": "꼬리 승",
+    "coin 1": "동전 1",
+    "coin 2": "동전 2",
+    "coin 3": "동전 3",
+
+    "head, head, tail": "앞면, 앞면, 뒷면",
+    "tail, tail, head": "뒷면, 뒷면, 앞면",
+    "coin bet": "동전 베팅",
+    "combination bet (in order)": "조합 베팅 (순서대로)",
+    "head, head, head": "앞면, 앞면, 앞면",
+    "head, tail, tail": "앞면, 뒷면, 뒷면",
+    "head, tail, head": "앞면, 뒷면, 앞면",
+    "tail, head, head": "뒷면, 앞면, 앞면",
+    "tail, head, tail": "뒷면, 앞면, 뒷면",
+    "tail, tail, tail": "뒷면, 뒷면, 뒷면"
+}

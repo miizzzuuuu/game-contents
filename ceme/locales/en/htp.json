@@ -1,0 +1,189 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "CEME 7,8,9 is the latest authentic game innovation from IDNLIVE EUROPE, similar to Baccarat but using domino cards. This fast-paced game offers exciting new gameplay involving <b>3 Players</b> and <b>1 Banker</b>, where you can bet on all three Players simultaneously against the Banker in a single round.",
+        "content-2": "With an intriguing concept, 7,8,9 betting offers multiple payout opportunities. Start playing now and enjoy the thrill of winning at CEME 7,8,9!"
+    },
+    "goal": {
+        "title": "Game Objective",
+        "content": "The goal of the CEME 7,8,9 game is to guess which Player will have a total score that beats the Banker. If you correctly guess the winning Player or a specific point (7,8,9), your winnings will increase drastically."
+    },
+    "rules": {
+        "title": "Rules",
+        "steps": [
+            "The game is guided by a <i>Dealer</i>.",
+            "This game uses 16 sets of domino cards in one <i>Shoe</i> (28 cards per set).",
+            "The game is played with 1 Banker and 3 Players (Player 1, Player 2, Player 3).",
+            "The game starts when the <i>Dealer</i> opens the betting time, and all bets are automatically accepted when time runs out.",
+            "The Dealer deals two cards to each side according to the order on the table.",
+            "The side with the highest or closest score to 9 will be the winner.",
+            "If the result is a <b>tie</b>, all bets are considered lost.",
+            "Side bets can only be won with points (7,8,9).",
+            "During certain periods, <b>Hokky Bonus</b> can appear on side bets. Lucky players will win <b>2x</b> the normal payout."
+        ]
+    },
+    "domino-card": {
+        "title": "Domino Cards",
+        "description": "There are 28 cards in 1 deck of domino cards. Each card has a top and bottom divided by a line, and each card has different points. The easiest way to remember all the cards is to group them into 7 series as described below:",
+        "seri-0": {
+            "heading": "Series 0",
+            "description": "There are a total of seven cards in this series. Each card in the zero series will have a value of 0 dots on the top side and values from 0 dots to 6 dots on the bottom side. Example cards in this series are:"
+        },
+        "seri-1": {
+            "heading": "Series 1",
+            "description": "There are a total of six cards in this series. Each card in the one series will have a value of 1 dot on the top side and values from 1 dot to 6 dots on the bottom side. Example cards in this series are:"
+        },
+        "seri-2": {
+            "heading": "Series 2",
+            "description": "There are a total of five cards in this series. Each card in the two series will have a value of 2 dots on the top side and values from 2 dots to 6 dots on the bottom side. Example cards in this series are:"
+        },
+        "seri-3": {
+            "heading": "Series 3",
+            "description": "There are a total of four cards in this series. Each card in the three series will have a value of 3 dots on the top side and values from 3 dots to 6 dots on the bottom side. Example cards in this series are:"
+        },
+        "seri-4": {
+            "heading": "Series 4",
+            "description": "There are a total of three cards in this series. Each card in the four series will have a value of 4 dots on the top side and values from 4 dots to 6 dots on the bottom side. Example cards in this series are:"
+        },
+        "seri-5": {
+            "heading": "Series 5",
+            "description": "There are a total of two cards in this series. Each card in the five series will have a value of 5 dots on the top side and values from 5 dots to 6 dots on the bottom side. Example cards in this series are:"
+        },
+        "seri-6": {
+            "heading": "Series 6",
+            "description": "There is only one card in this series. The card in this series has 6 dots on both the top and bottom sides. Example cards in this series are:"
+        }
+    },
+    "counting-card": {
+        "title": "How to Count Cards",
+        "example": "Example:",
+        "player": "Player",
+        "banker": "Banker",
+        "description": "The points on domino cards are calculated by summing the dots on both cards. The highest possible score is 9. If the total sum results in a two-digit number, <b>the second digit is used as the final score</b>.",
+        "case-example": "Case Example:",
+        "case-explain": "In the example above, the side with the highest total points is <b>Player 2</b> with <b>9</b> points. Followed by <b>Player 1</b> and <b>Player 3</b> with a total of <b>7</b> points each. Finally, <b>Banker</b> with a total of <b>2</b> points."
+    },
+    "hoky-bonus": {
+        "title": "HOKKY BONUS",
+        "content": "During certain periods, a Hokky Bonus will appear with payouts of <b>2x the normal payout!</b>",
+        "content-2": "The system will select 1 to 4 Hokky Bonuses on side bets (7,8,9) on one of the Players' sides, and the selected bet will be doubled."
+    },
+    "bet-description-and-example": {
+        "title": "Bet Descriptions and Examples",
+        "winning-conditions": "Winning Conditions",
+        "bet": "Bet",
+        "result": "Result",
+        "status": "Status",
+        "description": "Description",
+        "result-example": "Result Example",
+        "main-bet": {
+            "heading": "Main Bet",
+            "p123": {
+                "title": "Players 1, 2, 3",
+                "description": "Paid if the Player's value is <b>greater than</b> the Banker’s value.",
+                "examples": [{ "banker": "2", "player1": "2", "player2": "3", "player3": "4" }]
+            }
+        },
+        "side-bet": {
+            "heading": "Side Bets",
+            "789": {
+                "title": "7,8,9",
+                "description": "Paid if the Player’s score is <b>7</b>, <b>8</b>, or <b>9</b> and is <b>greater than</b> the Banker’s score.",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "8", "player3": "9" }]
+            },
+            "specific-7": {
+                "title": "Specific 7",
+                "description": "Paid if the specific Player's score is <b>7</b> and is <b>greater than</b> the Banker’s score.",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "7", "player3": "7" }]
+            },
+            "specific-8": {
+                "title": "Specific 8",
+                "description": "Paid if the specific Player's score is <b>8</b> and is <b>greater than</b> the Banker’s score.",
+                "examples": [{ "banker": "2", "player1": "8", "player2": "8", "player3": "8" }]
+            },
+            "specific-9": {
+                "title": "Specific 9",
+                "description": "Paid if the specific Player's score is <b>9</b> and is <b>greater than</b> the Banker’s score.",
+                "examples": [{ "banker": "2", "player1": "9", "player2": "9", "player3": "9" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout",
+        "bet": "Bet",
+        "payout": "Payout",
+        "normal-payout": "Normal Payout",
+        "2x-payout": "2x Bonus Payout",
+        "condition": "Condition",
+        "main-bet": {
+            "title": "Main Bet",
+            "p123": {
+                "title": "Players 1, 2, 3",
+                "table": [
+                    {
+                        "winning-conditions": "Win with 1-8 points",
+                        "payout": "0.95:1"
+                    },
+                    {
+                        "winning-conditions": "Win with 9 points",
+                        "payout": "2:1"
+                    }
+                ]
+            }
+        },
+        "side-bet": {
+            "title": "Side Bets",
+            "789": {
+                "title": "7, 8, 9",
+                "table": [
+                    {
+                        "winning-conditions": "Win with <b>7</b> points",
+                        "normal-payout": "1:1",
+                        "2x-payout": "3:1"
+                    },
+                    {
+                        "winning-conditions": "Win with <b>8</b> points",
+                        "normal-payout": "2.5:1",
+                        "2x-payout": "6:1"
+                    },
+                    {
+                        "winning-conditions": "Win with <b>9</b> points",
+                        "normal-payout": "5:1",
+                        "2x-payout": "11:1"
+                    }
+                ]
+            },
+            "specific-7": {
+                "title": "Specific 7",
+                "table": [
+                    {
+                        "winning-conditions": "Win with <b>7</b> points",
+                        "normal-payout": "13:1",
+                        "2x-payout": "27:1"
+                    }
+                ]
+            },
+            "specific-8": {
+                "title": "Specific 8",
+                "table": [
+                    {
+                        "winning-conditions": "Win with <b>8</b> points",
+                        "normal-payout": "10.5:1",
+                        "2x-payout": "22:1"
+                    }
+                ]
+            },
+            "specific-9": {
+                "title": "Specific 9",
+                "table": [
+                    {
+                        "winning-conditions": "Win with <b>9</b> points",
+                        "normal-payout": "9.5:1",
+                        "2x-payout": "20:1"
+                    }
+                ]
+            }
+        }
+    }
+}

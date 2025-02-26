@@ -1,0 +1,185 @@
+{
+    "introduction": {
+        "title": "giới thiệu",
+        "content": "Hãy tận hưởng thế hệ trò chơi mới nhất được cung cấp bởi IDNLIVE. Trò chơi 12D là một trò chơi quen thuộc với bạn, trò chơi rất đơn giản và thú vị này đi kèm với một điểm nhấn độc đáo mới chỉ dành cho bạn. Tận hưởng Thunder Bonus lên đến 500 lần tiền cược của bạn và trở thành người chiến thắng."
+    },
+    "rules": {
+        "title": "quy tắc",
+        "steps": [
+            "Trò chơi này sử dụng một quả bóng và bảng 12D.",
+            "Trò chơi bắt đầu khi nhà cái mở thời gian để đặt cược.",
+            "Bây giờ bạn phải đặt cược vào bảng cược mà chúng tôi cung cấp.",
+            "Tất cả các cược trong bảng cược sẽ được chấp nhận tự động khi thời gian kết thúc.",
+            "Sau khi kết thúc thời gian đặt cược, nhà cái sẽ lăn quả bóng trên bảng để xác định kết quả cho giai đoạn đó.",
+            "Tất cả các cược loại 50-50 sẽ được hoàn lại nếu kết quả trò chơi là Jackpot.",
+            "Tất cả các cược vào Số, Dòng và Hàng sẽ thua nếu kết quả trò chơi là Jackpot.",
+            "Thunder Bonus chỉ áp dụng cho các cược số đơn.",
+            "Kết quả chỉ bao gồm các số từ 1 đến 12 và Jackpot, nếu quả bóng không được đặt rõ ràng thì sẽ có trạng thái \"không có trò chơi\" và nhà cái sẽ lăn bóng thêm một lần nữa cho đến khi kết quả rõ ràng."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Đặt cược",
+        "single-number-bet": "Cược Số Đơn.",
+        "two-numbers-bets": "Cược 2 Số (Chia).",
+        "four-numbers-bets": "Cược 4 Số (Góc).",
+        "line-row-bets": "Cược Hàng & Dòng.",
+        "jackpots-bet": "Cược Jackpot.",
+        "50-50-bets": "Cược 50-50."
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả và Ví dụ về Cược",
+        "winning-conditions": "Điều kiện Thắng",
+        "bet": "CƯỢC",
+        "result": "KẾT QUẢ",
+        "status": "TRẠNG THÁI",
+        "main-bet": {
+            "heading": "Cược Chính",
+            "single": {
+                "title": "Số Đơn",
+                "description": "Cược vào một số",
+                "winning-conditions": "Kết quả khớp với cược của bạn",
+                "examples": [
+                    { "bet": "7", "result": "7", "status": "THẮNG" },
+                    { "bet": "7", "result": "1", "status": "THUA" }
+                ]
+            },
+            "split": {
+                "title": "Chia",
+                "description": "Cược vào hai số liền kề theo chiều dọc/ngang",
+                "winning-conditions": "Kết quả là một trong hai số liền kề mà bạn đã đặt cược",
+                "examples": [
+                    { "bet": "1,4", "result": "4", "status": "THẮNG" },
+                    { "bet": "1,4", "result": "9", "status": "THUA" }
+                ]
+            },
+            "corner": {
+                "title": "Góc",
+                "description": "Cược vào bốn số gặp nhau ở một góc",
+                "winning-conditions": "Kết quả là một trong bốn số liền kề mà bạn đã đặt cược",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "THẮNG" },
+                    { "bet": "1,2,4,5", "result": "7", "status": "THUA" }
+                ]
+            },
+            "line": {
+                "title": "Dòng",
+                "description": "Cược vào một dòng số",
+                "winning-conditions": "Kết quả là một số nằm trong Dòng mà bạn đã đặt cược",
+                "examples": [
+                    { "bet": "Dòng 2", "result": "6", "status": "THẮNG" },
+                    { "bet": "Dòng 2", "result": "7", "status": "THUA" }
+                ]
+            },
+            "row": {
+                "title": "Hàng",
+                "description": "Cược vào một hàng số",
+                "winning-conditions": "Kết quả là một số nằm trong Hàng mà bạn đã đặt cược",
+                "examples": [
+                    { "bet": "Hàng 3", "result": "9", "status": "THẮNG" },
+                    { "bet": "Hàng 3", "result": "1", "status": "THUA" }
+                ]
+            },
+            "jackpot": {
+                "title": "Jackpot",
+                "description": "Cược vào jackpot",
+                "winning-conditions": "Kết quả là Jackpot",
+                "examples": [
+                    { "bet": "Jackpot", "result": "Jackpot", "status": "THẮNG" },
+                    { "bet": "Jackpot", "result": "1", "status": "THUA" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "Cược 50-50",
+            "small": {
+                "title": "Nhỏ",
+                "description": "",
+                "winning-conditions": "Kết quả từ 1 đến 6",
+                "examples": [
+                    { "bet": "Nhỏ", "result": "1", "status": "THẮNG" },
+                    { "bet": "Nhỏ", "result": "7", "status": "THUA" }
+                ]
+            },
+            "big": {
+                "title": "Lớn",
+                "description": "",
+                "winning-conditions": "Kết quả từ 7 đến 12",
+                "examples": [
+                    { "bet": "Lớn", "result": "7", "status": "THẮNG" },
+                    { "bet": "Lớn", "result": "1", "status": "THUA" }
+                ]
+            },
+            "odd": {
+                "title": "Lẻ",
+                "description": "",
+                "winning-conditions": "Kết quả là số lẻ",
+                "examples": [
+                    { "bet": "Lẻ", "result": "1", "status": "THẮNG" },
+                    { "bet": "Lẻ", "result": "2", "status": "THUA" }
+                ]
+            },
+            "even": {
+                "title": "Chẵn",
+                "description": "",
+                "winning-conditions": "Kết quả là số chẵn",
+                "examples": [
+                    { "bet": "Chẵn", "result": "4", "status": "THẮNG" },
+                    { "bet": "Chẵn", "result": "3", "status": "THUA" }
+                ]
+            },
+            "red": {
+                "title": "Đỏ",
+                "description": "",
+                "winning-conditions": "Kết quả là màu đỏ",
+                "examples": [
+                    { "bet": "Đỏ", "result": "3", "status": "THẮNG" },
+                    { "bet": "Đỏ", "result": "4", "status": "THUA" }
+                ]
+            },
+            "black": {
+                "title": "Đen",
+                "description": "",
+                "winning-conditions": "Kết quả là màu đen",
+                "examples": [
+                    { "bet": "Đen", "result": "4", "status": "THẮNG" },
+                    { "bet": "Đen", "result": "3", "status": "THUA" }
+                ]
+            }
+        }
+    },
+    "thunder-bonus": {
+        "title": "Thưởng Sấm Sét",
+        "mechanism-title": "Cơ Chế Thưởng Sấm Sét",
+        "mechanism-content": "Trong trò chơi này, chúng tôi cung cấp một hệ thống thưởng độc đáo và hấp dẫn để bạn có thể đạt được những chiến thắng lớn. Sau đây là cơ chế thưởng Sấm Sét:",
+        "mechanism-points": [
+            "Trong mỗi vòng chơi, sau khi đặt cược và hết thời gian đặt cược, một số tia sét sẽ xuất hiện trên bảng ảo 12D Sấm Sét.",
+            "Trong 1 vòng chơi, ít nhất 1 tia sét và tối đa 5 tia sét sẽ xuất hiện.",
+            "Sự xuất hiện của các tia sét này cho thấy vị trí và hệ số nhân thưởng của từng con số Sấm Sét.",
+            "Số lượng, vị trí của tia sét và hệ số nhân thưởng sẽ xuất hiện ngẫu nhiên.",
+            "Thưởng Sấm Sét chỉ áp dụng cho cược số đơn. Tất cả các cược ngoài số đơn sẽ không nhận được thưởng Sấm Sét này."
+        ],
+        "how-to-get-title": "Cách Nhận Thưởng Sấm Sét",
+        "how-to-get-points": [
+            "Bạn phải đặt cược vào một số đơn.",
+            "Nếu con số bạn cược là kết quả của trò chơi và có hệ số nhân thưởng trên kết quả, bạn sẽ nhận được thưởng theo hệ số nhân đó."
+        ],
+        "example-1": {
+            "title": "Ví Dụ Nhận Thưởng Sấm Sét",
+            "content": "Dưới đây là một ví dụ về trò chơi sẽ nhận được Thưởng Sấm Sét:",
+            "points": [
+                "Đặt cược vào số {{numbers}} với số tiền {{bet, number}}.",
+                "Có {{totalThunder}} hệ số nhân trên bảng ảo.",
+                "Bóng dừng ở số {{result}}, được nhân với {{valueThunder}} lần.",
+                "Bạn sẽ nhận được thưởng gấp {{valueThunder}} lần giá trị cược của bạn.",
+                "Tổng số tiền thắng của bạn là {{win, number}}."
+            ]
+        }
+    },
+    "payout": {
+        "title": "thanh toán",
+        "bet-payout": "thanh toán cược",
+        "bonus-payout": "thanh toán thưởng",
+        "thunder-bonus": "Tiền Thưởng Thunder",
+        "number-times": "{{value}} lần"
+    }
+}

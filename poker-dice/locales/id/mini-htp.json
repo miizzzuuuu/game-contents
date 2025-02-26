@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Cara Bermain",
+        "content": [
+            "Poker dice adalah permainan dimana anda menebak hasil dari kombinasi 5 dadu yang dijatuhkan oleh dealer. Setiap dadu memiliki 6 sisi dengan angka 1-6 dan memiliki aturan warna (merah dan hitam)."
+        ]
+    },
+    "slide-2": {
+        "title": "Cara Bermain",
+        "content": [
+            "Hasil dari dadu ditentukan berdasarkan peringkat tertinggi yang didapatkan dari kombinasi 5 dadu (5 of a Kind hingga One Pair). Dadu hanya akan membentuk 1 hasil dalam 1 periode."
+        ]
+    },
+    "slide-3": {
+        "title": "Cara Bermain",
+        "content": [
+            "Anda dapat bertaruh pada kombinasi dadu, dan bertaruh pada warna, ganjil/genap, kecil/besar dadu terbanyak. Hanya taruhan yang masuk dalam kriteria hasil yang akan dibayarkan."
+        ]
+    }
+}

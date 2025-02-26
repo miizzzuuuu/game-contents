@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Red White is played by dropping 3 balls onto a board consisting of red, white, and jackpot squares."
+        ]
+    },
+    "slide-2": {
+        "title": "Placing Bets",
+        "content": [
+            "You can bet on <b>Double Reds</b>, <b>Double Whites</b>, <b>Triple Reds</b>, <b>Triple Whites</b>, <b>Jackpot</b>, and <b>Double Jackpots</b> simultaneously to increase your chances of winning."
+        ]
+    },
+    "slide-3": {
+        "title": "Game Results",
+        "content": [
+            "The 3 balls will land on the Red White board, forming a combination. Bets matching the result will win."
+        ]
+    }
+}

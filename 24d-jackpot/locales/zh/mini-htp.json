@@ -1,0 +1,21 @@
+{
+    "slide-1": {
+        "title": "玩法介绍",
+        "content": [
+            "赢取高达 <b>500倍的奖金</b>，通过 Jackpot 和 Lucky Number！",
+            "通过预测旋转笼中出现的球来进行游戏。有24个带有1到24数字的球，分别为红色和黑色。"
+        ]
+    },
+    "slide-2": {
+        "title": "Lucky Number",
+        "content": [
+            "系统随机选择<b>2到12</b>个数字作为Lucky Number。Lucky Number 的支付大大高于常规支付，从<b>30倍到95倍</b>您的投注金额。"
+        ]
+    },
+    "slide-3": {
+        "title": "Jackpot Number",
+        "content": [
+            "系统随机选择<b>1个数字</b>作为Jackpot Number。该数字可以显著增加奖金，超出Lucky Number Bonus，起始倍数为<b>100倍至500倍</b>您的投注金额。"
+        ]
+    }
+}

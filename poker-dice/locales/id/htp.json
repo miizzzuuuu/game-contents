@@ -1,0 +1,140 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Poker Dice merupakan permainan autentik dan unik dari IDNLIVE yang menggabungkan keseruan permainan Poker dari barat dan Dadu dari timur. Permainan ini menggunakan 5 buah dadu yang akan membentuk sebuah kombinasi menuju kemenangan."
+    },
+    "goal": {
+        "title": "TUJUAN PERMAINAN",
+        "content": "Tujuan dalam permainan Poker Dice adalah menebak kombinasi terbaik yang terbentuk dari lima dadu. Mirip dengan peringkat dalam poker, mulai dari 5 of a kind hingga one pair, dan hanya satu kombinasi terbentuk setiap putaran."
+    },
+    "rules": {
+        "title": "peraturan",
+        "dice": "Dadu",
+        "side": "Samping",
+        "steps": [
+            "Permainan dipandu oleh Dealer",
+            "Permainan ini menggunakan lima dadu, masing-masing 6 sisi berwarna merah dan hitam.",
+            "Permainan dimulai saat <i>Dealer</i> membuka waktu bertaruh, dan semua taruhan otomatis diterima ketika waktu habis.",
+            "Dealer menjatuhkan lima dadu untuk menentukan hasil permainan",
+            "Jika dadu <b>tidak jatuh dengan sempurna</b>, maka <b>“No Game”</b> dan dealer akan menjatuhkan dadu kembali.",
+            "Angka 1-3 dianggap <b>Kecil</b>, angka 4-6 dianggap <b>Besar</b>."
+        ]
+    },
+    "dice": {
+        "title": "DADU POKER DICE",
+        "description": "Poker Dice menggunakan lima dadu dengan 6 sisi. Setiap sisi terdiri dari warna merah atau hitam. Berikut ini warna sisi dari kelima dadu dalam permainan.",
+        "note": "Keterangan : ",
+        "notes": [
+            "<b>Dadu 1, 2, dan 3</b> memiliki pola warna sisi yang sama",
+            "<b>Dadu 4 dan 5</b> memiliki pola warna sisi yang sama"
+        ]
+    },
+    "rank": {
+        "title": "Kombinasi Dadu",
+        "description": "Terdapat 11 peringkat kombinasi dadu yang dapat menjadi hasil, mulai dari yang tertinggi, 5 of a kind, hingga terendah, one pair. Jika terdapat dua kombinasi dalam 1 periode, maka peringkat tertinggi akan menjadi hasil.",
+        "table-description": "Berikut adalah tabel peringkat hasil.",
+        "rank": "peringkat",
+        "result": "hasil",
+        "table": [
+            "5 of a kind",
+            "Straight Flush",
+            "Inc. Straight Flush",
+            "4 of a kind",
+            "Straight",
+            "Full House",
+            "Flush",
+            "Inc. Straight",
+            "3 of a kind",
+            "2 Pair",
+            "Pair"
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "winning-conditions": "Kondisi Menang",
+        "bet": "TARUHAN",
+        "examples": "Contoh",
+        "description": "Deskripsi",
+        "result": "HASIL",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "pair": {
+                "title": "Pair",
+                "description": "Dibayar jika dadu membentuk Satu Pair"
+            },
+            "2-pair": {
+                "title": "2 Pair",
+                "description": "Dibayar jika dadu membentuk 2 Pair"
+            },
+            "3-of-a-kind": {
+                "title": "3 of a kind",
+                "description": "Dibayar jika dadu membentuk 3 of a kind"
+            },
+            "inc-straight": {
+                "title": "Inc. Straight",
+                "description": "Dibayar jika dadu membentuk Inc. Straight"
+            },
+            "flush": {
+                "title": "Flush",
+                "description": "Dibayar jika dadu membentuk Flush"
+            },
+            "full-house": {
+                "title": "Full House",
+                "description": "Dibayar jika dadu membentuk Full House"
+            },
+            "straight": {
+                "title": "Straight",
+                "description": "Dibayar jika dadu membentuk Straight"
+            },
+            "4-of-a-kind": {
+                "title": "4 of a kind",
+                "description": "Dibayar jika dadu membentuk 4 of a kind"
+            },
+            "inc-straight-flush": {
+                "title": "Inc. Straight Flush",
+                "description": "Dibayar jika dadu membentuk Inc. Straight Flush"
+            },
+
+            "straight-flush": {
+                "title": "Straight Flush",
+                "description": "Dibayar jika dadu membentuk Straight Flush"
+            },
+            "5-of-a-kind": {
+                "title": "5 of a kind",
+                "description": "Dibayar jika dadu membentuk 5 of a kind"
+            }
+        },
+        "side-bet": {
+            "heading": "Taruhan Sampingan",
+            "small": {
+                "title": "Kecil",
+                "description": "Dibayar jika terdapat lebih banyak dadu dengan angka 1 sampai 3"
+            },
+            "big": {
+                "title": "Besar",
+                "description": "Dibayar jika terdapat lebih banyak dadu dengan angka 4 sampai 6"
+            },
+            "odd": {
+                "title": "Ganjil",
+                "description": "Dibayar jika terdapat lebih banyak dadu dengan angka Ganjil"
+            },
+            "even": {
+                "title": "Genap",
+                "description": "Dibayar jika terdapat lebih banyak dadu dengan angka Genap"
+            },
+            "red": {
+                "title": "Merah",
+                "description": "Dibayar jika terdapat lebih banyak dadu dengan warna Merah"
+            },
+            "black": {
+                "title": "Hitam",
+                "description": "Dibayar jika terdapat lebih banyak dadu dengan warna Hitam"
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan"
+    }
+}

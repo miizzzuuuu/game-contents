@@ -1,0 +1,21 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "This game is similar to the typical Suwit game, using 2 dice (Black & Red). The Black Die shows Scissors, Rock, or Paper. The Red Die shows Thumb, Index, or Pinky."
+        ]
+    },
+    "slide-2": {
+        "title": "Placing Bets",
+        "content": [
+            "You place bets to compete against the dealer by betting on single black/red die options, combinations of 2 dice, rows and columns, split bets, and corner bets."
+        ]
+    },
+    "slide-3": {
+        "title": "Bet Examples",
+        "content": [
+            "Rock > Scissors, Scissors > Paper, Paper > Rock<br/>Index > Pinky, Pinky > Thumb, Thumb > Index",
+            "<b>note: \">\" means WINS OVER</b>"
+        ]
+    }
+}

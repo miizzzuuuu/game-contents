@@ -1,0 +1,24 @@
+{
+    "head": "หัว",
+    "tail": "หาง",
+    "left": "ซ้าย",
+    "right": "ขวา",
+    "left/right": "ซ้าย/ขวา",
+    "head/tail": "หัว/หาง",
+    "head win": "หัวชนะ",
+    "tail win": "หางชนะ",
+    "coin 1": "เหรียญ 1",
+    "coin 2": "เหรียญ 2",
+    "coin 3": "เหรียญ 3",
+
+    "head, head, tail": "หัว, หัว, ก้อย",
+    "tail, tail, head": "ก้อย, ก้อย, หัว",
+    "coin bet": "เดิมพันเหรียญ",
+    "combination bet (in order)": "เดิมพันแบบผสม (เรียงตามลำดับ)",
+    "head, head, head": "หัว, หัว, หัว",
+    "head, tail, tail": "หัว, ก้อย, ก้อย",
+    "head, tail, head": "หัว, ก้อย, หัว",
+    "tail, head, head": "ก้อย, หัว, หัว",
+    "tail, head, tail": "ก้อย, หัว, ก้อย",
+    "tail, tail, tail": "ก้อย, ก้อย, ก้อย"
+}

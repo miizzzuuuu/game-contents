@@ -1,0 +1,19 @@
+{
+    "banker": "nhà cái",
+    "player1": "người chơi 1",
+    "player2": "người chơi 2",
+    "player3": "người chơi 3",
+
+    "player bet": "cược người chơi",
+    "win with points 1 to 8": "thắng với điểm 1 đến 8",
+    "win with points 9": "thắng với điểm 9",
+    "7,8,9 bet": "cược 7,8,9",
+    "win with points 7": "thắng với điểm 7",
+    "win with points 8": "thắng với điểm 8",
+    "7,8,9 bet 2x bonus": "cược 7,8,9 thưởng 2x",
+    "specific bet": "cược cụ thể",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "specific bet 2x bonus": "cược cụ thể thưởng 2x"
+}

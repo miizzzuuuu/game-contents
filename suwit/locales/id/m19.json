@@ -1,0 +1,30 @@
+{
+    "baris1": "B.1",
+    "baris2": "B.2",
+    "baris3": "B.3",
+
+    "kolom1": "K.1",
+    "kolom2": "K.2",
+    "kolom3": "K.3",
+
+    "result": "hasil",
+
+    "versus black": "melawan hitam",
+    "scissors": "gunting",
+    "stone": "batu",
+    "paper": "kertas",
+    "versus red": "melawan merah",
+    "thumb": "jempol",
+    "index": "telunjuk",
+    "pinky": "kelingking",
+    "combination": "kombinasi",
+    "single": "satu",
+    "split": "dua",
+    "corner": "empat",
+    "row": "baris",
+    "column": "kolom",
+
+    "win-history": "riwayat menang",
+    "result-history": "riwayat hasil",
+    "single-dice": "dadu satu"
+}

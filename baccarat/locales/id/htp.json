@@ -1,0 +1,222 @@
+{
+    "introduction": {
+        "title": "Pengenalan",
+        "content": "Baccarat yang dikenal sebagai Punto Banco, adalah salah satu permainan kartu tertua dan terpopuler di kasino di seluruh dunia, terutama di kalangan penjudi ulung dan di Asia. Baccarat sangat dominan di Macau.",
+        "content-2": "Meski tampak serius dan elegan, permainan ini sebenarnya sederhana. Anda hanya perlu bertaruh pada pihak yang akan menang atau seri."
+    },
+    "goal": {
+        "title": "tujuan permainan",
+        "content": "Tujuan permainan Baccarat adalah menebak pihak dengan nilai kartu tertinggi atau paling mendekati angka 9 (Pemain, Bankir atau Seri)."
+    },
+    "rules": {
+        "title": "Peraturan umum",
+        "steps": [
+            "Permainan akan dipandu oleh <i>Dealer </i>",
+            "Permainan ini menggunakan 8 set kartu dalam satu buah <i>Shoe </i>.",
+            "Pada setiap awal <i>Shoe </i> baru, <i>Dealer </i> akan mengeluarkan satu kartu sebagai penentu berapa kartu yang akan di <i>Burn</i> atau dibuang. Maksimal 11 kartu bisa dibuang.",
+            "Setelah waktu taruhan habis, <i>Dealer </i> akan membagikan dua kartu kepada Pemain dan Bankir.",
+            "Tangan dengan nilai kartu tertinggi menang.",
+            "Jika hasilnya <b>seri</b>, taruhan pada Pemain dan Bankir dikembalikan. Taruhan seri hanya menang jika nilai pemain dan bankir sama.",
+            "Jika hasilnya <b>seri non-natural</b>, yaitu seri dengan <b>lebih dari empat </b> kartu dibagikan, maka taruhan Player Bonus dan Banker Bonus kalah.",
+            "Jika hasilnya <b>seri natural</b>, yaitu seri dengan <b>empat</b> kartu dibagikan, maka taruhan Player Bonus dan Banker Bonus akan dikembalikan."
+        ]
+    },
+    "baccarat-card": {
+        "title": "KARTU BACCARAT",
+        "card-value": {
+            "title": "Nilai Kartu",
+            "card": "Kartu",
+            "value": "Nilai",
+            "description": "Baccarat menggunakan satu set kartu standar yang terdiri dari 52 kartu, tanpa joker. Berikut nilai kartu yang digunakan dalam permainan:"
+        },
+        "point-count": {
+            "title": "Perhitungan Point",
+            "description": "Semua kartu di Baccarat hanya dilihat dari angka terakhirnya. Nilai tertinggi adalah 9. Jika hasil penjumlahan nilai dari 2 kartu adalah 2 digit angka, maka yang menjadi hasil total nilai adalah angka pada digit kedua."
+        },
+        "natural-card-non-natural-card": {
+            "natural-card": {
+                "title": "KARTU NATURAL",
+                "description": "Jika 2 kartu awal Pemain atau Bankir memiliki nilai <b>8</b> atau <b>9</b>, maka dianggap sebagai <b>Kartu Natural</b> dan tidak ada penambahan kartu lagi untuk kedua belah pihak."
+            },
+            "non-natural-card": {
+                "title": "KARTU NON-NATURAL",
+                "description": "Jika 2 kartu awal Pemain atau Bankir memiliki nilai <b>0-7</b>, maka dianggap sebagai <b>Kartu Tidak Natural</b> dan kartu tambahan akan diberikan. Aturan kartu ketiga akan dijelaskan lebih lanjut di bagian berikutnya."
+            }
+        },
+        "third-card-rules": {
+            "title": "PERATURAN KARTU KETIGA",
+            "player": {
+                "title": "PEMAIN",
+                "description": "Aturan kartu ketiga untuk Pemain tergantung pada <b>nilai dua kartu pemain</b>",
+                "value-of-2-card-player": {
+                    "title": "Nilai Dua Kartu Pemain",
+                    "action": "Aksi",
+                    "0-5": {
+                        "value": "0-5",
+                        "action": "Pemain Menerima Kartu Ketiga"
+                    },
+                    "6-7": {
+                        "value": "6-7",
+                        "action": "Pemain Bertahan (Tidak Ada Penambahan Kartu)"
+                    },
+                    "8-9": {
+                        "value": "8-9 (Kartu Natural)",
+                        "action": "Tidak Ada Penambahan Kartu"
+                    }
+                }
+            },
+            "banker": {
+                "title": "BANKIR",
+                "description": "Aturan kartu ketiga untuk Bankir tergantung pada nilai dua kartu bankir dan nilai kartu ketiga pemain.",
+                "table": {
+                    "2-card-banker-value": "Nilai dua kartu Bankir",
+                    "3rd-card-player-value": "Nilai kartu ketiga Pemain"
+                },
+                "action-description": "Keterangan Aksi : ",
+                "D": "<b>Bankir Menerima Kartu Ketiga</b>",
+                "S": "<b>Bankir Bertahan dengan Dua Kartu</b>"
+            }
+        }
+    },
+    "dragon-bonus": {
+        "title": "Dragon Bonus",
+        "description": "Dragon Bonus hadir sebagai taruhan tambahan dalam Baccarat untuk menambah sensasi permainan dengan hadiah yang lebih besar dari taruhan biasa. Berikut aturan sederhananya: ",
+        "how-to-bet": {
+            "heading": "Taruhan dan Cara Bertaruh",
+            "steps": [
+                "Dragon Bonus terbagi menjadi <b>Pemain Bonus</b> dan <b>Bankir Bonus</b>",
+                "Sebagai syarat utama, anda harus memasang taruhan utama (<b>Pemain, Bankir,</b> atau <b>Tie</b>)",
+                "Setelah itu barulah anda dapat memasang taruhan pada <b>Pemain Bonus</b> atau <b>Bankir Bonus</b>"
+            ]
+        },
+        "winning-rules": {
+            "heading": "Penentuan Kemenangan",
+            "steps": [
+                "Sama dengan aturan taruhan utama, untuk menang, maka nilai taruhan bonus harus lebih besar dari lawan.",
+                "Dragon Bonus memiliki sistem pembayaran yang unik. Besarnya selisih kemenangan menentukan jumlah bayaran.",
+                "Semakin besar selisih kemenangan, semakin besar pembayaran kemenangan."
+            ]
+        },
+        "additional-rules": {
+            "heading": "Aturan Tambahan",
+            "steps": [
+                "Hasil permainan adalah <b>Menang dengan Natural</b> dan <b>Seri</b> memiliki aturan khusus yang mempengaruhi pembayaran.",
+                "Info aturan khusus akan dijelaskan pada bagian berikutnya."
+            ]
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "description": "Deskripsi",
+        "examples": "Contoh",
+        "anything": "APAPUN",
+        "main-bet": {
+            "description": "Deskripsi",
+            "examples": "Contoh",
+            "heading": "Taruhan Utama",
+            "title": "Taruhan Utama",
+            "table": {
+                "player": {
+                    "title": "Pemain",
+                    "description": "Dibayar jika nilai Pemain <b>lebih besar dari</b> nilai Bankir"
+                },
+                "banker": {
+                    "title": "Bangkir",
+                    "description": "Dibayar jika nilai Bankir <b>lebih besar dari</b> nilai Pemain"
+                },
+                "tie": {
+                    "title": "Tie",
+                    "description": "Dibayar jika kartu Pemain dan Bankir punya <b>nilai yang sama</b>"
+                }
+            }
+        },
+        "side-bet": {
+            "description": "Deskripsi",
+            "examples": "Contoh",
+            "title": "Taruhan Sampingan",
+            "heading": "Taruhan Sampingan",
+            "table": {
+                "player-pair": {
+                    "title": "Pair Pemain",
+                    "description": "Dibayar jika dua kartu pertama Pemain adalah <b>pasangan</b>"
+                },
+                "banker-pair": {
+                    "title": "Pair Bankir",
+                    "description": "Dibayar jika dua kartu pertama Bankir adalah <b>pasangan</b>"
+                },
+                "perfect-pair": {
+                    "title": "Pair Sempurna",
+                    "description": "Dibayar jika hanya salah satu dari pihak Pemain atau Bankir mendapatkan kartu <b>identik</b>"
+                },
+                "perfect-pair-2": {
+                    "title": "Pair Sempurna",
+                    "description": "Dibayar jika kedua pihak Pemain dan Bankir mendapatkan kartu <b>identik</b>"
+                },
+                "mixed-pair": {
+                    "title": "Pair Campuran",
+                    "description": "Dibayar jika dua kartu pertama dari salah satu pihak Pemain atau Bankir adalah <b>pasangan</b>"
+                },
+                "player-bonus": {
+                    "title": "Bonus Pemain",
+                    "description": "Dibayar jika pihak Pemain menang dengan <b>Natural 8 atau 9</b>, atau setidaknya menang dengan <b>selisih 4 nilai</b>"
+                },
+                "banker-bonus": {
+                    "title": "Bonus Bankir",
+                    "description": "Dibayar jika pihak Bankir menang dengan <b>Natural 8 atau 9</b>, atau setidaknya menang dengan <b>selisih 4 nilai</b>"
+                },
+                "tie-on-0-9": {
+                    "title": "Tie On 0-9",
+                    "description": "Dibayar jika hasil permainan adalah <b>Seri</b> dengan <b>nilai 0-9</b>"
+                },
+                "small": {
+                    "title": "Kecil",
+                    "description": "Dibayar jika jumlah kartu keluar <b>adalah 4</b>"
+                },
+                "big": {
+                    "title": "Besar",
+                    "description": "Dibayar jika jumlah kartu keluar <b>adalah 5 dan 6</b>"
+                }
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan",
+        "bet": "taruhan",
+        "payout": "pembayaran",
+        "main-bet": {
+            "title": "TARUHAN UTAMA",
+            "bet": ["pemain", "bankir", "seri"]
+        },
+        "side-bet": {
+            "title": "TARUHAN SAMPINGAN",
+            "bet": [
+                "pair pemain",
+                "pair bankir",
+                "pair sempurna",
+                "pair campuran",
+                "besar",
+                "kecil"
+            ]
+        },
+        "bonus-bet": {
+            "title": "TARUHAN BONUS PEMAIN DAN BONUS BANKIR",
+            "bet": [
+                "menang natural",
+                "seri natural",
+                "menang 9 nilai",
+                "menang 8 nilai",
+                "menang 7 nilai",
+                "menang 6 nilai",
+                "menang 5 nilai",
+                "menang 4 nilai",
+                "menang natural",
+                "seri natural"
+            ]
+        },
+        "tie-on-0-9": {
+            "title": "TARUHAN SERI PADA NILAI",
+            "bet": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        }
+    }
+}

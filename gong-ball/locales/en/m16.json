@@ -1,0 +1,22 @@
+{
+    "player": "player",
+    "banker": "banker",
+    "big": "big",
+    "small": "small",
+    "odd": "odd",
+    "even": "even",
+    "Big": "Big",
+    "Small": "Small",
+    "Odd": "Odd",
+    "Even": "Even",
+    "player/banker": "player/banker",
+    "small/big": "small/big",
+    "odd/even": "odd/even",
+    "one number": "One Number",
+    "two numbers": "Two Number",
+    "four numbers": "Four Number",
+    "side bet": "side bet",
+    "normal": "normal",
+    "hot": "hot",
+    "cold": "cold"
+}

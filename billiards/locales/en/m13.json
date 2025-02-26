@@ -1,0 +1,20 @@
+{
+    "big": "big",
+    "small": "small",
+    "odd": "odd",
+    "even": "even",
+    "small/big": "small/big",
+    "odd/even": "odd/even",
+
+    "1st": "1st",
+    "2nd": "2nd",
+    "3rd": "3rd",
+    "4th": "4th",
+    "5th": "5th",
+    "2 TO 1": "2 TO 1",
+
+    "single number": "single number",
+    "column": "column",
+    "row": "row",
+    "side bet": "side bet"
+}

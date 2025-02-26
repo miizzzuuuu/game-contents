@@ -1,0 +1,32 @@
+{
+    "big": "ใหญ่",
+    "small": "เล็ก",
+    "odd": "คี่",
+    "even": "คู่",
+    
+    "straight": "straight",
+    "straight flush": "straight flush",
+
+    "double": "คู่",
+    "triple": "สามเท่า",
+
+    "draw two balls": "เสมอสองลูก",
+    "draw three balls": "เสมอสามลูก",
+
+    "one ball": "ลูกหนึ่ง",
+    "two balls": "สองลูก",
+    "three balls": "สามลูก",
+
+    "draw ball color": "เสมอสีลูก",
+    "triple color": "สีสามเท่า",
+    "3 stars": "3 ดาว",
+
+    "more bet": "เดิมพันมากขึ้น",
+    "less bet": "เดิมพันน้อยลง",
+    "one": "หนึ่ง",
+    "two": "สอง",
+    "three": "สาม",
+    "four": "สี่",
+    "five": "ห้า",
+    "six": "หก"
+}

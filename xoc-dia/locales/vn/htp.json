@@ -1,0 +1,91 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Xóc Đĩa hay Shake the Plate là một trò chơi truyền thống của Việt Nam đã tồn tại từ năm 1909. Trò chơi này khá giống với Oglok vì cách chơi tương tự nhau, sử dụng một chiếc bát, và bạn chỉ cần đoán kết quả của 4 nút bên trong chiếc bát."
+    },
+    "rules": {
+        "title": "Quy tắc",
+        "steps": [
+            "Trò chơi sử dụng một chiếc bát và 4 nút với hai mặt màu đỏ và trắng.",
+            "Trò chơi bắt đầu khi nhà cái mở vòng cược.",
+            "Bạn cần đặt cược của mình vào bảng cược đã được cung cấp và nhấn nút gửi.",
+            "Sau khi thời gian cược kết thúc, nhà cái sẽ lắc bát để xác định kết quả của vòng chơi.",
+            "Kết quả chỉ có thể là màu đỏ hoặc trắng cho mỗi nút. Trong trường hợp các nút không được đặt rõ ràng hoặc không rơi đúng cách, trạng thái 'không có trò chơi' sẽ xảy ra và nhà cái sẽ lắc lại bát cho đến khi có kết quả rõ ràng."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Đặt cược",
+        "reference": "Tham khảo",
+        "name": "Tên",
+        "example": "Ví dụ",
+        "allWhite": "Cược 4 nút trắng",
+        "threeWhite": "Cược 3 nút trắng và 1 nút đỏ",
+        "allRed": "Cược 4 nút đỏ",
+        "threeRed": "Cược 3 nút đỏ và 1 nút trắng",
+        "odd": "Cược Lẻ (50-50)",
+        "small": "Cược Nhỏ (50-50)",
+        "big": "Cược Lớn (50-50)",
+        "even": "Cược Chẵn (50-50)"
+    },
+    "bet-description-and-example": {
+        "title": "MÔ TẢ CƯỢC & VÍ DỤ",
+        "winning-conditions": "Điều kiện thắng",
+        "description": "Mô tả",
+        "example": "Ví dụ",
+        "bet": "CƯỢC",
+        "result": "KẾT QUẢ",
+        "status": "TRẠNG THÁI",
+        "win": "Thắng",
+        "main-bet": {
+            "heading": "Cược Chính",
+            "allWhite": {
+                "title": "Cược 4 nút trắng",
+                "winning-conditions": "Kết quả là 4 nút trắng",
+                "examples": [{ "bet": "0", "result": "0", "status": "THẮNG" }]
+            },
+            "threeWhite": {
+                "title": "Cược 3 nút trắng + 1 nút đỏ",
+                "winning-conditions": "Kết quả là 1 trong 2 số liền kề bạn đã đặt cược",
+                "examples": [{ "bet": "1", "result": "1", "status": "THẮNG" }]
+            },
+            "allRed": {
+                "title": "Cược 4 nút đỏ",
+                "winning-conditions": "Kết quả là 1 trong 4 số liền kề bạn đã đặt cược",
+                "examples": [{ "bet": "4", "result": "4", "status": "THẮNG" }]
+            },
+            "threeRed": {
+                "title": "Cược 1 nút trắng + 3 nút đỏ",
+                "winning-conditions": "Kết quả là 1 trong 4 số liền kề bạn đã đặt cược",
+                "examples": [{ "bet": "3", "result": "3", "status": "THẮNG" }]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "Cược 50-50",
+            "odd": {
+                "title": "Cược Lẻ (50-50)",
+                "description": "",
+                "winning-conditions": "Kết quả là số lẻ",
+                "examples": [{ "bet": "Lẻ", "result": "1", "status": "THẮNG" }]
+            },
+            "small": {
+                "title": "Cược Nhỏ (50-50)",
+                "winning-conditions": "Kết quả là số từ 1 đến 3",
+                "examples": [{ "bet": "Nhỏ", "result": "1", "status": "THẮNG" }]
+            },
+            "big": {
+                "title": "Cược Lớn (50-50)",
+                "winning-conditions": "Kết quả là 4 nút đỏ hoặc 1 nút trắng + 3 nút đỏ",
+                "examples": [{ "bet": "Lớn", "result": "3", "status": "THẮNG" }]
+            },
+            "even": {
+                "title": "Cược Chẵn (50-50)",
+                "winning-conditions": "Kết quả là 4 nút đỏ, 2 nút trắng + 2 nút đỏ, hoặc 4 nút đỏ",
+                "examples": [{ "bet": "Chẵn", "result": "0", "status": "THẮNG" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "Thanh toán",
+        "bet-payout": "Thanh toán cược"
+    }
+}

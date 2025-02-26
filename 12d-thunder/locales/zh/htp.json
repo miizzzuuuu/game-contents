@@ -1,0 +1,185 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "享受IDNLIVE提供的最新一代游戏。12D游戏是一款您熟悉的游戏，这款非常简单有趣的游戏带来了一个全新的独特玩法，只为您而设。享受高达500倍投注额的雷霆奖金，成为赢家。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "此游戏使用一个球和一个12D棋盘。",
+            "当荷官打开投注时间时，游戏开始。",
+            "现在您需要在我们提供的投注面板上下注。",
+            "投注时间结束时，投注面板中的所有投注将自动被接受。",
+            "投注期结束后，荷官将球滚过棋盘，以确定该时期的结果。",
+            "如果游戏结果是头奖，则所有50-50类型的投注将被退还。",
+            "如果游戏结果是头奖，所有数字、行和列的投注将输掉。",
+            "Thunder奖金仅适用于单个数字投注。",
+            "结果只包含数字1到12和头奖，如果球没有清晰地定位，则会出现“无游戏”状态，荷官将再次滚动球直到结果明确。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注",
+        "single-number-bet": "单号投注.",
+        "two-numbers-bets": "2号投注 (分注).",
+        "four-numbers-bets": "4号投注 (角注).",
+        "line-row-bets": "线 & 行投注.",
+        "jackpots-bet": "头奖投注.",
+        "50-50-bets": "50-50 投注."
+    },
+    "bet-description-and-example": {
+        "title": "投注说明和示例",
+        "winning-conditions": "获胜条件",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主要投注",
+            "single": {
+                "title": "单个数字",
+                "description": "投注在一个数字上",
+                "winning-conditions": "结果与您的投注匹配",
+                "examples": [
+                    { "bet": "7", "result": "7", "status": "赢" },
+                    { "bet": "7", "result": "1", "status": "输" }
+                ]
+            },
+            "split": {
+                "title": "分注",
+                "description": "投注在垂直/水平相邻的两个数字上",
+                "winning-conditions": "结果是您投注的两个相邻数字中的一个",
+                "examples": [
+                    { "bet": "1,4", "result": "4", "status": "赢" },
+                    { "bet": "1,4", "result": "9", "status": "输" }
+                ]
+            },
+            "corner": {
+                "title": "角注",
+                "description": "投注在一个角落的四个数字上",
+                "winning-conditions": "结果是您投注的四个相邻数字中的一个",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "赢" },
+                    { "bet": "1,2,4,5", "result": "7", "status": "输" }
+                ]
+            },
+            "line": {
+                "title": "行注",
+                "description": "投注在一行数字上",
+                "winning-conditions": "结果是您投注的行中的一个数字",
+                "examples": [
+                    { "bet": "行2", "result": "6", "status": "赢" },
+                    { "bet": "行2", "result": "7", "status": "输" }
+                ]
+            },
+            "row": {
+                "title": "列注",
+                "description": "投注在一列数字上",
+                "winning-conditions": "结果是您投注的列中的一个数字",
+                "examples": [
+                    { "bet": "列3", "result": "9", "status": "赢" },
+                    { "bet": "列3", "result": "1", "status": "输" }
+                ]
+            },
+            "jackpot": {
+                "title": "头奖",
+                "description": "投注头奖",
+                "winning-conditions": "结果是头奖",
+                "examples": [
+                    { "bet": "头奖", "result": "头奖", "status": "赢" },
+                    { "bet": "头奖", "result": "1", "status": "输" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50投注",
+            "small": {
+                "title": "小",
+                "description": "",
+                "winning-conditions": "结果在1到6之间",
+                "examples": [
+                    { "bet": "小", "result": "1", "status": "赢" },
+                    { "bet": "小", "result": "7", "status": "输" }
+                ]
+            },
+            "big": {
+                "title": "大",
+                "description": "",
+                "winning-conditions": "结果在7到12之间",
+                "examples": [
+                    { "bet": "大", "result": "7", "status": "赢" },
+                    { "bet": "大", "result": "1", "status": "输" }
+                ]
+            },
+            "odd": {
+                "title": "奇数",
+                "description": "",
+                "winning-conditions": "结果是奇数",
+                "examples": [
+                    { "bet": "奇数", "result": "1", "status": "赢" },
+                    { "bet": "奇数", "result": "2", "status": "输" }
+                ]
+            },
+            "even": {
+                "title": "偶数",
+                "description": "",
+                "winning-conditions": "结果是偶数",
+                "examples": [
+                    { "bet": "偶数", "result": "4", "status": "赢" },
+                    { "bet": "偶数", "result": "3", "status": "输" }
+                ]
+            },
+            "red": {
+                "title": "红色",
+                "description": "",
+                "winning-conditions": "结果是红色",
+                "examples": [
+                    { "bet": "红色", "result": "3", "status": "赢" },
+                    { "bet": "红色", "result": "4", "status": "输" }
+                ]
+            },
+            "black": {
+                "title": "黑色",
+                "description": "",
+                "winning-conditions": "结果是黑色",
+                "examples": [
+                    { "bet": "黑色", "result": "4", "status": "赢" },
+                    { "bet": "黑色", "result": "3", "status": "输" }
+                ]
+            }
+        }
+    },
+    "thunder-bonus": {
+        "title": "雷霆奖金",
+        "mechanism-title": "雷霆奖金机制",
+        "mechanism-content": "在这个游戏中，我们提供了一个独特且吸引人的奖金系统，让您有机会获得丰厚的胜利。以下是雷霆奖金机制的说明：",
+        "mechanism-points": [
+            "在每轮游戏中，下注完成后，下注时间结束时，12D雷霆虚拟板上方会出现一些闪电。",
+            "在一局游戏中，至少会出现1道闪电，最多出现5道闪电。",
+            "这些闪电的出现显示了每个数字的雷霆奖金位置和奖金倍数。",
+            "闪电的数量、位置和奖金倍数将随机出现。",
+            "此雷霆奖金仅适用于单个数字投注。所有其他数字投注将不享受此雷霆奖金。"
+        ],
+        "how-to-get-title": "如何获得雷霆奖金",
+        "how-to-get-points": [
+            "您必须下注单个数字。",
+            "如果您下注的数字为游戏结果，并且该结果上方有奖金倍数，您将获得与倍数相同的奖金。"
+        ],
+        "example-1": {
+            "title": "获得雷霆奖金的示例",
+            "content": "以下是一个获得雷霆奖金的游戏示例：",
+            "points": [
+                "下注数字 {{numbers}}，金额为 {{bet, number}}。",
+                "虚拟板上有 {{totalThunder}} 倍数。",
+                "球停在数字 {{result}}，其倍数为 {{valueThunder}}x。",
+                "您将获得 {{valueThunder}} 倍于下注金额的奖金。",
+                "您的总奖金为 {{win, number}}。"
+            ]
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付",
+        "bonus-payout": "奖金支付",
+        "thunder-bonus": "雷霆奖金",
+        "number-times": "{{value}}倍"
+    }
+}

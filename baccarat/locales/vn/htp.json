@@ -1,0 +1,222 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Baccarat là một trong những trò chơi bài lâu đời và phổ biến nhất tại các sòng bạc trên toàn thế giới, đặc biệt là trong số những người chơi có kỹ năng và tại châu Á. Baccarat nổi bật hơn cả ở Macao.",
+        "content-2": "Mặc dù có vẻ ngoài nghiêm túc và cao cấp, trò chơi này khá đơn giản. Bạn chỉ cần đặt cược vào bên nào sẽ thắng hoặc sẽ hòa."
+    },
+    "goal": {
+        "title": "Mục tiêu của trò chơi",
+        "content": "Mục tiêu của baccarat là đoán bên nào sẽ có tổng giá trị thẻ cao nhất hoặc gần với 9 nhất (Người chơi, Người chia bài, hoặc Hòa)."
+    },
+    "rules": {
+        "title": "Các quy tắc chung",
+        "steps": [
+            "Trò chơi sẽ được điều khiển bởi <i>nhà cái</i>.",
+            "Trò chơi sử dụng 8 bộ bài trong một <i>ván</i>.",
+            "Vào đầu mỗi <i>ván</i> mới, <i>nhà cái</i> sẽ rút một lá bài để xác định số lượng bài tối đa sẽ <i>bốc</i> (tối đa có thể hủy 11 lá).",
+            "Sau khi thời gian đặt cược kết thúc, <i>nhà cái</i> sẽ phát hai lá bài cho Người chơi và Người chia bài.",
+            "Bàn tay có tổng giá trị thẻ cao nhất sẽ thắng.",
+            "Nếu kết quả là <b>Hòa</b>, cược của Người chơi và Người chia bài sẽ được hoàn lại. Cược Hòa chỉ thắng khi giá trị của Người chơi và Người chia bài bằng nhau.",
+            "Nếu kết quả là <b>Hòa không tự nhiên</b>, có nghĩa là Hòa với <b>trên 4</b>, bài đã được phát và cược thưởng của Người chơi và Người chia bài sẽ mất.",
+            "Nếu kết quả là <b>Hòa tự nhiên</b>, có nghĩa là Hòa với <b>4</b>, bài đã được phát và cược thưởng của Người chơi và Người chia bài sẽ được hoàn lại."
+        ]
+    },
+    "baccarat-card": {
+        "title": "Baccarat cho thẻ",
+        "card-value": {
+            "title": "Giá trị thẻ",
+            "card": "Thẻ",
+            "value": "Giá trị",
+            "description": "Baccarat sử dụng 52 lá bài để chơi mà không có quân joker. Đây là giá trị của các lá bài được sử dụng trong trò chơi:"
+        },
+        "point-count": {
+            "title": "Đếm điểm",
+            "description": "Tổng điểm trong baccarat được xác định bởi chữ số cuối cùng. Giá trị cao nhất là 9. Nếu tổng giá trị của 2 lá bài là số có hai chữ số, tổng sẽ được xác định bởi số ở vị trí hàng chục."
+        },
+        "natural-card-non-natural-card": {
+            "natural-card": {
+                "title": "Thẻ tự nhiên",
+                "description": "Nếu 2 lá bài đầu tiên của Người chơi hoặc Người chia bài có giá trị <b>8</b> hoặc <b>9</b>, nó sẽ được coi là <b>thẻ tự nhiên</b> và sẽ không có lá bài nào được rút thêm cho cả hai bên."
+            },
+            "non-natural-card": {
+                "title": "Thẻ không tự nhiên",
+                "description": "Nếu 2 lá bài đầu tiên của Người chơi hoặc Người chia bài có giá trị <b>0-7</b>, nó sẽ được coi là <b>thẻ không tự nhiên</b> và sẽ có lá bài bổ sung được phát. Các quy tắc cho lá bài thứ ba sẽ được giải thích thêm trong phần tiếp theo."
+            }
+        },
+        "third-card-rules": {
+            "title": "Quy tắc thẻ thứ ba",
+            "player": {
+                "title": "Người chơi",
+                "description": "Quy tắc thẻ thứ ba của Người chơi sẽ dựa vào <b>giá trị của hai lá bài của Người chơi</b>",
+                "value-of-2-card-player": {
+                    "title": "Giá trị của hai lá bài của Người chơi",
+                    "action": "Hành động",
+                    "0-5": {
+                        "value": "0-5",
+                        "action": "Người chơi sẽ nhận được lá bài thứ ba."
+                    },
+                    "6-7": {
+                        "value": "6-7",
+                        "action": "Người chơi sẽ đứng (không có lá bài nào được thêm vào)"
+                    },
+                    "8-9": {
+                        "value": "8-9 (thẻ tự nhiên)",
+                        "action": "Không có lá bài nào được thêm vào"
+                    }
+                }
+            },
+            "banker": {
+                "title": "Người chia bài",
+                "description": "Quy tắc thẻ thứ ba của Người chia bài sẽ phụ thuộc vào giá trị của hai lá bài của Người chia bài và giá trị của lá bài thứ ba của Người chơi",
+                "table": {
+                    "2-card-banker-value": "Giá trị hai lá bài của Người chia bài",
+                    "3rd-card-player-value": "Giá trị lá bài thứ ba của Người chơi"
+                },
+                "action-description": "Mô tả hành động: ",
+                "D": "<b>Người chia bài sẽ nhận được lá bài thứ ba.</b>",
+                "S": "<b>Người chia bài đứng với hai lá bài</b>"
+            }
+        }
+    },
+    "dragon-bonus": {
+        "title": "Bonus Rồng",
+        "description": "Bonus Rồng là cược bổ sung được đưa vào để tăng cường sự thú vị trong baccarat và mang lại phần thưởng lớn hơn so với cược thông thường. Đây là các quy tắc đơn giản:",
+        "how-to-bet": {
+            "heading": "Cược và Cách Cược",
+            "steps": [
+                "Bonus Rồng được chia thành <b>Bonus Người chơi</b> và <b>Bonus Người chia bài</b>.",
+                "Yêu cầu chính là đặt cược chính (<b>Người chơi, Người chia bài</b> hoặc <b>Hòa</b>) trước.",
+                "Sau đó, bạn có thể đặt cược vào <b>Bonus Người chơi</b> hoặc <b>Bonus Người chia bài</b>."
+            ]
+        },
+        "winning-rules": {
+            "heading": "Quy tắc xác định người chiến thắng",
+            "steps": [
+                "Tương tự như quy tắc đặt cược chính, người chiến thắng phải có giá trị cược Bonus cao hơn đối thủ.",
+                "Bonus Rồng có hệ thống thanh toán độc đáo. Kích thước lợi nhuận chiến thắng sẽ xác định số tiền thanh toán.",
+                "Càng nhiều lợi nhuận thắng thì số tiền thanh toán càng cao."
+            ]
+        },
+        "additional-rules": {
+            "heading": "Quy tắc bổ sung",
+            "steps": [
+                "<b>Chiến thắng tự nhiên</b> và <b>Hòa</b> trong kết quả trò chơi sẽ ảnh hưởng đến việc thanh toán trong các quy tắc đặc biệt.",
+                "Thông tin về quy tắc đặc biệt sẽ được giải thích trong phần tiếp theo."
+            ]
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả cược và ví dụ",
+        "description": "Mô tả",
+        "examples": "Ví dụ",
+        "anything": "Bất kỳ điều gì",
+        "main-bet": {
+            "description": "Mô tả",
+            "examples": "Ví dụ",
+            "heading": "Cược chính",
+            "title": "Cược chính",
+            "table": {
+                "player": {
+                    "title": "Người chơi",
+                    "description": "Sẽ thanh toán nếu giá trị của người chơi <b>cao hơn</b> giá trị của người chia bài."
+                },
+                "banker": {
+                    "title": "Người chia bài",
+                    "description": "Sẽ thanh toán nếu giá trị của người chia bài <b>cao hơn</b> giá trị của người chơi."
+                },
+                "tie": {
+                    "title": "Hòa",
+                    "description": "Sẽ thanh toán nếu thẻ của Người chơi và Người chia bài có <b>giá trị bằng nhau</b>."
+                }
+            }
+        },
+        "side-bet": {
+            "description": "Mô tả",
+            "examples": "Ví dụ",
+            "title": "Cược phụ",
+            "heading": "Cược phụ",
+            "table": {
+                "player-pair": {
+                    "title": "Cặp Người chơi",
+                    "description": "Sẽ thanh toán nếu hai lá bài đầu tiên của Người chơi là <b>cặp</b>."
+                },
+                "banker-pair": {
+                    "title": "Cặp Người chia bài",
+                    "description": "Sẽ thanh toán nếu hai lá bài đầu tiên của Người chia bài là <b>cặp</b>."
+                },
+                "perfect-pair": {
+                    "title": "Cặp hoàn hảo",
+                    "description": "Sẽ thanh toán nếu Người chơi hoặc Người chia bài có <b>cùng lá bài</b>."
+                },
+                "perfect-pair-2": {
+                    "title": "Cặp hoàn hảo",
+                    "description": "Sẽ thanh toán nếu Người chơi và Người chia bài có <b>cùng lá bài</b>."
+                },
+                "mixed-pair": {
+                    "title": "Cặp hỗn hợp",
+                    "description": "Sẽ thanh toán nếu hai lá bài đầu tiên của Người chơi hoặc Người chia bài là <b>cặp</b>."
+                },
+                "player-bonus": {
+                    "title": "Bonus Người chơi",
+                    "description": "Sẽ thanh toán nếu Người chơi thắng với <b>tự nhiên 8 hoặc 9</b> hoặc thắng với điểm <b>chênh lệch 4 điểm</b>."
+                },
+                "banker-bonus": {
+                    "title": "Bonus Người chia bài",
+                    "description": "Sẽ thanh toán nếu Người chia bài thắng với <b>tự nhiên 8 hoặc 9</b> hoặc thắng với điểm <b>chênh lệch 4 điểm</b>."
+                },
+                "tie-on-0-9": {
+                    "title": "Hòa tại 0-9",
+                    "description": "Sẽ thanh toán nếu kết quả của trò chơi là <b>Hòa</b> và cho <b>giá trị 0-9</b>."
+                },
+                "small": {
+                    "title": "Nhỏ",
+                    "description": "Sẽ thanh toán nếu số lượng thẻ <b>là 4 lá</b>."
+                },
+                "big": {
+                    "title": "Lớn",
+                    "description": "Sẽ thanh toán nếu số lượng thẻ <b>là 5 hoặc 6 lá</b>."
+                }
+            }
+        }
+    },
+    "payout": {
+        "title": "Chi trả",
+        "bet-payout": "Chi trả cược",
+        "bet": "Cược",
+        "payout": "Chi trả",
+        "main-bet": {
+            "title": "Cược chính",
+            "bet": ["Người chơi", "Người chia bài", "Hòa"]
+        },
+        "side-bet": {
+            "title": "Cược phụ",
+            "bet": [
+                "Cặp Người chơi",
+                "Cặp Người chia bài",
+                "Cặp hoàn hảo",
+                "Cặp hỗn hợp",
+                "Lớn",
+                "Nhỏ"
+            ]
+        },
+        "bonus-bet": {
+            "title": "Cược Bonus Người chơi và Bonus Người chia bài",
+            "bet": [
+                "Thắng với tự nhiên",
+                "Hòa với tự nhiên",
+                "Thắng với giá trị 9",
+                "Thắng với giá trị 8",
+                "Thắng với giá trị 7",
+                "Thắng với giá trị 6",
+                "Thắng với giá trị 5",
+                "Thắng với giá trị 4",
+                "Thắng với tự nhiên",
+                "Hòa với tự nhiên"
+            ]
+        },
+        "tie-on-0-9": {
+            "title": "Cược Hòa",
+            "bet": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        }
+    }
+}

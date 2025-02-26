@@ -1,0 +1,197 @@
+{
+    "introduction": {
+        "title": "PENGENALAN",
+        "content": "Domino Live merupakan permainan tradisional tertua dan terpopuler yang dikembangkan dari Pai Gow, dengan tambahan unsur Baccarat dan Dragon Tiger. Permainan ini melibatkan pihak Pemain dan Bankir. <br/>Terdapat kombinasi Kartu Spesial dengan peluang <b>pembayaran hingga 666x!</b> Taruhan kartu spesial menciptakan sensasi permainan yang variatif dan seru."
+    },
+    "goal": {
+        "title": "TUJUAN PERMAINAN",
+        "content": "Tujuan dalam permainan Domino Live adalah menebak pihak mana yang memiliki total poin tertinggi (paling dekat angka 9) antara Pemain dan Bankir, atau Seri. Serta menebak kombinasi Kartu Spesial untuk memenangkan pembayaran yang lebih besar."
+    },
+    "rules": {
+        "title": "MEKANISME & ATURAN PERMAINAN",
+        "steps": [
+            "Permainan akan dipandu oleh <i>Dealer</i>.",
+            "Permainan ini menggunakan 7 dek kartu domino dalam satu buah <i>Shoe</i> (total 28 kartu per dek).",
+            "Permainan ini dimainkan dengan Pemain dan Bankir",
+            "Permainan dimulai saat <i>Dealer</i> membuka waktu bertaruh, dan semua taruhan otomatis diterima ketika waktu habis.",
+            "Dealer membagikan dua kartu untuk pihak Pemain dan Bankir",
+            "Pihak dengan poin tertinggi atau mendekati poin 9 akan menjadi pemenang.",
+            "Jika hasilnya <b>Seri</b>, maka taruhan Pemain dan Bankir akan dikembalikan. Taruhan Seri akan menang jika hasilnya Seri.",
+            "Urutan Kartu Spesial dari yang tertinggi ke terendah: Enam Dewa > Balak > Murni Besar > Murni Kecil."
+        ]
+    },
+    "domino-card": {
+        "title": "KARTU DOMINO",
+        "description": "Terdapat 28 kartu dalam 1 set kartu Domino. Setiap kartu memiliki jumlah titik atas dan bawah yang berbeda. Jenis kartu dikelompokkan berdasarkan seri, berikut terdapat 7 seri kartu : ",
+        "seri-0": {
+            "heading": "Seri 0",
+            "description": "Total 7 kartu dengan seri ini. Setiap kartu memiliki nilai 0 di sisi atas dan nilai 0-6 di sisi bawah kartu. "
+        },
+        "seri-1": {
+            "heading": "Seri 1",
+            "description": "Total 6 kartu dengan seri ini. Setiap kartu memiliki nilai 1 di sisi atas dan nilai 1-6 di sisi bawah kartu."
+        },
+        "seri-2": {
+            "heading": "Seri 2",
+            "description": "Total 5 kartu dengan seri ini. Setiap kartu memiliki nilai 2 di sisi atas dan nilai 2-6 di sisi bawah kartu."
+        },
+        "seri-3": {
+            "heading": "Seri 3",
+            "description": "Total 4 kartu dengan seri ini. Setiap kartu memiliki nilai 3 di sisi atas dan nilai 3-6 di sisi bawah kartu."
+        },
+        "seri-4": {
+            "heading": "Seri 4",
+            "description": "Total 3 kartu dengan seri ini. Setiap kartu memiliki nilai 4 di sisi atas dan nilai 4-6 di sisi bawah kartu."
+        },
+        "seri-5": {
+            "heading": "Seri 5",
+            "description": "Total 2 kartu dengan seri ini. Setiap kartu memiliki nilai 5 di sisi atas dan nilai 5-6 di sisi bawah kartu."
+        },
+        "seri-6": {
+            "heading": "Seri 6",
+            "description": "Total 1 kartu dengan seri ini. Setiap kartu memiliki nilai 6 di sisi atas dan nilai 6 di sisi bawah kartu."
+        }
+    },
+    "counting-card": {
+        "title": "Cara menghitung kartu",
+        "example": "Contoh : ",
+        "description": "Cara menghitung poin kartu domino adalah dengan menjumlahkan semua titik pada kedua kartu. Poin tertinggi adalah 9 (Q). Jika total penjumlahan menghasilkan dua digit angka, maka digit kedua yang digunakan sebagai total poin.",
+        "case-example": "Contoh kasus : ",
+        "6+6+4+4 2": "Pada contoh diatas, pihak Pemain <b>menang</b> dengan total poin <b>8</b> dan pihak Bankir <b>kalah<b> dengan total poin <b>2</b>.",
+        "q-no-q": {
+            "heading": "Q dan No Q",
+            "description": "Aturan untuk taruhan Q, No Q dan Q0-9 ditentukan berdasarkan poin dari empat kartu yang terdiri dari 2 kartu pemain dan 2 kartu bankir. Berikut penjelasan dan aturan untuk memenangkan taruhan ini:"
+        },
+        "bet-q": {
+            "heading": "Taruhan Q",
+            "description": "Taruhan Q menang jika ada <b>dua</b> dari kombinasi empat kartu yang <b>membentuk poin 9 (Q)</b>. ",
+            "description-2": "Kartu pertama (<b>poin 7</b>) dan kartu kedua (<b>poin 2</b>) menghasilkan total <b>poin 9</b>, maka taruhan Q dianggap menang."
+        },
+        "bet-no-q": {
+            "heading": "Taruhan No Q",
+            "description": "Taruhan No Q menang <b>jika tidak</b> ada kombinasi dari empat kartu yang bisa <b>membentuk nilai 9 (q).</b>",
+            "description-2": "Tidak ada pasangan kartu yang membentuk total <b>poin 9</b>, maka taruhan No Q dianggap menang."
+        },
+        "bet-q0-q9": {
+            "heading": "Taruhan Q0 - Q9",
+            "description": "Taruhan Q0 - Q9 akan menang jika ada <b>dua kartu</b> yang <b>membentuk poin 9 (Q)</b> dan anda berhasil menebak secara spesifik total poin dari <b>dua kartu lainnya</b>.",
+            "description-2": "Kartu pertama (<b>poin 7</b>) dan kartu kedua (<b>poin 2</b>) menghasilkan total <b>poin 9</b>. Sedangkan kartu kedua (<b>poin 4</b>) dan kartu keempat (<b>poin 6</b>) menghasilkan total <b>poin 0</b>. Maka taruhan Q0 dianggap menang."
+        }
+    },
+    "special-card-and-jackpot": {
+        "title": "KARTU SPESIAL & JACKPOT",
+        "description": "Kartu Spesial hadir menambah keseruan dan peluang menang lebih besar. Kartu Spesial akan terbentuk dari kombinasi gabungan 2 kartu Pemain dan 2 kartu Bankir. Terdapat empat Kartu Spesial (Enam Dewa, Balak, Murni Besar, Murni Kecil). Jika dalam satu periode terbentuk lebih dari satu kartu spesial, maka urutan tertinggi yang menang.",
+        "case-example": "Contoh kasus : ",
+        "1-seq": {
+            "heading": "Enam Dewa (Urutan pertama)",
+            "description": "Kartu Enam Dewa terbentuk jika keempat kartu memiliki <b>6 titik</b>.",
+            "description-2": "Keempat kartu memiliki <b>6 titik</b>. Maka taruhan Enam Dewa dianggap menang."
+        },
+        "2-seq": {
+            "heading": "Balak (Urutan kedua)",
+            "description": "Kartu Balak terbentuk jika keempat kartu memiliki <b>titik kembar</b>.",
+            "description-2": "Keempat kartu memiliki <b>titik kembar</b>. Maka taruhan Balak dianggap menang.",
+            "note": "*Kartu 33 33 33 33 termasuk Enam Dewa bukan Balak."
+        },
+        "3-seq": {
+            "heading": "Murni Besar (Urutan ketiga)",
+            "description": "Kartu Murni Besar terbentuk jika jumlah titik keempat kartu bernilai total <b>39 sampai 47 titik</b>.",
+            "description-2": "Jumlah titik dari keempat kartu adalah <b>39 titik</b>. Maka taruhan Murni Besar dianggap menang.",
+            "description-3": "Jumlah titik dari keempat kartu adalah <b>47 titik</b>. Maka taruhan Murni Besar dianggap menang."
+        },
+        "4-seq": {
+            "heading": "Murni Kecil (Urutan keempat)",
+            "description": "Kartu Murni Kecil terbentuk jika jumlah titik keempat kartu bernilai total <b>1 sampai 9 titik</b>.",
+            "description-2": "Jumlah titik dari keempat kartu adalah <b>1 titik</b>. Maka taruhan Murni Kecil dianggap menang.",
+            "description-3": "Jumlah titik dari keempat kartu adalah <b>9 titik</b>. Maka taruhan Murni Kecil dianggap menang."
+        },
+        "jackpot": {
+            "heading": "Jackpot",
+            "description": "Taruhan Jackpot mencakup <b>semua</b> Kartu Spesial di atas. Jika anda bertaruh pada Jackpot dan kombinasi kartu yang terbentuk adalah salah satu kartu spesial, maka anda memenangkan taruhan Jackpot."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "winning-conditions": "Kondisi Menang",
+        "bet": "TARUHAN",
+        "result": "HASIL",
+        "status": "STATUS",
+        "description": "Deskripsi",
+        "example": "Contoh",
+        "player": "PEMAIN",
+        "banker": "BANGKIR",
+        "card": "KARTU",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "player": {
+                "title": "PEMAIN",
+                "description": "Dibayar jika poin Pemain <b>lebih besar dari</b> poin Bankir",
+                "examples": [{ "bet": "player", "result": [2, 9], "status": "MENANG" }]
+            },
+            "banker": {
+                "title": "BANKIR",
+                "description": "Dibayar jika poin Bankir <b>lebih besar dari</b> poin Pemain",
+                "examples": [{ "bet": "banker", "result": [9, 2], "status": "MENANG" }]
+            },
+            "tie": {
+                "title": "TIE",
+                "description": "Dibayar jika kartu Pemain dan Bankir punya <b>nilai yang sama</b>",
+                "examples": [{ "bet": "tie", "result": [9, 9], "status": "MENANG" }]
+            }
+        },
+        "q-bet": {
+            "heading": "TARUHAN Q",
+            "description": "BERDASARKAN 2 KARTU KOMBINASI DARI KEEMPAT KARTU YANG DIBAGIKAN",
+            "q": {
+                "title": "Q",
+                "description": "Dibayar jika <b>terdapat</b> 2 kartu yang membentuk <b>poin 9</b>",
+                "examples": [{ "bet": "q", "result": [7, 4, 2, 10], "status": "MENANG" }]
+            },
+            "no-q": {
+                "title": "No Q",
+                "description": "Dibayar jika <b>tidak terdapat</b> 2 kartu yang membentuk <b>poin 9</b>",
+                "examples": [{ "bet": "no-q", "result": [8, 10, 5, 3], "status": "MENANG" }]
+            },
+            "q0-q9": {
+                "title": "Q0 - Q9",
+                "description": "Dibayar jika <b>terdapat</b> 2 kartu yang membentuk <b>poin 9</b> dan 2 kartu lainnya membentuk <b>poin 0-9</b>",
+                "examples": [{ "bet": "q0", "result": [7, 4, 2, 3], "status": "MENANG" }]
+            }
+        },
+        "special-card": {
+            "heading": "KARTU SPESIAL",
+            "description": "BERDASARKAN DARI KEEMPAT KARTU",
+            "pure-small": {
+                "title": "MURNI KECIL",
+                "description": "Dibayar jika keempat kartu memiliki <b>total 1 sampai 9 titik</b>",
+                "examples": [{ "bet": "MURNI KECIL", "result": [0, 0, 0, 1], "status": "MENANG" }]
+            },
+            "pure-big": {
+                "title": "MURNI BESAR",
+                "description": "Dibayar jika keempat kartu memiliki <b>total 39 sampai 47 titik</b>",
+                "examples": [
+                    { "bet": "MURNI BESAR", "result": [11, 12, 12, 12], "status": "MENANG" }
+                ]
+            },
+            "twin-series": {
+                "title": "Balak",
+                "description": "Dibayar jika keempat kartu memiliki <b>titik kembar</b>",
+                "examples": [{ "bet": "Balak", "result": [0, 2, 4, 6], "status": "MENANG" }]
+            },
+            "six-god": {
+                "title": "ENAM DEWA",
+                "description": "Dibayar jika keempat kartu memiliki masing-masing <b>6 titik</b>",
+                "examples": [{ "bet": "ENAM DEWA", "result": [6, 6, 6, 6], "status": "MENANG" }]
+            },
+            "jackpot": {
+                "title": "JACKPOT",
+                "description": "Dibayar jika terbentuk kartu spesial apapun",
+                "examples": [{ "bet": "jackpot", "result": [6, 6, 6, 6], "status": "MENANG" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan"
+    }
+}

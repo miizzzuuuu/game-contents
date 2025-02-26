@@ -1,0 +1,139 @@
+{
+    "introduction": {
+        "title": "简介",
+        "content": "享受我们最新游戏 Dice 6 Fever 中的丰厚奖励，这是我们最好的游戏 Dice 6 的改进版。来自 IDNLIVE 的简单有趣的 Dice 6 Fever 游戏带来了新的现代外观和全新游戏体验，增加了“冷热系统”和“奖池系统”，让你更兴奋地征服这款游戏。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "此游戏使用一个旋转骰子。",
+            "当荷官开始下注时间时，游戏开始。",
+            "现在你可以在我们提供的下注面板上进行下注。",
+            "下注时间结束时，下注将自动生效。",
+            "下注结束后，荷官将掷骰子来确定该局的结果。",
+            "只有单一数字投注和 50-50 投注将遵循冷热系统。分裂投注 (Split) 和四角投注 (Corner) 将始终按正常赔率支付。",
+            "只有单一数字投注可以被选为奖池数字。",
+            "结果仅为 1 至 6 之间的数字，如果骰子没有清晰落位，则会显示“无效游戏”状态，荷官会重新掷骰直到结果明确。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注",
+        "single-bet": "单一数字投注",
+        "split-bet": "二个数字投注",
+        "corner-bet": "四个数字投注",
+        "50-50-bet": "50-50 投注",
+        "single-bet-emblem": "单一投注",
+        "split-bet-emblem": "分裂投注",
+        "corner-bet-emblem": "四角投注",
+        "big-small-emblem": "大/小",
+        "odd-even-emblem": "单/双"
+    },
+    "bonus-system": {
+        "title": "奖池和冷热系统",
+        "introduction": {
+            "heading": "简介",
+            "content": "在每轮游戏中，系统会随机确定哪些投注属于奖池、冷热或正常类别，如上方示例图片所示。此游戏共有 10 个投注，包括数字 1 到 6 的投注以及大小单双投注。请注意，在一轮游戏中，所有类别可能同时出现，如上方示例图所示，但也可能所有投注同时进入同一类别。以下是详细说明。",
+            "example": ""
+        },
+        "normal": {
+            "heading": "正常",
+            "content": "所有属于正常类别的投注，赔率将保持正常。正常类别的投注为数字 1、3、6 和单数。",
+            "example": "例：如果你下注 1K 在属于正常类别的数字 1 上，胜利时，投注将按 4.5 倍赔率支付，并退还本金。"
+        },
+        "hot": {
+            "heading": "热",
+            "content": "所有属于热类别的投注，赔率将自动提高。热类别的投注为数字 4、大、小、双数。",
+            "example": "例：如果你下注 1K 在属于热类别的数字 4 上，胜利时，投注将按 8 倍赔率支付。"
+        },
+        "cold": {
+            "heading": "冷",
+            "content": "所有属于冷类别的投注，赔率将自动降低。冷类别的投注为数字 5。",
+            "example": "例：如果你下注 1K 在属于冷类别的数字 5 上，胜利时，投注将按 3 倍赔率支付。"
+        },
+        "jackpot": {
+            "heading": "奖池",
+            "content": "所有属于奖池类别的投注，赔率将大幅提高。特别是奖池投注，只有 1 到 6 号数字可以被选为奖池数字，每轮游戏中只有一个数字可以成为奖池。奖池类别的投注为数字 2。",
+            "example": "例：如果你下注 1K 在属于奖池类别的数字 2 上，胜利时，投注将按 18 倍赔率支付。"
+        }
+    },
+    "bet-description-and-example": {
+        "title": "投注描述和示例",
+        "winning-conditions": "获胜条件",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主投注",
+            "single": {
+                "title": "1个号码（单一）",
+                "description": "投注单个号码",
+                "winning-conditions": "结果与您的投注一致",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "赢" },
+                    { "bet": "1", "result": "6", "status": "输" }
+                ]
+            },
+            "split": {
+                "title": "分注",
+                "description": "投注相邻的两个数字（垂直/水平）",
+                "winning-conditions": "结果是您投注的两个相邻数字之一",
+                "examples": [
+                    { "bet": "4,5", "result": "5", "status": "赢" },
+                    { "bet": "4,5", "result": "1", "status": "输" }
+                ]
+            },
+            "corner": {
+                "title": "角注",
+                "description": "投注在相交的四个数字上",
+                "winning-conditions": "结果是您投注的四个相邻数字之一",
+                "examples": [
+                    { "bet": "2,3,5,6", "result": "5", "status": "赢" },
+                    { "bet": "2,3,5,6", "result": "4", "status": "输" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 投注",
+            "small": {
+                "title": "小",
+                "description": "",
+                "winning-conditions": "结果为1到3",
+                "examples": [
+                    { "bet": "小", "result": "1", "status": "赢" },
+                    { "bet": "小", "result": "5", "status": "输" }
+                ]
+            },
+            "big": {
+                "title": "大",
+                "description": "",
+                "winning-conditions": "结果为4到6",
+                "examples": [
+                    { "bet": "大", "result": "4", "status": "赢" },
+                    { "bet": "大", "result": "2", "status": "输" }
+                ]
+            },
+            "odd": {
+                "title": "单数",
+                "description": "",
+                "winning-conditions": "结果为单数",
+                "examples": [
+                    { "bet": "单数", "result": "3", "status": "赢" },
+                    { "bet": "单数", "result": "6", "status": "输" }
+                ]
+            },
+            "even": {
+                "title": "双数",
+                "description": "",
+                "winning-conditions": "结果为双数",
+                "examples": [
+                    { "bet": "双数", "result": "2", "status": "赢" },
+                    { "bet": "双数", "result": "5", "status": "输" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "赔率",
+        "bet-payout": "投注赔率"
+    }
+}

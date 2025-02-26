@@ -1,0 +1,20 @@
+{
+    "big": "besar",
+    "small": "kecil",
+    "odd": "ganjil",
+    "even": "genap",
+    "small/big": "kecil/besar",
+    "odd/even": "ganjil/genap",
+
+    "1st": "1",
+    "2nd": "2",
+    "3rd": "3",
+    "4th": "4",
+    "5th": "5",
+    "2 TO 1": "2 TO 1",
+
+    "single number": "satu nomor",
+    "column": "kolom",
+    "row": "baris",
+    "side bet": "taruhan sampingan"
+}

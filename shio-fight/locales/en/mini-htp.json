@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Shio Fights is a unique card game with a Chinese Zodiac theme. <br/> <b>In each round of this game, two shio will be matched against each other, and the winner will be determined based on the rank of each Shio. </b>"
+        ]
+    },
+    "slide-2": {
+        "title": "How to Play",
+        "content": [
+            "After the betting period ends, the Dealer will deal one card each for <b>Di (Earth) and Tian (Heaven)</b>"
+        ]
+    },
+    "slide-3": {
+        "title": "Winning",
+        "content": [
+            " The result is determined by card rankings: <b>Rat is the highest, Pig is the lowest. Rat only loses to Pig, and Pig only wins against Rat.<b/>"
+        ]
+    }
+}

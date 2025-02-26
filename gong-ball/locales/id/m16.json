@@ -1,0 +1,22 @@
+{
+    "player": "player",
+    "banker": "banker",
+    "big": "besar",
+    "small": "kecil",
+    "odd": "ganjil",
+    "even": "genap",
+    "Big": "Besar",
+    "Small": "Kecil",
+    "Odd": "Ganjil",
+    "Even": "Genap",
+    "player/banker": "player/banker",
+    "small/big": "kecil/besar",
+    "odd/even": "ganjil/genap",
+    "one number": "Satu Nomor",
+    "two numbers": "Dua Nomor",
+    "four numbers": "Empat Nomor",
+    "side bet": "taruhan sampingan",
+    "normal": "normal",
+    "hot": "hot",
+    "cold": "cold"
+}

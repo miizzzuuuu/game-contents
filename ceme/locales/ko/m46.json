@@ -1,0 +1,19 @@
+{
+    "banker": "뱅커",
+    "player1": "플레이어 1",
+    "player2": "플레이어 2",
+    "player3": "플레이어 3",
+
+    "player bet": "플레이어 베팅",
+    "win with points 1 to 8": "1에서 8점으로 승리",
+    "win with points 9": "9점으로 승리",
+    "7,8,9 bet": "7,8,9 베팅",
+    "win with points 7": "7점으로 승리",
+    "win with points 8": "8점으로 승리",
+    "7,8,9 bet 2x bonus": "7,8,9 베팅 2배 보너스",
+    "specific bet": "특정 베팅",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "specific bet 2x bonus": "특정 베팅 2배 보너스"
+}

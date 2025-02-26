@@ -1,0 +1,16 @@
+{
+    "red": "merah",
+    "white": "putih",
+    "jackpot": "jackpot",
+    "double-red": "dua merah",
+    "double-white": "dua putih",
+    "double-jackpot": "dua jp",
+    "triple-red": "tiga merah",
+    "triple-white": "tiga putih",
+
+    "double jackpot": "dua jackpot",
+    "double red": "dua merah",
+    "double white": "dua putih",
+    "triple red": "tiga merah",
+    "triple white": "tiga putih"
+}

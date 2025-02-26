@@ -1,0 +1,141 @@
+{
+    "introduction": {
+        "title": "INTRODUCTION",
+        "content": "Dice 6 game is a simple and fun game from IDNLIVE now comes with a new modern look."
+    },
+    "goal": {
+        "title": "Game Objective",
+        "content": "The goal of the Dice 6 game is to guess the correct number on the dice, there are many betting combinations that you can play."
+    },
+    "rules": {
+        "title": "RULES",
+        "steps": [
+            "This game uses one rotating dice.",
+            "The game starts when the dealer opens the time to bet.",
+            "Now you have to place your bet on the betting panel that we provide.",
+            "All bets in the betting panel will be accepted automatically when the time is up.",
+            "After the betting period ends, the Dealer will roll the Dice to determine the outcome for that period.",
+            "The result consists only of the numbers 1 to 6 and if the dice are not clearly positioned then a \"no game\" status will occur and the dealer will roll the dice one more time until the result is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "PLACING A BET",
+        "single-bet": "One Number Bet ",
+        "split-bet": "Two Numbers Bet ",
+        "corner-bet": "Four Numbers Bet ",
+        "50-50-bet": "50-50 Bet ",
+        "single-bet-emblem": "single ",
+        "split-bet-emblem": "split bet ",
+        "corner-bet-emblem": "corner bet",
+        "big-small-emblem": "big / small",
+        "odd-even-emblem": "odd / even"
+    },
+    "bonus-system": {
+        "title": "JACKPOT AND HOT & COLD SYSTEM",
+        "introduction": {
+            "heading": "INTRODUCTION",
+            "content": "In each game round, the system will randomly determine which bets will fall into the Jackpot, Hot & Cold and Normal categories as shown in the example image above. There are 10 bets in this game in the form of betting numbers 1 to 6 as well as big small odd even bets. Keep in mind that in one round of the game all categories may appear simultaneously, just like the example image above, but it can also happen that all bets can enter the same category simultaneously. The following is a detailed explanation.",
+            "example": ""
+        },
+        "normal": {
+            "heading": "NORMAL",
+            "content": "For all bets that fall into the Normal category, the payout remains normal according to the applicable payout. Bets that fall into the Normal category are numbers 1,3,6 and Odd.",
+            "example": "Example: So if you place 1K on number 1 which happens to be in the Normal category, then automatically if you win your bet will be multiplied 4.5x, plus your capital will be returned."
+        },
+        "hot": {
+            "heading": "HOT",
+            "content": "For all bets that fall into the Hot category, the payout will automatically increase from the normal payout. Bets that fall into the Hot category are numbers 4 and Big, Small, Even.",
+            "example": "Example: So if you place 1K on number 4 which happens to be in the Hot category, then automatically if you win your initial bet will be multiplied 8X."
+        },
+        "cold": {
+            "heading": "COLD",
+            "content": "For all bets that fall into the Cold category, the payout will automatically decrease from the normal payout. The bet that falls into the Cold category is the number 5. ",
+            "example": "Example: So if you place 1K on the number 5 which happens to be in the Cold category, then automatically if you win your initial bet will be multiplied 3X."
+        },
+        "jackpot": {
+            "heading": "JACKPOT",
+            "content": "For all bets that fall into the Jackpot category, the payout will automatically increase sharply from the normal payout. Specifically for this Jackpot, only betting numbers 1 to 6 will be selected as the Jackpot, and only one number will be selected as the Jackpot in 1 round of the game. The bet that falls into the Jackpot category is the number 2. ",
+            "example": "Example: So if you place 1K on number 2 which happens to be in this Jackpot category, then automatically if you win your initial bet will be multiplied 18x."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "BET DESCRIPTION & EXAMPLE",
+        "winning-conditions": "WIN CONDITION",
+        "bet": "Bet",
+        "result": "RESULT",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "MAIN BET",
+            "single": {
+                "title": "1 number (single)",
+                "description": "Bet on a single number",
+                "winning-conditions": "The result match your Bet",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "WIN" },
+                    { "bet": "1", "result": "6", "status": "LOSE" }
+                ]
+            },
+            "split": {
+                "title": "Split",
+                "description": "Bet on two numbers that are adjacent vertically/horizontally",
+                "winning-conditions": "The result is 1 out of the 2 adjacent numbers you bet on",
+                "examples": [
+                    { "bet": "4,5", "result": "5", "status": "WIN" },
+                    { "bet": "4,5", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "corner": {
+                "title": "Corner",
+                "description": "Bet on four numbers that meet in one corner",
+                "winning-conditions": "The result is 1 out of the 4 adjacent numbers you bet on ",
+                "examples": [
+                    { "bet": "2,3,5,6", "result": "5", "status": "WIN" },
+                    { "bet": "2,3,5,6", "result": "4", "status": "LOSE" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 BET",
+            "small": {
+                "title": "Small",
+                "description": "",
+                "winning-conditions": "The result is from 1 to 3",
+                "examples": [
+                    { "bet": "Small", "result": "1", "status": "WIN" },
+                    { "bet": "Small", "result": "5", "status": "LOSE" }
+                ]
+            },
+            "big": {
+                "title": "Big",
+                "description": "",
+                "winning-conditions": "The result is from 4 to 6",
+                "examples": [
+                    { "bet": "Big", "result": "4", "status": "WIN" },
+                    { "bet": "Big", "result": "2", "status": "LOSE" }
+                ]
+            },
+            "odd": {
+                "title": "Odd",
+                "description": "",
+                "winning-conditions": "The result is an Odd Number",
+                "examples": [
+                    { "bet": "Odd", "result": "3", "status": "WIN" },
+                    { "bet": "Odd", "result": "6", "status": "LOSE" }
+                ]
+            },
+            "even": {
+                "title": "Even",
+                "description": "",
+                "winning-conditions": "The result is an Even Number",
+                "examples": [
+                    { "bet": "Even", "result": "2", "status": "WIN" },
+                    { "bet": "Even", "result": "5", "status": "LOSE" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "bet payout"
+    }
+}

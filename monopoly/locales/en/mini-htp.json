@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Permainan ini sama seperti permainan monopoly pada umumnya, diupgrade dengan 16 negara sebagai taruhan dan terdapat tambahan 4 kotak special sebagai special zona pembayaran anda. Contoh  X ½ , X 1, X 2, dst"
+        ]
+    },
+    "slide-2": {
+        "title": "Betting",
+        "content": [
+            "Dealer akan melempar dadu 20 sisi untuk menentukan jumlah langkah yang diambil Pion. Pion akan bergerak sesuai angka dadu dan berhenti di negara yang sesuai, dan itulah yang menjadi hasil periode permainan"
+        ]
+    },
+    "slide-3": {
+        "title": "Game Outcome",
+        "content": [
+            "Ada berbagai taruhan yang bisa meningkatkan peluang Anda menang, seperti taruhan negara tunggal, per zona, atau kelompok 8 negara"
+        ]
+    }
+}

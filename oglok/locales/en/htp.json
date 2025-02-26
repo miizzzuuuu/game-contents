@@ -1,0 +1,65 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Oglok is a traditional game similar to Sic Bo, but instead of numbers, it uses images. This game is very popular in the Asian region."
+    },
+    "rules": {
+        "title": "Rules",
+        "steps": [
+            "The game begins when the dealer opens the betting time.",
+            "Now you must place your bet on the provided betting panel and click the submit button.",
+            "After the betting period ends, the dealer will shuffle the dice to determine the results for that round.",
+            "The results are only from Shrimp to Fish for each die, and if the dice are not clearly positioned or do not land correctly, a 'no game' status will occur, and the dealer will reshuffle the dice until the result is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Placing a Bet",
+        "one-dice-bet": "One Dice",
+        "two-series-bet": "Two Dice Series",
+        "three-series-bet": "Three Dice Series",
+        "anytriple-bet": "Any Triple",
+        "4-combination-bet": "4-Dice Combination",
+        "2-combination-bet": "2-Dice Combination"
+    },
+    "bet-description-and-example": {
+        "title": "Bet Description and Example",
+        "winning-conditions": "Winning Conditions",
+        "description": "Description",
+        "example": "Example",
+        "bet": "BET ON",
+        "result": "RESULT",
+        "status": "STATUS",
+        "win": "WIN",
+        "main-bet": {
+            "heading": "Main Bet",
+            "one-dice-bet": {
+                "title": "One Dice",
+                "description": "The result is a specific image from Shrimp to Fish on one, two, or all three dice."
+            },
+            "two-series-bet": {
+                "title": "Two Dice Series",
+                "description": "The result is all triple images."
+            },
+            "three-series-bet": {
+                "title": "Three Dice Series",
+                "description": "The result is a specific triple image that you bet on."
+            },
+            "anytriple-bet": {
+                "title": "Any Triple",
+                "description": "The result is any triple image."
+            },
+            "4-combination-bet": {
+                "title": "4-Dice Combination",
+                "description": "The result is a combination of four dice that you bet on."
+            },
+            "2-combination-bet": {
+                "title": "2-Dice Combination",
+                "description": "The result is a combination of two dice that you bet on."
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout"
+    }
+}

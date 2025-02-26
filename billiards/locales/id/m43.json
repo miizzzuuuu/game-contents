@@ -1,0 +1,33 @@
+{
+    "big": "besar",
+    "small": "kecil",
+    "odd": "ganjil",
+    "even": "genap",
+    "small/big": "kecil/besar",
+    "odd/even": "genap/ganjil",
+    "straight": "straight",
+    "straight flush": "straight flush",
+
+    "double": "ganda",
+    "triple": "triple",
+
+    "draw two balls": "seri dua bola",
+    "draw three balls": "seri tiga bola",
+
+    "one ball": "satu bola",
+    "two balls": "dua bola",
+    "three balls": "tiga bola",
+
+    "draw ball color": "seri warna bola",
+    "triple color": "Warna Triple",
+    "3 stars": "3 Bintang",
+
+    "more bet": "lebih banyak taruhan",
+    "less bet": "kurang taruhan",
+    "one": "satu",
+    "two": "dua",
+    "three": "tiga",
+    "four": "empat",
+    "five": "lima",
+    "six": "enam"
+}

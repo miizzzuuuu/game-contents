@@ -1,0 +1,159 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Hãy tận hưởng trò chơi độc đáo mới nhất được IDNLIVE giới thiệu. Trò chơi 12D là một trò chơi truyền thống quen thuộc với bạn, trò chơi đơn giản và thú vị này được làm mới với phong cách hiện đại hơn."
+    },
+    "goal": {
+        "title": "Mục tiêu trò chơi",
+        "content": "Mục tiêu của trò chơi 12D là đoán số kết quả của quả bóng đúng, có nhiều sự kết hợp lựa chọn cược mà bạn có thể chơi."
+    },
+    "rules": {
+        "title": "Quy tắc",
+        "steps": [
+            "Trò chơi này sử dụng một quả bóng và một bảng 12D.",
+            "Trò chơi bắt đầu khi người chia bài mở thời gian cược.",
+            "Bây giờ bạn phải đặt cược trên bảng cược mà chúng tôi cung cấp.",
+            "Khi thời gian hết, tất cả cược trong bảng cược sẽ được chấp nhận tự động.",
+            "Sau khi thời gian cược kết thúc, người chia bài sẽ lăn quả bóng trên bảng để xác định kết quả cho kỳ đó.",
+            "Tất cả cược loại 50-50 sẽ được hoàn lại nếu kết quả trò chơi là Jackpot.",
+            "Tất cả cược Số, Cột và Hàng sẽ thua nếu kết quả trò chơi là Jackpot.",
+            "Kết quả chỉ bao gồm các số từ 1 đến 12 và Jackpot, nếu quả bóng không được định vị rõ ràng, trạng thái 'không có trò chơi' sẽ xuất hiện và người chia bài sẽ tiếp tục lăn quả bóng cho đến khi kết quả được làm rõ."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Cách đặt cược",
+        "single-number-bet": "Cược số đơn",
+        "two-numbers-bets": "Cược 2 số (Split)",
+        "four-numbers-bets": "Cược 4 số (Corner)",
+        "line-row-bets": "Cược cột và hàng",
+        "jackpots-and-50_50-bets": "Cược Jackpot và 50-50"
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả và ví dụ về cược",
+        "winning-conditions": "Điều kiện chiến thắng",
+        "bet": "Cược",
+        "result": "Kết quả",
+        "status": "Trạng thái",
+        "main-bet": {
+            "heading": "Cược chính",
+            "single": {
+                "title": "Số đơn",
+                "description": "Cược một số đơn",
+                "winning-conditions": "Nếu kết quả trùng với cược của bạn",
+                "examples": [
+                    { "bet": "7", "result": "7", "status": "WIN" },
+                    { "bet": "7", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "split": {
+                "title": "Split",
+                "description": "Cược vào hai số kề nhau",
+                "winning-conditions": "Nếu kết quả là một trong hai số bạn đã cược",
+                "examples": [
+                    { "bet": "1,4", "result": "4", "status": "WIN" },
+                    { "bet": "1,4", "result": "9", "status": "LOSE" }
+                ]
+            },
+            "corner": {
+                "title": "Corner",
+                "description": "Cược vào bốn số nối với nhau theo hình vuông",
+                "winning-conditions": "Nếu kết quả là một trong bốn số bạn đã cược",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "WIN" },
+                    { "bet": "1,2,4,5", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "line": {
+                "title": "Cột",
+                "description": "Cược vào một cột số",
+                "winning-conditions": "Nếu kết quả là một số trong cột bạn đã cược",
+                "examples": [
+                    { "bet": "Cột 2", "result": "6", "status": "WIN" },
+                    { "bet": "Cột 2", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "row": {
+                "title": "Hàng",
+                "description": "Cược vào một hàng số",
+                "winning-conditions": "Nếu kết quả là một số trong hàng bạn đã cược",
+                "examples": [
+                    { "bet": "Hàng 3", "result": "9", "status": "WIN" },
+                    { "bet": "Hàng 3", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "jackpot": {
+                "title": "Jackpot",
+                "description": "Cược vào Jackpot",
+                "winning-conditions": "Nếu kết quả là Jackpot",
+                "examples": [
+                    { "bet": "Jackpot", "result": "Jackpot", "status": "WIN" },
+                    { "bet": "Jackpot", "result": "1", "status": "LOSE" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "Cược 50-50",
+            "small": {
+                "title": "Nhỏ",
+                "description": "",
+                "winning-conditions": "Nếu kết quả là từ 1 đến 6",
+                "examples": [
+                    { "bet": "Nhỏ", "result": "1", "status": "WIN" },
+                    { "bet": "Nhỏ", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "big": {
+                "title": "Lớn",
+                "description": "",
+                "winning-conditions": "Nếu kết quả là từ 7 đến 12",
+                "examples": [
+                    { "bet": "Lớn", "result": "7", "status": "WIN" },
+                    { "bet": "Lớn", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "odd": {
+                "title": "Lẻ",
+                "description": "",
+                "winning-conditions": "Nếu kết quả là số lẻ",
+                "examples": [
+                    { "bet": "Lẻ", "result": "1", "status": "WIN" },
+                    { "bet": "Lẻ", "result": "2", "status": "LOSE" }
+                ]
+            },
+            "even": {
+                "title": "Chẵn",
+                "description": "",
+                "winning-conditions": "Nếu kết quả là số chẵn",
+                "examples": [
+                    { "bet": "Chẵn", "result": "4", "status": "WIN" },
+                    { "bet": "Chẵn", "result": "3", "status": "LOSE" }
+                ]
+            },
+            "red": {
+                "title": "Đỏ",
+                "description": "",
+                "winning-conditions": "Nếu kết quả là màu đỏ",
+                "examples": [
+                    { "bet": "Đỏ", "result": "3", "status": "WIN" },
+                    { "bet": "Đỏ", "result": "4", "status": "LOSE" }
+                ]
+            },
+            "black": {
+                "title": "Đen",
+                "description": "",
+                "winning-conditions": "Nếu kết quả là màu đen",
+                "examples": [
+                    { "bet": "Đen", "result": "4", "status": "WIN" },
+                    { "bet": "Đen", "result": "3", "status": "LOSE" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "Thanh toán",
+        "bet-payout": "Thanh toán cược",
+        "bonus-payout": "Thanh toán bonus",
+        "thunder-bonus": "Bonus sấm sét",
+        "number-times": "x{{value}}"
+    }
+}

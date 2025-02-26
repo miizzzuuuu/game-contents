@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Shio Fights adalah permainan kartu unik dengan tema Zodiak Cina. <br/> <b>Di setiap putaran dalam game ini akan diadu 2 shio yang kemenangannya ditentukan berdasarkan peringkat masing-masing Shio. </b>"
+        ]
+    },
+    "slide-2": {
+        "title": "How to Play",
+        "content": [
+            "Setelah periode taruhan berakhir, Dealer akan memberikan satu kartu untuk <b>Di (Bumi) dan Tian (Langit)</b>"
+        ]
+    },
+    "slide-3": {
+        "title": "Winning",
+        "content": [
+            " Hasil ditentukan oleh peringkat kartu: <b>Tikus tertinggi, Babi terendah. Tikus hanya kalah melawan Babi, dan Babi hanya menang melawan Tikus.<b/>"
+        ]
+    }
+}

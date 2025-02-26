@@ -1,0 +1,21 @@
+{
+    "slide-1": {
+        "title": "Cách Chơi",
+        "content": [
+            "Trò chơi này tương tự như trò Suwit thông thường, sử dụng 2 viên xúc xắc (Đen & Đỏ). Xúc xắc Đen thể hiện Kéo, Búa, hoặc Giấy. Xúc xắc Đỏ thể hiện Ngón cái, Ngón trỏ, hoặc Ngón út."
+        ]
+    },
+    "slide-2": {
+        "title": "Đặt Cược",
+        "content": [
+            "Bạn đặt cược để đấu với nhà cái, bằng cách đặt cược vào tùy chọn xúc xắc đơn lẻ màu đen/đỏ, tổ hợp 2 xúc xắc, hàng và cột, cược chia đôi, và cược góc."
+        ]
+    },
+    "slide-3": {
+        "title": "Ví Dụ Về Cược",
+        "content": [
+            "Búa > Kéo, Kéo > Giấy, Giấy > Búa<br/>Ngón trỏ > Ngón út, Ngón út > Ngón cái, Ngón cái > Ngón trỏ",
+            "<b>ghi chú: \">\" có nghĩa là THẮNG</b>"
+        ]
+    }
+}

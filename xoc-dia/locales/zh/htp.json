@@ -1,0 +1,91 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "Xoc Dia（掷碟）或 Shake the Plate 是一款越南的传统游戏，始于 1909 年。这款游戏与 Oglok 类似，因为两者的玩法相近，使用一个碗，并需要玩家猜测碗中 4 个按钮的结果。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "该游戏使用一个碗和四个按钮，每个按钮有红色和白色两面。",
+            "当庄家开启投注时，游戏开始。",
+            "您需要在我们提供的投注面板上放置您的赌注并点击提交按钮。",
+            "投注时间结束后，庄家会摇晃碗来决定本轮的结果。",
+            "结果仅为每个按钮的红色或白色。如果按钮未清晰定位或未正确落下，则判定为“无效局”，庄家将重新摇晃碗直至结果明确。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注",
+        "reference": "参考",
+        "name": "名称",
+        "example": "示例",
+        "allWhite": "投注 4 个白色按钮",
+        "threeWhite": "投注 3 个白色按钮和 1 个红色按钮",
+        "allRed": "投注 4 个红色按钮",
+        "threeRed": "投注 3 个红色按钮和 1 个白色按钮",
+        "odd": "投注单数（50-50）",
+        "small": "投注小（50-50）",
+        "big": "投注大（50-50）",
+        "even": "投注双数（50-50）"
+    },
+    "bet-description-and-example": {
+        "title": "投注描述及示例",
+        "winning-conditions": "获胜条件",
+        "description": "描述",
+        "example": "示例",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "win": "胜",
+        "main-bet": {
+            "heading": "主要投注",
+            "allWhite": {
+                "title": "投注 4 个白色按钮",
+                "winning-conditions": "结果为 4 个白色按钮",
+                "examples": [{ "bet": "0", "result": "0", "status": "胜" }]
+            },
+            "threeWhite": {
+                "title": "投注 3 个白色按钮 + 1 个红色按钮",
+                "winning-conditions": "结果为您下注的相邻 2 个数字之一",
+                "examples": [{ "bet": "1", "result": "1", "status": "胜" }]
+            },
+            "allRed": {
+                "title": "投注 4 个红色按钮",
+                "winning-conditions": "结果为您下注的相邻 4 个数字之一",
+                "examples": [{ "bet": "4", "result": "4", "status": "胜" }]
+            },
+            "threeRed": {
+                "title": "投注 1 个白色按钮 + 3 个红色按钮",
+                "winning-conditions": "结果为您下注的相邻 4 个数字之一",
+                "examples": [{ "bet": "3", "result": "3", "status": "胜" }]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 投注",
+            "odd": {
+                "title": "投注单数（50-50）",
+                "description": "",
+                "winning-conditions": "结果为单数",
+                "examples": [{ "bet": "单数", "result": "1", "status": "胜" }]
+            },
+            "small": {
+                "title": "投注小（50-50）",
+                "winning-conditions": "结果为 1 到 3",
+                "examples": [{ "bet": "小", "result": "1", "status": "胜" }]
+            },
+            "big": {
+                "title": "投注大（50-50）",
+                "winning-conditions": "结果为 4 个红色按钮或 1 个白色按钮 + 3 个红色按钮",
+                "examples": [{ "bet": "大", "result": "3", "status": "胜" }]
+            },
+            "even": {
+                "title": "投注双数（50-50）",
+                "winning-conditions": "结果为 4 个红色按钮、2 个白色按钮 + 2 个红色按钮或 4 个红色按钮",
+                "examples": [{ "bet": "双数", "result": "0", "status": "胜" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "奖金",
+        "bet-payout": "投注奖金"
+    }
+}

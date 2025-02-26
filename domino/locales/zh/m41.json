@@ -1,0 +1,15 @@
+    {
+        "player": "玩家",
+        "banker": "庄家",
+        "tie": "平局",
+        "q0 - q9": "q0 - q9",
+        "q bet": "q 赌注",
+        "q": "Q",
+        "not q": "不是 Q",
+        "special card": "特殊牌",
+        "puresmall": "纯小",
+        "purebig": "纯大",
+        "balak": "对子",
+        "puresix": "六神",
+        "jackpot": "彩金"
+    }

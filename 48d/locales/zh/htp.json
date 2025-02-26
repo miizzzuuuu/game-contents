@@ -1,0 +1,207 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "48D是一款传统的游戏，使用一个带有球的笼子，类似于轮盘游戏。要赢得这个简单的游戏，你只需要猜测哪个球会作为结果出现。"
+    },
+    "goal": {
+        "title": "游戏目标",
+        "content": "48D游戏的目标是猜对球的正确编号，游戏中有许多不同的投注组合可以选择。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "此游戏使用48个球，编号从1到48，并且有红色或黑色的球，这些球被放在一个笼子里，每轮游戏都会旋转。",
+            "游戏开始时，荷官会开放投注时间。",
+            "现在，你需要在我们提供的投注面板上下注。",
+            "投注面板中的所有投注将在时间结束时自动接受。",
+            "投注时间结束后，荷官将旋转笼子来确定游戏的结果。",
+            "每一轮游戏的结果仅为一个号码，编号从1到48。如果球未清晰定位，则会出现“无游戏”状态，荷官将再次旋转笼子直到结果清晰。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注",
+        "single-bet": "押1个数字（单注）。",
+        "split-bet": "押2个数字（分注）。",
+        "corner-bet": "押4个数字（角注）。",
+        "row-column-bets": "行和列的投注。",
+        "_50-50-bet": "50-50投注（小/大，单/双，红/黑）。"
+    },
+    "bonus-system": {
+        "title": "奖金系统",
+        "introduction": {
+            "heading": "介绍",
+            "content": "在每轮游戏中，系统将随机决定哪些数字将被选为幸运号码和头奖号码。被选为幸运号码或头奖号码的数字将自动大幅增加其奖金。被选为头奖号码的数字将不再被选为幸运号码，反之亦然。"
+        },
+        "lucky-numbers": {
+            "heading": "幸运数字",
+            "content": "在每轮游戏中，系统将随机选择{{minNumbers}}至{{maxNumbers}}个数字作为幸运号码。对于每个选中的幸运号码，奖金将大幅增加，超过正常奖金。最小的幸运号码奖金将获得{{minMultiplier}}倍的投注，最高可达到{{maxMultiplier}}倍的投注。"
+        },
+        "jackpot-number": {
+            "heading": "头奖号码",
+            "content": "在每轮游戏中，系统还将随机选择1个数字作为头奖号码。被选中的数字将成为头奖号码，奖金将大幅增加，超过幸运号码奖金。赢得头奖号码的机会最低为投注的{{minJackpotMultiplier}}倍，最高可达{{maxJackpotMultiplier}}倍。"
+        },
+        "how-to-get-bonuses": {
+            "heading": "如何获得奖金",
+            "content": "要获得此奖金，您必须在正确的数字上下注，并且该轮游戏的结果还必须与您下注的数字匹配。"
+        },
+        "example-1": {
+            "title": "示例 1：赢得幸运号码奖金",
+            "period": "第{{period}}期",
+            "description": "您以每个{{bet, number}}的金额投注数字{{numbers}}。",
+            "result": "幸运号码 = {{luckyNumbers}}.\n幸运号码倍数 = x{{luckyMultiplier}}.\n头奖号码 = {{jackpotNumber}}.\n头奖号码倍数 = x{{jackpotMultiplier}}.\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下:\n投注 * 幸运号码奖金 = {{bet, number}} * {{luckyMultiplier}} = {{totalWinnings, number}}。"
+        },
+        "example-2": {
+            "title": "示例 2：赢得头奖号码奖金",
+            "period": "第{{period}}期",
+            "description": "您以每个{{bet, number}}的金额投注数字{{numbers}}。",
+            "result": "幸运号码 = {{luckyNumbers}}.\n幸运号码倍数 = x{{luckyMultiplier}}.\n头奖号码 = {{jackpotNumber}}.\n头奖号码倍数 = x{{jackpotMultiplier}}.\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下:\n投注 * 头奖奖金 = {{bet, number}} * {{jackpotMultiplier}} = {{totalWinnings, number}}。"
+        },
+        "example-3": {
+            "title": "示例 3: 赢得普通单个号码投注",
+            "period": "第{{period}}期",
+            "description": "您以每个{{bet, number}}的金额投注数字{{numbers}}。",
+            "result": "幸运号码 = {{luckyNumbers}}.\n幸运号码倍数 = x{{luckyMultiplier}}.\n头奖号码 = {{jackpotNumber}}.\n头奖号码倍数 = x{{jackpotMultiplier}}.\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下:\n投注 * 普通奖\n{{bet, number}} * 19 = {{totalWinnings, number}}。"
+        }
+    },
+    "bet-description-and-example": {
+        "title": "投注描述和示例",
+        "winning-conditions": "获胜条件",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主要投注",
+            "single": {
+                "title": "单号",
+                "description": "投注一个数字",
+                "winning-conditions": "结果与您投注的数字一致",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "赢" },
+                    { "bet": "1", "result": "2", "status": "输" }
+                ]
+            },
+            "split": {
+                "title": "分号",
+                "description": "投注两个相邻的数字（垂直/水平）",
+                "winning-conditions": "结果是您投注的两个数字之一",
+                "examples": [
+                    { "bet": "1,2", "result": "1", "status": "赢" },
+                    { "bet": "1,2", "result": "3", "status": "输" }
+                ]
+            },
+            "corner": {
+                "title": "角号",
+                "description": "投注四个在一个角落交汇的数字",
+                "winning-conditions": "结果是您投注的四个数字之一",
+                "examples": [
+                    { "bet": "1,2,5,6", "result": "5", "status": "赢" },
+                    { "bet": "1,2,5,6", "result": "13", "status": "输" }
+                ]
+            },
+            "single-row": {
+                "title": "单行",
+                "description": "12个数字",
+                "winning-conditions": "结果在您投注的“单行”中",
+                "examples": [
+                    { "bet": "行1", "result": "5", "status": "赢" },
+                    { "bet": "行1", "result": "2", "status": "输" }
+                ]
+            },
+            "single-column": {
+                "title": "单列",
+                "description": "4个数字",
+                "winning-conditions": "结果在您投注的“单列”中",
+                "examples": [
+                    { "bet": "列1", "result": "3", "status": "赢" },
+                    { "bet": "列1", "result": "7", "status": "输" }
+                ]
+            },
+            "double-row": {
+                "title": "双行",
+                "description": "24个数字",
+                "winning-conditions": "结果在您投注的“双行”中",
+                "examples": [
+                    { "bet": "行1-2", "result": "14", "status": "赢" },
+                    { "bet": "行1-2", "result": "48", "status": "输" }
+                ]
+            },
+            "double-column": {
+                "title": "双列",
+                "description": "8个数字",
+                "winning-conditions": "结果在您投注的“双列”中",
+                "examples": [
+                    { "bet": "列1-2", "result": "7", "status": "赢" },
+                    { "bet": "列1-2", "result": "25", "status": "输" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50投注",
+            "small": {
+                "title": "小",
+                "description": "",
+                "winning-conditions": "结果在1到12之间",
+                "examples": [
+                    { "bet": "小", "result": "2", "status": "赢" },
+                    { "bet": "小", "result": "13", "status": "输" }
+                ]
+            },
+            "big": {
+                "title": "大",
+                "description": "",
+                "winning-conditions": "结果在12到24之间",
+                "examples": [
+                    { "bet": "大", "result": "13", "status": "赢" },
+                    { "bet": "大", "result": "2", "status": "输" }
+                ]
+            },
+            "odd": {
+                "title": "单",
+                "description": "",
+                "winning-conditions": "结果为奇数",
+                "examples": [
+                    { "bet": "单", "result": "13", "status": "赢" },
+                    { "bet": "单", "result": "12", "status": "输" }
+                ]
+            },
+            "even": {
+                "title": "双",
+                "description": "",
+                "winning-conditions": "结果为偶数",
+                "examples": [
+                    { "bet": "双", "result": "12", "status": "赢" },
+                    { "bet": "双", "result": "13", "status": "输" }
+                ]
+            },
+            "red": {
+                "title": "红",
+                "description": "",
+                "winning-conditions": "结果为红色",
+                "examples": [
+                    { "bet": "红", "result": "10", "status": "赢" },
+                    { "bet": "红", "result": "14", "status": "输" }
+                ]
+            },
+            "black": {
+                "title": "黑",
+                "description": "",
+                "winning-conditions": "结果为黑色",
+                "examples": [
+                    { "bet": "黑", "result": "12", "status": "赢" },
+                    { "bet": "黑", "result": "13", "status": "输" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付",
+        "bonus-payout": "奖金支付",
+        "lucky-number-multiplier": "幸运号码倍数",
+        "jackpot-number-multiplier": "头奖号码倍数",
+        "number-times": "{{value}}倍"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Cara Bermain",
+        "content": [
+            "Baccarat adalah permainan di mana <b>Anda menebak hasil dari tangan yang akan menang</b>: Player, Banker, atau seri (Tie) yang akan memiliki nilai total lebih dekat ke <b>angka 9</b>."
+        ]
+    },
+    "slide-2": {
+        "title": "Cara Bermain",
+        "content": [
+            "Kartu memiliki nilai berdasarkan angka mereka, dengan <b>kartu wajah (J, Q, K) bernilai 0</b> dan <b>kartu AS bernilai 1</b>. Jika total nilai kartu melebihi 9, hanya digit terakhir yang dihitung (misalnya, 15 menjadi 5)."
+        ]
+    },
+    "slide-3": {
+        "title": "Kemenangan",
+        "content": [
+            "Pemenangnya adalah tangan yang total poinnya <b>mendekati 9</b>. Jika total poin sama antara Player dan Banker, hasilnya adalah seri."
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Monopoly adalah permainan unik yang dikembangkan oleh IDNLIVE. Permain ini sama seperti permainan monopoli yang sudah dikenal luas, namun dalam permainan ini kami ganti dengan 16 negara sebagai taruhanya dan juga terdapat 4 kotal spesial."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Permainan di dimulai ketika dealer membuka waktu untuk bertaruh.",
+            "Anda harus menempatkan taruhan pada panel taruhan yang kami sediakan.",
+            "Zona spesial tidak termasuk dalam taruhan manapun di panel taruhan.",
+            "Setelah periode taruhan berakhir, Dealer akan melempar dadu berisi 20 dengan angka 1-20 untuk menentukan berapa langkah yang ditempuh.",
+            "Setelah didapat angkanya, sistem akan menentukan hasil periode permainan berdasarkan angka tersebut.",
+            "Jika dadu tidak berhenti dengan sempurna dan angkanya tidak jelas, maka “no gane” status akan terjadi dan dealer akan melempar dadu sekali lagi sampai hasilnya jelas.",
+            "Terdapat 20 kotak yang dibagi dalam 5 zona dengan warnanya masing masing",
+            "Zona Special tidak termasuk dalam taruhan manapun"
+        ],
+        "notes": "<span style='color: #FFC700;'>Catatan :</span>",
+        "note": "Untuk taruhan 50:50 (taruhan 8 negara), Jika hasilnya adalah salah satu dari zona spesial, maka chip akan dikembalikan."
+    },
+    "special-description": {
+        "special": "spesial",
+        "description": "deskripsi",
+        "x1/2": "Semua taruhan dibayar setengah kali taruhan",
+        "x1": "Semua taruhan dibayar satu kali taruhan",
+        "x2": "Semua taruhan dibayar  dua kali taruhan",
+        "zonk": "Semua taruhan akan kalah kecuali taruhan 50:50"
+    },
+    "placing-a-bet": {
+        "title": "Memasang Taruhan",
+        "single-bet": {
+            "title": "Tunggal",
+            "emblem": "(Taruhan 1 NEGARA)"
+        },
+        "zone-bet": {
+            "title": "ZONA",
+            "emblem": "(Taruhan 4 NEGARA)"
+        },
+        "side-bet": {
+            "title": "50:50",
+            "emblem": "(Taruhan 8 NEGARA)"
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan",
+        "bonus-payout": "pembayaran bonus",
+        "lucky-number-multiplier": "Pengali Lucky Number",
+        "jackpot-number-multiplier": "Pengali Jackpot Number",
+        "number-times": "{{value}}x"
+    }
+}

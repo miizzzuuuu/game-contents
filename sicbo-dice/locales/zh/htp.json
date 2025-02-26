@@ -1,0 +1,166 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "骰宝（Sic Bo）是一种古老的中国游戏，意思是珍贵的骰子。这是亚洲地区非常流行的游戏。"
+    },
+    "rules": {
+        "title": "游戏规则",
+        "steps": [
+            "游戏开始时，庄家会开放下注时间。",
+            "现在，您需要在我们提供的下注面板上下注并点击提交按钮。",
+            "下注时间结束后，庄家将掷骰子来决定本轮的结果。",
+            "如果结果是三个相同的骰子，那么所有的50-50投注都将输掉。",
+            "每个骰子的结果只能是1到6，如果骰子没有明确摆放或未正确落到底部，则会出现'无效游戏'状态，庄家会重新掷骰，直到结果明确为止。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注",
+        "content": "这个游戏的核心是猜测三个骰子的结果。",
+        "steps": [
+            "选择一个特定的三重号码，出现在三个骰子上，获得180倍投注的奖金。",
+            "选择任何号码，出现在三个骰子上，获得30倍投注的奖金。",
+            "三个骰子的总和是4或17，获得50倍投注的奖金。",
+            "三个骰子的总和是5或16，获得30倍投注的奖金。",
+            "三个骰子的总和是6或15，获得18倍投注的奖金。",
+            "三个骰子的总和是7或14，获得12倍投注的奖金。",
+            "三个骰子的总和是8或13，获得8倍投注的奖金。",
+            "三个骰子的总和是9、10、11或12，获得6倍投注的奖金。",
+            "选择两个特定号码，出现在三个骰子中的任意两个上，获得5倍投注的奖金。",
+            "选择一个特定号码，出现在三个骰子中的任意一个上。如果与一个骰子匹配，奖金为1倍投注；如果与两个骰子匹配，奖金为2倍投注；如果与三个骰子匹配，奖金为3倍投注。",
+            "大: 三个骰子的总和在11到17之间，获得1倍投注的奖金。三重号码不计为大。",
+            "小: 三个骰子的总和在4到10之间，获得1倍投注的奖金。三重号码不计为小。"
+        ]
+    },
+    "bonus-system": {
+        "title": "奖金系统",
+        "introduction": {
+            "heading": "介绍",
+            "content": "在每轮游戏中，系统将随机决定哪些数字将被选为幸运号码和头奖号码。被选为幸运号码或头奖号码的数字将自动大幅增加其奖金。被选为头奖号码的数字将不再被选为幸运号码，反之亦然。"
+        },
+        "lucky-numbers": {
+            "heading": "幸运数字",
+            "content": "在每轮游戏中，系统将随机选择{{minNumbers}}至{{maxNumbers}}个数字作为幸运号码。对于每个选中的幸运号码，奖金将大幅增加，超过正常奖金。最小的幸运号码奖金将获得{{minMultiplier}}倍的投注，最高可达到{{maxMultiplier}}倍的投注。"
+        },
+        "jackpot-number": {
+            "heading": "头奖号码",
+            "content": "在每轮游戏中，系统还将随机选择1个数字作为头奖号码。被选中的数字将成为头奖号码，奖金将大幅增加，超过幸运号码奖金。赢得头奖号码的机会最低为投注的{{minJackpotMultiplier}}倍，最高可达{{maxJackpotMultiplier}}倍。"
+        },
+        "how-to-get-bonuses": {
+            "heading": "如何获得奖金",
+            "content": "要获得此奖金，您必须在正确的数字上下注，并且该轮游戏的结果还必须与您下注的数字匹配。"
+        },
+        "example-1": {
+            "title": "示例 1：赢得幸运号码奖金",
+            "period": "第{{period}}期",
+            "description": "您以每个{{bet, number}}的金额投注数字{{numbers}}。",
+            "result": "幸运号码 = {{luckyNumbers}}.\n幸运号码倍数 = x{{luckyMultiplier}}.\n头奖号码 = {{jackpotNumber}}.\n头奖号码倍数 = x{{jackpotMultiplier}}.\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下:\n投注 * 幸运号码奖金 = {{bet, number}} * {{luckyMultiplier}} = {{totalWinnings, number}}。"
+        },
+        "example-2": {
+            "title": "示例 2：赢得头奖号码奖金",
+            "period": "第{{period}}期",
+            "description": "您以每个{{bet, number}}的金额投注数字{{numbers}}。",
+            "result": "幸运号码 = {{luckyNumbers}}.\n幸运号码倍数 = x{{luckyMultiplier}}.\n头奖号码 = {{jackpotNumber}}.\n头奖号码倍数 = x{{jackpotMultiplier}}.\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下:\n投注 * 头奖奖金 = {{bet, number}} * {{jackpotMultiplier}} = {{totalWinnings, number}}。"
+        },
+        "example-3": {
+            "title": "示例 3: 赢得普通单个号码投注",
+            "period": "第{{period}}期",
+            "description": "您以每个{{bet, number}}的金额投注数字{{numbers}}。",
+            "result": "幸运号码 = {{luckyNumbers}}.\n幸运号码倍数 = x{{luckyMultiplier}}.\n头奖号码 = {{jackpotNumber}}.\n头奖号码倍数 = x{{jackpotMultiplier}}.\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下:\n投注 * 普通奖\n{{bet, number}} * 19 = {{totalWinnings, number}}。"
+        }
+    },
+    "bet-description-and-example": {
+        "title": "投注说明",
+        "winning-conditions": "获胜条件",
+        "description": "描述",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "examples": "示例",
+
+        "main-bet": {
+            "heading": "主要投注",
+            "single-dice": {
+                "title": "单骰",
+                "description": "若结果为一个、两个或三个骰子符合您的投注，则支付",
+                "examples": [{ "bet": "一", "result": "1,2,3" }]
+            },
+            "combination-dice": {
+                "title": "骰子组合",
+                "description": "若结果为符合您投注的两个骰子组合，则支付",
+                "examples": [{ "bet": "1,2", "result": "1,2,3" }]
+            },
+            "double-specific": {
+                "title": "特定对子",
+                "description": "若结果为一对特定的匹配数字，则支付",
+                "examples": [{ "bet": "2,2", "result": "2,2" }]
+            },
+            "triple-specific": {
+                "title": "特定三重",
+                "description": "若结果为三个特定的匹配数字，则支付",
+                "examples": [{ "bet": "3,3,3", "result": "3,3,3" }]
+            },
+            "anytriple": {
+                "title": "任意三重",
+                "description": "若结果为任意三个匹配的数字，则支付",
+                "examples": [{ "bet": "任意三重", "result": "5,5,5" }]
+            },
+            "sum-of-three": {
+                "title": "三骰和",
+                "description": "若结果为三个骰子的总和符合您的投注，则支付",
+                "examples": [{ "bet": "10", "result": "2,2,6" }]
+            }
+        },
+        "side-bet": {
+            "heading": "边注",
+            "small": {
+                "title": "小",
+                "description": "若三个骰子的总和在 4-10 之间，则支付",
+                "examples": [{ "bet": "小", "result": "1,2,3" }]
+            },
+            "big": {
+                "title": "大",
+                "description": "若三个骰子的总和在 11-17 之间，则支付",
+                "examples": [{ "bet": "大", "result": "5,5,1" }]
+            },
+            "odd": {
+                "title": "奇数",
+                "description": "若三个骰子的总和为奇数，则支付",
+                "examples": [{ "bet": "奇数", "result": "1,2,2" }]
+            },
+            "even": {
+                "title": "偶数",
+                "description": "若三个骰子的总和为偶数，则支付",
+                "examples": [{ "bet": "偶数", "result": "2,2,4" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付",
+        "bonus-payout": "奖金支付",
+        "lucky-number-multiplier": "幸运号码倍数",
+        "jackpot-number-multiplier": "头奖号码倍数",
+        "number-times": "{{value}}倍"
+    },
+    "mini-how-to-play": {
+        "slide1": {
+            "title": "玩法介绍",
+            "content": "您需要猜测投掷到盒子中的3个骰子的结果。您可以在各种选项上下注，例如单个骰子、骰子组合、双骰、三骰、3个骰子的总和，甚至大小/奇数/偶数。"
+        },
+        "slide2": {
+            "title": "单个骰子 & 骰子组合",
+            "content": "单个骰子的结果是1到6之间的特定数字，而骰子组合是您投注的两个骰子数字的组合。"
+        },
+        "slide3": {
+            "title": "3个骰子的总和 & 奇数/偶数/小/大",
+            "content": "3个骰子的总和就是3个骰子的总和。如果总和在4到10之间，结果为“小”；如果在11到17之间，结果为“大”。奇数或偶数的结果取决于总和是奇数还是偶数。"
+        },
+        "slide4": {
+            "title": "双骰, 三骰, 所有三骰",
+            "content": "双骰和三骰的结果是特定的双数或三数，所有三骰的结果是所有三数。"
+        }
+    }
+}

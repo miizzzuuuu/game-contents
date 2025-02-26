@@ -1,0 +1,256 @@
+{
+    "introduction": {
+        "title": "แนะนำ",
+        "content": "เกม Head and Tail เป็นเกมทายเหรียญหัวหรือก้อย โดยหัวจะถูกแสดงเป็นสีแดงพร้อมกับโลโก้ของมังกร และก้อยจะถูกแสดงเป็นสีน้ำเงินพร้อมกับโลโก้ของเสือ เกมนี้มีเหรียญทั้งหมด 3 เหรียญ วิธีการเล่นคือแค่ทายว่าเหรียญใดจะออกในสามเหรียญ"
+    },
+    "goal": {
+        "title": "เป้าหมายเกม",
+        "content": "เป้าหมายของเกม 12D คือการทายหมายเลขลูกบอลที่ถูกต้อง มีหลายตัวเลือกในการวางเดิมพันที่คุณสามารถเล่นได้"
+    },
+    "rules": {
+        "title": "กฎ",
+        "steps": [
+            "หากคุณซื้อหมายเลขนอกหมายเลขที่ออกมา จะหมายความว่าคุณแพ้และเงินจะไม่ถูกคืนเลย",
+            "หมายเลขที่สามารถซื้อได้ภายนอกหมายเลขที่มีอยู่ (ไม่ว่าจะเป็นการแฮ็กหรือการเจาะระบบการป้องกันหมายเลขของเรา) จะทำให้คุณถูกประกาศว่าแพ้และเงินจะไม่ถูกสำรอง"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "การวางเดิมพัน",
+        "single-number-bet": "เดิมพันหมายเลขเดียว",
+        "two-numbers-bets": "เดิมพัน 2 หมายเลข (สปลิต)",
+        "four-numbers-bets": "เดิมพัน 4 หมายเลข (มุม)",
+        "line-row-bets": "เดิมพันคอลัมน์และแถว",
+        "jackpots-and-50_50-bets": "เดิมพันแจ็คพอตและ 50-50",
+        "no-key": " ",
+        "50-50": "การเดิมพัน 50-50 คือการทายผลของเหรียญด้วยโอกาส 50%:",
+        "coin": "Coin 1, Coin 2, Coin 3: HEAD หรือ TAIL.",
+        "tail": "TAIL : คือการทายโดยการทายผล TAIL ที่ออกบ่อย เช่น: (TAIL, TAIL, TAIL), (TAIL, TAIL, HEAD), (TAIL, HEAD, TAIL), (HEAD, TAIL, TAIL).",
+        "head": "HEAD : คือการทายโดยการทายผล HEAD ที่ออกบ่อย เช่น: (HEAD, HEAD, HEAD), (HEAD, HEAD, TAIL), (HEAD, TAIL, HEAD), (TAIL, HEAD, HEAD).",
+        "right": "RIGHT : (TAIL, TAIL, TAIL), (TAIL, TAIL, HEAD), (TAIL, HEAD, TAIL), (TAIL, HEAD, TAIL).",
+        "left": "LEFT : (HEAD, HEAD, HEAD), (HEAD, HEAD, TAIL), (HEAD, TAIL, HEAD), (HEAD, TAIL, TAIL)."
+    },
+    "bet-description-and-example": {
+        "title": "คำอธิบายและตัวอย่างการวางเดิมพัน",
+        "winning-conditions": "เงื่อนไขการชนะ",
+        "bet": "เดิมพัน",
+        "result": "ผลลัพธ์",
+        "status": "สถานะ",
+        "main-bet": {
+            "heading": "การเดิมพันหลัก",
+            "single": {
+                "title": "หมายเลขเดียว",
+                "description": "เดิมพันบนหมายเลขเดียว",
+                "winning-conditions": "ผลลัพธ์ตรงกับการเดิมพันของคุณ",
+                "examples": [
+                    {
+                        "bet": "7",
+                        "result": "7",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "7",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "split": {
+                "title": "สปลิต",
+                "description": "เดิมพันในหมายเลขที่อยู่ติดกันทั้งแนวตั้งและแนวนอน",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขหนึ่งในสองหมายเลขที่คุณเดิมพัน",
+                "examples": [
+                    {
+                        "bet": "1,4",
+                        "result": "4",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "1,4",
+                        "result": "9",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "corner": {
+                "title": "มุม",
+                "description": "เดิมพันในหมายเลขสี่ตัวที่อยู่มุมเดียวกัน",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขหนึ่งในสี่หมายเลขที่คุณเดิมพัน",
+                "examples": [
+                    {
+                        "bet": "1,2,4,5",
+                        "result": "5",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "1,2,4,5",
+                        "result": "7",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "line": {
+                "title": "คอลัมน์",
+                "description": "เดิมพันในคอลัมน์ของหมายเลข",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขในคอลัมน์ที่คุณเดิมพัน",
+                "examples": [
+                    {
+                        "bet": "คอลัมน์ 2",
+                        "result": "6",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "คอลัมน์ 2",
+                        "result": "7",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "row": {
+                "title": "แถว",
+                "description": "เดิมพันในแถวของหมายเลข",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขในแถวที่คุณเดิมพัน",
+                "examples": [
+                    {
+                        "bet": "แถว 3",
+                        "result": "9",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "แถว 3",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "jackpot": {
+                "title": "แจ็คพอต",
+                "description": "เดิมพันในแจ็คพอต",
+                "winning-conditions": "ผลลัพธ์เป็นแจ็คพอต",
+                "examples": [
+                    {
+                        "bet": "แจ็คพอต",
+                        "result": "แจ็คพอต",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "แจ็คพอต",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 เดิมพัน",
+            "small": {
+                "title": "เล็ก",
+                "description": "",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขจาก 1 ถึง 6",
+                "examples": [
+                    {
+                        "bet": "เล็ก",
+                        "result": "1",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "เล็ก",
+                        "result": "7",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "big": {
+                "title": "ใหญ่",
+                "description": "",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขจาก 7 ถึง 12",
+                "examples": [
+                    {
+                        "bet": "ใหญ่",
+                        "result": "7",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "ใหญ่",
+                        "result": "1",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "odd": {
+                "title": "คี่",
+                "description": "",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขคี่",
+                "examples": [
+                    {
+                        "bet": "คี่",
+                        "result": "1",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "คี่",
+                        "result": "2",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "even": {
+                "title": "คู่",
+                "description": "",
+                "winning-conditions": "ผลลัพธ์เป็นหมายเลขคู่",
+                "examples": [
+                    {
+                        "bet": "คู่",
+                        "result": "4",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "คู่",
+                        "result": "3",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "red": {
+                "title": "แดง",
+                "description": "",
+                "winning-conditions": "ผลลัพธ์เป็นสีแดง",
+                "examples": [
+                    {
+                        "bet": "แดง",
+                        "result": "3",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "แดง",
+                        "result": "4",
+                        "status": "LOSE"
+                    }
+                ]
+            },
+            "black": {
+                "title": "ดำ",
+                "description": "",
+                "winning-conditions": "ผลลัพธ์เป็นสีดำ",
+                "examples": [
+                    {
+                        "bet": "ดำ",
+                        "result": "4",
+                        "status": "WIN"
+                    },
+                    {
+                        "bet": "ดำ",
+                        "result": "3",
+                        "status": "LOSE"
+                    }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "การจ่ายเงิน",
+        "bet-payout": "การจ่ายเงินจากการเดิมพัน",
+        "bonus-payout": "การจ่ายเงินโบนัส",
+        "thunder-bonus": "โบนัสฟ้าผ่า",
+        "number-times": "x{{value}}"
+    }
+}

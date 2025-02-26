@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Head & Tail",
+        "content": [
+            "Head & Tail adalah permainan dimana anda menebak hasil dari 3 kombinasi koin yang dijatuhkan oleh dealer. Setiap koin memiliki 2 sisi, Kepala (logo naga merah) dan Ekor (logo macan biru). "
+        ]
+    },
+    "slide-2": {
+        "title": "Cara Bermain",
+        "content": [
+            "Anda dapat bertaruh pada hasil dari masing-masing koin, kombinasi koin, gabungan kombinasi koin, atau bertaruh pada sisi koin terbanyak."
+        ]
+    },
+    "slide-3": {
+        "title": "Cara Menang",
+        "content": [
+            "3 koin akan terjatuh dan membentuk sebuah kombinasi. Taruhan yang sesuai dengan hasil tersebut akan menang."
+        ]
+    }
+}

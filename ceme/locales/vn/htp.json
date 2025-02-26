@@ -1,0 +1,189 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "CEME 7,8,9 là một trò chơi casino mới từ IDNLIVE EUROPE, tương tự như baccarat nhưng sử dụng bài domino. Trò chơi nhanh này bao gồm <b>3 người chơi</b> và <b>1 nhà cái</b>, cho phép bạn đặt cược cho cả ba người chơi trong một vòng. Đây là một cách chơi mới đầy phấn khích!",
+        "content-2": "Với ý tưởng thú vị, cược 7,8,9 sẽ có nhiều cơ hội trả thưởng. Hãy chơi ngay bây giờ để trải nghiệm cảm giác chiến thắng trong CEME 7,8,9!"
+    },
+    "goal": {
+        "title": "Mục tiêu của trò chơi",
+        "content": "Mục tiêu của trò chơi CEME 7,8,9 là dự đoán tổng số điểm mà người chơi sẽ thắng nhà cái. Dự đoán chính xác, đặc biệt là thắng với điểm số cụ thể như 7, 8 hoặc 9 sẽ mang lại cho bạn phần thưởng cao hơn."
+    },
+    "rules": {
+        "title": "Quy tắc của trò chơi",
+        "steps": [
+            "Trò chơi được thực hiện bởi <i>nhà cái</i>",
+            "Trò chơi này sử dụng tổng cộng 16 bộ bài domino trong <i>Shoe</i> (mỗi bộ 28 lá)",
+            "Trò chơi bao gồm 1 nhà cái và 3 người chơi (Người chơi 1, Người chơi 2, Người chơi 3)",
+            "Trò chơi bắt đầu khi <i>nhà cái</i> mở thời gian đặt cược, và khi hết thời gian, tất cả các cược sẽ tự động được chấp nhận.",
+            "Nhà cái sẽ chia bài cho mỗi bên 2 lá theo thứ tự.",
+            "Bên nào có điểm số cao nhất hoặc gần 9 nhất sẽ là người thắng.",
+            "Nếu kết quả là <b>hòa</b>, tất cả các cược sẽ bị xem là thua.",
+            "Cược phụ chỉ thắng trong trường hợp điểm số là 7, 8 hoặc 9.",
+            "Trong thời gian đặc biệt, <b>tiền thưởng Hokky</b> có thể xuất hiện trên cược phụ. Người chơi may mắn sẽ nhận được <b>tiền thưởng gấp đôi</b>."
+        ]
+    },
+    "domino-card": {
+        "title": "Bài domino",
+        "description": "Bài domino bao gồm tổng cộng 28 lá, mỗi lá có mặt trên và mặt dưới được chia tách bởi một đường kẻ giữa, với điểm số khác nhau trên mỗi lá. Cách dễ nhất để nhớ là tổ chức theo bộ như mô tả bên dưới:",
+        "seri-0": {
+            "heading": "Bộ 0",
+            "description": "Bộ này bao gồm 7 lá, mỗi lá có điểm 0 ở trên và điểm từ 0 đến 6 ở dưới. Ví dụ như:"
+        },
+        "seri-1": {
+            "heading": "Bộ 1",
+            "description": "Bộ này bao gồm 6 lá, mỗi lá có điểm 1 ở trên và điểm từ 1 đến 6 ở dưới. Ví dụ như:"
+        },
+        "seri-2": {
+            "heading": "Bộ 2",
+            "description": "Bộ này bao gồm 5 lá, mỗi lá có điểm 2 ở trên và điểm từ 2 đến 6 ở dưới. Ví dụ như:"
+        },
+        "seri-3": {
+            "heading": "Bộ 3",
+            "description": "Bộ này bao gồm 4 lá, mỗi lá có điểm 3 ở trên và điểm từ 3 đến 6 ở dưới. Ví dụ như:"
+        },
+        "seri-4": {
+            "heading": "Bộ 4",
+            "description": "Bộ này bao gồm 3 lá, mỗi lá có điểm 4 ở trên và điểm từ 4 đến 6 ở dưới. Ví dụ như:"
+        },
+        "seri-5": {
+            "heading": "Bộ 5",
+            "description": "Bộ này bao gồm 2 lá, mỗi lá có điểm 5 ở trên và điểm từ 5 đến 6 ở dưới. Ví dụ như:"
+        },
+        "seri-6": {
+            "heading": "Bộ 6",
+            "description": "Bộ này chỉ có 1 lá duy nhất, với điểm 6 ở cả trên và dưới. Ví dụ như:"
+        }
+    },
+    "counting-card": {
+        "title": "Cách tính điểm bài",
+        "example": "Ví dụ:",
+        "player": "Người chơi",
+        "banker": "Nhà cái",
+        "description": "Điểm của bài domino được tính bằng cách cộng điểm của hai lá bài lại với nhau. Điểm cao nhất là 9. Nếu tổng là số hai chữ số, <b>chữ số thứ hai sẽ là điểm cuối cùng</b>",
+        "case-example": "Ví dụ tình huống:",
+        "case-explain": "Trong ví dụ này, bên có tổng điểm cao nhất là <b>Người chơi 2</b> với điểm số <b>9</b>, tiếp theo là <b>Người chơi 1</b> và <b>Người chơi 3</b> với điểm số <b>7</b>, và cuối cùng là <b>Nhà cái</b> với điểm số <b>2</b>."
+    },
+    "hoky-bonus": {
+        "title": "Tiền thưởng HOKKY",
+        "content": "Trong thời gian đặc biệt, tiền thưởng Hokky sẽ xuất hiện và sẽ mang đến <b>tiền thưởng gấp đôi</b>!",
+        "content-2": "Hệ thống sẽ chọn tiền thưởng Hokky từ các cược phụ của người chơi (7, 8, 9) từ 1 đến 4 mục và các cược được chọn sẽ nhận được tiền thưởng tăng gấp đôi."
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả và Ví dụ về Cược",
+        "winning-conditions": "Điều kiện thắng",
+        "bet": "Cược",
+        "result": "Kết quả",
+        "status": "Trạng thái",
+        "description": "Mô tả",
+        "result-example": "Ví dụ về kết quả",
+        "main-bet": {
+            "heading": "Cược chính",
+            "p123": {
+                "title": "Người chơi 1, 2, 3",
+                "description": "Bạn sẽ thắng khi điểm của người chơi cao hơn <b>Nhà cái</b>",
+                "examples": [{ "banker": "2", "player1": "2", "player2": "3", "player3": "4" }]
+            }
+        },
+        "side-bet": {
+            "heading": "Cược phụ",
+            "789": {
+                "title": "7, 8, 9",
+                "description": "Người chơi sẽ thắng khi có điểm <b>7</b>, <b>8</b> hoặc <b>9</b> và phải cao hơn điểm của <b>Nhà cái</b>",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "8", "player3": "9" }]
+            },
+            "specific-7": {
+                "title": "Cụ thể 7",
+                "description": "Người chơi sẽ thắng khi có điểm cụ thể là <b>7</b> và phải cao hơn điểm của <b>Nhà cái</b>",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "7", "player3": "7" }]
+            },
+            "specific-8": {
+                "title": "Cụ thể 8",
+                "description": "Người chơi sẽ thắng khi có điểm cụ thể là <b>8</b> và phải cao hơn điểm của <b>Nhà cái</b>",
+                "examples": [{ "banker": "2", "player1": "8", "player2": "8", "player3": "8" }]
+            },
+            "specific-9": {
+                "title": "Cụ thể 9",
+                "description": "Người chơi sẽ thắng khi có điểm cụ thể là <b>9</b> và phải cao hơn điểm của <b>Nhà cái</b>",
+                "examples": [{ "banker": "2", "player1": "9", "player2": "9", "player3": "9" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "Thanh toán",
+        "bet-payout": "Thanh toán cược",
+        "bet": "Cược",
+        "payout": "Trả thưởng",
+        "normal-payout": "Trả thưởng bình thường",
+        "2x-payout": "Trả thưởng gấp đôi",
+        "condition": "Điều kiện",
+        "main-bet": {
+            "title": "Cược chính",
+            "p123": {
+                "title": "Người chơi 1, 2, 3",
+                "table": [
+                    {
+                        "winning-conditions": "Thắng với điểm từ 1~8",
+                        "payout": "0.95:1"
+                    },
+                    {
+                        "winning-conditions": "Thắng với điểm 9",
+                        "payout": "2:1"
+                    }
+                ]
+            }
+        },
+        "side-bet": {
+            "title": "Cược phụ",
+            "789": {
+                "title": "7, 8, 9",
+                "table": [
+                    {
+                        "winning-conditions": "Thắng với điểm 7",
+                        "normal-payout": "1:1",
+                        "2x-payout": "3:1"
+                    },
+                    {
+                        "winning-conditions": "Thắng với điểm 8",
+                        "normal-payout": "2.5:1",
+                        "2x-payout": "6:1"
+                    },
+                    {
+                        "winning-conditions": "Thắng với điểm 9",
+                        "normal-payout": "5:1",
+                        "2x-payout": "11:1"
+                    }
+                ]
+            },
+            "specific-7": {
+                "title": "Cụ thể 7",
+                "table": [
+                    {
+                        "winning-conditions": "Thắng với điểm 7",
+                        "normal-payout": "13:1",
+                        "2x-payout": "27:1"
+                    }
+                ]
+            },
+            "specific-8": {
+                "title": "Cụ thể 8",
+                "table": [
+                    {
+                        "winning-conditions": "Thắng với điểm 8",
+                        "normal-payout": "10.5:1",
+                        "2x-payout": "22:1"
+                    }
+                ]
+            },
+            "specific-9": {
+                "title": "Cụ thể 9",
+                "table": [
+                    {
+                        "winning-conditions": "Thắng với điểm 9",
+                        "normal-payout": "9.5:1",
+                        "2x-payout": "20:1"
+                    }
+                ]
+            }
+        }
+    }
+}

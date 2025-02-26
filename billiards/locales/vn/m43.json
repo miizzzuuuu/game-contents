@@ -1,0 +1,32 @@
+{
+    "big": "to",
+    "small": "nhỏ",
+    "odd": "lẻ",
+    "even": "chẵn",
+    
+    "straight": "straight",
+    "straight flush": "straight flush",
+
+    "double": "đôi",
+    "triple": "ba",
+
+    "draw two balls": "hòa hai quả bóng",
+    "draw three balls": "hòa ba quả bóng",
+
+    "one ball": "một quả bóng",
+    "two balls": "hai quả bóng",
+    "three balls": "ba quả bóng",
+
+    "draw ball color": "hòa màu bóng",
+    "triple color": "màu ba",
+    "3 stars": "3 sao",
+
+    "more bet": "cược nhiều hơn",
+    "less bet": "cược ít hơn",
+    "one": "một",
+    "two": "hai",
+    "three": "ba",
+    "four": "bốn",
+    "five": "năm",
+    "six": "sáu"
+}

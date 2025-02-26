@@ -1,0 +1,182 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Domino Live là một trong những trò chơi truyền thống lâu đời và phổ biến nhất, lấy cảm hứng từ Pai Gow, kết hợp với các yếu tố của Baccarat và Rồng Hổ. Trò chơi này được chơi giữa người chơi và nhà cái <br/>với các lá bài đặc biệt có thể trả thưởng lên đến 666 lần! Đặt cược vào các lá bài đặc biệt sẽ tăng thêm sự thú vị và hào hứng cho trò chơi này."
+    },
+    "goal": {
+        "title": "Mục tiêu của trò chơi",
+        "content": "Mục tiêu của Domino Live là dự đoán xem giữa người chơi và nhà cái, bên nào có tổng điểm gần với 9 nhất hoặc cả hai sẽ hòa nhau. Người chơi cũng có thể đặt cược vào các lá bài đặc biệt để nhận phần thưởng cao hơn."
+    },
+    "rules": {
+        "title": "Cách chơi và Luật lệ",
+        "steps": [
+            "Trò chơi được điều khiển bởi <i>Dealer</i>",
+            "Trò chơi sử dụng bộ bài domino gồm 7 bộ bài (mỗi bộ có 28 lá) cho mỗi vòng chơi",
+            "Đây là trận đấu giữa hai bên: Người chơi và Nhà cái",
+            "Khi Dealer mở cược, trò chơi sẽ bắt đầu và mọi cược sẽ được xác nhận tự động khi hết thời gian",
+            "Dealer sẽ chia cho mỗi bên Người chơi và Nhà cái hai lá bài",
+            "Bên nào có điểm cao nhất hoặc gần với 9 sẽ thắng",
+            "Nếu kết quả là <b>hòa</b>, cược vào Người chơi và Nhà cái sẽ được hoàn trả, còn cược vào Hòa sẽ thắng",
+            "Thứ tự của các lá bài đặc biệt là Lục Tài > Đôi > Tứ Đại Thuần > Tứ Tiểu Thuần"
+        ]
+    },
+    "domino-card": {
+        "title": "Lá bài Domino",
+        "description": "Bộ bài Domino bao gồm 28 lá, mỗi lá có điểm ở phía trên và phía dưới khác nhau và được chia thành 7 nhóm như sau:",
+        "seri-0": {
+            "heading": "Nhóm 0",
+            "description": "Nhóm này có 7 lá, mỗi lá có giá trị 0 ở phía trên và giá trị từ 0-6 ở phía dưới"
+        },
+        "seri-1": {
+            "heading": "Nhóm 1",
+            "description": "Nhóm này có 6 lá, mỗi lá có giá trị 1 ở phía trên và giá trị từ 1-6 ở phía dưới"
+        },
+        "seri-2": {
+            "heading": "Nhóm 2",
+            "description": "Nhóm này có 5 lá, mỗi lá có giá trị 2 ở phía trên và giá trị từ 2-6 ở phía dưới"
+        },
+        "seri-3": {
+            "heading": "Nhóm 3",
+            "description": "Nhóm này có 4 lá, mỗi lá có giá trị 3 ở phía trên và giá trị từ 3-6 ở phía dưới"
+        },
+        "seri-4": {
+            "heading": "Nhóm 4",
+            "description": "Nhóm này có 3 lá, mỗi lá có giá trị 4 ở phía trên và giá trị từ 4-6 ở phía dưới"
+        },
+        "seri-5": {
+            "heading": "Nhóm 5",
+            "description": "Nhóm này có 2 lá, mỗi lá có giá trị 5 ở phía trên và giá trị từ 5-6 ở phía dưới"
+        },
+        "seri-6": {
+            "heading": "Nhóm 6",
+            "description": "Nhóm này có 1 lá, mỗi lá có giá trị 6 ở cả phía trên và phía dưới"
+        }
+    },
+    "counting-card": {
+        "title": "Cách đếm lá bài",
+        "example": "Ví dụ:",
+        "description": "Điểm của lá bài Domino được tính bằng cách cộng điểm của cả hai lá bài với nhau. Tổng điểm cao nhất là 9 (Q). Nếu tổng điểm là hai chữ số, chỉ lấy số hàng đơn vị làm điểm cuối cùng.",
+        "case-example": "Ví dụ trường hợp:",
+        "6+6+4+4 2": "Trong ví dụ này, Người chơi có <b>8 điểm</b> và thắng, còn Nhà cái có <b>2 điểm</b> và thua",
+        "q-no-q": {
+            "heading": "Q và No Q",
+            "description": "Luật đặt cược Q, No Q và Q0-9 dựa trên tổng điểm của 2 lá bài của Người chơi và 2 lá bài của Nhà cái. Dưới đây là mô tả về các đặt cược này:"
+        },
+        "bet-q": {
+            "heading": "Đặt cược Q",
+            "description": "Đặt cược Q sẽ thắng nếu <b>bất kỳ cặp bài nào</b> <b>có tổng điểm bằng 9 (Q)</b>",
+            "description-2": "Lá bài đầu tiên (<b>7 điểm</b>) và lá bài thứ hai (<b>2 điểm</b>) có tổng <b>9 điểm</b> nên cược Q sẽ thắng"
+        },
+        "bet-no-q": {
+            "heading": "Đặt cược No Q",
+            "description": "Đặt cược No Q sẽ thắng nếu <b>không có cặp bài nào</b> <b>có tổng điểm bằng 9 (Q)</b>",
+            "description-2": "Không có cặp bài nào có tổng <b>9 điểm</b> nên cược No Q sẽ thắng"
+        },
+        "bet-q0-q9": {
+            "heading": "Đặt cược Q0 - Q9",
+            "description": "Đặt cược Q0 - Q9 sẽ thắng nếu <b>có một cặp bài</b> có tổng <b>9 điểm (Q)</b> và <b>hai lá bài còn lại có số điểm tương ứng (0-9)</b>",
+            "description-2": "Lá bài đầu tiên (<b>7 điểm</b>) và lá bài thứ hai (<b>2 điểm</b>) có tổng <b>9 điểm</b> và lá bài thứ ba (<b>4 điểm</b>) và thứ tư (<b>6 điểm</b>) có tổng <b>0 điểm</b>, nên cược Q0 sẽ thắng"
+        }
+    },
+    "special-card-and-jackpot": {
+        "title": "Lá bài đặc biệt & Jackpot",
+        "description": "Lá bài đặc biệt tạo thêm sự thú vị cho trò chơi và tăng cơ hội thắng. Lá bài đặc biệt dựa trên tổng của hai lá bài của Người chơi và hai lá bài của Nhà cái. Có 4 loại lá bài đặc biệt (Lục Tài, Đôi, Tứ Đại Thuần, Tứ Tiểu Thuần). Nếu trong một vòng có nhiều loại lá bài đặc biệt, lá có thứ tự cao nhất sẽ thắng.",
+        "case-example": "Ví dụ trường hợp:",
+        "1-seq": {
+            "heading": "Lục Tài (Hạng 1)",
+            "description": "Lục Tài xảy ra khi cả bốn lá bài đều có <b>điểm 6</b>",
+            "description-2": "Cả bốn lá bài đều có <b>điểm 6</b>, nên cược Lục Tài sẽ thắng"
+        },
+        "2-seq": {
+            "heading": "Đôi (Hạng 2)",
+            "description": "Đôi xảy ra khi cả bốn lá bài đều có <b>cặp điểm</b>",
+            "description-2": "Cả bốn lá bài đều có <b>cặp điểm</b>, nên cược Đôi sẽ thắng",
+            "note": "*Các lá 33 33 33 33 được coi là Lục Tài, không phải Đôi"
+        },
+        "3-seq": {
+            "heading": "Tứ Đại Thuần (Hạng 3)",
+            "description": "Tứ Đại Thuần xảy ra khi cả bốn lá bài có <b>tổng điểm</b> từ <b>39 đến 47</b>",
+            "description-2": "Cả bốn lá bài có <b>tổng điểm 39</b>, nên cược Tứ Đại Thuần sẽ thắng",
+            "description-3": "Cả bốn lá bài có <b>tổng điểm 47</b>, nên cược Tứ Đại Thuần sẽ thắng"
+        },
+        "4-seq": {
+            "heading": "Tứ Tiểu Thuần (Hạng 4)",
+            "description": "Tứ Tiểu Thuần xảy ra khi cả bốn lá bài có <b>tổng điểm</b> từ <b>1 đến 9</b>",
+            "description-2": "Cả bốn lá bài có <b>tổng điểm 1</b>, nên cược Tứ Tiểu Thuần sẽ thắng",
+            "description-3": "Cả bốn lá bài có <b>tổng điểm 9</b>, nên cược Tứ Tiểu Thuần sẽ thắng"
+        },
+        "jackpot": {
+            "heading": "Jackpot",
+            "description": "Cược jackpot sẽ bao gồm <b>tất cả các lá bài đặc biệt</b> nêu trên. Nếu người chơi đặt cược jackpot và có lá bài đặc biệt trong kết quả, sẽ nhận được jackpot."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả cược và ví dụ",
+        "winning-conditions": "Điều kiện thắng",
+        "bet": "Cược",
+        "result": "Kết quả",
+        "status": "Trạng thái",
+        "description": "Mô tả",
+        "example": "Ví dụ",
+        "player": "Người chơi",
+        "banker": "Nhà cái",
+        "card": "Lá bài",
+        "main-bet": {
+            "heading": "Cược chính",
+            "player": {
+                "title": "Người chơi",
+                "description": "Trả thưởng nếu tổng điểm của Người chơi <b>cao hơn Nhà cái</b>"
+            },
+            "banker": {
+                "title": "Nhà cái",
+                "description": "Trả thưởng nếu tổng điểm của Nhà cái <b>cao hơn Người chơi</b>"
+            },
+            "tie": {
+                "title": "Hòa",
+                "description": "Trả thưởng nếu điểm của Người chơi và Nhà cái <b>bằng nhau</b>"
+            }
+        },
+        "side-bet": {
+            "heading": "Cược phụ",
+            "q": {
+                "title": "Q",
+                "description": "Trả thưởng nếu <b>bất kỳ hai lá bài nào</b> có tổng <b>9 điểm (Q)</b>"
+            },
+            "no-q": {
+                "title": "No Q",
+                "description": "Trả thưởng nếu <b>không có hai lá bài nào</b> có tổng <b>9 điểm (Q)</b>"
+            },
+            "q0-q9": {
+                "title": "Q0 - Q9",
+                "description": "Trả thưởng nếu <b>bất kỳ hai lá bài nào</b> có tổng <b>9 điểm (Q)</b> và hai lá còn lại có số điểm <b>từ 0 đến 9</b>"
+            }
+        },
+        "special-bet": {
+            "heading": "Cược đặc biệt",
+            "six-gods": {
+                "title": "Lục Tài",
+                "description": "Trả thưởng nếu cả bốn lá bài có tổng <b>6 điểm</b>"
+            },
+            "twin-series": {
+                "title": "Đôi",
+                "description": "Trả thưởng nếu cả bốn lá bài có tổng là <b>điểm đôi</b>"
+            },
+            "pure-big": {
+                "title": "Tứ Đại Thuần",
+                "description": "Trả thưởng nếu <b>tổng điểm</b> của bốn lá bài nằm trong khoảng từ <b>39 đến 47</b>"
+            },
+            "pure-small": {
+                "title": "Tứ Tiểu Thuần",
+                "description": "Trả thưởng nếu <b>tổng điểm</b> của bốn lá bài nằm trong khoảng từ <b>1 đến 9</b>"
+            },
+            "jackpot": {
+                "title": "Jackpot",
+                "description": "Trả thưởng nếu có lá bài đặc biệt trong bốn lá bài"
+            }
+        }
+    },
+    "payout": {
+        "title": "Tiền trả thưởng",
+        "bet-payout": "Tiền trả cược"
+    }
+}

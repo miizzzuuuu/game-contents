@@ -1,0 +1,229 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "轮盘是一种源自法语的经典游戏，意为“小轮子”，它使用一个小球和轮盘。因此，要赢得这场简单的游戏，您只需猜测小球会落在数字几上。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "当荷官开放下注时间时，游戏开始。",
+            "现在您需要在我们提供的投注面板上下注。",
+            "投注面板上的所有下注将在时间结束时自动接受。",
+            "下注时间结束后，荷官将旋转轮盘来决定游戏结果。",
+            "一轮游戏的结果只有一个号码，由0到36的数字组成，如果球的位置不清楚，则会出现“无效游戏”状态，荷官将再次旋转轮盘，直到结果明确为止。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注",
+        "single-bet": "直接/单注投注.",
+        "split-bet": "分注投注.",
+        "street-bet": "街注投注.",
+        "corner-bet": "角注/方形投注.",
+        "six-line-bet": "六线/双街注投注.",
+        "trio-bet": "三注/篮注投注.",
+        "column-bet": "列注投注.",
+        "dozen-bet": "打投注.",
+        "50-50-bet": "50-50投注."
+    },
+    "bet-description-and-example": {
+        "title": "投注说明和示例",
+        "winning-conditions": "获胜条件",
+        "bet": "投注",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主要投注",
+            "single": {
+                "title": "单注",
+                "description": "",
+                "winning-conditions": "结果是您投注的号码之一",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "赢" },
+                    { "bet": "1", "result": "2", "status": "输" }
+                ]
+            },
+            "split": {
+                "title": "分注",
+                "description": "",
+                "winning-conditions": "结果是您投注的2个相邻数字中的一个",
+                "examples": [
+                    { "bet": "1,2", "result": "1", "status": "赢" },
+                    { "bet": "1,2", "result": "3", "status": "输" }
+                ]
+            },
+            "street": {
+                "title": "街注",
+                "description": "",
+                "winning-conditions": "结果是您投注的3个相邻数字中的一个",
+                "examples": [
+                    { "bet": "10,11,12", "result": "11", "status": "赢" },
+                    { "bet": "10,11,12", "result": "15", "status": "输" }
+                ]
+            },
+            "corner": {
+                "title": "角注/方形注",
+                "description": "",
+                "winning-conditions": "结果是您投注的4个相邻数字中的一个",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "赢" },
+                    { "bet": "1,2,4,5", "result": "13", "status": "输" }
+                ]
+            },
+            "six-line": {
+                "title": "六线/双街注",
+                "description": "",
+                "winning-conditions": "结果是您投注的6个相邻数字中的一个",
+                "examples": [
+                    { "bet": "13,14,15,16,17,18", "result": "16", "status": "赢" },
+                    { "bet": "13,14,15,16,17,18", "result": "19", "status": "输" }
+                ]
+            },
+            "trio": {
+                "title": "三注/篮注",
+                "description": "",
+                "winning-conditions": "结果是您投注的3个相邻数字中的一个",
+                "examples": [
+                    { "bet": "0,2,3", "result": "0", "status": "赢" },
+                    { "bet": "0,2,3", "result": "4", "status": "输" }
+                ]
+            },
+            "column-bet": {
+                "title": "列注",
+                "description": "",
+                "winning-conditions": "结果在您投注的“列”中",
+                "examples": [
+                    { "bet": "第一列 2:1", "result": "7", "status": "赢" },
+                    { "bet": "第一列 2:1", "result": "9", "status": "输" }
+                ]
+            },
+            "dozen-bet": {
+                "title": "打赌注",
+                "description": "",
+                "winning-conditions": "结果在您投注的“打”中",
+                "examples": [
+                    { "bet": "第一打", "result": "7", "status": "赢" },
+                    { "bet": "第一打", "result": "19", "status": "输" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50投注",
+            "1-18": {
+                "title": "1-18",
+                "description": "",
+                "winning-conditions": "结果在1到18之间",
+                "examples": [
+                    { "bet": "1-18", "result": "2", "status": "赢" },
+                    { "bet": "1-18", "result": "19", "status": "输" }
+                ]
+            },
+            "19-36": {
+                "title": "19-36",
+                "description": "",
+                "winning-conditions": "结果在19到36之间",
+                "examples": [
+                    { "bet": "19-36", "result": "19", "status": "赢" },
+                    { "bet": "19-36", "result": "2", "status": "输" }
+                ]
+            },
+            "odd": {
+                "title": "奇数",
+                "description": "",
+                "winning-conditions": "结果是奇数",
+                "examples": [
+                    { "bet": "奇数", "result": "13", "status": "赢" },
+                    { "bet": "奇数", "result": "12", "status": "输" }
+                ]
+            },
+            "even": {
+                "title": "偶数",
+                "description": "",
+                "winning-conditions": "结果是偶数",
+                "examples": [
+                    { "bet": "偶数", "result": "12", "status": "赢" },
+                    { "bet": "偶数", "result": "13", "status": "输" }
+                ]
+            },
+            "red": {
+                "title": "红色",
+                "description": "",
+                "winning-conditions": "结果是红色",
+                "examples": [
+                    { "bet": "红色", "result": "12", "status": "赢" },
+                    { "bet": "红色", "result": "13", "status": "输" }
+                ]
+            },
+            "black": {
+                "title": "黑色",
+                "description": "",
+                "winning-conditions": "结果是黑色",
+                "examples": [
+                    { "bet": "黑色", "result": "13", "status": "赢" },
+                    { "bet": "黑色", "result": "12", "status": "输" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付"
+    },
+    "racetrack-bet": {
+        "title": "赛道投注",
+        "description": "赛道投注是一项功能，允许玩家同时快速下注多个号码。赛道中的投注面板反映或与轮盘上的面板相同。接下来，我们将解释您可以在此功能中进行的各种投注类型。",
+        "instructions": "根据图片使用按钮访问此赛道投注。",
+        "sections": {
+            "tiers": {
+                "name": "TIERS DU CYLINDRE 或 TIERS",
+                "description": "如果您下注 TIERS，此投注将涵盖 12 个投注号码。玩家还需要拥有选定投注金额 6 倍的筹码。以下是包括在 TIERS 投注中的号码：",
+                "bets": [
+                    "在号码 5 和 8 上投注 1 个筹码（分注）",
+                    "在号码 10 和 11 上投注 1 个筹码（分注）",
+                    "在号码 13 和 16 上投注 1 个筹码（分注）",
+                    "在号码 23 和 24 上投注 1 个筹码（分注）",
+                    "在号码 27 和 30 上投注 1 个筹码（分注）",
+                    "在号码 33 和 36 上投注 1 个筹码（分注）"
+                ]
+            },
+            "orph": {
+                "name": "ORPHELINS A CHEVAL 或 ORPH.",
+                "description": "如果您下注 ORPH. 这意味着该投注将覆盖 8 个投注号码。玩家还需要拥有选定投注金额 5 倍的筹码。以下是包括在 ORPH 投注中的号码：",
+                "bets": [
+                    "在号码 1 上投注 1 个筹码（直接注）",
+                    "在号码 6 和 9 上投注 1 个筹码（分注）",
+                    "在号码 14 和 17 上投注 1 个筹码（分注）",
+                    "在号码 17 和 20 上投注 1 个筹码（分注）",
+                    "在号码 31 和 34 上投注 1 个筹码（分注）"
+                ]
+            },
+            "voisins": {
+                "name": "VOISINS DU ZERO 或 VOISINS",
+                "description": "如果您下注 VOISINS，此投注将涵盖 17 个投注号码。玩家还需要拥有选定投注金额 9 倍的筹码。以下是包括在 VOISINS 投注中的号码：",
+                "bets": [
+                    "在号码 0、2 和 3 上投注 2 个筹码（街道投注）",
+                    "在号码 4 和 7 上投注 1 个筹码（分注）",
+                    "在号码 12 和 15 上投注 1 个筹码（分注）",
+                    "在号码 18 和 21 上投注 1 个筹码（分注）",
+                    "在号码 19 和 22 上投注 1 个筹码（分注）",
+                    "在号码 25、26、28、29 上投注 2 个筹码（角注）",
+                    "在号码 32 和 35 上投注 1 个筹码（分注）"
+                ]
+            },
+            "zero": {
+                "name": "JEU ZERO 或 ZERO",
+                "description": "如果您下注 ZERO，此投注将涵盖 6 个投注号码。玩家还需要拥有选定投注金额 4 倍的筹码。以下是包括在 ZERO 投注中的号码：",
+                "bets": [
+                    "在号码 0 和 3 上投注 1 个筹码（分注）",
+                    "在号码 12 和 15 上投注 1 个筹码（分注）",
+                    "在号码 26 上投注 1 个筹码（直接注）",
+                    "在号码 32 和 35 上投注 1 个筹码（分注）"
+                ]
+            }
+        },
+        "side-bet": {
+            "name": "旁边投注",
+            "description": "此投注包括您在轮盘上选择的主要号码的左侧或右侧号码。此旁边投注仅在赛道模式中存在。要确定您要同时下注的范围，可以使用赛道面板左侧的 + - 按钮。在此旁边投注中，您可以选择 1 到 9 个筹码。",
+            "example": "例如，如果您只选择 1 个筹码，那么您在轮盘上选择的号码左侧或右侧的号码将自动填充 1 个筹码。"
+        }
+    }
+}

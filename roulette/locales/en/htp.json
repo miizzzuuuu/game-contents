@@ -1,0 +1,229 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Roulette is a classic game from a French word meaning little wheel which uses one small ball and roulette wheel. So to win this simple game you just have to guess in what number the ball will land."
+    },
+    "rules": {
+        "title": "rules",
+        "steps": [
+            "The game starts when the dealer opens the time for betting.",
+            "Now you have to place your bet on the betting panel we provide.",
+            "All bets in the betting panel will be accepted automatically when the time is up.",
+            "After the betting time ends, the Dealer will spin the roulette wheel to determine the outcome of the game.",
+            "The result for one round of the game is just one number consisting of numbers 0 to 36 only, and if the ball is not positioned clearly then a \"no game\" status will occur and the dealer will spin the roulette wheel one more time until the result is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Placing A Bet",
+        "single-bet": "Straight/Single Bet.",
+        "split-bet": "Split Bet.",
+        "street-bet": "Street Bet.",
+        "corner-bet": "Corner/Square Bet.",
+        "six-line-bet": "Six Line/Double Street Bet.",
+        "trio-bet": "Trio/Basket Bet.",
+        "column-bet": "Column Bet.",
+        "dozen-bet": "Dozen Bet.",
+        "50-50-bet": "50-50 Bet."
+    },
+    "bet-description-and-example": {
+        "title": "Bet Description and Example",
+        "winning-conditions": "Winning Conditions",
+        "bet": "BET",
+        "result": "RESULT",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Main Bet",
+            "single": {
+                "title": "Straight/Single",
+                "description": "",
+                "winning-conditions": "The result is one number you bet",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "WIN" },
+                    { "bet": "1", "result": "2", "status": "LOSE" }
+                ]
+            },
+            "split": {
+                "title": "Split",
+                "description": "",
+                "winning-conditions": "The result is 1 of the 2 adjacent numbers you bet",
+                "examples": [
+                    { "bet": "1,2", "result": "1", "status": "WIN" },
+                    { "bet": "1,2", "result": "3", "status": "LOSE" }
+                ]
+            },
+            "street": {
+                "title": "Street",
+                "description": "",
+                "winning-conditions": "The result is 1 of the 3 adjacent numbers you bet",
+                "examples": [
+                    { "bet": "10,11,12", "result": "11", "status": "WIN" },
+                    { "bet": "10,11,12", "result": "15", "status": "LOSE" }
+                ]
+            },
+            "corner": {
+                "title": "Corner/Square",
+                "description": "",
+                "winning-conditions": "The result is 1 of the 4 adjacent numbers you bet",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "WIN" },
+                    { "bet": "1,2,4,5", "result": "13", "status": "LOSE" }
+                ]
+            },
+            "six-line": {
+                "title": "Six Line/Double Street",
+                "description": "",
+                "winning-conditions": "The result is 1 of the 6 adjacent numbers you bet",
+                "examples": [
+                    { "bet": "13,14,15,16,17,18", "result": "16", "status": "WIN" },
+                    { "bet": "13,14,15,16,17,18", "result": "19", "status": "LOSE" }
+                ]
+            },
+            "trio": {
+                "title": "Trio/Basket",
+                "description": "",
+                "winning-conditions": "The result is 1 of the 3 adjacent numbers you bet",
+                "examples": [
+                    { "bet": "0,2,3", "result": "0", "status": "WIN" },
+                    { "bet": "0,2,3", "result": "4", "status": "LOSE" }
+                ]
+            },
+            "column-bet": {
+                "title": "Column Bet",
+                "description": "",
+                "winning-conditions": "The result is in the \"Column\" you bet",
+                "examples": [
+                    { "bet": "First 2:1", "result": "7", "status": "WIN" },
+                    { "bet": "First 2:1", "result": "9", "status": "LOSE" }
+                ]
+            },
+            "dozen-bet": {
+                "title": "Dozen Bet",
+                "description": "",
+                "winning-conditions": "The result is in the \"Dozen\" you bet",
+                "examples": [
+                    { "bet": "1st 12", "result": "7", "status": "WIN" },
+                    { "bet": "1st 12", "result": "19", "status": "LOSE" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 Bet",
+            "1-18": {
+                "title": "1-18",
+                "description": "",
+                "winning-conditions": "The result is from 1 to 18",
+                "examples": [
+                    { "bet": "1-18", "result": "2", "status": "WIN" },
+                    { "bet": "1-18", "result": "19", "status": "LOSE" }
+                ]
+            },
+            "19-36": {
+                "title": "19-36",
+                "description": "",
+                "winning-conditions": "The result is from 19 to 36",
+                "examples": [
+                    { "bet": "19-36", "result": "19", "status": "WIN" },
+                    { "bet": "19-36", "result": "2", "status": "LOSE" }
+                ]
+            },
+            "odd": {
+                "title": "Odd",
+                "description": "",
+                "winning-conditions": "The result is an odd number",
+                "examples": [
+                    { "bet": "Odd", "result": "13", "status": "WIN" },
+                    { "bet": "Odd", "result": "12", "status": "LOSE" }
+                ]
+            },
+            "even": {
+                "title": "Even",
+                "description": "",
+                "winning-conditions": "The result is an even number",
+                "examples": [
+                    { "bet": "Even", "result": "12", "status": "WIN" },
+                    { "bet": "Even", "result": "13", "status": "LOSE" }
+                ]
+            },
+            "red": {
+                "title": "Red",
+                "description": "",
+                "winning-conditions": "The result is red",
+                "examples": [
+                    { "bet": "Red", "result": "12", "status": "WIN" },
+                    { "bet": "Red", "result": "13", "status": "LOSE" }
+                ]
+            },
+            "black": {
+                "title": "Black",
+                "description": "",
+                "winning-conditions": "The result is black",
+                "examples": [
+                    { "bet": "Black", "result": "13", "status": "WIN" },
+                    { "bet": "Black", "result": "12", "status": "LOSE" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "payout",
+        "bet-payout": "bet payout"
+    },
+    "racetrack-bet": {
+        "title": "Racetrack Bet",
+        "description": "Racetrack Bet is a feature for players to quickly place various betting numbers simultaneously. The betting panel in Racetrack mirrors or is the same as that on the roulette wheel. Next, we will explain the various types of bets that you can make in this feature.",
+        "instructions": "Use the button according to the image to access this Racetrack Bet.",
+        "sections": {
+            "tiers": {
+                "name": "TIERS DU CYLINDRE or TIERS",
+                "description": "If you place a TIERS bet, this bet will cover 12 betting numbers. Players are also required to have chips 6 times the bet the player chooses. The following are the numbers included in this TIERS bet:",
+                "bets": [
+                    "1 Chip on numbers 5 and 8 (split bet)",
+                    "1 Chip on numbers 10 and 11 (split bet)",
+                    "1 Chip on numbers 13 and 16 (split bet)",
+                    "1 Chip on numbers 23 and 24 (split bet)",
+                    "1 Chip on numbers 27 and 30 (split bet)",
+                    "1 Chip on numbers 33 and 36 (split bet)"
+                ]
+            },
+            "orph": {
+                "name": "ORPHELINS A CHEVAL or ORPH.",
+                "description": "If you place an ORPH bet. This means that this bet will cover 8 betting numbers. Players are also required to have chips 5 times the bet the player chooses. Below are the numbers included in the ORPH bet:",
+                "bets": [
+                    "1 Chip on number 1 (straight up bet)",
+                    "1 Chip on numbers 6 and 9 (split bet)",
+                    "1 Chip on numbers 14 and 17 (split bet)",
+                    "1 Chip on numbers 17 and 20 (split bet)",
+                    "1 Chip on numbers 31 and 34 (split bet)"
+                ]
+            },
+            "voisins": {
+                "name": "VOISINS DU ZERO or VOISINS",
+                "description": "If you place a VOISINS bet, this bet will cover 17 betting numbers. Players are also required to have chips 9 times the bet the player chooses. The following are the numbers included in this VOISINS bet:",
+                "bets": [
+                    "2 Chips on numbers 0, 2 and 3 (street bet)",
+                    "1 Chip on numbers 4 and 7 (split bet)",
+                    "1 Chip on numbers 12 and 15 (split bet)",
+                    "1 Chip on numbers 18 and 21 (split bet)",
+                    "1 Chip on numbers 19 and 22 (split bet)",
+                    "2 Chips on numbers 25, 26, 28, 29 (corner bet)",
+                    "1 Chip on numbers 32 and 35 (split bet)"
+                ]
+            },
+            "zero": {
+                "name": "JEU ZERO or ZERO",
+                "description": "If you place a ZERO bet, this bet will cover 6 betting numbers. Players are also required to have chips 4 times the bet the player chooses. The following are the numbers included in this ZERO bet:",
+                "bets": [
+                    "1 Chip on numbers 0 and 3 (split bet)",
+                    "1 Chip on numbers 12 and 15 (split bet)",
+                    "1 Chip on number 26 (straight up bet)",
+                    "1 Chip on numbers 32 and 35 (split bet)"
+                ]
+            }
+        },
+        "side-bet": {
+            "name": "Side-by-Side Betting",
+            "description": "This bet includes the number to the left or right of the main number you choose on the roulette wheel. This side-by-side bet only exists in Racetrack mode. To determine how far you want to bet at the same time, you can use the + - button on the left of the Racetrack Panel. There are 1 to 9 chips that you can choose from in this side-by-side bet.",
+            "example": "For example, if you choose just 1 chip, then automatically the left or right side of the number you choose on the roulette wheel will be filled with 1 chip."
+        }
+    }
+}

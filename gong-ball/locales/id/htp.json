@@ -1,0 +1,64 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Permainan ini adalah permainan sama seperti samgong atau (3 picture) yang dimana hasil dari permainan ini tergantung dari jumlah 3 kartu yang di dapat. Masing-masing kartu memiliki nilai tertentu."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Kartu AS s/d 10 masing-masing bernilai 1 s/d 10 Sedangkan Kartu J,Q dan K bernilai 10. Nilai tertinggi permainan ini adalah 3 Picture",
+            "Dalam permainan ini kita menggunakan media papan gelinding dengan angka dan gambar sepeti kartu resmi tetapi dengan jumlah  total 36 dengan rincian masing-masing 3 bulatan untuk A - 10 dan 2 bulatan untuk J,Q dan K. Bola dengan jumlah 3 akan di turunkan ke dalam papan secara berurutan 1 per 1. Setiap buzlatan tempat bola berhenti akan di jumlahkan untuk mendapat hasilnya dan angka yang di ambil adalah angka terkakhir dari penjumlahannya.",
+            "Keunikan dari permainan ini kita menyediakan bettingan Player dan Banker dimana anda dapat memilih kartu player (Keluaran berdasarkan Gongball) atau kartu banker (Keluaran berdasarkan Kartu) yang menang."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "PLACING A BET",
+        "reference": "Referensi",
+        "name": "Nama",
+        "example": "Contoh",
+        "main-number": {
+            "title": "Angka Utama",
+            "description": "Angka Utama : Menebak angka terakhir dari hasil penjumlahan 0,As(1), 2, 3, 4, 5, 6, 7, 8, 9"
+        },
+        "small": {
+            "title": "Small",
+            "description": "Small : Angka terakhir dari hasil penjumlahan 3 bola bernilai dari 0-4"
+        },
+        "big": {
+            "title": "Big",
+            "description": "Big : Angka terakhir dari hasil penjumlahan 3 bola bernilai dari 5-9"
+        },
+        "odd": {
+            "title": "Odd",
+            "description": "Odd : Angka terakhir dari hasil penjumlahan 3 bola bernilai Ganjil (1, 3, 5, 7, 9)"
+        },
+        "even": {
+            "title": "Even",
+            "description": "Even : Angka terakhir dari hasil penjumlahan 3 bola bernilai Genap (0,2,4,6,8)"
+        },
+        "k": {
+            "title": "K",
+            "description": "K (King) : Terdapat salah satu bola berhenti digambar K (King)"
+        },
+        "2k": { "title": "KK", "description": "KK : Terdapat 2 bola berhenti digambar K (King)" },
+        "3pic": {
+            "title": "3 Pictures",
+            "description": "3 Picture : 3 Hasil bola keluaran berhenti di gambar kombinasi dari (J,Q dan K) Contoh : QQJ, JJK",
+            "notes": "Note : Semua hasil keluaran untuk bettingan di atas di tentukan oleh nilai keluaran bola gongball bukan dari kartu remi dan jika keluaran bolka adalah 3 picture semua bettingan akan di nyatakan Draw kecuali bettingan 3 picture."
+        },
+        "player": {
+            "title": "Bet Player",
+            "description": "Bet Player : Memasang Kartu hasil keluaran Player (Gong Ball) lebih besar atau menang dari kartu keluaran Banker (Kartu)"
+        },
+        "banker": {
+            "title": "Bet Banker",
+            "description": "Bet Banker : Memasang Kartu hasil keluaran Banker (Kartu) lebih besar atau menang dari kartu keluaran Player (Gong Ball)",
+            "notes": "Note : Jika hasil keluaran antara player dan banker sama nilainya maka akan di tentukan dari jumlah picture atau gambar (J,Q,K) yang lebih banyak di antara keduanya. Jika jumlah picture atau gambar sama maka bettingan Player dan Banker hasilnya DRAW.",
+            "example": "Contoh : <br/> Hasil Keluaran Bola (Player): K, K, 9 (9) <br/> Hasil Keluaran Kartu (Dealer): K, 5, 3 (8) <br/> Bettingan yang menang adalah Angka Utama (9), Big, Odd, K, KK dan untuk Bet Player juga dinyatakan menang karena kartu player 9 sedangkan kartu dealer hanya berjumlah 8."
+        }
+    },
+    "payout": {
+        "title": "Pembayaran",
+        "bet-payout": "Pembayaran Taruhan"
+    }
+}

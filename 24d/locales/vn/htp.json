@@ -1,0 +1,70 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "24D là một trò chơi truyền thống sử dụng bóng trong lồng, tương tự như trò chơi roulette. Để thắng trò chơi đơn giản này, bạn chỉ cần đoán quả bóng nào sẽ là kết quả."
+    },
+    "goal": {
+        "title": "Mục tiêu trò chơi",
+        "content": "Mục tiêu của trò chơi 24D là đoán đúng số của quả bóng xuất hiện. Có rất nhiều lựa chọn cược khác nhau để bạn tham gia."
+    },
+    "rules": {
+        "title": "Quy tắc",
+        "steps": [
+            "Trò chơi này sử dụng 24 quả bóng đánh số từ 1 đến 24, được chia thành màu đỏ và đen, và nằm trong một lồng sẽ được quay mỗi vòng.",
+            "Trò chơi bắt đầu khi người điều hành mở thời gian đặt cược.",
+            "Bạn cần đặt cược vào bảng cược được cung cấp.",
+            "Tất cả các cược trên bảng sẽ tự động được chấp nhận khi thời gian đặt cược kết thúc.",
+            "Sau khi thời gian đặt cược kết thúc, người điều hành sẽ quay lồng để xác định kết quả.",
+            "Kết quả của mỗi vòng chỉ là một số từ 1 đến 24. Nếu quả bóng không rõ vị trí, trạng thái \"không có kết quả\" sẽ được áp dụng và lồng sẽ được quay lại cho đến khi có kết quả rõ ràng."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Đặt cược",
+        "single-bet": "Cược 1 số (Cược Đơn).",
+        "split-bet": "Cược 2 số (Cược Chia Đôi).",
+        "corner-bet": "Cược 4 số (Cược Góc).",
+        "row-column-bets": "Cược Dòng & Cột.",
+        "50-50-bet": "Cược 50-50 (Nhỏ/Lớn, Lẻ/Chẵn, Đỏ/Đen)."
+    },
+    "bonus-system": {
+        "title": "Hệ thống thưởng",
+        "introduction": {
+            "heading": "GIỚI THIỆU",
+            "content": "Trong mỗi vòng, hệ thống sẽ ngẫu nhiên chọn các số vào hai loại: Số May Mắn và Số Jackpot. Các số được chọn sẽ có mức thưởng tăng mạnh. Số Jackpot sẽ không thể được chọn là Số May Mắn, và ngược lại."
+        },
+        "lucky-numbers": {
+            "heading": "SỐ MAY MẮN",
+            "content": "Trong mỗi vòng, hệ thống sẽ chọn ngẫu nhiên từ {{minNumbers}} đến {{maxNumbers}} số làm Số May Mắn. Thưởng cho các số này sẽ cao hơn mức thưởng thông thường. Thưởng thấp nhất là {{minMultiplier}} lần tiền cược và cao nhất có thể đạt {{maxMultiplier}} lần."
+        },
+        "jackpot-number": {
+            "heading": "SỐ JACKPOT",
+            "content": "Trong mỗi vòng, hệ thống sẽ chọn ngẫu nhiên 1 số làm Số Jackpot. Thưởng cho Số Jackpot sẽ cao hơn mức thưởng của Số May Mắn. Tỷ lệ thắng cho Số Jackpot dao động từ {{minJackpotMultiplier}} đến {{maxJackpotMultiplier}} lần tiền cược."
+        },
+        "how-to-get-bonuses": {
+            "heading": "CÁCH NHẬN THƯỞNG",
+            "content": "Để nhận thưởng, bạn cần đặt cược vào đúng số và kết quả của vòng đó phải trùng khớp với số bạn đã chọn."
+        },
+        "example-1": {
+            "title": "Ví dụ 1: Thắng Thưởng Số May Mắn",
+            "period": "Kỳ {{period}}",
+            "description": "Bạn đặt cược {{bet, number}} vào các số {{numbers}}.",
+            "result": "Số May Mắn = {{luckyNumbers}}.\nHệ số Thưởng May Mắn = x{{luckyMultiplier}}.\nSố Jackpot = {{jackpotNumber}}.\nHệ số Thưởng Jackpot = x{{jackpotMultiplier}}.\nKết quả trò chơi = {{gameResult}}.",
+            "winnings": "Tiền thưởng của bạn như sau:\nCược * Thưởng May Mắn = {{bet, number}} * {{luckyMultiplier}} = {{totalWinnings, number}}."
+        },
+        "example-2": {
+            "title": "Ví dụ 2: Thắng Thưởng Số Jackpot",
+            "period": "Kỳ {{period}}",
+            "description": "Bạn đặt cược {{bet, number}} vào các số {{numbers}}.",
+            "result": "Số May Mắn = {{luckyNumbers}}.\nHệ số Thưởng May Mắn = x{{luckyMultiplier}}.\nSố Jackpot = {{jackpotNumber}}.\nHệ số Thưởng Jackpot = x{{jackpotMultiplier}}.\nKết quả trò chơi = {{gameResult}}.",
+            "winnings": "Tiền thưởng của bạn như sau:\nCược * Thưởng Jackpot = {{bet, number}} * {{jackpotMultiplier}} = {{totalWinnings, number}}."
+        }
+    },
+    "payout": {
+        "title": "Chi trả",
+        "bet-payout": "Thưởng cược",
+        "bonus-payout": "Thưởng thêm",
+        "lucky-number-multiplier": "Hệ số Thưởng Số May Mắn",
+        "jackpot-number-multiplier": "Hệ số Thưởng Số Jackpot",
+        "number-times": "x{{value}}"
+    }
+}

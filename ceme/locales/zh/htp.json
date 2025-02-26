@@ -1,0 +1,189 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "CEME 7,8,9 是一款来自 IDNLIVE EUROPE 的新型赌场游戏，类似于百家乐，但使用多米诺牌。这款快速游戏包含 <b>3 名玩家</b> 和 <b>1 名庄家</b>，允许您在一轮中为所有三名玩家下注。这是一种令人兴奋的新玩法！",
+        "content-2": "凭借有趣的概念，7,8,9 的投注将有更多获胜机会。立即开始游戏，体验 CEME 7,8,9 中的胜利快感！"
+    },
+    "goal": {
+        "title": "游戏目标",
+        "content": "CEME 7,8,9 的目标是预测玩家将战胜庄家的总点数。准确预测，尤其是以特定点数（如 7、8 或 9）获胜，将为您带来更高的奖励。"
+    },
+    "rules": {
+        "title": "游戏规则",
+        "steps": [
+            "游戏由 <i>庄家</i> 进行。",
+            "游戏使用总共 16 副多米诺牌在 <i>鞋子</i> 中（每副 28 张）。",
+            "游戏包括 1 名庄家和 3 名玩家（玩家 1、玩家 2、玩家 3）。",
+            "游戏开始时，<i>庄家</i> 将开启下注时间，时间结束时，所有的下注将自动被接受。",
+            "庄家将按顺序为每一方发 2 张牌。",
+            "点数最高或最接近 9 的一方将获胜。",
+            "如果结果为 <b>平局</b>，所有下注将被视为输。",
+            "只有当点数为 7、8 或 9 时，副注才算赢。",
+            "在特殊时间段内，<b>Hokky 奖金</b> 可能会出现在副注上，幸运的玩家将获得 <b>双倍奖金</b>。"
+        ]
+    },
+    "domino-card": {
+        "title": "多米诺牌",
+        "description": "多米诺牌总共包括 28 张，每张的上下部分由一条中间线分开，每张的点数各不相同。记住的方法是按照下面的组别进行组织：",
+        "seri-0": {
+            "heading": "组 0",
+            "description": "该组包含 7 张牌，上面为点数 0，下面为点数 0 到 6。比如："
+        },
+        "seri-1": {
+            "heading": "组 1",
+            "description": "该组包含 6 张牌，上面为点数 1，下面为点数 1 到 6。比如："
+        },
+        "seri-2": {
+            "heading": "组 2",
+            "description": "该组包含 5 张牌，上面为点数 2，下面为点数 2 到 6。比如："
+        },
+        "seri-3": {
+            "heading": "组 3",
+            "description": "该组包含 4 张牌，上面为点数 3，下面为点数 3 到 6。比如："
+        },
+        "seri-4": {
+            "heading": "组 4",
+            "description": "该组包含 3 张牌，上面为点数 4，下面为点数 4 到 6。比如："
+        },
+        "seri-5": {
+            "heading": "组 5",
+            "description": "该组包含 2 张牌，上面为点数 5，下面为点数 5 到 6。比如："
+        },
+        "seri-6": {
+            "heading": "组 6",
+            "description": "该组仅包含 1 张牌，上下均为点数 6。比如："
+        }
+    },
+    "counting-card": {
+        "title": "牌面计分",
+        "example": "例子：",
+        "player": "玩家",
+        "banker": "庄家",
+        "description": "多米诺牌的点数通过将两张牌的点数相加来计算。最高点数为 9。如果总数为两位数，<b>个位数将为最终点数</b>。",
+        "case-example": "情境例子：",
+        "case-explain": "在这个例子中，总点数最高的是 <b>玩家 2</b>，点数为 <b>9</b>，接下来是 <b>玩家 1</b> 和 <b>玩家 3</b> 的点数均为 <b>7</b>，最后是 <b>庄家</b>，点数为 <b>2</b>。"
+    },
+    "hoky-bonus": {
+        "title": "HOKKY 奖金",
+        "content": "在特殊时间段内，Hokky 奖金将出现，并将提供 <b>双倍奖金</b>！",
+        "content-2": "系统将从玩家的副注（7、8、9）中选择 Hokky 奖金，选择的注将获得双倍奖金。"
+    },
+    "bet-description-and-example": {
+        "title": "投注描述与示例",
+        "winning-conditions": "获胜条件",
+        "bet": "下注",
+        "result": "结果",
+        "status": "状态",
+        "description": "描述",
+        "result-example": "结果示例",
+        "main-bet": {
+            "heading": "主注",
+            "p123": {
+                "title": "玩家 1、2、3",
+                "description": "当玩家的点数高于 <b>庄家</b> 时将获胜。",
+                "examples": [{ "banker": "2", "player1": "2", "player2": "3", "player3": "4" }]
+            }
+        },
+        "side-bet": {
+            "heading": "副注",
+            "789": {
+                "title": "7, 8, 9",
+                "description": "当玩家的点数为 <b>7</b>、<b>8</b> 或 <b>9</b> 时，并且必须高于 <b>庄家</b> 的点数，玩家将获胜。",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "8", "player3": "9" }]
+            },
+            "specific-7": {
+                "title": "具体 7",
+                "description": "当玩家的点数为具体的 <b>7</b> 并且必须高于 <b>庄家</b> 的点数时，玩家将获胜。",
+                "examples": [{ "banker": "2", "player1": "7", "player2": "7", "player3": "7" }]
+            },
+            "specific-8": {
+                "title": "具体 8",
+                "description": "当玩家的点数为具体的 <b>8</b> 并且必须高于 <b>庄家</b> 的点数时，玩家将获胜。",
+                "examples": [{ "banker": "2", "player1": "8", "player2": "8", "player3": "8" }]
+            },
+            "specific-9": {
+                "title": "具体 9",
+                "description": "当玩家的点数为具体的 <b>9</b> 并且必须高于 <b>庄家</b> 的点数时，玩家将获胜。",
+                "examples": [{ "banker": "2", "player1": "9", "player2": "9", "player3": "9" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "下注支付",
+        "bet": "下注",
+        "payout": "支付",
+        "normal-payout": "正常支付",
+        "2x-payout": "双倍支付",
+        "condition": "条件",
+        "main-bet": {
+            "title": "主注",
+            "p123": {
+                "title": "玩家 1、2、3",
+                "table": [
+                    {
+                        "winning-conditions": "以点数从 1~8 胜出",
+                        "payout": "0.95:1"
+                    },
+                    {
+                        "winning-conditions": "以点数 9 胜出",
+                        "payout": "2:1"
+                    }
+                ]
+            }
+        },
+        "side-bet": {
+            "title": "副注",
+            "789": {
+                "title": "7, 8, 9",
+                "table": [
+                    {
+                        "winning-conditions": "以点数 7 胜出",
+                        "normal-payout": "1:1",
+                        "2x-payout": "3:1"
+                    },
+                    {
+                        "winning-conditions": "以点数 8 胜出",
+                        "normal-payout": "2.5:1",
+                        "2x-payout": "6:1"
+                    },
+                    {
+                        "winning-conditions": "以点数 9 胜出",
+                        "normal-payout": "5:1",
+                        "2x-payout": "11:1"
+                    }
+                ]
+            },
+            "specific-7": {
+                "title": "具体 7",
+                "table": [
+                    {
+                        "winning-conditions": "以点数 7 胜出",
+                        "normal-payout": "13:1",
+                        "2x-payout": "27:1"
+                    }
+                ]
+            },
+            "specific-8": {
+                "title": "具体 8",
+                "table": [
+                    {
+                        "winning-conditions": "以点数 8 胜出",
+                        "normal-payout": "10.5:1",
+                        "2x-payout": "22:1"
+                    }
+                ]
+            },
+            "specific-9": {
+                "title": "具体 9",
+                "table": [
+                    {
+                        "winning-conditions": "以点数 9 胜出",
+                        "normal-payout": "9.5:1",
+                        "2x-payout": "20:1"
+                    }
+                ]
+            }
+        }
+    }
+}

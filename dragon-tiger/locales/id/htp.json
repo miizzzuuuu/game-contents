@@ -1,0 +1,81 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Dragon Tiger adalah permainan judi paling sederhana. Pada dasarnya ini adalah permainan baccarat versi dua kartu saja. Untuk lebih jelasnya, dua kartu di keluarkan, satu untuk Dragon dan satu untuk Tiger. Player bertaruh sisi mana yang akan lebih tinggi nilainya."
+    },
+    "goal": {
+        "title": "TUJUAN PERMAINAN",
+        "content": "Tujuan permainan Dragon Tiger adalah menebak pihak dengan nilai kartu tertinggi atau paling mendekati angka 13 (Pemain, Bankir atau Seri)."
+    },
+    "rules": {
+        "title": "PERATURAN UMUM",
+        "steps": [
+            "Permainan akan dipandu oleh <i>Dealer</i>.",
+            "Permainan ini menggunakan 8 set kartu dalam satu buah <i>Shoe</i>.",
+            "Pada setiap awal <i>Shoe</i> baru, <i>Dealer</i> akan mengeluarkan satu kartu sebagai penentu berapa kartu yang akan di <i>Burn</i> atau dibuang. Maksimal 13 kartu bisa dibuang.",
+            "Setelah waktu taruhan habis, <i>Dealer</i> akan membagikan satu kartu kepada Naga dan Harimau.",
+            "Tangan dengan nilai kartu tertinggi menang.",
+            "Jika hasilnya <b>seri</b>, setengah taruhan pada Naga dan Harimau dikembalikan. Taruhan seri hanya menang jika nilai Naga dan Harimau sama.",
+            "Semua taruhan sampingan akan kalah jika hasilnya 7."
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "winning-conditions": "Kondisi Menang",
+        "description": "Deskripsi",
+        "examples": "Contoh",
+        "anything": "APAPUN",
+        "bet": "TARUHAN",
+        "result": "HASIL",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "dragon": {
+                "title": "Naga",
+                "description": "Dibayar jika nilai kartu Dragon lebih tinggi dari Harimau"
+            },
+            "tiger": {
+                "title": "Harimau",
+                "description": "Dibayar jika nilai kartu Harimau lebih tinggi dari Naga"
+            },
+            "tie": {
+                "title": "Seri",
+                "description": "Dibayar jika kartu Naga dan Harimau mempunyai niai yang sama"
+            }
+        },
+        "side-bet": {
+            "heading": "Taruhan Sampingan",
+            "heading-dragon": "Taruhan Sampingan Naga",
+            "heading-tiger": "Taruhan Sampingan Harimau",
+            "note": "*Taruhan sampingan kalah jika nilai kartu adalah 7",
+            "small": {
+                "title": "Kecil",
+                "description": "Hasilnya adalah dari 1 sampai 6"
+            },
+            "big": {
+                "title": "Besar",
+                "description": "Hasilnya adalah dari 8 sampai 13"
+            },
+            "odd": {
+                "title": "Ganjil",
+                "description": "Hasilnya adalah angka ganjil"
+            },
+            "even": {
+                "title": "Genap",
+                "description": "Hasilnya adalah angka genap"
+            },
+            "red": {
+                "title": "Merah",
+                "description": "Hasilnya adalah merah"
+            },
+            "black": {
+                "title": "Hitam",
+                "description": "Hasilnya adalah hitam"
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan"
+    }
+}

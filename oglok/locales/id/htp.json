@@ -1,0 +1,67 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Oglok adalah permainan tradisional yang mirip dengan permainan Sic Bo tetapi alih-alih menggunakan angka, permainan ini menggunakan gambar, ini adalah game yang sangat populer di wilayah Asia."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Permainan dimulai ketika dealer membuka waktu untuk bertaruh.",
+            "Sekarang Anda harus menempatkan taruhan anda pada panel taruhan yang kami sediakan dan klik tombol kirim.",
+            "Setelah periode taruhan berakhir, Dealer akan mengocok dadu unutuk menentukan hasil untuk ronde itu.",
+            "Hasilnya hanya Udang sampai Ikan untuk masing-masing dadu dan dalam hal dadu tidak diposisikan dengan jelas atau tidak jatuh dengan benar maka “no game” status akan terjadi dan dealer akan mengocok dadu sekali lagi hingga gasilnya jela."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Memasang Taruhan",
+        "name": "Nama",
+        "example": "Contoh",
+        "one-dice-bet": "Satu dadu",
+        "two-series-bet": "Seri dua dadu",
+        "three-series-bet": "Seri tiga dadu",
+        "anytriple-bet": "Semua triple",
+        "4-combination-bet": "Kombinasi 4 dadu",
+        "2-combination-bet": "Kombinasi 2 dadu"
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "winning-conditions": "Kondisi Menang",
+        "description": "Deskripsi",
+        "contoh": "Contoh",
+        "bet": "TARUHAN PADA",
+        "result": "HASIL",
+        "status": "STATUS",
+        "win": "MENANG",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "one-dice-bet": {
+                "title": "Satu Dadu",
+                "description": "Hasilnya adalah gambar spesifik dari Udang ke Ikan pada satu, dua, atau ketiga dadu"
+            },
+            "two-series-bet": {
+                "title": "Satu Dadu",
+                "description": "Hasilnya adalah semua gambar tripel"
+            },
+            "three-series-bet": {
+                "title": "Seri Tiga Dadu",
+                "description": "Hasilnya adalah gambar tripel spesifik yang anda pertaruhkan"
+            },
+            "anytriple-bet": {
+                "title": "Semua Triple",
+                "description": "Hasilnya adalah semua gambar tripel"
+            },
+            "4-combination-bet": {
+                "title": "Kombinasi 4 dadu",
+                "description": "Hasilnya adalah kombinasi dari empat dadu yang Anda pertaruhkan"
+            },
+            "2-combination-bet": {
+                "title": "Kombinasi 2 dadu",
+                "description": "Hasilnya adalah kombinasi dari dua dadu yang Anda pertaruhkan"
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan"
+    }
+}

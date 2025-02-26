@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Domino Live is a game where you bet on which hand will win: Player, Banker, or a Tie, with the goal of having a total value closest to 9."
+        ]
+    },
+    "slide-2": {
+        "title": "Card Values",
+        "content": [
+            "Each card has a different number of dots, with each dot representing the card's value. The easiest way to remember all the cards is by grouping them into 7. If the total value of the cards exceeds 9, only the last digit is counted (for example, 15 becomes 5)."
+        ]
+    },
+    "slide-3": {
+        "title": "Scoring",
+        "content": [
+            "The winner is the hand with a total score closest to 9. If the total points are the same between Player and Banker, the result is a Tie."
+        ]
+    }
+}

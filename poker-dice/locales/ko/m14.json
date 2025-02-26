@@ -1,0 +1,24 @@
+{
+    "big": "크다",
+    "small": "작다",
+    "odd": "홀수",
+    "even": "짝수",
+    "red": "빨간",
+    "black": "검정",
+    "small/big": "작다/크다",
+    "odd/even": "홀수/짝수",
+    "red/black": "빨간/검정",
+    "side bet": "사이드 베팅",
+
+    "pair": "pair",
+    "two pair": "two pair",
+    "three of a kind": "three of a kind",
+    "inc. straight": "inc. straight",
+    "flush": "flush",
+    "full house": "full house",
+    "straight": "straight",
+    "four of a kind": "four of a kind",
+    "inc. straight flush": "inc. straight flush",
+    "staright flush": "staright flush",
+    "five of a kind": "five of a kind"
+}

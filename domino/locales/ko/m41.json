@@ -1,0 +1,15 @@
+{
+    "player":"플레이어",
+    "banker":"은행가",
+    "tie":"묶다",
+    "anyqiu":"큐",
+    "q bet":"q 내기",
+    "q":"큐",
+    "noqiu":"q가 아니다",
+    "special card":"특별한 카드",
+    "puresmall":"순수한 작은",
+    "purebig":"순수한 큰",
+    "twin":"쌍",
+    "puresix":"여섯 신",
+    "jackpot":"공동 자금"
+}

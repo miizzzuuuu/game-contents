@@ -1,0 +1,170 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Sicbo Dice is a traditional game originating from ancient China played with three dice, Sic Bo itself means Precious Dice. This game is very popular in Asia and is widely played in casinos in Macau and Hong Kong."
+    },
+    "game-objective": {
+        "title": "Game Objective",
+        "content": "The aim of the Sicbo Dice game is to guess the outcome of three dice being rolled to see if it matches your bet."
+    },
+    "rules": {
+        "title": "Game Rules",
+        "steps": [
+            "The game uses three dice.",
+            "The game starts when the dealer opens the betting time and when the betting time runs out then all bets will be accepted automatically.",
+            "The dealer will drop the dice to determine the outcome for that period.",
+            "If the result is a triple then all 50-50 bets will lose.",
+            "The outcome is only 1 to 6 for each dice and if the dice are not positioned clearly or fall down incorrectly then a ``no game`` status will occur and the dealer will drop the dice once more until the outcome is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Placing A Bet",
+        "content": "The essence of this game is to guess the outcome of the three dice.",
+        "steps": [
+            "Choose a specific triple number that appears on all three dice for a payout of 180x your bet.",
+            "Choose any number that appears on all three dice for a payout of 30x your bet.",
+            "The sum of the three dice is 4 or 17 for a payout of 50x your bet.",
+            "The sum of the three dice is 5 or 16 for a payout of 30x your bet.",
+            "The sum of the three dice is 6 or 15 for a payout of 18x your bet.",
+            "The sum of the three dice is 7 or 14 for a payout of 12x your bet.",
+            "The sum of the three dice is 8 or 13 for a payout of 8x your bet.",
+            "The sum of the three dice is 9, 10, 11, or 12 for a payout of 6x your bet.",
+            "Choose 2 specific numbers that appear on any two of the three dice for a payout of 5x your bet.",
+            "Choose 1 specific number that appears on any of the three dice. If it matches on one die, the payout is 1x your bet; if it matches on two dice, the payout is 2x your bet; if it matches on all three dice, the payout is 3x your bet.",
+            "Big: The sum of the three dice is between 11 and 17 for a payout of 1x your bet. Triple numbers do not count as Big.",
+            "Small: The sum of the three dice is between 4 and 10 for a payout of 1x your bet. Triple numbers do not count as Small."
+        ]
+    },
+    "bonus-system": {
+        "title": "Bonus System",
+        "introduction": {
+            "heading": "INTRODUCTION",
+            "content": "In each round of the game, the system will randomly determine which numbers will be selected into the Lucky Number & Jackpot Number categories. Numbers that have been selected as Lucky Numbers or Jackpot Numbers will automatically have their payouts increased drastically. Numbers that have been selected as Jackpot Numbers will no longer be selected as Lucky Numbers, and vice versa."
+        },
+        "lucky-numbers": {
+            "heading": "LUCKY NUMBERS",
+            "content": "In each round of the game, the system will randomly select {{minNumbers}} to {{maxNumbers}} numbers which will become Lucky Numbers. For each Lucky Number selected, the payout will increase drastically above the normal payout. The smallest Lucky Number bonus will get {{minMultiplier}}x your bet and can reach {{maxMultiplier}}x your bet."
+        },
+        "jackpot-number": {
+            "heading": "JACKPOT NUMBER",
+            "content": "In each round of the game, the system will also randomly select 1 number which will be the Jackpot Number. The selected number becomes the Jackpot Number, and the payout will increase more drastically above the Lucky Number Bonus payout. The chance of winning this Jackpot Number is as small as {{minJackpotMultiplier}}x your bet and can reach {{maxJackpotMultiplier}}x your bet."
+        },
+        "how-to-get-bonuses": {
+            "heading": "HOW TO GET BONUSES",
+            "content": "To get this bonus, you have to place a bet on the right number and the result of the game for that round must also match the number you placed."
+        },
+        "example-1": {
+            "title": "Example 1: Win Lucky Number Bonus",
+            "period": "Period {{period}}",
+            "description": "You place a bet on the numbers {{numbers}} with a value of {{bet, number}} each.",
+            "result": "Lucky Number = {{luckyNumbers}}.\nLucky Number Multiplier = x{{luckyMultiplier}}.\nJackpot Number = {{jackpotNumber}}.\nJackpot Number Multiplier = x{{jackpotMultiplier}}.\nGame result = {{gameResult}}.",
+            "winnings": "Your winnings are as follows:\nBet * Lucky Number Prize = {{bet, number}} * {{luckyMultiplier}} = {{totalWinnings, number}}."
+        },
+        "example-2": {
+            "title": "Example 2: Win Jackpot Number Bonus",
+            "period": "Period {{period}}",
+            "description": "You place a bet on the numbers {{numbers}} with a value of {{bet, number}} each.",
+            "result": "Lucky Number = {{luckyNumbers}}.\nLucky Number Multiplier = x{{luckyMultiplier}}.\nJackpot Number = {{jackpotNumber}}.\nJackpot Number Multiplier = x{{jackpotMultiplier}}.\nGame result = {{gameResult}}.",
+            "winnings": "Your winnings are as follows:\nBet * Jackpot Prize = {{bet, number}} * {{jackpotMultiplier}} = {{totalWinnings, number}}."
+        },
+        "example-3": {
+            "title": "Example 3: Win Normal 1 Number Bet",
+            "period": "Period {{period}}",
+            "description": "You placed a bet on numbers {{numbers}} with a value of {{bet, number}} each.",
+            "result": "Lucky Number = {{luckyNumbers}}.\nLucky Number Multiplier = x{{luckyMultiplier}}.\nJackpot Number = {{jackpotNumber}}.\nJackpot Number Multiplier = x{{jackpotMultiplier}}.\nGame result = {{gameResult}}.",
+            "winnings": "Your winnings are as follows:\nBet * Normal Prize = {{bet, number}} * 19 = {{totalWinnings, number}}."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "BET DESCRIPTION",
+        "winning-conditions": "Winning Condition",
+        "description": "Description",
+        "bet": "Bet",
+        "result": "Result",
+        "status": "STATUS",
+        "examples": "Examples",
+
+        "main-bet": {
+            "heading": "Main Bets",
+            "single-dice": {
+                "title": "Single Dice",
+                "description": "Paid if the result is one, two, or three dice matching your bet",
+                "examples": [{ "bet": "One", "result": "1,2,3" }]
+            },
+            "combination-dice": {
+                "title": "Dice Combination",
+                "description": "Paid if the result is a combination of two dice matching your bet",
+                "examples": [{ "bet": "1,2", "result": "1,2,3" }]
+            },
+            "double-specific": {
+                "title": "Specific Double",
+                "description": "Paid if the result is a specific pair of matching numbers",
+                "examples": [{ "bet": "2,2", "result": "2,2" }]
+            },
+            "triple-specific": {
+                "title": "Specific Triple",
+                "description": "Paid if the result is a specific set of three matching numbers",
+                "examples": [{ "bet": "3,3,3", "result": "3,3,3" }]
+            },
+            "anytriple": {
+                "title": "Any Triple",
+                "description": "Paid if the result is any set of three matching numbers",
+                "examples": [{ "bet": "anytriple", "result": "5,5,5" }]
+            },
+            "sum-of-three": {
+                "title": "Sum Three Dice",
+                "description": "Paid if the result is the total sum of three dice matching your bet",
+                "examples": [{ "bet": "10", "result": "2,2,6" }]
+            }
+        },
+        "side-bet": {
+            "heading": "Taruhan Sampingan",
+            "small": {
+                "title": "Small",
+                "description": "Paid if the total sum of three dice is between 4-10",
+                "examples": [{ "bet": "Small", "result": "1,2,3" }]
+            },
+            "big": {
+                "title": "Big",
+                "description": "Paid if the total sum of three dice is between 11-17",
+                "examples": [{ "bet": "Big", "result": "5,5,1" }]
+            },
+            "odd": {
+                "title": "Odd",
+                "description": "Paid if the total sum of three dice is an odd number",
+                "examples": [{ "bet": "Odd", "result": "1,2,2" }]
+            },
+            "even": {
+                "title": "Even",
+                "description": "Paid if the total sum of three dice is an even number",
+                "examples": [{ "bet": "Even", "result": "2,2,4" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "payout",
+        "bet-payout": "bet payout",
+        "bonus-payout": "bonus payout",
+        "lucky-number-multiplier": "Lucky Number Multiplier",
+        "jackpot-number-multiplier": "Jackpot Number Multiplier",
+        "number-times": "x{{value}}"
+    },
+    "mini-how-to-play": {
+        "slide1": {
+            "title": "How to Play",
+            "content": "You predict the outcome of 3 dice that are rolled into a box. You can place bets on various options such as Single Dice, Dice Combinations, Double Dice, Triple Dice, the Total of the 3 Dice, and even Big/Small/Odd/Even."
+        },
+        "slide2": {
+            "title": "Single Dice & Dice Combinations",
+            "content": "The result of a single die is a specific number from 1-6, while a dice combination is the combination of numbers from 2 dice that you bet on."
+        },
+        "slide3": {
+            "title": "Total of 3 Dice & Odd/Even/Small/Big",
+            "content": "The total of the 3 dice is the sum of the 3 dice. The result is 'small' if the total is between 4 and 10, and 'big' if it's between 11 and 17. Odd or even results depend on whether the total is odd or even."
+        },
+        "slide4": {
+            "title": "Double, Triple, All Triple",
+            "content": "The result of double & triple dice is specific double or triple numbers, and the result of all triple dice is all triple numbers."
+        }
+    }
+}

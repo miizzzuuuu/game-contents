@@ -1,0 +1,26 @@
+{
+    "slide-1": {
+        "title": "Cara Bermain",
+        "content": [
+            "Anda menebak hasil dari 3 dadu yang di jatuhkan kedalam kotak. Dapat bertaruh diberbagai peluang seperti Dadu Tunggal, Kombinasi Dadu, Ganda Dadu, Triple Dadu, Jumlah dari 3 Dadu dan bahkan Besar/kecil/Ganjil/Genap."
+        ]
+    },
+    "slide-2": {
+        "title": "Cara Bermain",
+        "content": [
+            "Hasil dadu tunggal adalah angka tertentu dari 1-6, sedangkan kombinasi dadu adalah kombinasi angka dari 2 dadu yang anda pertaruhan."
+        ]
+    },
+    "slide-3": {
+        "title": "Cara Bermain",
+        "content": [
+            "Jumlah dari 3 dadu adalah penjumlahan dari 3 dadu tsb. Hasil bertaruh kecil jika total 3 dadu 4 s/d 10, hasil bertaruh besar 11 s/d 17. Jika ganjil genap total 3 dadu merupakan ganjil atau genap. "
+        ]
+    },
+    "slide-4": {
+        "title": "Cara Bermain",
+        "content": [
+            "Hasil dadu ganda & triple adalah angka ganda,triple yang spesifik, dan hasil dadu semua triple adalah semua angka rangkap tiga."
+        ]
+    }
+}

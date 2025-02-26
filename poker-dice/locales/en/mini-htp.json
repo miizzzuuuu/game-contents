@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "Poker dice is a game where you predict the outcome of a combination of 5 dice rolled by the dealer. Each die has 6 sides numbered 1-6 and follows a color rule (red and black)."
+        ]
+    },
+    "slide-2": {
+        "title": "How to Play",
+        "content": [
+            "The result of the dice is determined based on the highest ranking obtained from the combination of 5 dice (from 5 of a Kind to One Pair). Each round will only produce one outcome."
+        ]
+    },
+    "slide-3": {
+        "title": "How to Play",
+        "content": [
+            "You can bet on dice combinations, and also on color, odd/even, or the most frequent small/big numbers. Only bets that match the criteria of the results will be paid out."
+        ]
+    }
+}

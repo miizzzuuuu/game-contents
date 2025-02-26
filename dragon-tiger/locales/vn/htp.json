@@ -1,0 +1,81 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Dragon Tiger là một trong những trò chơi đánh bạc đơn giản nhất. Về cơ bản, đây là phiên bản baccarat hai lá. Để giải thích rõ hơn, hai lá bài được chia, một lá cho Rồng và một lá cho Hổ. Người chơi đặt cược bên nào sẽ có giá trị cao hơn."
+    },
+    "goal": {
+        "title": "MỤC TIÊU TRÒ CHƠI",
+        "content": "Mục tiêu của trò chơi Dragon Tiger là dự đoán bên nào có giá trị lá bài cao nhất hoặc gần với số 13 nhất (Người chơi, Nhà cái hoặc Hòa)."
+    },
+    "rules": {
+        "title": "QUY TẮC CHUNG",
+        "steps": [
+            "Trò chơi sẽ do <i>Người chia bài</i> dẫn dắt.",
+            "Trò chơi này sử dụng 8 bộ bài trong một <i>hộp</i>.",
+            "Vào đầu mỗi <i>hộp</i> mới, <i>Người chia bài</i> sẽ rút một lá bài để xác định số lá bài sẽ bị <i>đốt</i> hoặc loại bỏ. Tối đa có thể loại bỏ 13 lá.",
+            "Sau khi hết thời gian đặt cược, <i>Người chia bài</i> sẽ chia một lá bài cho Rồng và một lá cho Hổ.",
+            "Bên có giá trị bài cao nhất sẽ thắng.",
+            "Nếu kết quả là <b>hòa</b>, một nửa tiền cược cho Rồng và Hổ sẽ được trả lại. Cược hòa chỉ thắng nếu Rồng và Hổ có cùng giá trị.",
+            "Tất cả các cược phụ sẽ thua nếu kết quả là 7."
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả Cược và Ví dụ",
+        "winning-conditions": "Điều kiện Thắng",
+        "description": "Mô tả",
+        "examples": "Ví dụ",
+        "anything": "BẤT CỨ GÌ",
+        "bet": "CƯỢC",
+        "result": "KẾT QUẢ",
+        "status": "TRẠNG THÁI",
+        "main-bet": {
+            "heading": "Cược Chính",
+            "dragon": {
+                "title": "Rồng",
+                "description": "Thanh toán nếu giá trị lá bài của Rồng cao hơn Hổ"
+            },
+            "tiger": {
+                "title": "Hổ",
+                "description": "Thanh toán nếu giá trị lá bài của Hổ cao hơn Rồng"
+            },
+            "tie": {
+                "title": "Hòa",
+                "description": "Thanh toán nếu Rồng và Hổ có cùng giá trị lá bài"
+            }
+        },
+        "side-bet": {
+            "heading": "Cược Phụ",
+            "heading-dragon": "Cược Phụ Rồng",
+            "heading-tiger": "Cược Phụ Hổ",
+            "note": "*Cược phụ sẽ thua nếu kết quả là 7",
+            "small": {
+                "title": "Nhỏ",
+                "description": "Kết quả từ 1 đến 6"
+            },
+            "big": {
+                "title": "Lớn",
+                "description": "Kết quả từ 8 đến 13"
+            },
+            "odd": {
+                "title": "Lẻ",
+                "description": "Kết quả là số lẻ"
+            },
+            "even": {
+                "title": "Chẵn",
+                "description": "Kết quả là số chẵn"
+            },
+            "red": {
+                "title": "Đỏ",
+                "description": "Kết quả là màu đỏ"
+            },
+            "black": {
+                "title": "Đen",
+                "description": "Kết quả là màu đen"
+            }
+        }
+    },
+    "payout": {
+        "title": "Thanh toán",
+        "bet-payout": "Thanh toán Cược"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "introduction": {
+        "title": "简介",
+        "content": "24D 是一种传统游戏，使用放置在笼子里的球，玩法类似于轮盘赌。想要赢得这款简单的游戏，只需猜测哪一个球将成为最终结果。"
+    },
+    "goal": {
+        "title": "游戏目标",
+        "content": "24D 游戏的目标是猜中正确的球号。您可以尝试多种下注组合来参与游戏。"
+    },
+    "rules": {
+        "title": "规则",
+        "steps": [
+            "此游戏使用 24 个球，编号为 1 到 24，分为红色和黑色，放置在一个笼子里，每轮游戏都会旋转笼子。",
+            "当庄家宣布开始下注时，游戏开始。",
+            "您需要在提供的下注面板上进行下注。",
+            "所有下注在时间结束时会自动确认。",
+            "下注时间结束后，庄家会旋转笼子以决定游戏结果。",
+            "每轮游戏的结果是从 1 到 24 的一个数字。如果球的位置不明确，则会显示“无效游戏”状态，庄家会重新旋转笼子，直到结果明确。"
+        ]
+    },
+    "placing-a-bet": {
+        "title": "下注方式",
+        "single-bet": "单号下注 (Single Bet)",
+        "split-bet": "双号下注 (Split Bet)",
+        "corner-bet": "四号下注 (Corner Bet)",
+        "row-column-bets": "行 & 列下注 (Row & Column Bets)",
+        "50-50-bet": "50-50 下注 (大小、单双、红黑)"
+    },
+    "bonus-system": {
+        "title": "奖励系统",
+        "introduction": {
+            "heading": "简介",
+            "content": "每轮游戏中，系统将随机选定某些号码归类为幸运号码和大奖号码。被选为幸运号码或大奖号码的球，其赔率会显著提升。被选为大奖号码的球不会再被选为幸运号码，反之亦然。"
+        },
+        "lucky-numbers": {
+            "heading": "幸运号码",
+            "content": "每轮游戏中，系统将随机选出 {{minNumbers}} 到 {{maxNumbers}} 个号码作为幸运号码。被选中的幸运号码赔率会显著高于普通赔率。最低幸运号码奖金为 {{minMultiplier}} 倍下注金额，最高可达 {{maxMultiplier}} 倍。"
+        },
+        "jackpot-number": {
+            "heading": "大奖号码",
+            "content": "每轮游戏中，系统还会随机选出 1 个号码作为大奖号码。被选为大奖号码的赔率将显著高于幸运号码奖金。中奖几率最低为 {{minJackpotMultiplier}} 倍下注金额，最高可达 {{maxJackpotMultiplier}} 倍。"
+        },
+        "how-to-get-bonuses": {
+            "heading": "如何获得奖励",
+            "content": "要获得此奖励，您必须下注到正确的号码，同时该轮游戏结果与您下注的号码一致。"
+        },
+        "example-1": {
+            "title": "示例 1: 获得幸运号码奖金",
+            "period": "期数 {{period}}",
+            "description": "您对号码 {{numbers}} 各下注 {{bet, number}}。",
+            "result": "幸运号码 = {{luckyNumbers}}。\n幸运号码倍数 = x{{luckyMultiplier}}。\n大奖号码 = {{jackpotNumber}}。\n大奖号码倍数 = x{{jackpotMultiplier}}。\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下：\n下注金额 * 幸运号码奖金 = {{bet, number}} * {{luckyMultiplier}} = {{totalWinnings, number}}。"
+        },
+        "example-2": {
+            "title": "示例 2: 获得大奖号码奖金",
+            "period": "期数 {{period}}",
+            "description": "您对号码 {{numbers}} 各下注 {{bet, number}}。",
+            "result": "幸运号码 = {{luckyNumbers}}。\n幸运号码倍数 = x{{luckyMultiplier}}。\n大奖号码 = {{jackpotNumber}}。\n大奖号码倍数 = x{{jackpotMultiplier}}。\n游戏结果 = {{gameResult}}。",
+            "winnings": "您的奖金如下：\n下注金额 * 大奖奖金 = {{bet, number}} * {{jackpotMultiplier}} = {{totalWinnings, number}}。"
+        }
+    },
+    "payout": {
+        "title": "赔付",
+        "bet-payout": "下注赔付",
+        "bonus-payout": "奖励赔付",
+        "lucky-number-multiplier": "幸运号码倍数",
+        "jackpot-number-multiplier": "大奖号码倍数",
+        "number-times": "x{{value}}"
+    }
+}

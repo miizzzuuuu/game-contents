@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Cách Chơi",
+        "content": [
+            "Red White được chơi bằng cách thả 3 quả bóng vào bảng gồm các ô đỏ, trắng và jackpot."
+        ]
+    },
+    "slide-2": {
+        "title": "Đặt Cược",
+        "content": [
+            "Bạn có thể đặt cược vào <b>Hai Đỏ</b>, <b>Hai Trắng</b>, <b>Ba Đỏ</b>, <b>Ba Trắng</b>, <b>Jackpot</b>, và <b>Hai Jackpot</b> cùng lúc để tăng cơ hội chiến thắng."
+        ]
+    },
+    "slide-3": {
+        "title": "Kết Quả Trò Chơi",
+        "content": [
+            "3 quả bóng sẽ rơi xuống bảng Red White tạo thành một tổ hợp. Cược phù hợp với kết quả sẽ thắng."
+        ]
+    }
+}

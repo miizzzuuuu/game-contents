@@ -1,0 +1,21 @@
+{
+    "player":"PEMAIN",
+    "banker":"BANKIR",
+    "tie":"SERI",
+    "anyqiu":"Q",
+    "q bet":"Q Bet",
+    "q":"Q",
+    "noqiu":"NOT Q",
+    "special card":"Special Card",
+    "puresmall":"MURNI KECIL",
+    "purebig":"MURNI BESAR",
+    "balak":"BALAK",
+    "puresix":"ENAM DEWA",
+    "jackpot":"JACKPOT",
+    "pure small":"MURNI KECIL",
+    "q0 - q9":"Q0 - Q9",
+    "not q":"NOT Q",
+    "pure big":"MURNI BESAR",
+    "twin": "BALAK",
+    "six god": "ENAM DEWA"
+}

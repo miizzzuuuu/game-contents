@@ -1,0 +1,24 @@
+{
+    "big": "besar",
+    "small": "kecil",
+    "odd": "ganjil",
+    "even": "genap",
+    "red": "merah",
+    "black": "hitam",
+    "small/big": "kecil/besar",
+    "odd/even": "ganjil/genap",
+    "red/black": "merah/hitam",
+    "side bet": "Taruhan Sampingan",
+
+    "pair": "pair",
+    "two pair": "two pair",
+    "three of a kind": "three of a kind",
+    "inc. straight": "inc. straight",
+    "flush": "flush",
+    "full house": "full house",
+    "straight": "straight",
+    "four of a kind": "four of a kind",
+    "inc. straight flush": "inc. straight flush",
+    "staright flush": "staright flush",
+    "five of a kind": "five of a kind"
+}

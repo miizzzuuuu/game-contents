@@ -1,0 +1,26 @@
+{
+    "slide-1": {
+        "title": "Cách Chơi",
+        "content": [
+            "Bạn dự đoán kết quả của 3 viên xúc xắc được thả vào hộp. Bạn có thể đặt cược vào các kết quả khác nhau như Xúc Xắc Đơn, Kết Hợp Xúc Xắc, Xúc Xắc Đôi, Xúc Xắc Ba, Tổng của 3 Xúc Xắc và thậm chí là Lớn/ Nhỏ/ Chẵn/ Lẻ."
+        ]
+    },
+    "slide-2": {
+        "title": "Cách Chơi",
+        "content": [
+            "Kết quả của xúc xắc đơn là một số cụ thể từ 1 đến 6, trong khi kết hợp xúc xắc là sự kết hợp của 2 con xúc xắc mà bạn đặt cược."
+        ]
+    },
+    "slide-3": {
+        "title": "Cách Chơi",
+        "content": [
+            "Tổng của 3 xúc xắc là tổng các con số trên 3 viên xúc xắc đó. Cược 'nhỏ' thắng nếu tổng của 3 xúc xắc là từ 4 đến 10, và cược 'lớn' thắng nếu tổng là từ 11 đến 17. Cược chẵn/lẻ là tổng của 3 xúc xắc là số chẵn hay lẻ."
+        ]
+    },
+    "slide-4": {
+        "title": "Cách Chơi",
+        "content": [
+            "Kết quả của xúc xắc đôi và xúc xắc ba là các cặp hoặc bộ ba số cụ thể, và 'xúc xắc ba toàn bộ' có nghĩa là cả ba viên xúc xắc đều cho ra cùng một số."
+        ]
+    }
+}

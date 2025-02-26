@@ -1,0 +1,15 @@
+{
+    "player": "người chơi",
+    "banker": "nhà cái",
+    "tie": "hòa",
+    "q0 - q9": "q0 - q9",
+    "q bet": "cược q",
+    "q": "Q",
+    "not q": "không phải Q",
+    "special card": "thẻ đặc biệt",
+    "puresmall": "nhỏ thuần túy",
+    "purebig": "lớn thuần túy",
+    "twin": "cặp đôi",
+    "puresix": "sáu thần",
+    "jackpot": "giải đặc biệt"
+}

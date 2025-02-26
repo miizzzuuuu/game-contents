@@ -1,0 +1,21 @@
+{
+    "slide-1": {
+        "title": "Cara Bermain",
+        "content": [
+            "Permainan ini sama seperti game suwit pada umumnya, dengan menggunakan 2 Dadu (Hitam & Merah). Dadu Hitam menunjukan Gunting, Batu atau Kertas. Dadu Merah menungjukan Jempol, Telunjuk, atau Kelingking"
+        ]
+    },
+    "slide-2": {
+        "title": "Memasang Taruhan",
+        "content": [
+            "Anda memasang taruhan untuk melawan dealer, dengan memasang peluang dadu tunggal hitam/merah, kombinasi 2 dadu, baris dan kolom, split bet, dan corner bet"
+        ]
+    },
+    "slide-3": {
+        "title": "Contoh Taruhan",
+        "content": [
+            "Rock > Gunting, Gunting > Kertas, Kertas > Batu<br/>Telunjuk > Kelingking, Kelingking > Jempol, Jempol > Telunjuk",
+            "<b>note : \">\" berarti MENANG DARI</b>"
+        ]
+    }
+}

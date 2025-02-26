@@ -1,0 +1,41 @@
+{
+    "bet": {
+        "1st Column": "K.1",
+        "2nd Column": "K.2",
+        "3rd Column": "K.3",
+        "4th Column": "K.4",
+        "5th Column": "K.5",
+        "6th Column": "K.6",
+
+        "1st Row": "B.1",
+        "2nd Row": "B.2",
+        "3rd Row": "B.3",
+        "4th Row": "B.4",
+
+        "1st Column,2nd Column": "K.1-2",
+        "2nd Column,3rd Column": "K.2-3",
+        "3rd Column,4th Column": "K.3-4",
+        "4th Column,5th Column": "K.4-5",
+        "5th Column,6th Column": "K.5-6",
+
+        "1st Row,2nd Row": "B.1-2",
+        "3rd Row,4th Row": "B.3-4"
+    },
+    "big": "big",
+    "small": "small",
+    "odd": "odd",
+    "even": "even",
+    "Big": "Big",
+    "Small": "Small",
+    "Odd": "Odd",
+    "Even": "Even",
+    "small/big": "เล็ก/ใหญ่",
+    "odd/even": "คี่/คู่",
+    "one number": "หนึ่งตัวเลข",
+    "two numbers": "สองตัวเลข",
+    "four numbers": "สี่ตัวเลข",
+    "side bet": "เดิมพันข้างเคียง",
+    "normal": "ปกติ",
+    "hot": "hot",
+    "cold": "cold"
+}

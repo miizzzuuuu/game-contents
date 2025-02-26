@@ -1,0 +1,136 @@
+{
+    "introduction": {
+        "title": "介绍",
+        "content": "Poker Dice 是来自 IDNLIVE 的一款独特游戏，融合了西方的扑克与东方的骰子游戏。该游戏使用 5 个骰子来组成获胜的组合。"
+    },
+    "goal": {
+        "title": "游戏目标",
+        "content": "Poker Dice 的目标是预测由五个骰子组成的最佳组合。类似于扑克中的排名，从 5 个相同点数到一对，每回合仅形成一个组合。"
+    },
+    "rules": {
+        "title": "规则",
+        "dice": "骰子",
+        "side": "面",
+        "steps": [
+            "游戏由庄家主持。",
+            "该游戏使用五个骰子，每个骰子有六面，分别是红色和黑色。",
+            "当<i>庄家</i>开始投注时间时，游戏正式开始，所有投注在时间结束时自动被接受。",
+            "庄家掷出五个骰子以确定游戏结果。",
+            "如果骰子<b>没有完全落地</b>，则判定为<b>“无效游戏”</b>，庄家将重新掷骰。",
+            "数字 1-3 视为<b>小</b>，数字 4-6 视为<b>大</b>。"
+        ]
+    },
+    "dice": {
+        "title": "Poker Dice 骰子",
+        "description": "Poker Dice 使用 5 个六面骰子。每一面都有红色或黑色。以下是游戏中五个骰子各面的颜色分布。",
+        "note": "备注：",
+        "notes": ["<b>骰子 1、2 和 3</b> 的面颜色相同", "<b>骰子 4 和 5</b> 的面颜色相同"]
+    },
+    "rank": {
+        "title": "骰子组合",
+        "description": "共有 11 种骰子组合从最高的 5 个相同点数到最低的一对。如果在同一轮中有两个组合，则以最高等级的组合为结果。",
+        "table-description": "以下是结果排名表。",
+        "rank": "排名",
+        "result": "结果",
+        "table": [
+            "5 个相同点数",
+            "同花顺",
+            "不完全同花顺",
+            "4 个相同点数",
+            "顺子",
+            "葫芦",
+            "同花",
+            "不完全顺子",
+            "3 个相同点数",
+            "两对",
+            "一对"
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "投注描述和示例",
+        "winning-conditions": "获胜条件",
+        "bet": "投注",
+        "examples": "示例",
+        "description": "描述",
+        "result": "结果",
+        "status": "状态",
+        "main-bet": {
+            "heading": "主要投注",
+            "pair": {
+                "title": "一对",
+                "description": "如果骰子组成一对则获胜"
+            },
+            "2-pair": {
+                "title": "两对",
+                "description": "如果骰子组成两对则获胜"
+            },
+            "3-of-a-kind": {
+                "title": "3 个相同点数",
+                "description": "如果骰子组成 3 个相同点数则获胜"
+            },
+            "inc-straight": {
+                "title": "不完全顺子",
+                "description": "如果骰子组成不完全顺子则获胜"
+            },
+            "flush": {
+                "title": "同花",
+                "description": "如果骰子组成同花则获胜"
+            },
+            "full-house": {
+                "title": "葫芦",
+                "description": "如果骰子组成葫芦则获胜"
+            },
+            "straight": {
+                "title": "顺子",
+                "description": "如果骰子组成顺子则获胜"
+            },
+            "4-of-a-kind": {
+                "title": "4 个相同点数",
+                "description": "如果骰子组成 4 个相同点数则获胜"
+            },
+            "inc-straight-flush": {
+                "title": "不完全同花顺",
+                "description": "如果骰子组成不完全同花顺则获胜"
+            },
+            "straight-flush": {
+                "title": "同花顺",
+                "description": "如果骰子组成同花顺则获胜"
+            },
+            "5-of-a-kind": {
+                "title": "5 个相同点数",
+                "description": "如果骰子组成 5 个相同点数则获胜"
+            }
+        },
+        "side-bet": {
+            "heading": "边注",
+            "small": {
+                "title": "小",
+                "description": "如果更多骰子的点数为 1 到 3，则获胜"
+            },
+            "big": {
+                "title": "大",
+                "description": "如果更多骰子的点数为 4 到 6，则获胜"
+            },
+            "odd": {
+                "title": "奇数",
+                "description": "如果更多骰子的点数为奇数，则获胜"
+            },
+            "even": {
+                "title": "偶数",
+                "description": "如果更多骰子的点数为偶数，则获胜"
+            },
+            "red": {
+                "title": "红",
+                "description": "如果更多骰子的颜色为红色，则获胜"
+            },
+            "black": {
+                "title": "黑",
+                "description": "如果更多骰子的颜色为黑色，则获胜"
+            }
+        }
+    },
+    "payout": {
+        "title": "支付",
+        "bet-payout": "投注支付"
+    }
+}

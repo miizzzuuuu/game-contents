@@ -1,0 +1,215 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Baccarat, known as Punto Banco, is one of the oldest and most popular card games in casinos worldwide, especially among skilled gamblers and in Asia. Baccarat is particularly dominant in Macau.",
+        "content-2": "Despite its serious and elegant appearance, the game is quite simple. You only need to bet on which side will win or if there will be a tie."
+    },
+    "goal": {
+        "title": "Game Objective",
+        "content": "The goal of Baccarat is to predict which side will have the highest card value or come closest to a total of 9 (Player, Banker, or Tie)."
+    },
+    "rules": {
+        "title": "General Rules",
+        "steps": [
+            "The game will be guided by the <i>Dealer</i>.",
+            "The game uses 8 decks of cards in one <i>Shoe</i>.",
+            "At the beginning of a new <i>Shoe</i>, the <i>Dealer</i> will draw one card to determine how many cards will be <i>Burned</i>. A maximum of 11 cards can be discarded.",
+            "After the betting time ends, the <i>Dealer</i> will deal two cards to the Player and the Banker.",
+            "The hand with the highest card value wins.",
+            "If the result is a <b>tie</b>, bets on Player and Banker are returned. A tie bet only wins if the values of Player and Banker are the same.",
+            "If the result is a <b>non-natural tie</b>, meaning a tie with <b>more than four</b> cards dealt, then Player Bonus and Banker Bonus bets lose.",
+            "If the result is a <b>natural tie</b>, meaning a tie with <b>four</b> cards dealt, then Player Bonus and Banker Bonus bets are returned."
+        ]
+    },
+    "baccarat-card": {
+        "title": "BACCARAT CARDS",
+        "card-value": {
+            "title": "Card Values",
+            "card": "Card",
+            "value": "Value",
+            "description": "Baccarat uses a standard set of cards consisting of 52 cards, without jokers. Here are the card values used in the game:"
+        },
+        "point-count": {
+            "title": "Point Calculation",
+            "description": "All cards in Baccarat are valued only by their last digit. The highest value is 9. If the sum of the values of 2 cards is a two-digit number, the total value is determined by the digit in the second position."
+        },
+        "natural-card-non-natural-card": {
+            "natural-card": {
+                "title": "NATURAL CARD",
+                "description": "If the initial 2 cards of the Player or Banker have a value of <b>8</b> or <b>9</b>, it is considered a <b>Natural Card</b> and no additional cards will be drawn for either side."
+            },
+            "non-natural-card": {
+                "title": "NON-NATURAL CARD",
+                "description": "If the initial 2 cards of the Player or Banker have a value of <b>0-7</b>, it is considered a <b>Non-Natural Card</b> and additional cards will be drawn. The rules for the third card will be explained further in the next section."
+            }
+        },
+        "third-card-rules": {
+            "title": "THIRD CARD RULES",
+            "player": {
+                "title": "PLAYER",
+                "description": "The rules for the third card for the Player depend on the <b>value of the two Player cards</b>",
+                "value-of-2-card-player": {
+                    "title": "Value of Two Player Cards",
+                    "action": "Action",
+                    "0-5": {
+                        "value": "0-5",
+                        "action": "Player Draws a Third Card"
+                    },
+                    "6-7": {
+                        "value": "6-7",
+                        "action": "Player Stands (No Additional Card)"
+                    },
+                    "8-9": {
+                        "value": "8-9 (Natural Card)",
+                        "action": "No Additional Card"
+                    }
+                }
+            },
+            "banker": {
+                "title": "BANKER",
+                "description": "The rules for the third card for the Banker depend on the value of the two Banker cards and the value of the Player's third card.",
+                "table": {
+                    "2-card-banker-value": "Value of Two Banker Cards",
+                    "3rd-card-player-value": "Value of Player's Third Card"
+                },
+                "action-description": "Action Description: ",
+                "D": "<b>Banker Draws a Third Card</b>",
+                "S": "<b>Banker Stands with Two Cards</b>"
+            }
+        }
+    },
+    "dragon-bonus": {
+        "title": "Dragon Bonus",
+        "description": "Dragon Bonus is introduced as an additional bet in Baccarat to enhance the excitement of the game with larger rewards than regular bets. Here are the simple rules:",
+        "how-to-bet": {
+            "heading": "Betting and How to Bet",
+            "steps": [
+                "Dragon Bonus is divided into <b>Player Bonus</b> and <b>Banker Bonus</b>",
+                "As a main requirement, you must place a primary bet (<b>Player, Banker,</b> or <b>Tie</b>)",
+                "Only after that can you place a bet on <b>Player Bonus</b> or <b>Banker Bonus</b>"
+            ]
+        },
+        "winning-rules": {
+            "heading": "Determining the Winner",
+            "steps": [
+                "Similar to the main betting rules, to win, the value of the bonus bet must be greater than the opponent's.",
+                "Dragon Bonus has a unique payout system. The size of the victory margin determines the payout amount.",
+                "The larger the winning margin, the greater the payout."
+            ]
+        },
+        "additional-rules": {
+            "heading": "Additional Rules",
+            "steps": [
+                "Game results of <b>Win with Natural</b> and <b>Tie</b> have special rules that affect payouts.",
+                "Information on special rules will be explained in the next section."
+            ]
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Bet Description and Examples",
+        "description": "Description",
+        "examples": "Examples",
+        "anything": "ANY",
+        "main-bet": {
+            "description": "Description",
+            "examples": "Examples",
+            "heading": "Main Bet",
+            "title": "Main Bet",
+            "table": {
+                "player": {
+                    "title": "Player",
+                    "description": "Paid if the value of Player is <b>greater than</b> the value of Banker"
+                },
+                "banker": {
+                    "title": "Banker",
+                    "description": "Paid if the value of Banker is <b>greater than</b> the value of Player"
+                },
+                "tie": {
+                    "title": "Tie",
+                    "description": "Paid if the cards of Player and Banker have <b>the same value</b>"
+                }
+            }
+        },
+        "side-bet": {
+            "description": "Description",
+            "examples": "Examples",
+            "title": "Side Bet",
+            "heading": "Side Bet",
+            "table": {
+                "player-pair": {
+                    "title": "Player Pair",
+                    "description": "Paid if the first two cards of Player are <b>a pair</b>"
+                },
+                "banker-pair": {
+                    "title": "Banker Pair",
+                    "description": "Paid if the first two cards of Banker are <b>a pair</b>"
+                },
+                "perfect-pair": {
+                    "title": "Perfect Pair",
+                    "description": "Paid if only one side, either Player or Banker, gets <b>identical cards</b>"
+                },
+                "perfect-pair-2": {
+                    "title": "Perfect Pair",
+                    "description": "Paid if both sides, Player and Banker, get <b>identical cards</b>"
+                },
+                "mixed-pair": {
+                    "title": "Mixed Pair",
+                    "description": "Paid if the first two cards from either side, Player or Banker, are <b>a pair</b>"
+                },
+                "player-bonus": {
+                    "title": "Player Bonus",
+                    "description": "Paid if the Player wins with <b>Natural 8 or 9</b>, or at least wins with a <b>4-point margin</b>"
+                },
+                "banker-bonus": {
+                    "title": "Banker Bonus",
+                    "description": "Paid if the Banker wins with <b>Natural 8 or 9</b>, or at least wins with a <b>4-point margin</b>"
+                },
+                "tie-on-0-9": {
+                    "title": "Tie On 0-9",
+                    "description": "Paid if the game result is a <b>Tie</b> with <b>value 0-9</b>"
+                },
+                "small": {
+                    "title": "Small",
+                    "description": "Paid if the number of cards dealt <b>is 4</b>"
+                },
+                "big": {
+                    "title": "Big",
+                    "description": "Paid if the number of cards dealt <b>is 5 or 6</b>"
+                }
+            }
+        }
+    },
+    "payout": {
+        "title": "Payouts",
+        "bet-payout": "Bet Payout",
+        "bet": "Bet",
+        "payout": "Payout",
+        "main-bet": {
+            "title": "MAIN BET",
+            "bet": ["player", "banker", "tie"]
+        },
+        "side-bet": {
+            "title": "SIDE BET",
+            "bet": ["player pair", "banker pair", "perfect pair", "mixed pair", "big", "small"]
+        },
+        "bonus-bet": {
+            "title": "PLAYER BONUS AND BANKER BONUS BET",
+            "bet": [
+                "win natural",
+                "tie natural",
+                "win value 9",
+                "win value 8",
+                "win value 7",
+                "win value 6",
+                "win value 5",
+                "win value 4",
+                "win natural",
+                "tie natural"
+            ]
+        },
+        "tie-on-0-9": {
+            "title": "TIE BET ON VALUE",
+            "bet": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        }
+    }
+}

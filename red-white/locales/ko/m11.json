@@ -1,0 +1,16 @@
+{
+    "red": "빨강",
+    "white": "하양",
+    "jackpot": "잭팟",
+    "double-red": "더블 빨강",
+    "double-white": "더블 하양",
+    "double-jackpot": "더블 잭팟",
+    "triple-red": "트리플 빨강",
+    "triple-white": "트리플 하양",
+
+    "double jackpot": "더블 잭팟",
+    "double red": "더블 레드",
+    "double white": "더블 화이트",
+    "triple red": "트리플 레드",
+    "triple white": "트리플 화이트"
+}

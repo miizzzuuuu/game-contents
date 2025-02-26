@@ -1,0 +1,24 @@
+{
+    "head": "đầu",
+    "tail": "đuôi",
+    "left": "trái",
+    "right": "phải",
+    "left/right": "trái/phải",
+    "head/tail": "đầu/đuôi",
+    "head win": "đầu thắng",
+    "tail win": "đuôi thắng",
+    "coin 1": "xu 1",
+    "coin 2": "xu 2",
+    "coin 3": "xu 3",
+
+    "head, head, tail": "mặt đầu, mặt đầu, mặt đuôi",
+    "tail, tail, head": "mặt đuôi, mặt đuôi, mặt đầu",
+    "coin bet": "cược đồng xu",
+    "combination bet (in order)": "cược kết hợp (theo thứ tự)",
+    "head, head, head": "mặt đầu, mặt đầu, mặt đầu",
+    "head, tail, tail": "mặt đầu, mặt đuôi, mặt đuôi",
+    "head, tail, head": "mặt đầu, mặt đuôi, mặt đầu",
+    "tail, head, head": "mặt đuôi, mặt đầu, mặt đầu",
+    "tail, head, tail": "mặt đuôi, mặt đầu, mặt đuôi",
+    "tail, tail, tail": "mặt đuôi, mặt đuôi, mặt đuôi"
+}

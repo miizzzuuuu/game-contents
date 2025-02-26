@@ -1,0 +1,169 @@
+{
+    "introduction": {
+        "title": "Pengenalan",
+        "content": "Sicbo Dice merupakan game tradisional yang berasal dari Cina kuno yang dimainkan dengan tiga buah dadu, Sic Bo sendiri berarti Dadu Berharga. Permainan ini sangat populer di Asia dan dimainkan secara luas di kasino kasino di Makau dan Hongkong."
+    },
+    "game-objective": {
+        "title": "TUJUAN PERMAINAN",
+        "content": "Tujuan permainan Sicbo Dice adalah menebak hasil dari tiga buah Dadu yang dikocok apakah cocok dengan taruhan anda."
+    },
+    "rules": {
+        "title": "Peraturan",
+        "steps": [
+            "Permainan menggunakan tiga buah Dadu.",
+            "Permainan dimulai ketika dealer membuka waktu untuk bertaruh dan ketika waktu memasang habis maka semua taruhan akan diterima secara otomatis.",
+            "Dealer akan menjatuhkan dadu untuk menentukan hasil untuk periode itu.",
+            "Jika hasilnya tripel maka semua taruhan 50-50 akan kalah.",
+            "Hasilnya hanya 1 hingga 6 untuk setiap dadu dan jika dadu tidak diposisikan dengan jelas atau jatuh ke bawah dengan tidak benar maka ``no game`` status akan terjadi dan dealer akan menjatuhkan dadu sekali lagi hingga hasilnya jelas."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Memasang Taruhan",
+        "content": "Inti dari permainan ini adalah menebak hasil dari tiga dadu.",
+        "steps": [
+            "Pilih satu nomor triple yang muncul pada ketiga dadu untuk pembayaran 180x pasangan.",
+            "Pilih nomor apa saja yang akan muncul sama pada ketiga dadu untuk pembayaran 30x pasangan.",
+            "Jumlah hasil dari 3 dadu adalah 4 atau 17 untuk pembayaran 50x pasangan.",
+            "Jumlah hasil dari 3 dadu adalah 5 atau 16 untuk pembayaran 30x pasangan.",
+            "Jumlah hasil dari 3 dadu adalah 6 atau 15 untuk pembayaran 18x pasangan.",
+            "Jumlah hasil dari 3 dadu adalah 7 atau 14 untuk pembayaran 12x pasangan.",
+            "Jumlah hasil dari 3 dadu adalah 8 atau 13 untuk pembayaran 8x pasangan.",
+            "Jumlah hasil dari 3 dadu adalah 9, 10, 11, atau 12 untuk pembayaran 6x pasangan.",
+            "Pilih 2 nomor dadu yang akan muncul dari ketiga dadu untuk pembayaran 5x pasangan.",
+            "Pilih 1 nomor dadu yang akan muncul dari ketiga dadu. Jika cocok dengan 1 dadu, pembayaran 1x pasangan. Jika cocok dengan 2 dadu, pembayaran 2x pasangan. Jika cocok dengan 3 dadu, pembayaran 3x pasangan.",
+            "Besar: Jumlah dari ketiga dadu adalah 11 hingga 17, untuk pembayaran 1x pasangan. Triple dadu tidak termasuk besar.",
+            "Kecil: Jumlah dari ketiga dadu adalah 4 hingga 10, untuk pembayaran 1x pasangan. Triple dadu tidak termasuk kecil."
+        ]
+    },
+    "bonus-system": {
+        "title": "Sistem Bonus",
+        "introduction": {
+            "heading": "PENGENALAN",
+            "content": "Di dalam setiap putaran permainan, sistem akan menentukan secara acak angka mana saja yang akan terpilih ke dalam kategori Lucky Number & Jackpot Number. Angka yang sudah terpilih menjadi Lucky Number maupun Jackpot Number secara otomatis pembayarannya akan meningkat secara drastis. Angka yang sudah terpilih menjadi Jackpot Number tidak akan terpilih lagi menjadi Lucky Number , dan begitu juga sebaliknya."
+        },
+        "lucky-numbers": {
+            "heading": "LUCKY NUMBER",
+            "content": "Disetiap putaran permainan sistem akan secara acak memilih {{minNumbers}} sampai {{maxNumbers}} angka yang akan menjadi Lucky Number. Untuk setiap Lucky Number yang terpilih maka pembayaran akan meningkat secara drastis diatas bayaran normal. Lucky Number bonus sekecil kecilnya akan mendapatkan {{minMultiplier}}x Taruhan anda dan bisa mencapai {{maxMultiplier}}x Taruhan anda."
+        },
+        "jackpot-number": {
+            "heading": "JACKPOT NUMBER",
+            "content": "Disetiap putaran permainan sistem juga akan secara acak memilih 1 angka saja yang akan menjadi Jackpot Number. Angka terpilih yang menjadi Jackpot Number maka pembayaran akan meningkat secara lebih drastis diatas pembayaran Lucky Number Bonus. Kesempatan menang Jackpot Number ini sekecil kecilnya adalah {{minJackpotMultiplier}}x Taruhan anda dan bisa mencapai {{maxJackpotMultiplier}}x Taruhan anda."
+        },
+        "how-to-get-bonuses": {
+            "heading": "CARA MENDAPATKAN BONUS",
+            "content": "Untuk mendapatkan bonus ini, Anda harus memasang taruhan pada nomor yang benar dan hasil permainan untuk putaran tersebut juga harus sesuai dengan nomor yang Anda pasang."
+        },
+        "example-1": {
+            "title": "Contoh 1: Menangkan Bonus Lucky Number",
+            "period": "Periode {{period}}",
+            "description": "Anda memasang angka {{numbers}} dengan nilai {{bet, number}} masing-masing.",
+            "result": "Lucky Number {{luckyNumbers}}.\nLucky Number Multiplier x{{luckyMultiplier}}.\nJackpot Number = {{jackpotNumber}}.\nJackpot Number Multiplier = x{{jackpotMultiplier}}.\nHasil permainan = {{gameResult}}.",
+            "winnings": "Kemenangan Anda adalah sebagai berikut:\nTaruhan * Hadiah Lucky Number {{bet, number}} * {{luckyMultiplier}} = {{totalWinnings, number}}."
+        },
+        "example-2": {
+            "title": "Contoh 2: Menangkan Bonus Jackpot Number",
+            "period": "Periode {{period}}",
+            "description": "Anda memasang angka {{numbers}} dengan nilai {{bet, number}} masing-masing.",
+            "result": "Lucky Number {{luckyNumbers}}.\nLucky Number Multiplier x{{luckyMultiplier}}.\nJackpot Number = {{jackpotNumber}}.\nJackpot Number Multiplier = x{{jackpotMultiplier}}.\nHasil permainan = {{gameResult}}.",
+            "winnings": "Kemenangan Anda adalah sebagai berikut:\nTaruhan * Hadiah Jackpot = {{bet, number}} * {{jackpotMultiplier}} = {{totalWinnings, number}}."
+        },
+        "example-3": {
+            "title": "Contoh 3: Menang Taruhan 1 Angka Normal",
+            "period": "Periode {{period}}",
+            "description": "Anda memasang angka {{numbers}} dengan nilai masing-masing {{bet, number}}.",
+            "result": "Lucky Number = {{luckyNumbers}}.\nLucky Number Multiplier = x{{luckyMultiplier}}.\nJackpot Number = {{jackpotNumber}}.\nJackpot Number Multiplier = x{{jackpotMultiplier}}.\nHasil permainan Angka = {{gameResult}}.",
+            "winnings": "Kemenangan anda sebagai berikut:\nTaruhan * Hadiah Normal = {{bet, number}} * 19 = {{totalWinnings, number}}."
+        }
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "winning-conditions": "Kondisi Menang",
+        "description": "Deskripsi",
+        "bet": "TARUHAN",
+        "result": "HASIL",
+        "status": "STATUS",
+        "examples": "Contoh",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "single-dice": {
+                "title": "Dadu Tunggal",
+                "description": "Dibayar jika hasilnya satu,dua atau tiga dadu sesuai dengan taruhan anda",
+                "examples": [{ "bet": "One", "result": "1,2,3" }]
+            },
+            "combination-dice": {
+                "title": "Kombinasi Dadu",
+                "description": "Dibayar jika hasilnya kombinasi dua dadu sesuai taruhan anda",
+                "examples": [{ "bet": "1,2", "result": "1,2,3" }]
+            },
+            "double-specific": {
+                "title": "Ganda Spesifik",
+                "description": "Dibayar jika hasilnya dua angka kembar spesifik",
+                "examples": [{ "bet": "2,2", "result": "2,2" }]
+            },
+            "triple-specific": {
+                "title": "Tripel Spesifik",
+                "description": "Dibayar jika hasilnya tiga angka kembar spesifik",
+                "examples": [{ "bet": "3,3,3", "result": "3,3,3" }]
+            },
+            "anytriple": {
+                "title": "Tripel Spesifik",
+                "description": "Dibayar jika hasilnya tiga angka kembar spesifik",
+                "examples": [{ "bet": "anytriple", "result": "5,5,5" }]
+            },
+            "sum-of-three": {
+                "title": "Jumlah Tiga Dadu",
+                "description": "Dibayar jika hasil jumlah tiga dadu sesuai taruhan anda",
+                "examples": [{ "bet": "10", "result": "2,2,6" }]
+            }
+        },
+        "side-bet": {
+            "heading": "Taruhan Sampingan",
+            "small": {
+                "title": "Kecil",
+                "description": "Dibayar jika hasil jumlah tiga dadu bernilai 4-10",
+                "examples": [{ "bet": "Kecil", "result": "1,2,3" }]
+            },
+            "big": {
+                "title": "Besar",
+                "description": "Dibayar jika hasil jumlah tiga dadu bernilai 11-17",
+                "examples": [{ "bet": "Besar", "result": "5,5,1" }]
+            },
+            "odd": {
+                "title": "Ganjil",
+                "description": "Dibayar jika hasil jumlah tiga dadu bernilai Ganjil",
+                "examples": [{ "bet": "Ganjil", "result": "1,2,2" }]
+            },
+            "even": {
+                "title": "Genap",
+                "description": "Dibayar jika hasil jumlah tiga dadu bernilai Genap",
+                "examples": [{ "bet": "Genap", "result": "2,2,4" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan",
+        "bonus-payout": "pembayaran bonus",
+        "lucky-number-multiplier": "Pengali Lucky Number",
+        "jackpot-number-multiplier": "Pengali Jackpot Number",
+        "number-times": "{{value}}x"
+    },
+    "mini-how-to-play": {
+        "slide1": {
+            "title": "Cara bermain",
+            "content": "Anda menebak hasil dari 3 dadu yang di jatuhkan kedalam kotak. Dapat bertaruh diberbagai peluang seperti Dadu Tunggal, Kombinasi Dadu, Ganda Dadu, Triple Dadu, Jumlah dari 3 Dadu dan bahkan Besar/kecil/Ganjil/Genap."
+        },
+        "slide2": {
+            "title": "dadu tunggal & Kombinasi dadu",
+            "content": "Hasil dadu tunggal adalah angka tertentu dari 1-6, sedangkan kombinasi dadu adalah kombinasi angka dari 2 dadu yang anda pertaruhan."
+        },
+        "slide3": {
+            "title": "Jumlah 3 dadu & ganjil/genap/kecil/besar",
+            "content": "Jumlah dari 3 dadu adalah penjumlahan dari 3 dadu tsb. Hasil bertaruh kecil jika total 3 dadu 4 s/d 10, hasil bertaruh besar 11 s/d 17. Jika ganjil genap total 3 dadu merupakan ganjil atau genap."
+        },
+        "slide4": {
+            "title": "Ganda, Triple, Semua Triple ",
+            "content": "Hasil dadu ganda & triple adalah angka ganda,triple yang spesifik, dan hasil dadu semua triple adalah semua angka rangkap tiga."
+        }
+    }
+}

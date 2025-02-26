@@ -1,0 +1,184 @@
+{
+    "introduction": {
+        "title": "introduction",
+        "content": "Enjoy the latest generation of games offered by IDNLIVE. The 12D game is a game that you are familiar with, this very simple and fun game comes with a new unique twist just for you. Enjoy Thunder Bonus up to 500x your stake and be a winner."
+    },
+    "rules": {
+        "title": "rules",
+        "steps": [
+            "This game uses one ball and a 12D board.",
+            "The game starts when the dealer opens the time to bet.",
+            "Now you have to place your bet on the betting panel that we provide.",
+            "All bets in the betting panel will be accepted automatically when the time is up.",
+            "After the betting period ends, the Dealer will roll the ball across the board to determine the outcome for that period.",
+            "All bets of 50-50 type will be refunded if the game result is Jackpot.",
+            "All Number and Column and Row bets will lose if the game result is Jackpot.",
+            "The Thunder Bonus only applies to single number bets.",
+            "The result consists only of the numbers 1 to 12 and the Jackpot, if the ball is not clearly positioned then a \"no game\" status will occur and the dealer will roll the ball one more time until the result is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Placing A Bet",
+        "single-number-bet": "Single Number Bet.",
+        "two-numbers-bets": "2 Numbers Bets (Split).",
+        "four-numbers-bets": "4 Numbers Bets (Corner).",
+        "line-row-bets": "Column & Row Bets.",
+        "jackpots-and-50_50-bets": "Jackpots & 50-50 Bets."
+    },
+    "bet-description-and-example": {
+        "title": "Bet Description and Example",
+        "winning-conditions": "Winning Conditions",
+        "bet": "BET",
+        "result": "RESULT",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Main Bet",
+            "single": {
+                "title": "Single number",
+                "description": "Bet on one number",
+                "winning-conditions": "The result matches your bet",
+                "examples": [
+                    { "bet": "7", "result": "7", "status": "WIN" },
+                    { "bet": "7", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "split": {
+                "title": "Split",
+                "description": "Bet on two adjacent numbers vertically/horizontally",
+                "winning-conditions": "The result is 1 of the 2 adjacent numbers you bet on",
+                "examples": [
+                    { "bet": "1,4", "result": "4", "status": "WIN" },
+                    { "bet": "1,4", "result": "9", "status": "LOSE" }
+                ]
+            },
+            "corner": {
+                "title": "Corner",
+                "description": "Bet on four numbers meeting in one corner",
+                "winning-conditions": "The result is 1 of the 4 adjacent numbers you bet on",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "WIN" },
+                    { "bet": "1,2,4,5", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "line": {
+                "title": "Column",
+                "description": "Bet on a column of numbers",
+                "winning-conditions": "The result is a number that is in the Line you bet on",
+                "examples": [
+                    { "bet": "Column 2", "result": "6", "status": "WIN" },
+                    { "bet": "Column 2", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "row": {
+                "title": "Row",
+                "description": "Bet on a row of numbers",
+                "winning-conditions": "The result is a number that is in the Row you bet on",
+                "examples": [
+                    { "bet": "Row 3", "result": "9", "status": "WIN" },
+                    { "bet": "Row 3", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "jackpot": {
+                "title": "Jackpot",
+                "description": "Bet on jackpot",
+                "winning-conditions": "The result is Jackpot",
+                "examples": [
+                    { "bet": "Jackpot", "result": "Jackpot", "status": "WIN" },
+                    { "bet": "Jackpot", "result": "1", "status": "LOSE" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 Bet",
+            "small": {
+                "title": "Small",
+                "description": "",
+                "winning-conditions": "The result is from 1 to 6",
+                "examples": [
+                    { "bet": "Small", "result": "1", "status": "WIN" },
+                    { "bet": "Small", "result": "7", "status": "LOSE" }
+                ]
+            },
+            "big": {
+                "title": "Big",
+                "description": "",
+                "winning-conditions": "The result is from 7 to 12",
+                "examples": [
+                    { "bet": "Big", "result": "7", "status": "WIN" },
+                    { "bet": "Big", "result": "1", "status": "LOSE" }
+                ]
+            },
+            "odd": {
+                "title": "Odd",
+                "description": "",
+                "winning-conditions": "The result is an Odd Number",
+                "examples": [
+                    { "bet": "Odd", "result": "1", "status": "WIN" },
+                    { "bet": "Odd", "result": "2", "status": "LOSE" }
+                ]
+            },
+            "even": {
+                "title": "Even",
+                "description": "",
+                "winning-conditions": "The result is an Even Number",
+                "examples": [
+                    { "bet": "Even", "result": "4", "status": "WIN" },
+                    { "bet": "Even", "result": "3", "status": "LOSE" }
+                ]
+            },
+            "red": {
+                "title": "Red",
+                "description": "",
+                "winning-conditions": "The result is a Red color",
+                "examples": [
+                    { "bet": "Red", "result": "3", "status": "WIN" },
+                    { "bet": "Red", "result": "4", "status": "LOSE" }
+                ]
+            },
+            "black": {
+                "title": "Black",
+                "description": "",
+                "winning-conditions": "The result is a Black color",
+                "examples": [
+                    { "bet": "Black", "result": "4", "status": "WIN" },
+                    { "bet": "Black", "result": "3", "status": "LOSE" }
+                ]
+            }
+        }
+    },
+    "thunder-bonus": {
+        "title": "Thunder Bonus",
+        "mechanism-title": "Thunder Bonus Mechanism",
+        "mechanism-content": "In this game, we provide a unique and attractive bonus system so that you will be able to get very big wins. The following will explain the Thunder Bonus mechanism:",
+        "mechanism-points": [
+            "In each round of the game, after placing your bet and the betting time is up, a number of lightning will appear above the 12D Thunder virtual board.",
+            "In 1 game round, a minimum of 1 lightning and a maximum of 5 lightning will appear.",
+            "The appearance of this lightning shows the location and bonus multiplication of the thunder bonus on each of these numbers.",
+            "The number, location of the lightning, and the bonus multiplication will appear randomly.",
+            "This Thunder Bonus only applies to single number bets. All bets outside this single number will not get this thunder bonus."
+        ],
+        "how-to-get-title": "How to Get Thunder Bonus",
+        "how-to-get-points": [
+            "You have to bet on a single number bet.",
+            "If the number you bet comes out as the result of the game and there is a bonus multiplication above the result, you will get a bonus as big as the multiplication."
+        ],
+        "example-1": {
+            "title": "Example of Getting the Thunder Bonus",
+            "content": "Here is an example of a game that will get the Thunder Bonus:",
+            "points": [
+                "Bet on the number {{numbers}} for {{bet, number}}.",
+                "There are {{totalThunder}} multiplications on the virtual board.",
+                "The ball stops at number {{result}}, which is multiplied by {{valueThunder}}x.",
+                "You will get a bonus of {{valueThunder}} times the value of your bet.",
+                "Your total winnings will be {{win, number}}."
+            ]
+        }
+    },
+    "payout": {
+        "title": "payout",
+        "bet-payout": "bet payout",
+        "bonus-payout": "bonus payout",
+        "thunder-bonus": "Thunder Bonus",
+        "number-times": "x{{value}}"
+    }
+}

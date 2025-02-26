@@ -1,0 +1,124 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Suwit adalah permainan isyarat tangan Kuno dari Cina yang lebih dikenal dunia sebagai permainan Batu Gunting Kertas. Dalam permainan unik ini kami menggabungkan Suwit dari China dengan Suwit dari Indonesia untuk menjadi permainan yang sangat unik ini.",
+        "game-objective": "Tujuan Permainan",
+        "content-2": "Tujuan permainan Suwit adalah menebak taruhan yang menang melawan hasil dari dadu. Terdapat 6 pilihan isyarat tangan yang bisa anda pilih dalam permainan ini yaitu Gunting Batu Kertas Jempol Telunjuk Kelingking."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Permainan ini menggunakan 24 Bola yang terdiri dari angka 1 sampai 24 dengan warna merah dan hitam yang terdapat di dalam sebuah sangkar yang akan diputar setiap putaran permainan.",
+            "Permainan dimulai ketika dealer membuka waktu untuk bertaruh.",
+            "Sekarang Anda harus menempatkan taruhan Anda pada panel taruhan yang kami sediakan.",
+            "Semua taruhan di panel taruhan akan diterima secara otomatis ketika waktunya habis.",
+            "Setelah waktu taruhan berakhir, Dealer akan memutar Sangkar Bola untuk menentukan hasil permainan.",
+            "Hanya Taruhan 1 Angka saja yang berhak mengikuti sistem Bonus Lucky Number & Jackpot Number. Semua taruhan diluar taruhan 1 Angka akan dibayar normal sesuai dengan yang ada didalam tabel pembayaran.",
+            "Hasil untuk 1 putaran permainan hanyalah 1 angka yang terdiri dari angka 1 sampai 24 saja. dan jika bola tidak terposisikan dengan jelas maka \"no game\" status akan terjadi dan dealer akan memutar sangkar sekali lagi hingga hasilnya jelas."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Memasang Taruhan",
+        "description": "Media yang digunakan dalam permainan ini adalah 2 dadu <b>(merah dan hitam)</b> dimana terdapat 6 sisi dengan masing” <br/> sisi untuk jenis gambar yang ada, dadu dengan <b>warna hitam</b> akan digunakan untuk suwit yang berisikan gambar <b>Gunting, Batu, dan Kertas</b> sedangkan dadu dengan <b>warna merah</b> akan digunakan untuk suwit yang berisikan gambar <b>Jempol, Tulunjuk, dan Kelingking</b>",
+        "2-combination-bet": "Kombinasi Dua dadu",
+        "row-and-column-bet": "Baris dan Column",
+        "vs-black-dice": "VS Black Dice",
+        "vs-red-dice": "VS Red Dice",
+        "split-bet": "Split Bet",
+        "corner-bet": "Corner Bet"
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi Taruhan dan Contoh",
+        "description": "Deskripsi",
+        "examples": "Contoh Hasil",
+        "anything": "APAPUN",
+        "bet": "TARUHAN",
+        "result": "Hasil Dadu",
+        "main-bet": {
+            "title": "TARUHAN UTAMA",
+            "vs-black": {
+                "title": "Versus Black",
+                "description": "Taruhan Melawan Dadu Hitam",
+                "bet": "Versus Black"
+            },
+            "gunting": {
+                "title": "Gunting",
+                "description": "Dibayar jika hasilnya adalah Kertas",
+                "bet": "Gunting"
+            },
+            "batu": {
+                "title": "Batu",
+                "description": "Dibayar jika hasilnya adalah Gunting",
+                "bet": "Batu"
+            },
+            "kertas": {
+                "title": "Kertas",
+                "description": "Dibayar jika hasilnya adalah Batu",
+                "bet": "Kertas"
+            },
+            "vs-red": {
+                "title": "Versus Red",
+                "description": "Taruhan melawan Dadu Merah",
+                "bet": "Versus Red"
+            },
+            "jempol": {
+                "title": "Jempol",
+                "description": "Dibayar jika hasilnya adalah Telunjuk",
+                "bet": "Jempol"
+            },
+            "telunjuk": {
+                "title": "Telunjuk",
+                "description": "Dibayar jika hasilnya adalah Kelingking",
+                "bet": "Telunjuk"
+            },
+            "kelingking": {
+                "title": "Kelingking",
+                "description": "Dibayar jika hasilnya adalah Jempol",
+                "bet": "Kelingking"
+            },
+            "kombinasi": {
+                "title": "Kombinasi",
+                "description": "Taruhan kombinasi dua dadu",
+                "bet": "Kombinasi"
+            },
+            "satu": {
+                "title": "Satu",
+                "description": "Dibayar jika kombinasi pilihan anda menang melawan hasil dadu",
+                "bet": "Gunting,Jempol"
+            },
+            "dua": {
+                "title": "Dua",
+                "description": "Dibayar jika satu dari dua kombinasi pilihan anda menang melawan hasil dadu",
+                "bet": "Gunting,Jempol,Batu,Kelingkin"
+            },
+            "empat": {
+                "title": "Empat",
+                "description": "Dibayar jika satu dari empat kombinasi pilihan anda menang melawan hasil dadu",
+                "bet": "Gunting Jempol, Batu Kelingking Batu Telunjuk, Kertas Jempol"
+            },
+            "baris": {
+                "title": "Baris",
+                "description": "Dibayar jika kombinasi menang berada pada baris yang anda pilih",
+                "bet": "Kolom 1"
+            },
+            "kolom": {
+                "title": "Kolom",
+                "description": "Dibayar jika kombinasi menang berada pada kolom yang anda pilih",
+                "bet": "Baris 1"
+            }
+        }
+    },
+    "suwit-information": {
+        "title": "Sistem Bonus",
+        "information": "Informasi Suwit",
+        "winner": "Pemenang Suwit"
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan",
+        "bonus-payout": "pembayaran bonus",
+        "lucky-number-multiplier": "Pengali Lucky Number",
+        "jackpot-number-multiplier": "Pengali Jackpot Number",
+        "number-times": "{{value}}x"
+    }
+}

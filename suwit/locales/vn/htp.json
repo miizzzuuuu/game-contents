@@ -1,0 +1,124 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Suwit là một trò chơi tín hiệu tay cổ từ Trung Quốc, được thế giới biết đến nhiều hơn với tên gọi Oẳn Tù Tì. Trong trò chơi đặc biệt này, chúng tôi đã kết hợp Suwit từ Trung Quốc với Suwit từ Indonesia để tạo nên trò chơi rất đặc biệt này.",
+        "game-objective": "Mục tiêu trò chơi",
+        "content-2": "Mục tiêu của trò chơi Suwit là dự đoán cược thắng đối đầu với kết quả của xúc xắc. Có 6 lựa chọn tín hiệu tay mà bạn có thể chọn trong trò chơi này: Kéo, Búa, Giấy, Ngón cái, Ngón trỏ và Ngón út."
+    },
+    "rules": {
+        "title": "Luật chơi",
+        "steps": [
+            "Trò chơi này sử dụng 24 quả bóng đánh số từ 1 đến 24 với màu đỏ và đen nằm trong một lồng quay sẽ được xoay mỗi vòng trò chơi.",
+            "Trò chơi bắt đầu khi nhà cái mở thời gian để đặt cược.",
+            "Bây giờ bạn phải đặt cược của mình trên bảng cược mà chúng tôi cung cấp.",
+            "Tất cả cược trên bảng cược sẽ được chấp nhận tự động khi hết thời gian.",
+            "Sau khi hết thời gian đặt cược, nhà cái sẽ quay lồng bóng để xác định kết quả trò chơi.",
+            "Chỉ Cược Một Số mới đủ điều kiện tham gia hệ thống Thưởng Số May Mắn & Số Jackpot. Tất cả các cược khác ngoài Cược Một Số sẽ được trả thưởng theo bảng trả thưởng thông thường.",
+            "Kết quả của một vòng trò chơi chỉ là một số từ 1 đến 24. Nếu quả bóng không rõ vị trí, sẽ có trạng thái 'không có trò chơi' và nhà cái sẽ quay lồng lại cho đến khi có kết quả rõ ràng."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Đặt Cược",
+        "description": "Trò chơi sử dụng 2 viên xúc xắc <b>(đỏ và đen)</b>, mỗi viên có 6 mặt đại diện cho các biểu tượng tay khác nhau. Xúc xắc <b>đen</b> được sử dụng cho Suwit với hình ảnh <b>Kéo, Búa và Giấy</b> trong khi xúc xắc <b>đỏ</b> được dùng cho Suwit với hình ảnh <b>Ngón cái, Ngón trỏ và Ngón út</b>",
+        "2-combination-bet": "Cược Kết hợp Hai Xúc xắc",
+        "row-and-column-bet": "Cược Hàng và Cột",
+        "vs-black-dice": "VS Xúc xắc Đen",
+        "vs-red-dice": "VS Xúc xắc Đỏ",
+        "split-bet": "Cược Chia Đôi",
+        "corner-bet": "Cược Góc"
+    },
+    "suwit-information": {
+        "title": "Hệ Thống Thưởng",
+        "information": "Thông Tin Suwit",
+        "winner": "Người Thắng Suwit"
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả và Ví dụ về Cược",
+        "description": "Mô tả",
+        "examples": "Ví dụ về Kết quả",
+        "anything": "BẤT KỲ",
+        "bet": "CƯỢC",
+        "result": "Kết quả Xúc xắc",
+        "main-bet": {
+            "title": "CƯỢC CHÍNH",
+            "vs-black": {
+                "title": "Đối đầu với Xúc xắc Đen",
+                "description": "Cược Chống Lại Xúc xắc Đen",
+                "bet": "Đối đầu với Xúc xắc Đen"
+            },
+            "gunting": {
+                "title": "Kéo",
+                "description": "Thanh toán nếu kết quả là Giấy",
+                "bet": "Kéo"
+            },
+            "batu": {
+                "title": "Đá",
+                "description": "Thanh toán nếu kết quả là Kéo",
+                "bet": "Đá"
+            },
+            "kertas": {
+                "title": "Giấy",
+                "description": "Thanh toán nếu kết quả là Đá",
+                "bet": "Giấy"
+            },
+            "vs-red": {
+                "title": "Đối đầu với Xúc xắc Đỏ",
+                "description": "Cược Chống Lại Xúc xắc Đỏ",
+                "bet": "Đối đầu với Xúc xắc Đỏ"
+            },
+            "jempol": {
+                "title": "Ngón Cái",
+                "description": "Thanh toán nếu kết quả là Ngón trỏ",
+                "bet": "Ngón Cái"
+            },
+            "telunjuk": {
+                "title": "Ngón trỏ",
+                "description": "Thanh toán nếu kết quả là Ngón út",
+                "bet": "Ngón trỏ"
+            },
+            "kelingking": {
+                "title": "Ngón út",
+                "description": "Thanh toán nếu kết quả là Ngón Cái",
+                "bet": "Ngón út"
+            },
+            "kombinasi": {
+                "title": "Kết hợp",
+                "description": "Đặt cược vào một tổ hợp của hai xúc xắc",
+                "bet": "Kết hợp"
+            },
+            "satu": {
+                "title": "Một",
+                "description": "Thanh toán nếu tổ hợp của bạn chiến thắng trước kết quả xúc xắc",
+                "bet": "Kéo, Ngón Cái"
+            },
+            "dua": {
+                "title": "Hai",
+                "description": "Thanh toán nếu một trong hai tổ hợp của bạn chiến thắng trước kết quả xúc xắc",
+                "bet": "Kéo, Ngón Cái, Đá, Ngón út"
+            },
+            "empat": {
+                "title": "Bốn",
+                "description": "Thanh toán nếu một trong bốn tổ hợp của bạn chiến thắng trước kết quả xúc xắc",
+                "bet": "Kéo Ngón Cái, Đá Ngón út, Đá Ngón trỏ, Giấy Ngón Cái"
+            },
+            "baris": {
+                "title": "Hàng",
+                "description": "Thanh toán nếu tổ hợp chiến thắng nằm trên hàng bạn chọn",
+                "bet": "Cột 1"
+            },
+            "kolom": {
+                "title": "Cột",
+                "description": "Thanh toán nếu tổ hợp chiến thắng nằm trên cột bạn chọn",
+                "bet": "Hàng 1"
+            }
+        }
+    },
+    "payout": {
+        "title": "Thanh Toán",
+        "bet-payout": "Thanh Toán Cược",
+        "bonus-payout": "Thanh Toán Thưởng",
+        "lucky-number-multiplier": "Hệ Số Số May Mắn",
+        "jackpot-number-multiplier": "Hệ Số Số Jackpot",
+        "number-times": "{{value}} lần"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "red": "แดง",
+    "white": "ขาว",
+    "jackpot": "แจ็คพอต",
+    "double-red": "แดงคู่",
+    "double-white": "ขาวคู่",
+    "double-jackpot": "แจ็คพอตคู่",
+    "triple-red": "แดงสามเท่า",
+    "triple-white": "ขาวสามเท่า",
+
+    "double jackpot": "แจ็คพอตคู่",
+    "double red": "แดงคู่",
+    "double white": "ขาวคู่",
+    "triple red": "แดงสาม",
+    "triple white": "ขาวสาม"
+}

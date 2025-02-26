@@ -1,0 +1,26 @@
+{
+    "slide-1": {
+        "title": "How to Play",
+        "content": [
+            "You predict the result of 3 dice that are dropped into a box. You can bet on various outcomes such as Single Dice, Dice Combination, Double Dice, Triple Dice, the Sum of 3 Dice, and even Big/Small/Odd/Even."
+        ]
+    },
+    "slide-2": {
+        "title": "How to Play",
+        "content": [
+            "A single dice result is a specific number from 1 to 6, while a dice combination is a combination of numbers from 2 dice that you are betting on."
+        ]
+    },
+    "slide-3": {
+        "title": "How to Play",
+        "content": [
+            "The sum of the 3 dice is the total of the numbers on the 3 dice. A 'small' bet wins if the total of the 3 dice is 4 to 10, and a 'big' bet wins if the total is 11 to 17. For odd/even, the total of the 3 dice is either odd or even."
+        ]
+    },
+    "slide-4": {
+        "title": "How to Play",
+        "content": [
+            "A double or triple dice result refers to a specific pair or triple of numbers, and 'all triple' means all three dice show the same number."
+        ]
+    }
+}

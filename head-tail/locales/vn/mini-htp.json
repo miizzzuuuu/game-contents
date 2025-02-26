@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Head & Tail",
+        "content": [
+            "Đầu & Đuôi là trò chơi mà bạn dự đoán kết quả của 3 đồng xu được dealer thả xuống. Mỗi đồng xu có 2 mặt, Đầu (biểu tượng rồng đỏ) và Đuôi (biểu tượng hổ xanh)."
+        ]
+    },
+    "slide-2": {
+        "title": "Cách Chơi",
+        "content": [
+            "Bạn có thể đặt cược vào kết quả của từng đồng xu, các kết hợp đồng xu, các tổ hợp kết hợp đồng xu, hoặc đặt cược vào mặt xuất hiện nhiều nhất."
+        ]
+    },
+    "slide-3": {
+        "title": "Cách Thắng",
+        "content": [
+            "3 đồng xu sẽ được thả xuống và tạo thành một tổ hợp. Cược trùng khớp với kết quả sẽ chiến thắng."
+        ]
+    }
+}

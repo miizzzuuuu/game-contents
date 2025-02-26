@@ -1,0 +1,16 @@
+{
+    "red": "红色",
+    "white": "白色",
+    "jackpot": "头奖",
+    "double-red": "双倍红色",
+    "double-white": "双倍白色",
+    "double-jackpot": "双倍头奖",
+    "triple-red": "三倍红色",
+    "triple-white": "三倍白色",
+
+    "double jackpot": "双大奖",
+    "double red": "双红",
+    "double white": "双白",
+    "triple red": "三红",
+    "triple white": "三白"
+}

@@ -1,0 +1,81 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Dragon Tiger is one of the simplest gambling games. It is essentially a two-card version of baccarat. To explain further, two cards are dealt, one for Dragon and one for Tiger. Players bet on which side will have the higher value."
+    },
+    "goal": {
+        "title": "GAME GOAL",
+        "content": "The goal of the Dragon Tiger game is to predict the side with the highest card value or closest to the number 13 (Player, Banker, or Tie)."
+    },
+    "rules": {
+        "title": "GENERAL RULES",
+        "steps": [
+            "The game will be led by the <i>Dealer</i>.",
+            "This game uses 8 sets of cards in a single <i>Shoe</i>.",
+            "At the start of each new <i>Shoe</i>, the <i>Dealer</i> will draw one card to determine how many cards will be <i>Burned</i> or discarded. A maximum of 13 cards can be discarded.",
+            "After the betting time is over, the <i>Dealer</i> will deal one card to Dragon and one to Tiger.",
+            "The hand with the highest card value wins.",
+            "If the result is a <b>tie</b>, half the bets on Dragon and Tiger are returned. Tie bets only win if Dragon and Tiger have the same value.",
+            "All side bets lose if the result is 7."
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "Bet Description and Examples",
+        "winning-conditions": "Winning Conditions",
+        "description": "Description",
+        "examples": "Examples",
+        "anything": "ANYTHING",
+        "bet": "BET",
+        "result": "RESULT",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Main Bets",
+            "dragon": {
+                "title": "Dragon",
+                "description": "Pays if Dragon's card value is higher than Tiger's"
+            },
+            "tiger": {
+                "title": "Tiger",
+                "description": "Pays if Tiger's card value is higher than Dragon's"
+            },
+            "tie": {
+                "title": "Tie",
+                "description": "Pays if Dragon and Tiger have the same card value"
+            }
+        },
+        "side-bet": {
+            "heading": "Side Bets",
+            "heading-dragon": "Dragon Side Bets",
+            "heading-tiger": "Tiger Side Bets",
+            "note": "*Side bets lose if the card value is 7",
+            "small": {
+                "title": "Small",
+                "description": "The result is between 1 and 6"
+            },
+            "big": {
+                "title": "Big",
+                "description": "The result is between 8 and 13"
+            },
+            "odd": {
+                "title": "Odd",
+                "description": "The result is an odd number"
+            },
+            "even": {
+                "title": "Even",
+                "description": "The result is an even number"
+            },
+            "red": {
+                "title": "Red",
+                "description": "The result is red"
+            },
+            "black": {
+                "title": "Black",
+                "description": "The result is black"
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout"
+    }
+}

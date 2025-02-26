@@ -1,0 +1,229 @@
+{
+    "introduction": {
+        "title": "Pengenalan",
+        "content": "Roulette adalah permainan klasik dari kata Perancis yang berarti roda kecil yang menggunakan satu bola kecil dan roda roulette. Jadi untuk memenangkan permainan sederhana ini, Anda hanya perlu menebak di angka berapa bola akan mendarat."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Permainan dimulai ketika dealer membuka waktu untuk bertaruh.",
+            "Sekarang Anda harus memasang taruhan Anda pada panel taruhan yang kami sediakan.",
+            "Semua taruhan di panel taruhan akan diterima secara otomatis ketika waktunya habis.",
+            "Setelah waktu pertaruhan berakhir, Dealer akan memutar roda roulette untuk menentukan hasil permainan.",
+            "Hasil satu putaran permainan hanya satu angka yang terdiri dari angka 0 sampai dengan 36 saja, dan jika posisi bola tidak jelas maka akan terjadi status \"no game\" dan dealer akan memutar roda roulette satu kali lagi sampai hasilnya jelas."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Memasang Taruhan",
+        "single-bet": "Taruhan Straight/Single.",
+        "split-bet": "Taruhan Split.",
+        "street-bet": "Taruhan Street.",
+        "corner-bet": "Taruhan Corner/Square.",
+        "six-line-bet": "Taruhan Six Line/Double Street.",
+        "trio-bet": "Taruhan Trio/Basket.",
+        "column-bet": "Taruhan Column.",
+        "dozen-bet": "Taruhan Dozen.",
+        "50-50-bet": "Taruhan 50-50."
+    },
+    "bet-description-and-example": {
+        "title": "Deskripsi dan Contoh Taruhan",
+        "winning-conditions": "Kondisi Menang",
+        "bet": "TARUHAN",
+        "result": "HASIL",
+        "status": "STATUS",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "single": {
+                "title": "Lurus/Tunggal",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah satu angka yang Anda pasang",
+                "examples": [
+                    { "bet": "1", "result": "1", "status": "MENANG" },
+                    { "bet": "1", "result": "2", "status": "KALAH" }
+                ]
+            },
+            "split": {
+                "title": "Split",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah salah satu dari dua angka yang bersebelahan yang Anda pasang",
+                "examples": [
+                    { "bet": "1,2", "result": "1", "status": "MENANG" },
+                    { "bet": "1,2", "result": "3", "status": "KALAH" }
+                ]
+            },
+            "street": {
+                "title": "Street",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah salah satu dari tiga angka yang bersebelahan yang Anda pasang",
+                "examples": [
+                    { "bet": "10,11,12", "result": "11", "status": "MENANG" },
+                    { "bet": "10,11,12", "result": "15", "status": "KALAH" }
+                ]
+            },
+            "corner": {
+                "title": "Corner/Square",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah salah satu dari empat angka yang bersebelahan yang Anda pasang",
+                "examples": [
+                    { "bet": "1,2,4,5", "result": "5", "status": "MENANG" },
+                    { "bet": "1,2,4,5", "result": "13", "status": "KALAH" }
+                ]
+            },
+            "six-line": {
+                "title": "Six Line/Double Street",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah salah satu dari enam angka yang bersebelahan yang Anda pasang",
+                "examples": [
+                    { "bet": "13,14,15,16,17,18", "result": "16", "status": "MENANG" },
+                    { "bet": "13,14,15,16,17,18", "result": "19", "status": "KALAH" }
+                ]
+            },
+            "trio": {
+                "title": "Trio/Basket",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah salah satu dari tiga angka yang bersebelahan yang Anda pasang",
+                "examples": [
+                    { "bet": "0,2,3", "result": "0", "status": "MENANG" },
+                    { "bet": "0,2,3", "result": "4", "status": "KALAH" }
+                ]
+            },
+            "column-bet": {
+                "title": "Taruhan Kolom",
+                "description": "",
+                "winning-conditions": "Hasilnya berada di \"Kolom\" yang Anda pasang",
+                "examples": [
+                    { "bet": "First 2:1", "result": "7", "status": "MENANG" },
+                    { "bet": "First 2:1", "result": "9", "status": "KALAH" }
+                ]
+            },
+            "dozen-bet": {
+                "title": "Taruhan Lusin",
+                "description": "",
+                "winning-conditions": "Hasilnya berada di \"Lusin\" yang Anda pasang",
+                "examples": [
+                    { "bet": "1st 12", "result": "7", "status": "MENANG" },
+                    { "bet": "1st 12", "result": "19", "status": "KALAH" }
+                ]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "Taruhan 50-50",
+            "1-18": {
+                "title": "1-18",
+                "description": "",
+                "winning-conditions": "Hasilnya berada antara 1 hingga 18",
+                "examples": [
+                    { "bet": "1-18", "result": "2", "status": "MENANG" },
+                    { "bet": "1-18", "result": "19", "status": "KALAH" }
+                ]
+            },
+            "19-36": {
+                "title": "19-36",
+                "description": "",
+                "winning-conditions": "Hasilnya berada antara 19 hingga 36",
+                "examples": [
+                    { "bet": "19-36", "result": "19", "status": "MENANG" },
+                    { "bet": "19-36", "result": "2", "status": "KALAH" }
+                ]
+            },
+            "odd": {
+                "title": "Ganjil",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah angka ganjil",
+                "examples": [
+                    { "bet": "Ganjil", "result": "13", "status": "MENANG" },
+                    { "bet": "Ganjil", "result": "12", "status": "KALAH" }
+                ]
+            },
+            "even": {
+                "title": "Genap",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah angka genap",
+                "examples": [
+                    { "bet": "Genap", "result": "12", "status": "MENANG" },
+                    { "bet": "Genap", "result": "13", "status": "KALAH" }
+                ]
+            },
+            "red": {
+                "title": "Merah",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah merah",
+                "examples": [
+                    { "bet": "Merah", "result": "12", "status": "MENANG" },
+                    { "bet": "Merah", "result": "13", "status": "KALAH" }
+                ]
+            },
+            "black": {
+                "title": "Hitam",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah hitam",
+                "examples": [
+                    { "bet": "Hitam", "result": "13", "status": "MENANG" },
+                    { "bet": "Hitam", "result": "12", "status": "KALAH" }
+                ]
+            }
+        }
+    },
+    "payout": {
+        "title": "pembayaran",
+        "bet-payout": "pembayaran taruhan"
+    },
+    "racetrack-bet": {
+        "title": "Taruhan Racetrack",
+        "description": "Racetrack Bet merupakan suatu fitur untuk pemain agar dapat dengan cepat memasang berbagai nomor taruhan secara bersamaan. Betting panel dalam Racetrack ini mencerminkan atau sama dengan yang ada pada roda roulette. Selanjutnya akan dijelaskan berbagai jenis taruhan yang bisa anda lakukan dalam fitur ini.",
+        "instructions": "Gunakan tombol sesuai gambar untuk mengakses Racetrack Bet ini.",
+        "sections": {
+            "tiers": {
+                "name": "TIERS DU CYLINDRE atau TIERS",
+                "description": "Jika anda memasang Taruhan TIERS ini, maka taruhan ini akan mencakup sebanyak 12 nomor taruhan. Pemain juga diharuskan mempunyai chip sebanyak 6 kali dari taruhan yang pemain pilih. Berikut adalah nomor mana saja yang termasuk dalam taruhan TIERS ini:",
+                "bets": [
+                    "1 Chip pada nomor 5 dan 8 (taruhan split)",
+                    "1 Chip pada nomor 10 dan 11 (taruhan split)",
+                    "1 Chip pada nomor 13 dan 16 (taruhan split)",
+                    "1 Chip pada nomor 23 dan 24 (taruhan split)",
+                    "1 Chip pada nomor 27 dan 30 (taruhan split)",
+                    "1 Chip pada nomor 33 dan 36 (taruhan split)"
+                ]
+            },
+            "orph": {
+                "name": "ORPHELINS A CHEVAL atau ORPH.",
+                "description": "Jika anda memasang Taruhan ORPH. ini, maka taruhan ini akan mencakup sebanyak 8 nomor taruhan. Pemain juga diharuskan mempunyai chip sebanyak 5 kali dari taruhan yang pemain pilih. Berikut adalah nomor mana saja yang termasuk dalam taruhan ORPH. ini:",
+                "bets": [
+                    "1 Chip pada nomor 1 (taruhan langsung)",
+                    "1 Chip pada nomor 6 dan 9 (taruhan split)",
+                    "1 Chip pada nomor 14 dan 17 (taruhan split)",
+                    "1 Chip pada nomor 17 dan 20 (taruhan split)",
+                    "1 Chip pada nomor 31 dan 34 (taruhan split)"
+                ]
+            },
+            "voisins": {
+                "name": "VOISINS DU ZERO atau VOISINS",
+                "description": "Jika anda memasang Taruhan VOISINS ini, maka taruhan ini akan mencakup sebanyak 17 nomor taruhan. Pemain juga diharuskan mempunyai chip sebanyak 9 kali dari taruhan yang pemain pilih. Berikut adalah nomor mana saja yang termasuk dalam taruhan VOISINS ini:",
+                "bets": [
+                    "2 Chip pada nomor 0, 2, dan 3 (taruhan jalan)",
+                    "1 Chip pada nomor 4 dan 7 (taruhan split)",
+                    "1 Chip pada nomor 12 dan 15 (taruhan split)",
+                    "1 Chip pada nomor 18 dan 21 (taruhan split)",
+                    "1 Chip pada nomor 19 dan 22 (taruhan split)",
+                    "2 Chip pada nomor 25, 26, 28, 29 (taruhan sudut)",
+                    "1 Chip pada nomor 32 dan 35 (taruhan split)"
+                ]
+            },
+            "zero": {
+                "name": "JEU ZERO atau ZERO",
+                "description": "Jika anda memasang Taruhan ZERO ini, maka taruhan ini akan mencakup sebanyak 6 nomor taruhan. Pemain juga diharuskan mempunyai chip sebanyak 4 kali dari taruhan yang pemain pilih. Berikut adalah nomor mana saja yang termasuk dalam taruhan ZERO ini:",
+                "bets": [
+                    "1 Chip pada nomor 0 dan 3 (taruhan split)",
+                    "1 Chip pada nomor 12 dan 15 (taruhan split)",
+                    "1 Chip pada nomor 26 (taruhan langsung)",
+                    "1 Chip pada nomor 32 dan 35 (taruhan split)"
+                ]
+            }
+        },
+        "side-bet": {
+            "name": "Taruhan Bersebelahan",
+            "description": "Taruhan ini mencakup  nomor disebelah kiri maupun kanan dari angka utama yang anda pilih pada roda roulette. Taruhan bersebelahan ini hanya ada pada mode Racetrack. Untuk menentukan seberapa jauh anda mau sekaligus bertaruh anda dapat menggunakan tombol + - pada sebelah kiri Racetrack Panel. Terdapat 1 sampai 9  chip yang bisa anda pilih dalam taruhan bersebelahan ini.",
+            "example": "Sebagai contoh jika anda memilih 1 chip saja, maka secara otomatis disebelah kiri maupun kanan dari angka yang anda pilih di roda roulette akan terisi sebanyak 1 chip."
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "banker": "庄家",
+    "player1": "玩家 1",
+    "player2": "玩家 2",
+    "player3": "玩家 3",
+
+    "player bet": "玩家投注",
+    "win with points 1 to 8": "以1至8点获胜",
+    "win with points 9": "以9点获胜",
+    "7,8,9 bet": "7,8,9投注",
+    "win with points 7": "以7点获胜",
+    "win with points 8": "以8点获胜",
+    "7,8,9 bet 2x bonus": "7,8,9投注 2倍奖金",
+    "specific bet": "特定投注",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "specific bet 2x bonus": "特定投注 2倍奖金"
+}

@@ -1,0 +1,52 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Monopoly is a unique game developed by IDNLIVE. This game is similar to the widely known Monopoly game, but in this version, we replace it with 16 countries as the stakes and include 4 special zones."
+    },
+    "rules": {
+        "title": "Rules",
+        "steps": [
+            "The game begins when the dealer opens the betting period.",
+            "You must place your bets on the provided betting panel.",
+            "Special zones are not included in any bets on the betting panel.",
+            "After the betting period ends, the dealer will roll a 20-sided die numbered 1-20 to determine the number of steps taken.",
+            "Once the number is obtained, the system will determine the game period result based on the number.",
+            "If the die does not stop perfectly and the number is unclear, a 'no game' status will occur, and the dealer will roll the die again until a clear result is achieved.",
+            "There are 20 boxes divided into 5 zones, each with its own color.",
+            "Special zones are not included in any bets."
+        ],
+        "notes": "<span style='color: #FFC700;'>Note:</span>",
+        "note": "For 50:50 bets (8-country bets), if the result is one of the special zones, the chips will be returned."
+    },
+    "special-description": {
+        "special": "Special",
+        "description": "Description",
+        "x1/2": "All bets pay half of the wager.",
+        "x1": "All bets pay one time the wager.",
+        "x2": "All bets pay two times the wager.",
+        "zonk": "All bets will lose except for 50:50 bets."
+    },
+    "placing-a-bet": {
+        "title": "Placing a Bet",
+        "single-bet": {
+            "title": "Single",
+            "emblem": "(1-COUNTRY Bet)"
+        },
+        "zone-bet": {
+            "title": "ZONE",
+            "emblem": "(4-COUNTRY Bet)"
+        },
+        "side-bet": {
+            "title": "50:50",
+            "emblem": "(8-COUNTRY Bet)"
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout",
+        "bonus-payout": "Bonus Payout",
+        "lucky-number-multiplier": "Lucky Number Multiplier",
+        "jackpot-number-multiplier": "Jackpot Number Multiplier",
+        "number-times": "{{value}}x"
+    }
+}

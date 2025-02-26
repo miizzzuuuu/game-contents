@@ -1,0 +1,30 @@
+{
+    "baris1": "행.1",
+    "baris2": "행.2",
+    "baris3": "행.3",
+
+    "kolom1": "열.1",
+    "kolom2": "열.2",
+    "kolom3": "열.3",
+
+    "result": "결과",
+
+    "versus black": "검정 대결",
+    "scissors": "가위",
+    "stone": "돌",
+    "paper": "종이",
+    "versus red": "빨강 대결",
+    "thumb": "엄지",
+    "index": "집게손가락",
+    "pinky": "새끼손가락",
+    "combination": "조합",
+    "single": "단일",
+    "split": "분리",
+    "corner": "코너",
+    "row": "행",
+    "column": "열",
+
+    "win-history": "승리 기록",
+    "result-history": "결과 기록",
+    "single-dice": "단일 주사위"
+}

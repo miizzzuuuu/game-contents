@@ -1,0 +1,125 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Suwit is an ancient hand signal game from China, better known globally as Rock-Paper-Scissors. In this unique game, we combine Chinese Suwit with Indonesian Suwit to create this very special game.",
+        "game-objective": "Game Objective",
+        "content-2": "The objective of Suwit is to guess the winning bet against the outcome of the dice. There are 6 hand signal options you can choose from in this game: Scissors, Rock, Paper, Thumb, Index, and Pinky."
+    },
+    "rules": {
+        "title": "Rules",
+        "steps": [
+            "This game uses 24 Balls numbered from 1 to 24, colored red and black, contained within a cage that will be spun each game round.",
+            "The game begins when the dealer opens the time to place bets.",
+            "Now you must place your bet on the betting panel we provide.",
+            "All bets on the betting panel will be accepted automatically when the time runs out.",
+            "After the betting time ends, the dealer will spin the Ball Cage to determine the game result.",
+            "Only Single Number Bets qualify for the Bonus Lucky Number & Jackpot Number system. All bets other than Single Number Bets will be paid out normally according to the payout table.",
+            "The result for one game round is a single number between 1 and 24. If the ball is not clearly positioned, a 'no game' status will occur, and the dealer will spin the cage again until the result is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Placing a Bet",
+        "description": "The game uses 2 dice <b>(red and black)</b>, each with 6 sides for different hand symbols. The <b>black dice</b> is used for Suwit with <b>Scissors, Rock, and Paper</b> images, while the <b>red dice</b> is used for Suwit with <b>Thumb, Index, and Pinky</b> images.",
+        "2-combination-bet": "Two Dice Combination",
+        "row-and-column-bet": "Row and Column",
+        "vs-black-dice": "VS Black Dice",
+        "vs-red-dice": "VS Red Dice",
+        "split-bet": "Split Bet",
+        "corner-bet": "Corner Bet"
+    },
+
+    "bet-description-and-example": {
+        "title": "Bet Description and Example",
+        "description": "Description",
+        "examples": "Example Results",
+        "anything": "ANYTHING",
+        "bet": "BET",
+        "result": "Dice Result",
+        "main-bet": {
+            "title": "MAIN BET",
+            "vs-black": {
+                "title": "Versus Black",
+                "description": "Bet Against the Black Dice",
+                "bet": "Versus Black"
+            },
+            "gunting": {
+                "title": "Scissors",
+                "description": "Paid if the result is Paper",
+                "bet": "Scissors"
+            },
+            "batu": {
+                "title": "Rock",
+                "description": "Paid if the result is Scissors",
+                "bet": "Rock"
+            },
+            "kertas": {
+                "title": "Paper",
+                "description": "Paid if the result is Rock",
+                "bet": "Paper"
+            },
+            "vs-red": {
+                "title": "Versus Red",
+                "description": "Bet Against the Red Dice",
+                "bet": "Versus Red"
+            },
+            "jempol": {
+                "title": "Thumb",
+                "description": "Paid if the result is Index",
+                "bet": "Thumb"
+            },
+            "telunjuk": {
+                "title": "Index",
+                "description": "Paid if the result is Pinky",
+                "bet": "Index"
+            },
+            "kelingking": {
+                "title": "Pinky",
+                "description": "Paid if the result is Thumb",
+                "bet": "Pinky"
+            },
+            "kombinasi": {
+                "title": "Combination",
+                "description": "Bet on a combination of two dice",
+                "bet": "Combination"
+            },
+            "satu": {
+                "title": "One",
+                "description": "Paid if your selected combination wins against the dice result",
+                "bet": "Scissors,Thumb"
+            },
+            "dua": {
+                "title": "Two",
+                "description": "Paid if one of your two chosen combinations wins against the dice result",
+                "bet": "Scissors,Thumb,Rock,Pinky"
+            },
+            "empat": {
+                "title": "Four",
+                "description": "Paid if one of your four chosen combinations wins against the dice result",
+                "bet": "Scissors Thumb, Rock Pinky, Rock Index, Paper Thumb"
+            },
+            "baris": {
+                "title": "Row",
+                "description": "Paid if the winning combination is in the row you selected",
+                "bet": "Column 1"
+            },
+            "kolom": {
+                "title": "Column",
+                "description": "Paid if the winning combination is in the column you selected",
+                "bet": "Row 1"
+            }
+        }
+    },
+    "suwit-information": {
+        "title": "Bonus System",
+        "information": "Suwit Information",
+        "winner": "Suwit Winner"
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout",
+        "bonus-payout": "Bonus Payout",
+        "lucky-number-multiplier": "Lucky Number Multiplier",
+        "jackpot-number-multiplier": "Jackpot Number Multiplier",
+        "number-times": "{{value}}x"
+    }
+}

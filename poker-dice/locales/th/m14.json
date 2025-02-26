@@ -1,0 +1,24 @@
+{
+    "big": "ใหญ่",
+    "small": "เล็ก",
+    "odd": "คี่",
+    "even": "คู่",
+    "red": "แดง",
+    "black": "ดำ",
+    "small/big": "เล็ก/ใหญ่",
+    "odd/even": "คี่/คู่",
+    "red/black": "แดง/ดำ",
+    "side bet": "เดิมพันด้านข้าง",
+
+    "pair": "pair",
+    "two pair": "two pair",
+    "three of a kind": "three of a kind",
+    "inc. straight": "inc. straight",
+    "flush": "flush",
+    "full house": "full house",
+    "straight": "straight",
+    "four of a kind": "four of a kind",
+    "inc. straight flush": "inc. straight flush",
+    "staright flush": "staright flush",
+    "five of a kind": "five of a kind"
+}

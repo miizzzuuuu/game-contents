@@ -1,0 +1,32 @@
+{
+    "big": "큰",
+    "small": "작은",
+    "odd": "홀수",
+    "even": "짝수",
+    
+    "straight": "straight",
+    "straight flush": "straight flush",
+
+    "double": "더블",
+    "triple": "트리플",
+
+    "draw two balls": "두 공 무승부",
+    "draw three balls": "세 공 무승부",
+
+    "one ball": "하나의 공",
+    "two balls": "두 개의 공",
+    "three balls": "세 개의 공",
+
+    "draw ball color": "공 색상 무승부",
+    "triple color": "트리플 색상",
+    "3 stars": "3 별",
+
+    "more bet": "더 많은 베팅",
+    "less bet": "적은 베팅",
+    "one": "일",
+    "two": "이",
+    "three": "삼",
+    "four": "사",
+    "five": "오",
+    "six": "육"
+}

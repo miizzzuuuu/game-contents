@@ -1,0 +1,139 @@
+{
+    "introduction": {
+        "title": "소개",
+        "content": "Poker Dice는 서양의 포커와 동양의 주사위를 결합한 IDNLIVE의 독창적이고 유일무이한 게임입니다. 이 게임에서는 5개의 주사위를 사용해 승리 조합을 만듭니다."
+    },
+    "goal": {
+        "title": "게임 목표",
+        "content": "Poker Dice의 목표는 다섯 개의 주사위로 최고의 조합을 맞추는 것입니다. 포커의 조합 순위와 비슷하게 5 of a kind부터 one pair까지 있으며, 한 라운드마다 하나의 조합이 결정됩니다."
+    },
+    "rules": {
+        "title": "게임 규칙",
+        "dice": "주사위",
+        "side": "면",
+        "steps": [
+            "딜러가 게임을 진행합니다.",
+            "게임에는 빨강과 검정 색상의 6면을 가진 다섯 개의 주사위를 사용합니다.",
+            "게임은 <i>딜러</i>가 베팅 시간을 시작하면 시작되며, 시간이 종료되면 모든 베팅이 자동으로 확정됩니다.",
+            "딜러가 다섯 개의 주사위를 굴려 결과를 결정합니다.",
+            "주사위가 <b>완전히 착지하지 않으면</b> <b>“무효 게임”</b>으로 간주되며, 딜러가 주사위를 다시 굴립니다.",
+            "숫자 1-3은 <b>작음</b>, 4-6은 <b>큼</b>으로 간주됩니다."
+        ]
+    },
+    "dice": {
+        "title": "포커 주사위",
+        "description": "Poker Dice는 6면이 있는 다섯 개의 주사위를 사용하며, 각 면은 빨강 또는 검정으로 되어 있습니다. 아래는 게임에 사용되는 다섯 개 주사위의 면 색상 패턴입니다.",
+        "note": "비고:",
+        "notes": [
+            "<b>주사위 1, 2, 3</b>은 같은 색상 패턴을 가지고 있습니다.",
+            "<b>주사위 4와 5</b>는 같은 색상 패턴을 가지고 있습니다."
+        ]
+    },
+    "rank": {
+        "title": "주사위 조합",
+        "description": "주사위 조합은 총 11가지가 있으며, 가장 높은 5 of a kind부터 가장 낮은 one pair까지 있습니다. 한 라운드에 두 개의 조합이 나오면 높은 순위가 결과로 확정됩니다.",
+        "table-description": "아래는 조합 순위표입니다.",
+        "rank": "순위",
+        "result": "결과",
+        "table": [
+            "5 of a kind",
+            "스트레이트 플러시",
+            "부가 스트레이트 플러시",
+            "4 of a kind",
+            "스트레이트",
+            "풀 하우스",
+            "플러시",
+            "부가 스트레이트",
+            "3 of a kind",
+            "2 페어",
+            "페어"
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "베팅 설명과 예시",
+        "winning-conditions": "승리 조건",
+        "bet": "베팅",
+        "examples": "예시",
+        "description": "설명",
+        "result": "결과",
+        "status": "상태",
+        "main-bet": {
+            "heading": "주요 베팅",
+            "pair": {
+                "title": "페어",
+                "description": "주사위가 한 쌍을 만들면 당첨됩니다."
+            },
+            "2-pair": {
+                "title": "2 페어",
+                "description": "주사위가 2 페어를 만들면 당첨됩니다."
+            },
+            "3-of-a-kind": {
+                "title": "3 of a kind",
+                "description": "주사위가 3 of a kind를 만들면 당첨됩니다."
+            },
+            "inc-straight": {
+                "title": "부가 스트레이트",
+                "description": "주사위가 부가 스트레이트를 만들면 당첨됩니다."
+            },
+            "flush": {
+                "title": "플러시",
+                "description": "주사위가 플러시를 만들면 당첨됩니다."
+            },
+            "full-house": {
+                "title": "풀 하우스",
+                "description": "주사위가 풀 하우스를 만들면 당첨됩니다."
+            },
+            "straight": {
+                "title": "스트레이트",
+                "description": "주사위가 스트레이트를 만들면 당첨됩니다."
+            },
+            "4-of-a-kind": {
+                "title": "4 of a kind",
+                "description": "주사위가 4 of a kind를 만들면 당첨됩니다."
+            },
+            "inc-straight-flush": {
+                "title": "부가 스트레이트 플러시",
+                "description": "주사위가 부가 스트레이트 플러시를 만들면 당첨됩니다."
+            },
+            "straight-flush": {
+                "title": "스트레이트 플러시",
+                "description": "주사위가 스트레이트 플러시를 만들면 당첨됩니다."
+            },
+            "5-of-a-kind": {
+                "title": "5 of a kind",
+                "description": "주사위가 5 of a kind를 만들면 당첨됩니다."
+            }
+        },
+        "side-bet": {
+            "heading": "사이드 베팅",
+            "small": {
+                "title": "작음",
+                "description": "숫자 1에서 3이 더 많으면 당첨됩니다."
+            },
+            "big": {
+                "title": "큼",
+                "description": "숫자 4에서 6이 더 많으면 당첨됩니다."
+            },
+            "odd": {
+                "title": "홀수",
+                "description": "홀수 주사위가 더 많으면 당첨됩니다."
+            },
+            "even": {
+                "title": "짝수",
+                "description": "짝수 주사위가 더 많으면 당첨됩니다."
+            },
+            "red": {
+                "title": "빨강",
+                "description": "빨간 주사위가 더 많으면 당첨됩니다."
+            },
+            "black": {
+                "title": "검정",
+                "description": "검정 주사위가 더 많으면 당첨됩니다."
+            }
+        }
+    },
+    "payout": {
+        "title": "지급",
+        "bet-payout": "베팅 지급"
+    }
+}

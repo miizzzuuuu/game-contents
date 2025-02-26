@@ -1,0 +1,139 @@
+{
+    "introduction": {
+        "title": "Giới thiệu",
+        "content": "Poker Dice là một trò chơi độc đáo từ IDNLIVE, kết hợp sự thú vị của Poker phương Tây và trò chơi Xúc xắc phương Đông. Trò chơi sử dụng 5 viên xúc xắc để tạo thành một tổ hợp dẫn đến chiến thắng."
+    },
+    "goal": {
+        "title": "Mục tiêu trò chơi",
+        "content": "Mục tiêu của Poker Dice là đoán tổ hợp tốt nhất được tạo ra từ năm viên xúc xắc. Các tổ hợp xếp hạng tương tự như trong poker, từ 5 of a kind đến one pair, và mỗi vòng chỉ có một tổ hợp được hình thành."
+    },
+    "rules": {
+        "title": "Luật chơi",
+        "dice": "Xúc xắc",
+        "side": "Mặt",
+        "steps": [
+            "Trò chơi được điều hành bởi Dealer.",
+            "Trò chơi sử dụng năm viên xúc xắc, mỗi viên có 6 mặt màu đỏ và đen.",
+            "Trò chơi bắt đầu khi <i>Dealer</i> mở thời gian đặt cược, và tất cả cược được chấp nhận tự động khi hết thời gian.",
+            "Dealer tung năm viên xúc xắc để xác định kết quả trò chơi.",
+            "Nếu xúc xắc <b>không rơi hoàn toàn</b>, trò chơi sẽ được coi là <b>“Không hợp lệ”</b> và Dealer sẽ tung lại xúc xắc.",
+            "Mặt số 1-3 được xem là <b>Nhỏ</b>, còn mặt số 4-6 được xem là <b>Lớn</b>."
+        ]
+    },
+    "dice": {
+        "title": "Xúc xắc Poker Dice",
+        "description": "Poker Dice sử dụng năm viên xúc xắc với 6 mặt. Mỗi mặt có màu đỏ hoặc đen. Dưới đây là mẫu màu của các mặt xúc xắc trong trò chơi.",
+        "note": "Lưu ý:",
+        "notes": [
+            "<b>Xúc xắc 1, 2 và 3</b> có cùng mẫu màu trên các mặt.",
+            "<b>Xúc xắc 4 và 5</b> có cùng mẫu màu trên các mặt."
+        ]
+    },
+    "rank": {
+        "title": "Tổ hợp xúc xắc",
+        "description": "Có 11 hạng tổ hợp xúc xắc từ cao nhất 5 of a kind đến thấp nhất one pair. Nếu có hai tổ hợp trong cùng một lượt, tổ hợp có hạng cao hơn sẽ là kết quả cuối cùng.",
+        "table-description": "Dưới đây là bảng xếp hạng kết quả.",
+        "rank": "hạng",
+        "result": "kết quả",
+        "table": [
+            "5 of a kind",
+            "Straight Flush",
+            "Inc. Straight Flush",
+            "4 of a kind",
+            "Straight",
+            "Full House",
+            "Flush",
+            "Inc. Straight",
+            "3 of a kind",
+            "2 Pair",
+            "Pair"
+        ]
+    },
+    "bet-description-and-example": {
+        "title": "Mô tả cược và Ví dụ",
+        "winning-conditions": "Điều kiện thắng",
+        "bet": "ĐẶT CƯỢC",
+        "examples": "Ví dụ",
+        "description": "Mô tả",
+        "result": "KẾT QUẢ",
+        "status": "TRẠNG THÁI",
+        "main-bet": {
+            "heading": "Đặt cược chính",
+            "pair": {
+                "title": "Đôi",
+                "description": "Thắng nếu xúc xắc tạo thành một đôi."
+            },
+            "2-pair": {
+                "title": "2 Đôi",
+                "description": "Thắng nếu xúc xắc tạo thành 2 đôi."
+            },
+            "3-of-a-kind": {
+                "title": "3 of a kind",
+                "description": "Thắng nếu xúc xắc tạo thành 3 of a kind."
+            },
+            "inc-straight": {
+                "title": "Inc. Straight",
+                "description": "Thắng nếu xúc xắc tạo thành Inc. Straight."
+            },
+            "flush": {
+                "title": "Flush",
+                "description": "Thắng nếu xúc xắc tạo thành Flush."
+            },
+            "full-house": {
+                "title": "Full House",
+                "description": "Thắng nếu xúc xắc tạo thành Full House."
+            },
+            "straight": {
+                "title": "Straight",
+                "description": "Thắng nếu xúc xắc tạo thành Straight."
+            },
+            "4-of-a-kind": {
+                "title": "4 of a kind",
+                "description": "Thắng nếu xúc xắc tạo thành 4 of a kind."
+            },
+            "inc-straight-flush": {
+                "title": "Inc. Straight Flush",
+                "description": "Thắng nếu xúc xắc tạo thành Inc. Straight Flush."
+            },
+            "straight-flush": {
+                "title": "Straight Flush",
+                "description": "Thắng nếu xúc xắc tạo thành Straight Flush."
+            },
+            "5-of-a-kind": {
+                "title": "5 of a kind",
+                "description": "Thắng nếu xúc xắc tạo thành 5 of a kind."
+            }
+        },
+        "side-bet": {
+            "heading": "Đặt cược phụ",
+            "small": {
+                "title": "Nhỏ",
+                "description": "Thắng nếu có nhiều mặt xúc xắc 1 đến 3 hơn."
+            },
+            "big": {
+                "title": "Lớn",
+                "description": "Thắng nếu có nhiều mặt xúc xắc 4 đến 6 hơn."
+            },
+            "odd": {
+                "title": "Lẻ",
+                "description": "Thắng nếu có nhiều mặt xúc xắc số lẻ hơn."
+            },
+            "even": {
+                "title": "Chẵn",
+                "description": "Thắng nếu có nhiều mặt xúc xắc số chẵn hơn."
+            },
+            "red": {
+                "title": "Đỏ",
+                "description": "Thắng nếu có nhiều mặt xúc xắc màu đỏ hơn."
+            },
+            "black": {
+                "title": "Đen",
+                "description": "Thắng nếu có nhiều mặt xúc xắc màu đen hơn."
+            }
+        }
+    },
+    "payout": {
+        "title": "Thanh toán",
+        "bet-payout": "Thanh toán đặt cược"
+    }
+}

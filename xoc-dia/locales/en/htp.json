@@ -1,0 +1,91 @@
+{
+    "introduction": {
+        "title": "Introduction",
+        "content": "Xoc Dia or Shake the Plate is a traditional game from Vietnam that has existed since 1909. This game is quite similar to Oglok, as it uses a similar method of play involving a bowl. You simply need to guess the outcome of the four buttons inside the bowl."
+    },
+    "rules": {
+        "title": "Rules",
+        "steps": [
+            "The game uses one bowl and four buttons with two sides colored red and white.",
+            "The game begins when the dealer opens the betting period.",
+            "Now, you must place your bet on the provided betting panel and click the submit button.",
+            "After the betting period ends, the dealer will shake the bowl to determine the result for that round.",
+            "The result is either red or white for each button. If the buttons are not clearly positioned or fall incorrectly, a 'no game' status will occur, and the dealer will shake the bowl again until the result is clear."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Placing a Bet",
+        "reference": "Reference",
+        "name": "Name",
+        "example": "Example",
+        "allWhite": "Bet on 4 white buttons",
+        "threeWhite": "Bet on 3 white buttons and 1 red button",
+        "allRed": "Bet on 4 red buttons",
+        "threeRed": "Bet on 3 red buttons and 1 white button",
+        "odd": "Odd Bet (50-50)",
+        "small": "Small Bet (50-50)",
+        "big": "Big Bet (50-50)",
+        "even": "Even Bet (50-50)"
+    },
+    "bet-description-and-example": {
+        "title": "BET DESCRIPTION & EXAMPLE",
+        "winning-conditions": "Winning Conditions",
+        "description": "Description",
+        "example": "Example",
+        "bet": "BET",
+        "result": "RESULT",
+        "status": "STATUS",
+        "win": "Win",
+        "main-bet": {
+            "heading": "Main Bets",
+            "allWhite": {
+                "title": "Bet on 4 white buttons",
+                "winning-conditions": "The result is 4 white buttons",
+                "examples": [{ "bet": "0", "result": "0", "status": "WIN" }]
+            },
+            "threeWhite": {
+                "title": "Bet on 3 white buttons + 1 red button",
+                "winning-conditions": "The result is one of the 2 adjacent numbers you placed your bet on",
+                "examples": [{ "bet": "1", "result": "1", "status": "WIN" }]
+            },
+            "allRed": {
+                "title": "Bet on 4 red buttons",
+                "winning-conditions": "The result is one of the 4 adjacent numbers you placed your bet on",
+                "examples": [{ "bet": "4", "result": "4", "status": "WIN" }]
+            },
+            "threeRed": {
+                "title": "Bet on 1 white button + 3 red buttons",
+                "winning-conditions": "The result is one of the 4 adjacent numbers you placed your bet on",
+                "examples": [{ "bet": "3", "result": "3", "status": "WIN" }]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "50-50 Bets",
+            "odd": {
+                "title": "Odd Bet (50-50)",
+                "description": "",
+                "winning-conditions": "The result is an odd number",
+                "examples": [{ "bet": "Odd", "result": "1", "status": "WIN" }]
+            },
+            "small": {
+                "title": "Small Bet (50-50)",
+                "winning-conditions": "The result is a number between 1 and 3",
+                "examples": [{ "bet": "Small", "result": "1", "status": "WIN" }]
+            },
+            "big": {
+                "title": "Big Bet (50-50)",
+                "winning-conditions": "The result is either 4 Red or 1 White + 3 Red",
+                "examples": [{ "bet": "Big", "result": "3", "status": "WIN" }]
+            },
+            "even": {
+                "title": "Even Bet (50-50)",
+                "winning-conditions": "The result is either 4 Red, 2 White + 2 Red, or 4 Red",
+                "examples": [{ "bet": "Even", "result": "0", "status": "WIN" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "Payout",
+        "bet-payout": "Bet Payout"
+    }
+}

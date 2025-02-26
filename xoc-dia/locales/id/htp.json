@@ -1,0 +1,92 @@
+{
+    "introduction": {
+        "title": "pengenalan",
+        "content": "Xoc Dia atau Shake the plate merupakan permainan tradisional dari vietnam yang sudah ada sejak tahun 1909. Permainan ini hampir mirip dengan permainan Oglok, karena memiliki cara bermain yang hampir sama menggunakan sebuah mangkuk dan anda hanya perlu menebak hasil dari 4 buah kancing yang berada di dalam mangkuk tersebut."
+    },
+    "rules": {
+        "title": "peraturan",
+        "steps": [
+            "Permainan ini menggunakan satu buah mangkuk dan 4 buah kancing dengan dua sisi berwarna merah dan putih.",
+            "Permainan dimulai ketika dealer membuka waktu untuk bertaruh.",
+            "Sekarang Anda harus menempatkan taruhan Anda pada panel taruhan yang kami sediakan dan klik tombol kirim",
+            "Setelah periode taruhan berakhir, Dealer akan mengocok mangkuk untuk menentukan hasil untuk ronde itu.",
+            "Hasilnya hanya warna merah atau putih untuk masing-masing kancing dan dalam hal kancing tidak diposisikan dengan jelas atau tidak jatuh dengan benar maka “no game” status akan terjadi dan dealer akan mengocok mangkuk sekali lagi hingga hasilnya jelas."
+        ]
+    },
+    "placing-a-bet": {
+        "title": "Memasang Taruhan",
+        "reference": "Referensi",
+        "name": "Nama",
+        "example": "Contoh",
+        "allWhite": "Taruhan 4 kancing putih ",
+        "threeWhite": "Taruhan 3 kancing putih dan 1 kancing merah ",
+        "allRed": "Taruhan 4 kancing merah ",
+        "threeRed": "Taruhan 3 kancing merah dan 1 kancing putih ",
+        "odd": "Taruhan Ganjil (50-50) ",
+        "small": "Taruhan Kecil (50-50) ",
+        "big": "Taruhan Besar (50-50) ",
+        "even": "Taruhan Genap (50-50) "
+    },
+    "bet-description-and-example": {
+        "title": "DESKRIPSI TARUHAN & CONTOH",
+        "winning-conditions": "Kondisi Menang",
+        "description": "Deskripsi",
+        "example": "Contoh",
+        "bet": "TARUHAN",
+        "result": "HASIL",
+        "status": "STATUS",
+        "win": "Menang",
+        "main-bet": {
+            "heading": "Taruhan Utama",
+            "allWhite": {
+                "title": "Taruhan 4 kancing putih",
+                "winning-conditions": "Hasilnya adalah 4 kancing Putih",
+                "examples": [{ "bet": "0", "result": "0", "status": "MENANG" }]
+            },
+            "threeWhite": {
+                "title": "Taruhan 3 kancing putih + 1 kancing merah",
+                "winning-conditions": "Hasilnya adalah salah 1 dari 2 angka berdekatan yang anda pasang",
+                "examples": [{ "bet": "1", "result": "1", "status": "MENANG" }]
+            },
+            "allRed": {
+                "title": "Taruhan 4 kancing merah",
+                "winning-conditions": "Hasilnya adalah salah 1 dari 4 angka berdekatan yang anda pasang",
+                "examples": [{ "bet": "4", "result": "4", "status": "MENANG" }]
+            },
+            "threeRed": {
+                "title": "Taruhan 1 kancing putih + 3 kancing merah",
+                "winning-conditions": "Hasilnya adalah salah 1 dari 4 angka berdekatan yang anda pasang",
+                "examples": [{ "bet": "3", "result": "3", "status": "MENANG" }]
+            }
+        },
+        "fifty-fifty-bet": {
+            "heading": "Taruhan 50-50",
+            "odd": {
+                "title": "Taruhan Odd (50-50)",
+                "description": "",
+                "winning-conditions": "Hasilnya adalah angka ganjil",
+                "examples": [{ "bet": "Ganjil", "result": "1", "status": "MENANG" }]
+            },
+            "small": {
+                "title": "Taruhan Small (50-50)",
+                "winning-conditions": "Hasilnya adalah angka 1 sampai 3",
+                "examples": [{ "bet": "Small", "result": "1", "status": "MENANG" }]
+            },
+            "big": {
+                "title": "Taruhan Big (50-50)",
+                "winning-conditions": "Hasilnya antara 4 Merah,  atau 1 Putih + 3 Merah",
+                "examples": [{ "bet": "Besar", "result": "3", "status": "MENANG" }]
+            },
+
+            "even": {
+                "title": "Taruhan Genap (50-50)",
+                "winning-conditions": "Hasilnya antara 4 Merah,  atau 2 Putih + 2 Merah atau 4 Merah",
+                "examples": [{ "bet": "Genap", "result": "0", "status": "MENANG" }]
+            }
+        }
+    },
+    "payout": {
+        "title": "Pembayaran",
+        "bet-payout": "Pembayaran Taruhan"
+    }
+}
