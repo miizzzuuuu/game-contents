@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "Baccarat, <b>hangi elin kazanacağını tahmin ettiğiniz</b> bir oyundur: Oyuncu, Bankacı veya Berabere (Tie), toplam değer <b>9</b>'a en yakın olan kazanır."
+        ]
+    },
+    "slide-2": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "Kartlar sayı değerlerine göre hesaplanır. Resimli kartlar <b>(J, Q, K) 0</b>, <b>As 1</b> değerindedir. Toplam 9'u aşarsa sadece son rakam geçerlidir (örn: 15 → 5)."
+        ]
+    },
+    "slide-3": {
+        "title": "Sonuç",
+        "content": [
+            "Toplamı 9'a en yakın el kazanır. Oyuncu ve Bankacı toplamları eşitse sonuç Berabere'dir."
+        ]
+    }
+}

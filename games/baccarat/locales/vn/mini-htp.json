@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "Cách Chơi",
         "content": [
-            "Baccarat là trò chơi mà <b>bạn đặt cược vào bên nào sẽ thắng</b>: Người chơi (Player), Nhà cái (Banker), hoặc Hòa (Tie), với mục tiêu có tổng điểm gần <b>9</b> nhất."
+            "Baccarat là trò chơi <b>dự đoán bên thắng</b>: Người chơi, Nhà cái, hoặc Hòa (Tie), với tổng điểm gần <b>9</b> nhất."
         ]
     },
     "slide-2": {
         "title": "Cách Chơi",
         "content": [
-            "Các lá bài có giá trị dựa trên số của chúng, với <b>lá hình (J, Q, K) có giá trị 0</b> và <b>Ách có giá trị 1</b>. Nếu tổng điểm của lá bài vượt quá 9, chỉ chữ số cuối cùng được tính (ví dụ: 15 sẽ là 5)."
+            "Quân bài có giá trị theo số trên lá. <b>J, Q, K tính 0 điểm</b>, <b>Át tính 1 điểm</b>. Nếu tổng vượt 9, chỉ lấy chữ số cuối (ví dụ: 15 → 5)."
         ]
     },
     "slide-3": {
-        "title": "Thắng",
+        "title": "Kết Quả",
         "content": [
-            "Bên thắng là bên có tổng điểm <b>gần 9 nhất</b>. Nếu tổng điểm của Người chơi và Nhà cái bằng nhau, kết quả sẽ là Hòa."
+            "Bên có tổng điểm gần 9 nhất thắng. Nếu Người chơi và Nhà cái bằng điểm, kết quả là Hòa."
         ]
     }
 }
