@@ -2,20 +2,19 @@
     "slide-1": {
         "title": "Cách Chơi",
         "content": [
-            "Giành chiến thắng với khoản thanh toán thưởng tuyệt vời lên đến <b>500 lần với Jackpot & Lucky Number!</b>",
-            "Chơi bằng cách dự đoán quả bóng sẽ xuất hiện trong lồng quay. Có 24 quả bóng được đánh số từ 1 đến 24, với màu đỏ và đen."
+            "Chơi bằng cách dự đoán quả bóng xuất hiện trong lồng quay. Có 24 quả bóng đánh số từ 1 đến 24 với màu đỏ và đen."
         ]
     },
     "slide-2": {
-        "title": "Lucky Number",
+        "title": "Đặt Cược",
         "content": [
-            "Hệ thống ngẫu nhiên chọn <b>2 đến 12</b> số làm Lucky Number. Lucky Number có mức thanh toán cao hơn nhiều so với mức thông thường, từ <b>30 lần đến 95 lần</b> số tiền cược của bạn."
+            "Bạn có thể đặt nhiều loại cược như Lẻ/Chẵn, Lớn/Nhỏ, Split, Corner, Hàng, Cột, v.v."
         ]
     },
     "slide-3": {
-        "title": "Jackpot Number",
+        "title": "Kết Quả",
         "content": [
-            "Hệ thống ngẫu nhiên chọn <b>1 số</b> làm Jackpot Number. Số này có thể tăng khoản thanh toán của bạn đáng kể, thậm chí vượt qua Lucky Number Bonus, bắt đầu từ <b>100 lần đến 500 lần</b> số tiền cược của bạn."
+            "Kết quả được xác định sau khi bóng dừng quay trong lồng. Cược trùng khớp sẽ thắng."
         ]
     }
 }

@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "Dönen bir kafeste görünecek topu tahmin ederek oynayın. 1'den 24'e kadar numaralı, kırmızı ve siyah renklerde 24 top bulunur."
+        ]
+    },
+    "slide-2": {
+        "title": "Bahis Yerleştirme",
+        "content": [
+            "Tek/Çift, Büyük/Küçük, Split, Köşe, Satır, Sütun bahisleri gibi çeşitli seçenekler mevcuttur."
+        ]
+    },
+    "slide-3": {
+        "title": "Sonuç",
+        "content": [
+            "Top kafeste durduğunda sonuç belirlenir. Sonuçla eşleşen bahisler kazanır."
+        ]
+    }
+}
