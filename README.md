@@ -13,10 +13,10 @@ Support Languages:
 
 ## Mini How To Play
 
-akses ke dalam folder `games/{game_name}/locales/{language}/mini-htp.json`
+Access the folder: `games/{game_name}/locales/{language}/mini-htp.json`
 
-contoh:
+Example:
 
-Game: `12D`
-language: `English (en)`
-File : `games/12d/locales/en/mini-htp.json`
+-   Game: `12D`
+    -   Language: `English (en)`
+    -   File: `games/12d/locales/en/mini-htp.json`
