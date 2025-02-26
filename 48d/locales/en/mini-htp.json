@@ -2,19 +2,19 @@
     "slide-1": {
         "title": "How to Play",
         "content": [
-            "48D is similar to a ball game inside a cage, much like roulette. You simply need to predict the ball with a number between 1 and 48 that will appear as the result."
+            "48D is similar to a ball-in-cage game, resembling roulette. Simply <b>guess the number (1-48) where the ball will land as the result</b>."
         ]
     },
     "slide-2": {
         "title": "Placing Bets",
         "content": [
-            "You can place various types of bets, such as odd/even, big/small, split, corner, line bets, column bets, etc."
+            "You can place various bets, such as <b>Odd/Even, High/Low, Split, Corner, Row, Column, and more</b>."
         ]
     },
     "slide-3": {
-        "title": "How to Play",
+        "title": "Result",
         "content": [
-            "The result is determined after the ball spins inside the cage and stops, and any bets that match the result will win."
+            "The result is determined when the ball stops spinning in the cage. Bets matching the outcome will win."
         ]
     }
 }

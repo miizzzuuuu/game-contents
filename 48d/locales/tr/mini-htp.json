@@ -1,0 +1,20 @@
+{
+    "slide-1": {
+        "title": "Nasıl Oynanır",
+        "content": [
+            "48D, rulet gibi bir top-kafes oyunudur. Sadece <b>1-48 arası sonuçlanacak sayıyı tahmin etmeniz</b> yeterlidir."
+        ]
+    },
+    "slide-2": {
+        "title": "Bahis Yerleştirme",
+        "content": [
+            "Çeşitli bahis seçenekleri sunulur: <b>Tek/Çift, Yüksek/Düşük, Split, Köşe, Satır, Sütun, vb.</b>"
+        ]
+    },
+    "slide-3": {
+        "title": "Sonuç",
+        "content": [
+            "Top kafeste durduğunda sonuç belirlenir. Uyumlu bahisler kazanır."
+        ]
+    }
+}
